@@ -1,0 +1,321 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Otavio Cordeiro",
+	"icon": "https://micro.blog/otaviocc/avatar.jpg",
+	"home_page_url": "https://otavio.cc/",
+	"feed_url": "https://otavio.cc/feed.json",
+	"items": [
+		
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/14/the-best-thing.html",
+				
+				"content_html": "<p>The best thing about not having Twitter and Instagram on the phone is that I open <a href=\"https://netnewswire.com\">NetNewsWire</a>, <a href=\"https://micro.blog\">Micro.blog</a>, and <a href=\"http://glass.photo\">Glass</a> more often 🤓</p>\n",
+				"content_text": "The best thing about not having Twitter and Instagram on the phone is that I open [NetNewsWire](https://netnewswire.com), [Micro.blog](https://micro.blog), and [Glass](http://glass.photo) more often 🤓\n",
+				"date_published": "2021-11-14T16:06:52+01:00",
+				"url": "https://otavio.cc/2021/11/14/the-best-thing.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/13/we-cant-use.html",
+				
+				"content_html": "<p>We can&rsquo;t use <a href=\"https://developer.apple.com/documentation/combine\">Combine</a> since it&rsquo;s macOS 10.15+ and we ship our product starting with version 10.12. I&rsquo;m currently experimenting with <a href=\"https://github.com/OpenCombine/OpenCombine\">OpenCombine</a> to see if it&rsquo;s a good solution for now. Otherwise I&rsquo;ll use my custom lightweight binding solution (kinda compatible with Combine) 👨‍💻</p>\n",
+				"content_text": "We can't use [Combine](https://developer.apple.com/documentation/combine) since it's macOS 10.15+ and we ship our product starting with version 10.12. I'm currently experimenting with [OpenCombine](https://github.com/OpenCombine/OpenCombine) to see if it's a good solution for now. Otherwise I'll use my custom lightweight binding solution (kinda compatible with Combine) 👨‍💻\n",
+				"date_published": "2021-11-13T23:56:59+01:00",
+				"url": "https://otavio.cc/2021/11/13/we-cant-use.html",
+				"tags": ["apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/13/i-need-a.html",
+				
+				"content_html": "<p>I need a good system to organize my photos. Gonna start adding keywords everytime I add them to the library 📷 👨‍💻</p>\n",
+				"content_text": "I need a good system to organize my photos. Gonna start adding keywords everytime I add them to the library 📷 👨‍💻\n",
+				"date_published": "2021-11-13T10:11:18+01:00",
+				"url": "https://otavio.cc/2021/11/13/i-need-a.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/12/ive-used-cedar.html",
+				
+				"content_html": "<p>I&rsquo;ve used <a href=\"https://github.com/cedarbdd/cedar\">Cedar</a> for three years, and <a href=\"https://github.com/specta/specta\">Specta</a> and <a href=\"https://github.com/quick/quick\">Quick</a> for another three. You didn&rsquo;t hear this from me, but I love pure <a href=\"https://developer.apple.com/documentation/xctest\">XCTests</a> 👨‍💻</p>\n",
+				"content_text": "I've used [Cedar](https://github.com/cedarbdd/cedar) for three years, and [Specta](https://github.com/specta/specta) and [Quick](https://github.com/quick/quick) for another three. You didn't hear this from me, but I love pure [XCTests](https://developer.apple.com/documentation/xctest) 👨‍💻\n",
+				"date_published": "2021-11-12T15:02:00+01:00",
+				"url": "https://otavio.cc/2021/11/12/ive-used-cedar.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/11/so-usps-and.html",
+				
+				"content_html": "<p>So, USPS and Deutsche Post, which one of you lost my <a href=\"https://fieldnotesbrand.com\">Field Notes</a> subscription box? 😠</p>\n",
+				"content_text": "So, USPS and Deutsche Post, which one of you lost my [Field Notes](https://fieldnotesbrand.com) subscription box? 😠\n",
+				"date_published": "2021-11-11T17:52:50+01:00",
+				"url": "https://otavio.cc/2021/11/11/so-usps-and.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/10/my-bank-gave.html",
+				
+				"content_html": "<p>🎶 My bank gave me four months of Apple Music (in addition to those three from Apple). The Music app on the computer isn&rsquo;t great; it&rsquo;s pretty much a messy iTunes. But the app on iOS and the integration with Home Pod is great. After ten years it&rsquo;s time to say bye to Spotify.</p>\n",
+				"content_text": "🎶 My bank gave me four months of Apple Music (in addition to those three from Apple). The Music app on the computer isn't great; it's pretty much a messy iTunes. But the app on iOS and the integration with Home Pod is great. After ten years it's time to say bye to Spotify.\n",
+				"date_published": "2021-11-10T19:46:42+01:00",
+				"url": "https://otavio.cc/2021/11/10/my-bank-gave.html",
+				"tags": ["music","apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/10/i-cant-use.html",
+				
+				"content_html": "<p>I can&rsquo;t use the same wallpaper for more than three days.</p>\n",
+				"content_text": "I can't use the same wallpaper for more than three days.\n",
+				"date_published": "2021-11-10T19:40:50+01:00",
+				"url": "https://otavio.cc/2021/11/10/i-cant-use.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/10/i-upgraded-my.html",
+				
+				"content_html": "<p>I upgraded my data plan on the phone. I don&rsquo;t have to worry about streaming music and using my computer when on the go 🤓</p>\n",
+				"content_text": "I upgraded my data plan on the phone. I don't have to worry about streaming music and using my computer when on the go 🤓\n",
+				"date_published": "2021-11-10T11:54:37+01:00",
+				"url": "https://otavio.cc/2021/11/10/i-upgraded-my.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/07/i-cant-believe.html",
+				
+				"content_html": "<p>I can&rsquo;t believe it&rsquo;s almost 2022 and Flickr is still the best platform for amateur - and pro? - photographers 📷</p>\n",
+				"content_text": "I can't believe it's almost 2022 and Flickr is still the best platform for amateur - and pro? - photographers 📷\n",
+				"date_published": "2021-11-07T01:07:01+01:00",
+				"url": "https://otavio.cc/2021/11/07/i-cant-believe.html",
+				"tags": ["internet","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/07/glasmll.html",
+				
+				"content_html": "<p>Glasmüll</p>\n\n<p><img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Glasmüll\n\n<img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2021-11-07T00:34:02+01:00",
+				"url": "https://otavio.cc/2021/11/07/glasmll.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/04/ive-started-laying.html",
+				
+				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n\n<p><img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" /></p>\n",
+				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
+				"date_published": "2021-11-04T08:46:00+01:00",
+				"url": "https://otavio.cc/2021/11/04/ive-started-laying.html",
+				"tags": ["programming","blog","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/03/i-like-bear.html",
+				
+				"content_html": "<p>I like <a href=\"https://bear.app\">Bear</a>, but I wish there was something more powerful I could use instead. The only problem is that the alternatives don&rsquo;t have good syntax highlight for code blocks, which is something I definently need.</p>\n",
+				"content_text": "I like [Bear](https://bear.app), but I wish there was something more powerful I could use instead. The only problem is that the alternatives don't have good syntax highlight for code blocks, which is something I definently need.\n",
+				"date_published": "2021-11-03T10:09:03+01:00",
+				"url": "https://otavio.cc/2021/11/03/i-like-bear.html",
+				"tags": ["apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/01/the-microblog-api.html",
+				
+				"content_html": "<p>The Micro.blog API Client I&rsquo;m writing consists of two parts: a Swift Package with the <a href=\"https://github.com/otaviocc/MicroClient\">MicroClient</a>, a generic/lightweight network client which can be used in completely unrelated projects, and <a href=\"https://github.com/otaviocc/MicroAPI\">MicroAPI</a>, the Micro.blog API wrapper, which uses the MicroClient underneath 👨‍💻</p>\n",
+				"content_text": "The Micro.blog API Client I'm writing consists of two parts: a Swift Package with the [MicroClient](https://github.com/otaviocc/MicroClient), a generic/lightweight network client which can be used in completely unrelated projects, and [MicroAPI](https://github.com/otaviocc/MicroAPI), the Micro.blog API wrapper, which uses the MicroClient underneath 👨‍💻\n",
+				"date_published": "2021-11-01T14:15:11+01:00",
+				"url": "https://otavio.cc/2021/11/01/the-microblog-api.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/11/01/i-tried-to.html",
+				
+				"content_html": "<p>I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo&rsquo;s straight-forward:</p>\n\n<pre><code>let mediaRequest = MicropubRequestFactory.makeUploadRequest(\n    media: .jpeg(jpegData)\n)\nlet uploadResponse = try await client.run(mediaRequest)\n</code></pre>\n",
+				"content_text": "I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo's straight-forward:\r\n\r\n```\r\nlet mediaRequest = MicropubRequestFactory.makeUploadRequest(\r\n    media: .jpeg(jpegData)\r\n)\r\nlet uploadResponse = try await client.run(mediaRequest)\r\n```\n",
+				"date_published": "2021-11-01T14:08:58+01:00",
+				"url": "https://otavio.cc/2021/11/01/i-tried-to.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/31/im-adding-photo.html",
+				
+				"content_html": "<p>I&rsquo;m adding photo upload support to my Micro.blog API client. After that I can finally work on the macOS and iOS clients 👨‍💻</p>\n",
+				"content_text": "I'm adding photo upload support to my Micro.blog API client. After that I can finally work on the macOS and iOS clients 👨‍💻\n",
+				"date_published": "2021-10-31T23:36:23+01:00",
+				"url": "https://otavio.cc/2021/10/31/im-adding-photo.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/28/youll-be-missed.html",
+				
+				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n\n<p><img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" /></p>\n",
+				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
+				"date_published": "2021-10-28T22:46:40+01:00",
+				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/26/i-just-finished.html",
+				
+				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n\n<p><img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2021-10-26T22:28:58+01:00",
+				"url": "https://otavio.cc/2021/10/26/i-just-finished.html",
+				"tags": ["music"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/26/things-is-by.html",
+				
+				"content_html": "<p><a href=\"https://culturedcode.com/things/\">Things</a> is by far my favorite task manager. I&rsquo;ve tried so many apps and methods, but Things&rsquo;s the only one I consistently use. <a href=\"https://culturedcode.com/things/blog/2021/10/all-things-speed/\">Their latest update</a> integrates with macOS Monterey&rsquo;s Shortcuts making it even easier to capture tasks.</p>\n",
+				"content_text": "[Things](https://culturedcode.com/things/) is by far my favorite task manager. I've tried so many apps and methods, but Things's the only one I consistently use. [Their latest update](https://culturedcode.com/things/blog/2021/10/all-things-speed/) integrates with macOS Monterey's Shortcuts making it even easier to capture tasks.\n",
+				"date_published": "2021-10-26T13:10:03+01:00",
+				"url": "https://otavio.cc/2021/10/26/things-is-by.html",
+				"tags": ["software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/25/i-wish-i.html",
+				
+				"content_html": "<p>I wish I could update all my devices today, but Internet in Germany doesn&rsquo;t help.</p>\n",
+				"content_text": "I wish I could update all my devices today, but Internet in Germany doesn't help.\n",
+				"date_published": "2021-10-25T22:34:35+01:00",
+				"url": "https://otavio.cc/2021/10/25/i-wish-i.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/24/microapi-isnt-ready.html",
+				
+				"content_html": "<p><a href=\"https://github.com/otaviocc/MicroAPI\">MicroAPI</a> isn&rsquo;t ready yet but I pushed it to GitHub anyway. I decided to split the API client and the network client and published the <a href=\"https://github.com/otaviocc/MicroClient\">network client</a> in a different repository.  The network client knows nothing about MicroAPI and can be reused for different projects 👨‍💻</p>\n",
+				"content_text": "[MicroAPI](https://github.com/otaviocc/MicroAPI) isn't ready yet but I pushed it to GitHub anyway. I decided to split the API client and the network client and published the [network client](https://github.com/otaviocc/MicroClient) in a different repository.  The network client knows nothing about MicroAPI and can be reused for different projects 👨‍💻\n",
+				"date_published": "2021-10-24T20:30:20+01:00",
+				"url": "https://otavio.cc/2021/10/24/microapi-isnt-ready.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/24/went-for-a.html",
+				
+				"content_html": "<p>Went for a long walk today and took my 📷 with me. I took tons of pictures and hated every single one of them. I tried some of the film simuations from <a href=\"https://fujixweekly.com\">Fuji X Weekly</a>, but I wasn&rsquo;t well prepared. I have to do more trips like this, to practice more.</p>\n",
+				"content_text": "Went for a long walk today and took my 📷 with me. I took tons of pictures and hated every single one of them. I tried some of the film simuations from [Fuji X Weekly](https://fujixweekly.com), but I wasn't well prepared. I have to do more trips like this, to practice more.\n",
+				"date_published": "2021-10-24T20:18:07+01:00",
+				"url": "https://otavio.cc/2021/10/24/went-for-a.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/22/i-have-a.html",
+				
+				"content_html": "<p>I have a Fuji X and just learned about <a href=\"https://fujixweekly.com/2021/10/17/the-fuji-x-weekly-story/\">this website</a>. I wanna go home to play with my camera settings and custom <a href=\"https://fujixweekly.com/2020/11/18/how-to-add-film-simulation-recipes-to-your-fujifilm-camera/\">Film Simulation </a> 📷</p>\n",
+				"content_text": "I have a Fuji X and just learned about [this website](https://fujixweekly.com/2021/10/17/the-fuji-x-weekly-story/). I wanna go home to play with my camera settings and custom [Film Simulation ](https://fujixweekly.com/2020/11/18/how-to-add-film-simulation-recipes-to-your-fujifilm-camera/) 📷\n",
+				"date_published": "2021-10-22T10:52:52+01:00",
+				"url": "https://otavio.cc/2021/10/22/i-have-a.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/21/diablo-ii-resurrected.html",
+				
+				"content_html": "<p><a href=\"https://www.nintendo.com/games/detail/diablo-ii-resurrected-switch/\">Diablo II: Resurrected</a> is pure disappointment. I have to be online even if I want to play solo, which is a big problem since Blizzard is having a hard time to <a href=\"https://us.forums.blizzard.com/en/d2r/t/diablo-ii-resurrected-outages-an-explanation-how-we%E2%80%99ve-been-working-on-it-and-how-we%E2%80%99re-moving-forward/28164\">keep its servers up</a> 🎮</p>\n",
+				"content_text": "[Diablo II: Resurrected](https://www.nintendo.com/games/detail/diablo-ii-resurrected-switch/) is pure disappointment. I have to be online even if I want to play solo, which is a big problem since Blizzard is having a hard time to [keep its servers up](https://us.forums.blizzard.com/en/d2r/t/diablo-ii-resurrected-outages-an-explanation-how-we%E2%80%99ve-been-working-on-it-and-how-we%E2%80%99re-moving-forward/28164) 🎮\n",
+				"date_published": "2021-10-21T18:56:41+01:00",
+				"url": "https://otavio.cc/2021/10/21/diablo-ii-resurrected.html",
+				"tags": ["videogame","internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/20/i-deleted-twitter.html",
+				
+				"content_html": "<p>I deleted Twitter (Tweetbot), Instagram, and Reddit (Apollo) from my phone. The only social networks I still have installed are Mastodon and Micro.blog.  I don’t have any plans to delete those accounts, tho. Will just stop using them 🕸</p>\n",
+				"content_text": "I deleted Twitter (Tweetbot), Instagram, and Reddit (Apollo) from my phone. The only social networks I still have installed are Mastodon and Micro.blog.  I don’t have any plans to delete those accounts, tho. Will just stop using them 🕸\n",
+				"date_published": "2021-10-20T13:45:01+01:00",
+				"url": "https://otavio.cc/2021/10/20/i-deleted-twitter.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/20/i-see-this.html",
+				
+				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n\n<p><img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" /></p>\n",
+				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
+				"date_published": "2021-10-20T07:29:10+01:00",
+				"url": "https://otavio.cc/2021/10/20/i-see-this.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/20/apples-new-computers.html",
+				
+				"content_html": "<p>Apple&rsquo;s new computers look amazing, but it&rsquo;s hard to justify buying one. The most <em>basic</em> 14&rdquo; model costs $1,999 in the US (before taxes), while the same model costs 2.249 € or $2,600+ in Germany. At least I&rsquo;m not in Brazil, where it costs $4,900+ (27x the country&rsquo;s minimun wage).</p>\n",
+				"content_text": "Apple's new computers look amazing, but it's hard to justify buying one. The most _basic_ 14\" model costs $1,999 in the US (before taxes), while the same model costs 2.249 € or $2,600+ in Germany. At least I'm not in Brazil, where it costs $4,900+ (27x the country's minimun wage).\n",
+				"date_published": "2021-10-20T07:14:34+01:00",
+				"url": "https://otavio.cc/2021/10/20/apples-new-computers.html",
+				"tags": ["apple"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/19/a-few-weeks.html",
+				
+				"content_html": "<p>A few weeks ago I decided to download all the photos I have on Instagram (<code>Settings &gt; Security &gt; Download Data</code>). The next step is to remove all the pictures from there and delete the app from my phone.</p>\n",
+				"content_text": "A few weeks ago I decided to download all the photos I have on Instagram (`Settings > Security > Download Data`). The next step is to remove all the pictures from there and delete the app from my phone.\n",
+				"date_published": "2021-10-19T13:34:19+01:00",
+				"url": "https://otavio.cc/2021/10/19/a-few-weeks.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/19/in-i-had.html",
+				
+				"content_html": "<p>In 2003/4 I had a side-project where I was using <a href=\"https://en.wikipedia.org/wiki/Linkback\">linkback</a> to build a platform people could publish book reviews by writing posts on their own blogs. It was called Spectacles and was deployed and working. But then I listened to a friend who said &ldquo;people don&rsquo;t read books anymore&hellip;&rdquo;</p>\n",
+				"content_text": "In 2003/4 I had a side-project where I was using [linkback](https://en.wikipedia.org/wiki/Linkback) to build a platform people could publish book reviews by writing posts on their own blogs. It was called Spectacles and was deployed and working. But then I listened to a friend who said \"people don't read books anymore...\"\n",
+				"date_published": "2021-10-19T00:53:00+01:00",
+				"url": "https://otavio.cc/2021/10/19/in-i-had.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/17/the-first-part.html",
+				
+				"content_html": "<p>The first part of my micro.blog API Client in Swift is implemented 👨‍💻. The API Client implements all the <code>/posts</code> methods from the <a href=\"https://help.micro.blog/t/json-api/97\">documentation</a>. Later today I&rsquo;m gonna work on the <code>/users</code> methods.</p>\n",
+				"content_text": "The first part of my micro.blog API Client in Swift is implemented 👨‍💻. The API Client implements all the `/posts` methods from the [documentation](https://help.micro.blog/t/json-api/97). Later today I'm gonna work on the `/users` methods.\n",
+				"date_published": "2021-10-17T16:54:00+01:00",
+				"url": "https://otavio.cc/2021/10/17/the-first-part.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/17/i-was-planing.html",
+				
+				"content_html": "<p>I was planing to use Swift&rsquo;s <a href=\"https://developer.apple.com/videos/play/wwdc2021/10132\">async/await</a> for my micro.blog API client, but I&rsquo;m gonna stick to Combine for now. Apple&rsquo;s new APIs require iOS 15.0+ and macOS 12.0+ 👨‍💻</p>\n",
+				"content_text": "I was planing to use Swift's [async/await](https://developer.apple.com/videos/play/wwdc2021/10132) for my micro.blog API client, but I'm gonna stick to Combine for now. Apple's new APIs require iOS 15.0+ and macOS 12.0+ 👨‍💻\n",
+				"date_published": "2021-10-17T00:15:31+01:00",
+				"url": "https://otavio.cc/2021/10/17/i-was-planing.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/16/finished-reading-the.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780358126607\">The 99% Invisible City: A Field Guide to the Hidden World of Everyday Design</a> by Roman Mars 📚. <a href=\"https://99percentinvisible.org\">99% Invisible</a> is by far my favorite podcast, and their book is a must-read.</p>\n",
+				"content_text": "Finished reading: [The 99% Invisible City: A Field Guide to the Hidden World of Everyday Design](https://micro.blog/books/9780358126607) by Roman Mars 📚. [99% Invisible](https://99percentinvisible.org) is by far my favorite podcast, and their book is a must-read.\n",
+				"date_published": "2021-10-16T15:56:53+01:00",
+				"url": "https://otavio.cc/2021/10/16/finished-reading-the.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/16/im-looking-forward.html",
+				
+				"content_html": "<p>I&rsquo;m looking forward to upgrading to macOS Monterey 👨‍💻. I tried to use <a href=\"https://developer.apple.com/videos/play/wwdc2021/10212/\">Instruments to inspect HTTP traffic</a> this morning, but it requires iOS 15 and macOS Monterey to work.</p>\n",
+				"content_text": "I'm looking forward to upgrading to macOS Monterey 👨‍💻. I tried to use [Instruments to inspect HTTP traffic](https://developer.apple.com/videos/play/wwdc2021/10212/) this morning, but it requires iOS 15 and macOS Monterey to work.\n",
+				"date_published": "2021-10-16T11:39:43+01:00",
+				"url": "https://otavio.cc/2021/10/16/im-looking-forward.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/15/i-just-watched.html",
+				
+				"content_html": "<p>I just watched the Animal Crossing Direct presentation. I need more hours in my days… 🎮</p>\n",
+				"content_text": "I just watched the Animal Crossing Direct presentation. I need more hours in my days… 🎮\n",
+				"date_published": "2021-10-15T22:31:32+01:00",
+				"url": "https://otavio.cc/2021/10/15/i-just-watched.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/14/just-thinking-out.html",
+				
+				"content_html": "<p>Just thinking out loud, is there demand for a Micro.blog API client in Swift? My plan would be to build an API client and later an Open Source native SwiftUI application for macOS and iOS.</p>\n",
+				"content_text": "Just thinking out loud, is there demand for a Micro.blog API client in Swift? My plan would be to build an API client and later an Open Source native SwiftUI application for macOS and iOS.\n",
+				"date_published": "2021-10-14T14:34:00+01:00",
+				"url": "https://otavio.cc/2021/10/14/just-thinking-out.html",
+				"tags": ["programming","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/14/ive-added-a.html",
+				
+				"content_html": "<p>I&rsquo;ve added a <a href=\"https://otavio.cc/now/\">/now page</a> to my blog - check <a href=\"https://sive.rs/nowff\">/now page movement</a> to learn more. The /now page is a snapshot of one&rsquo;s life, with 📚 one is reading, 🎮 one is playing, 💻 ongoing projects, etc&hellip;</p>\n",
+				"content_text": "I've added a [/now page](https://otavio.cc/now/) to my blog - check [/now page movement](https://sive.rs/nowff) to learn more. The /now page is a snapshot of one's life, with 📚 one is reading, 🎮 one is playing, 💻 ongoing projects, etc...\n",
+				"date_published": "2021-10-14T14:32:00+01:00",
+				"url": "https://otavio.cc/2021/10/14/ive-added-a.html",
+				"tags": ["blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/10/14/i-had-a.html",
+				
+				"content_html": "<p>I had a blog hosted on GitHub using Jekyll, but decided to start a <a href=\"https://otavio.cc\">new one using a Micro.blog&rsquo;s hosted blog</a>. I&rsquo;ll keep the old one in a different subdomain just for longer thecnical articles and will link them on my <a href=\"https://micro.blog/otaviocc\">micro.blog page</a>.</p>\n",
+				"content_text": "I had a blog hosted on GitHub using Jekyll, but decided to start a [new one using a Micro.blog's hosted blog](https://otavio.cc). I'll keep the old one in a different subdomain just for longer thecnical articles and will link them on my [micro.blog page](https://micro.blog/otaviocc).\n",
+				"date_published": "2021-10-14T13:44:00+01:00",
+				"url": "https://otavio.cc/2021/10/14/i-had-a.html",
+				"tags": ["blog"]
+			}
+	]
+}
