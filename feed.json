@@ -7,10 +7,70 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2021/12/16/yesterday-apple-launched.html",
+				
+				"content_html": "<p>Yesterday Apple launched <a href=\"https://developer.apple.com/news/?id=v868vy6e\">Swift Playgrounds 4</a> for iPad, and it&rsquo;s possible now to build iPad and iOS applications directly from the iPad. I&rsquo;m looking forward to porting some of my little experiments to the new project format 👨‍💻</p>\n",
+				"content_text": "Yesterday Apple launched [Swift Playgrounds 4](https://developer.apple.com/news/?id=v868vy6e) for iPad, and it's possible now to build iPad and iOS applications directly from the iPad. I'm looking forward to porting some of my little experiments to the new project format 👨‍💻\n",
+				"date_published": "2021-12-16T06:17:25+01:00",
+				"url": "https://otavio.cc/2021/12/16/yesterday-apple-launched.html",
+				"tags": ["programming","apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/13/i-dont-need.html",
+				
+				"content_html": "<p>I don&rsquo;t need a new camera. But I want a new one 📷</p>\n",
+				"content_text": "I don't need a new camera. But I want a new one 📷\n",
+				"date_published": "2021-12-13T13:29:52+01:00",
+				"url": "https://otavio.cc/2021/12/13/i-dont-need.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/12/i-exported-my.html",
+				
+				"content_html": "<p>I exported my <a href=\"https://www.goodreads.com\">Goodreads</a> shelf to import on <a href=\"https://micro.blog\">Micro.blog</a>, but none of the books had ISBN! I had to use the <a href=\"https://isbnsearch.org\">ISBN Search</a> to add the information to more than 90 books 📚 The good news: <a href=\"https://micro.blog\">Micro.blog</a> imported all the books correctly.</p>\n",
+				"content_text": "I exported my [Goodreads](https://www.goodreads.com) shelf to import on [Micro.blog](https://micro.blog), but none of the books had ISBN! I had to use the [ISBN Search](https://isbnsearch.org) to add the information to more than 90 books 📚 The good news: [Micro.blog](https://micro.blog) imported all the books correctly.\n",
+				"date_published": "2021-12-12T14:00:55+01:00",
+				"url": "https://otavio.cc/2021/12/12/i-exported-my.html",
+				"tags": ["books","internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/12/fog.html",
+				
+				"content_html": "<p>Fog 📷</p>\n\n<p><img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Fog 📷\n\n<img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2021-12-12T13:51:57+01:00",
+				"url": "https://otavio.cc/2021/12/12/fog.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/12/i-learned-vim.html",
+				
+				"content_html": "<p>I learned <a href=\"https://www.vim.org\">Vim</a> 22 years ago and I still use it on a daily basis. That&rsquo;s insane 👨‍💻</p>\n",
+				"content_text": "I learned [Vim](https://www.vim.org) 22 years ago and I still use it on a daily basis. That's insane 👨‍💻\n",
+				"date_published": "2021-12-12T07:03:08+01:00",
+				"url": "https://otavio.cc/2021/12/12/i-learned-vim.html",
+				"tags": ["software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/10/eight-more-quickspecs.html",
+				
+				"content_html": "<p>Eight more <code>QuickSpecs</code> to convert to <code>XCTests</code> and we can remove Quick and Nimble from the project 👨‍💻</p>\n",
+				"content_text": "Eight more `QuickSpecs` to convert to `XCTests` and we can remove Quick and Nimble from the project 👨‍💻\n",
+				"date_published": "2021-12-10T04:17:35+01:00",
+				"url": "https://otavio.cc/2021/12/10/eight-more-quickspecs.html",
+				"tags": ["programming"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/07/every-single-morning.html",
+				
+				"content_html": "<p>Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️</p>\n\n<p><img src=\"uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️\n\n<img src=\"uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2021-12-07T22:49:00+01:00",
+				"url": "https://otavio.cc/2021/12/07/every-single-morning.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2021/12/06/comfort-food-contact.html",
 				
-				"content_html": "<p>&ldquo;Comfort food&rdquo; 📚 📷</p>\n\n<ol>\n<li><a href=\"https://micro.blog/books/9781501197987\">Contact</a> by Carl Sagan</li>\n<li><a href=\"https://micro.blog/books/9780345538987\">Jurassic Park</a> by Michael Crichton</li>\n<li><a href=\"https://micro.blog/books/9780345539014\">Timeline</a> by Michael Crichton</li>\n</ol>\n\n<p><img src=\"uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>&ldquo;Comfort food&rdquo; 📚 📷</p>\n\n<ol>\n<li><a href=\"https://micro.blog/books/9781501197987\">Contact</a> by Carl Sagan</li>\n<li><a href=\"https://micro.blog/books/9780345538987\">Jurassic Park</a> by Michael Crichton</li>\n<li><a href=\"https://micro.blog/books/9780345539014\">Timeline</a> by Michael Crichton</li>\n</ol>\n\n<p><img src=\"https://otavio.cc/uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"https://otavio.cc/uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-06T23:11:59+01:00",
 				"url": "https://otavio.cc/2021/12/06/comfort-food-contact.html",
 				"tags": ["books"]
@@ -18,8 +78,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/29/black-friday.html",
 				
-				"content_html": "<p>&ldquo;Black Friday&rdquo; 📷</p>\n\n<p><img src=\"uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "\"Black Friday\" 📷\n\n<img src=\"uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>&ldquo;Black Friday&rdquo; 📷</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "\"Black Friday\" 📷\n\n<img src=\"https://otavio.cc/uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-29T16:38:40+01:00",
 				"url": "https://otavio.cc/2021/11/29/black-friday.html"
 			},
@@ -172,8 +232,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/07/glasmll.html",
 				
-				"content_html": "<p>Glasmüll</p>\n\n<p><img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "Glasmüll\n\n<img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>Glasmüll</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Glasmüll\n\n<img src=\"https://otavio.cc/uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-07T00:34:02+01:00",
 				"url": "https://otavio.cc/2021/11/07/glasmll.html"
 			},
@@ -225,16 +285,16 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/28/youll-be-missed.html",
 				
-				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n\n<p><img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" /></p>\n",
-				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
+				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" /></p>\n",
+				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"https://otavio.cc/uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2021-10-28T22:46:40+01:00",
 				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/26/i-just-finished.html",
 				
-				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n\n<p><img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"https://otavio.cc/uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-26T22:28:58+01:00",
 				"url": "https://otavio.cc/2021/10/26/i-just-finished.html",
 				"tags": ["music"]
@@ -303,8 +363,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/20/i-see-this.html",
 				
-				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n\n<p><img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" /></p>\n",
-				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
+				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" /></p>\n",
+				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"https://otavio.cc/uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
 				"date_published": "2021-10-20T07:29:10+01:00",
 				"url": "https://otavio.cc/2021/10/20/i-see-this.html"
 			},
