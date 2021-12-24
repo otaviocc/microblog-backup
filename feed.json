@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2021/12/24/im-trying-to.html",
+				
+				"content_html": "<p>I&rsquo;m trying to extract Fuji-specific information from photos using <code>CGImageProperties</code>, but I get nothing. From <a href=\"https://developer.apple.com/documentation/imageio/cgimageproperties/camera-maker_dictionaries\">Canon and Nikon it trivial</a>, but for other camera makers I can&rsquo;t make it work 📷 👨‍💻</p>\n",
+				"content_text": "I'm trying to extract Fuji-specific information from photos using `CGImageProperties`, but I get nothing. From [Canon and Nikon it trivial](https://developer.apple.com/documentation/imageio/cgimageproperties/camera-maker_dictionaries), but for other camera makers I can't make it work 📷 👨‍💻\n",
+				"date_published": "2021-12-24T15:12:52+01:00",
+				"url": "https://otavio.cc/2021/12/24/im-trying-to.html",
+				"tags": ["programming","apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/20/ok-cool-ive.html",
+				
+				"content_html": "<p>OK, cool. I’ve used the <a href=\"https://github.com/otaviocc/MicroClient\">Network Client</a> and <a href=\"https://github.com/otaviocc/MicroAPI\">API wrapper</a> I wrote to run a 20-line Microblog app directly from the new Playgrounds for iPad.</p>\n",
+				"content_text": "OK, cool. I’ve used the [Network Client](https://github.com/otaviocc/MicroClient) and [API wrapper](https://github.com/otaviocc/MicroAPI) I wrote to run a 20-line Microblog app directly from the new Playgrounds for iPad.\n",
+				"date_published": "2021-12-20T01:41:00+01:00",
+				"url": "https://otavio.cc/2021/12/20/ok-cool-ive.html",
+				"tags": ["programming","internet","apple"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/16/thanks-to-my.html",
+				
+				"content_html": "<p>Thanks to my internet connection it takes seconds (a minute?) to download Xcode. Thanks to my personal computer, it takes hours to install the very same Xcode. But I have no reasons to upgrade my computer since I use the company one to code and an iPad M1 for everything else.</p>\n",
+				"content_text": "Thanks to my internet connection it takes seconds (a minute?) to download Xcode. Thanks to my personal computer, it takes hours to install the very same Xcode. But I have no reasons to upgrade my computer since I use the company one to code and an iPad M1 for everything else.\n",
+				"date_published": "2021-12-16T07:35:04+01:00",
+				"url": "https://otavio.cc/2021/12/16/thanks-to-my.html",
+				"tags": ["apple"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2021/12/16/yesterday-apple-launched.html",
 				
 				"content_html": "<p>Yesterday Apple launched <a href=\"https://developer.apple.com/news/?id=v868vy6e\">Swift Playgrounds 4</a> for iPad, and it&rsquo;s possible now to build iPad and iOS applications directly from the iPad. I&rsquo;m looking forward to porting some of my little experiments to the new project format 👨‍💻</p>\n",
@@ -35,8 +62,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/12/fog.html",
 				
-				"content_html": "<p>Fog 📷</p>\n\n<p><img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "Fog 📷\n\n<img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>Fog 📷</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "Fog 📷\n\n<img src=\"https://otavio.cc/uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-12T13:51:57+01:00",
 				"url": "https://otavio.cc/2021/12/12/fog.html"
 			},
