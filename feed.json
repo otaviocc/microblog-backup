@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/01/02/the-long-weekend.html",
+				
+				"content_html": "<p>The long weekend is almost over and I didn&rsquo;t work on the side projects/spikes I planned to put my hands on. On the other hand, I walked an avarage of 16k steps/day and took a lot of pictures with my new camera.</p>\n",
+				"content_text": "The long weekend is almost over and I didn't work on the side projects/spikes I planned to put my hands on. On the other hand, I walked an avarage of 16k steps/day and took a lot of pictures with my new camera.\n",
+				"date_published": "2022-01-02T12:40:31+01:00",
+				"url": "https://otavio.cc/2022/01/02/the-long-weekend.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2021/12/29/the-xv-lens.html",
+				
+				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n\n<p><img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2021-12-29T10:30:37+01:00",
+				"url": "https://otavio.cc/2021/12/29/the-xv-lens.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2021/12/24/im-trying-to.html",
 				
 				"content_html": "<p>I&rsquo;m trying to extract Fuji-specific information from photos using <code>CGImageProperties</code>, but I get nothing. From <a href=\"https://developer.apple.com/documentation/imageio/cgimageproperties/camera-maker_dictionaries\">Canon and Nikon it trivial</a>, but for other camera makers I can&rsquo;t make it work 📷 👨‍💻</p>\n",
