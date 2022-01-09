@@ -7,6 +7,64 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/01/09/when-i-wrote.html",
+				
+				"content_html": "<p>When I wrote <a href=\"https://github.com/otaviocc/MicroAPI\">MicroAPI</a>, a Swift wrapper to access Micro.blog APIs, I decided to isolate the network client in separate swift package:  <a href=\"https://github.com/otaviocc/MicroClient\">MicroClient</a>.</p>\n\n<p>Today I ported <a href=\"https://github.com/otaviocc/PinboardKit\">PinboardKit</a> to also use MicroClient.</p>\n\n<p>MicroClient is pretty generic and can be used by all sorts of projects 👨‍💻</p>\n",
+				"content_text": "When I wrote [MicroAPI](https://github.com/otaviocc/MicroAPI), a Swift wrapper to access Micro.blog APIs, I decided to isolate the network client in separate swift package:  [MicroClient](https://github.com/otaviocc/MicroClient).\n\nToday I ported [PinboardKit](https://github.com/otaviocc/PinboardKit) to also use MicroClient.\n\nMicroClient is pretty generic and can be used by all sorts of projects 👨‍💻\n",
+				"date_published": "2022-01-09T14:25:28+01:00",
+				"url": "https://otavio.cc/2022/01/09/when-i-wrote.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/08/people-watching.html",
+				
+				"content_html": "<p>People watching… 📷</p>\n\n<p><img src=\"uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
+				"content_text": "People watching… 📷\n\n<img src=\"uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-01-08T22:10:44+01:00",
+				"url": "https://otavio.cc/2022/01/08/people-watching.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/07/ive-started-using.html",
+				
+				"content_html": "<p>I&rsquo;ve started using <a href=\"https://obsidian.md\">Obsidian</a> to take notes. Using it with <a href=\"https://workingcopy.app\">Working Copy</a> takes the experience to a whole new level. Simply amazing 👨‍💻</p>\n",
+				"content_text": "I've started using [Obsidian](https://obsidian.md) to take notes. Using it with [Working Copy](https://workingcopy.app) takes the experience to a whole new level. Simply amazing 👨‍💻\n",
+				"date_published": "2022-01-07T14:09:50+01:00",
+				"url": "https://otavio.cc/2022/01/07/ive-started-using.html",
+				"tags": ["software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/06/i-want-to.html",
+				
+				"content_html": "<p>I want to port my blog&rsquo;s theme to Micro.blog. I wrote it for Jekyll, so I guess the first step is to learn Hugo and how theming works 💻</p>\n",
+				"content_text": "I want to port my blog's theme to Micro.blog. I wrote it for Jekyll, so I guess the first step is to learn Hugo and how theming works 💻\n",
+				"date_published": "2022-01-06T15:47:48+01:00",
+				"url": "https://otavio.cc/2022/01/06/i-want-to.html",
+				"tags": ["programming","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/06/after-weeks-months.html",
+				
+				"content_html": "<p>After weeks (months?) of bad weather, finally a sunny day. Went for a nice walk during lunch time and took tons of photos with my new camera 🚶 📷</p>\n",
+				"content_text": "After weeks (months?) of bad weather, finally a sunny day. Went for a nice walk during lunch time and took tons of photos with my new camera 🚶 📷\n",
+				"date_published": "2022-01-06T15:04:18+01:00",
+				"url": "https://otavio.cc/2022/01/06/after-weeks-months.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/05/kaleidoscope-released-and.html",
+				
+				"content_html": "<p>Kaleidoscope <a href=\"https://blog.kaleidoscope.app/2022/01/04/xctest-results/\">released</a> an update which allows developers to use the diff tool to read <code>XCTest</code> failures.</p>\n\n<p>This is a nice idea, and I&rsquo;m looking forward to using it.</p>\n",
+				"content_text": "Kaleidoscope [released](https://blog.kaleidoscope.app/2022/01/04/xctest-results/) an update which allows developers to use the diff tool to read `XCTest` failures.\n\nThis is a nice idea, and I'm looking forward to using it.\n",
+				"date_published": "2022-01-05T20:00:53+01:00",
+				"url": "https://otavio.cc/2022/01/05/kaleidoscope-released-and.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/05/ritchie-roesch-did.html",
+				
+				"content_html": "<p><a href=\"https://fujixweekly.com/2022/01/04/how-to-switch-between-custom-presets-more-quickly-on-your-fujifilm-camera/\">Ritchie Roesch</a>:</p>\n\n<blockquote>\n<p>Did you know that there’s a faster way to switch between the C1-C7 Custom Presets on your Fujifilm camera? (&hellip;) This will work only if your model has the ability to assign “Select Custom Setting” to the Rear Command Dial.</p>\n</blockquote>\n\n<p>This is great! Highly recommended 📷</p>\n",
+				"content_text": "[Ritchie Roesch](https://fujixweekly.com/2022/01/04/how-to-switch-between-custom-presets-more-quickly-on-your-fujifilm-camera/):\n\n> Did you know that there’s a faster way to switch between the C1-C7 Custom Presets on your Fujifilm camera? (...) This will work only if your model has the ability to assign “Select Custom Setting” to the Rear Command Dial.\n\nThis is great! Highly recommended 📷\n",
+				"date_published": "2022-01-05T19:52:44+01:00",
+				"url": "https://otavio.cc/2022/01/05/ritchie-roesch-did.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/01/02/the-long-weekend.html",
 				
 				"content_html": "<p>The long weekend is almost over and I didn&rsquo;t work on the side projects/spikes I planned to put my hands on. On the other hand, I walked an avarage of 16k steps/day and took a lot of pictures with my new camera.</p>\n",
@@ -17,8 +75,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/29/the-xv-lens.html",
 				
-				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n\n<p><img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
-				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"https://otavio.cc/uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-29T10:30:37+01:00",
 				"url": "https://otavio.cc/2021/12/29/the-xv-lens.html"
 			},
@@ -283,8 +341,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/04/ive-started-laying.html",
 				
-				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n\n<p><img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" /></p>\n",
-				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
+				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n\n<p><img src=\"https://otavio.cc/uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" /></p>\n",
+				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"https://otavio.cc/uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
 				"date_published": "2021-11-04T08:46:00+01:00",
 				"url": "https://otavio.cc/2021/11/04/ive-started-laying.html",
 				"tags": ["programming","blog","software"]
