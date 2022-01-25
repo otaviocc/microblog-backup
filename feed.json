@@ -7,9 +7,52 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/01/25/two-taxes-in.html",
+				
+				"content_html": "<p>📷 Two taxes in one photo: <a href=\"https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)\">Kirchensteuer</a> ⛪️ and <a href=\"https://de.wikipedia.org/wiki/Rundfunkbeitrag\">Rundfunkbeitrag</a> 📺</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Two taxes in one photo: [Kirchensteuer](https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)) ⛪️ and [Rundfunkbeitrag](https://de.wikipedia.org/wiki/Rundfunkbeitrag) 📺\n\n<img src=\"uploads/2022/288932484c.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-01-25T11:20:42+01:00",
+				"url": "https://otavio.cc/2022/01/25/two-taxes-in.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/24/humboldt-forum-jpeg.html",
+				
+				"content_html": "<p>Humboldt Forum. JPEG, SOOC 📷</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Humboldt Forum. JPEG, SOOC 📷\n\n<img src=\"uploads/2022/06525a2f7d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-01-24T00:23:40+01:00",
+				"url": "https://otavio.cc/2022/01/24/humboldt-forum-jpeg.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/23/yesterday-i-wrote.html",
+				
+				"content_html": "<p>Yesterday I wrote a Shortcut to <em>check in</em> on <a href=\"https://dayone.app\">Day One</a> using <a href=\"https://developer.foursquare.com/reference/places-nearby\">Foursquare&rsquo;s Places API</a>. It works fine, but I didn&rsquo;t find a way to pass the precise venue geo information - from the payload - to the Day One action as location 👨‍💻</p>\n",
+				"content_text": "Yesterday I wrote a Shortcut to *check in* on [Day One](https://dayone.app) using [Foursquare's Places API](https://developer.foursquare.com/reference/places-nearby). It works fine, but I didn't find a way to pass the precise venue geo information - from the payload - to the Day One action as location 👨‍💻\n",
+				"date_published": "2022-01-23T13:43:25+01:00",
+				"url": "https://otavio.cc/2022/01/23/yesterday-i-wrote.html",
+				"tags": ["programming","apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/20/ive-imported-all.html",
+				
+				"content_html": "<p>I&rsquo;ve imported all the movies I watched on Netflix, and all the checkings I have on Foursquare in <a href=\"https://dayone.app\">Day One</a> 🤓 👨‍💻 Netflix has a csv file with everything one watched, and Foursquare two json files, one for checkings another one for the photos. Fun stuff.</p>\n",
+				"content_text": "I've imported all the movies I watched on Netflix, and all the checkings I have on Foursquare in [Day One](https://dayone.app) 🤓 👨‍💻 Netflix has a csv file with everything one watched, and Foursquare two json files, one for checkings another one for the photos. Fun stuff.\n",
+				"date_published": "2022-01-20T00:24:18+01:00",
+				"url": "https://otavio.cc/2022/01/20/ive-imported-all.html",
+				"tags": ["programming","internet","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/01/17/i-currently-have.html",
+				
+				"content_html": "<p>I currently have this Micro.blog and a Jekyll blog for longer posts, but I&rsquo;m considering moving everything from Jekyll to Micro.blog, centralizing all in once place. The only downside is that Micro.blog doesn&rsquo;t support syntax highlighting for code snippets. But again, once place.</p>\n",
+				"content_text": "I currently have this Micro.blog and a Jekyll blog for longer posts, but I'm considering moving everything from Jekyll to Micro.blog, centralizing all in once place. The only downside is that Micro.blog doesn't support syntax highlighting for code snippets. But again, once place.\n",
+				"date_published": "2022-01-17T16:09:41+01:00",
+				"url": "https://otavio.cc/2022/01/17/i-currently-have.html",
+				"tags": ["blog"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/01/12/who-needs-ifttt.html",
 				
-				"content_html": "<p>Who needs <a href=\"https://ifttt.com\">IFTTT</a> when <a href=\"https://support.apple.com/guide/shortcuts/welcome/ios\">Shortcuts</a> can do a better job locally? I&rsquo;m using Shortcuts and <a href=\"https://datajar.app\">Data Jar</a> to import my photos from <a href=\"https://glass.photo\">glass.photo</a> into <a href=\"https://dayoneapp.com\">Day One</a>. While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.</p>\n\n<p><img src=\"uploads/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" /></p>\n",
+				"content_html": "<p>Who needs <a href=\"https://ifttt.com\">IFTTT</a> when <a href=\"https://support.apple.com/guide/shortcuts/welcome/ios\">Shortcuts</a> can do a better job locally? I&rsquo;m using Shortcuts and <a href=\"https://datajar.app\">Data Jar</a> to import my photos from <a href=\"https://glass.photo\">glass.photo</a> into <a href=\"https://dayoneapp.com\">Day One</a>. While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Who needs [IFTTT](https://ifttt.com) when [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can do a better job locally? I'm using Shortcuts and [Data Jar](https://datajar.app) to import my photos from [glass.photo](https://glass.photo) into [Day One](https://dayoneapp.com). While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.\n\n<img src=\"uploads/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2022-01-12T11:22:51+01:00",
 				"url": "https://otavio.cc/2022/01/12/who-needs-ifttt.html",
@@ -52,7 +95,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/09/when-i-wrote.html",
 				
-				"content_html": "<p>When I wrote <a href=\"https://github.com/otaviocc/MicroAPI\">MicroAPI</a>, a Swift wrapper to access Micro.blog APIs, I decided to isolate the network client in separate swift package:  <a href=\"https://github.com/otaviocc/MicroClient\">MicroClient</a>.</p>\n\n<p>Today I ported <a href=\"https://github.com/otaviocc/PinboardKit\">PinboardKit</a> to also use MicroClient.</p>\n\n<p>MicroClient is pretty generic and can be used by all sorts of projects 👨‍💻</p>\n",
+				"content_html": "<p>When I wrote <a href=\"https://github.com/otaviocc/MicroAPI\">MicroAPI</a>, a Swift wrapper to access Micro.blog APIs, I decided to isolate the network client in separate swift package:  <a href=\"https://github.com/otaviocc/MicroClient\">MicroClient</a>.</p>\n<p>Today I ported <a href=\"https://github.com/otaviocc/PinboardKit\">PinboardKit</a> to also use MicroClient.</p>\n<p>MicroClient is pretty generic and can be used by all sorts of projects 👨‍💻</p>\n",
 				"content_text": "When I wrote [MicroAPI](https://github.com/otaviocc/MicroAPI), a Swift wrapper to access Micro.blog APIs, I decided to isolate the network client in separate swift package:  [MicroClient](https://github.com/otaviocc/MicroClient).\n\nToday I ported [PinboardKit](https://github.com/otaviocc/PinboardKit) to also use MicroClient.\n\nMicroClient is pretty generic and can be used by all sorts of projects 👨‍💻\n",
 				"date_published": "2022-01-09T14:25:28+01:00",
 				"url": "https://otavio.cc/2022/01/09/when-i-wrote.html"
@@ -60,7 +103,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/08/people-watching.html",
 				
-				"content_html": "<p>People watching… 📷</p>\n\n<p><img src=\"uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" /></p>\n",
+				"content_html": "<p>People watching… 📷</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "People watching… 📷\n\n<img src=\"uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-08T22:10:44+01:00",
 				"url": "https://otavio.cc/2022/01/08/people-watching.html"
@@ -94,7 +137,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/05/kaleidoscope-released-and.html",
 				
-				"content_html": "<p>Kaleidoscope <a href=\"https://blog.kaleidoscope.app/2022/01/04/xctest-results/\">released</a> an update which allows developers to use the diff tool to read <code>XCTest</code> failures.</p>\n\n<p>This is a nice idea, and I&rsquo;m looking forward to using it.</p>\n",
+				"content_html": "<p>Kaleidoscope <a href=\"https://blog.kaleidoscope.app/2022/01/04/xctest-results/\">released</a> an update which allows developers to use the diff tool to read <code>XCTest</code> failures.</p>\n<p>This is a nice idea, and I&rsquo;m looking forward to using it.</p>\n",
 				"content_text": "Kaleidoscope [released](https://blog.kaleidoscope.app/2022/01/04/xctest-results/) an update which allows developers to use the diff tool to read `XCTest` failures.\n\nThis is a nice idea, and I'm looking forward to using it.\n",
 				"date_published": "2022-01-05T20:00:53+01:00",
 				"url": "https://otavio.cc/2022/01/05/kaleidoscope-released-and.html"
@@ -102,7 +145,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/05/ritchie-roesch-did.html",
 				
-				"content_html": "<p><a href=\"https://fujixweekly.com/2022/01/04/how-to-switch-between-custom-presets-more-quickly-on-your-fujifilm-camera/\">Ritchie Roesch</a>:</p>\n\n<blockquote>\n<p>Did you know that there’s a faster way to switch between the C1-C7 Custom Presets on your Fujifilm camera? (&hellip;) This will work only if your model has the ability to assign “Select Custom Setting” to the Rear Command Dial.</p>\n</blockquote>\n\n<p>This is great! Highly recommended 📷</p>\n",
+				"content_html": "<p><a href=\"https://fujixweekly.com/2022/01/04/how-to-switch-between-custom-presets-more-quickly-on-your-fujifilm-camera/\">Ritchie Roesch</a>:</p>\n<blockquote>\n<p>Did you know that there’s a faster way to switch between the C1-C7 Custom Presets on your Fujifilm camera? (&hellip;) This will work only if your model has the ability to assign “Select Custom Setting” to the Rear Command Dial.</p>\n</blockquote>\n<p>This is great! Highly recommended 📷</p>\n",
 				"content_text": "[Ritchie Roesch](https://fujixweekly.com/2022/01/04/how-to-switch-between-custom-presets-more-quickly-on-your-fujifilm-camera/):\n\n> Did you know that there’s a faster way to switch between the C1-C7 Custom Presets on your Fujifilm camera? (...) This will work only if your model has the ability to assign “Select Custom Setting” to the Rear Command Dial.\n\nThis is great! Highly recommended 📷\n",
 				"date_published": "2022-01-05T19:52:44+01:00",
 				"url": "https://otavio.cc/2022/01/05/ritchie-roesch-did.html"
@@ -118,7 +161,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/29/the-xv-lens.html",
 				
-				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n\n<p><img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-29T10:30:37+01:00",
 				"url": "https://otavio.cc/2021/12/29/the-xv-lens.html"
@@ -179,7 +222,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/12/fog.html",
 				
-				"content_html": "<p>Fog 📷</p>\n\n<p><img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>Fog 📷</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Fog 📷\n\n<img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-12T13:51:57+01:00",
 				"url": "https://otavio.cc/2021/12/12/fog.html"
@@ -205,7 +248,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/07/every-single-morning.html",
 				
-				"content_html": "<p>Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️</p>\n\n<p><img src=\"uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️\n\n<img src=\"uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-07T22:49:00+01:00",
 				"url": "https://otavio.cc/2021/12/07/every-single-morning.html"
@@ -213,7 +256,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/06/comfort-food-contact.html",
 				
-				"content_html": "<p>&ldquo;Comfort food&rdquo; 📚 📷</p>\n\n<ol>\n<li><a href=\"https://micro.blog/books/9781501197987\">Contact</a> by Carl Sagan</li>\n<li><a href=\"https://micro.blog/books/9780345538987\">Jurassic Park</a> by Michael Crichton</li>\n<li><a href=\"https://micro.blog/books/9780345539014\">Timeline</a> by Michael Crichton</li>\n</ol>\n\n<p><img src=\"uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>&ldquo;Comfort food&rdquo; 📚 📷</p>\n<ol>\n<li><a href=\"https://micro.blog/books/9781501197987\">Contact</a> by Carl Sagan</li>\n<li><a href=\"https://micro.blog/books/9780345538987\">Jurassic Park</a> by Michael Crichton</li>\n<li><a href=\"https://micro.blog/books/9780345539014\">Timeline</a> by Michael Crichton</li>\n</ol>\n<!-- raw HTML omitted -->\n",
 				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-06T23:11:59+01:00",
 				"url": "https://otavio.cc/2021/12/06/comfort-food-contact.html",
@@ -222,7 +265,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/29/black-friday.html",
 				
-				"content_html": "<p>&ldquo;Black Friday&rdquo; 📷</p>\n\n<p><img src=\"uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>&ldquo;Black Friday&rdquo; 📷</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "\"Black Friday\" 📷\n\n<img src=\"uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-29T16:38:40+01:00",
 				"url": "https://otavio.cc/2021/11/29/black-friday.html"
@@ -376,7 +419,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/07/glasmll.html",
 				
-				"content_html": "<p>Glasmüll</p>\n\n<p><img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>Glasmüll</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Glasmüll\n\n<img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-07T00:34:02+01:00",
 				"url": "https://otavio.cc/2021/11/07/glasmll.html"
@@ -384,7 +427,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/04/ive-started-laying.html",
 				
-				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n\n<p><img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" /></p>\n",
+				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
 				"date_published": "2021-11-04T08:46:00+01:00",
 				"url": "https://otavio.cc/2021/11/04/ive-started-laying.html",
@@ -411,7 +454,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/01/i-tried-to.html",
 				
-				"content_html": "<p>I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo&rsquo;s straight-forward:</p>\n\n<pre><code>let mediaRequest = MicropubRequestFactory.makeUploadRequest(\n    media: .jpeg(jpegData)\n)\nlet uploadResponse = try await client.run(mediaRequest)\n</code></pre>\n",
+				"content_html": "<p>I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo&rsquo;s straight-forward:</p>\n<pre tabindex=\"0\"><code>let mediaRequest = MicropubRequestFactory.makeUploadRequest(\r\n    media: .jpeg(jpegData)\r\n)\r\nlet uploadResponse = try await client.run(mediaRequest)\r\n</code></pre>",
 				"content_text": "I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo's straight-forward:\r\n\r\n```\r\nlet mediaRequest = MicropubRequestFactory.makeUploadRequest(\r\n    media: .jpeg(jpegData)\r\n)\r\nlet uploadResponse = try await client.run(mediaRequest)\r\n```\n",
 				"date_published": "2021-11-01T14:08:58+01:00",
 				"url": "https://otavio.cc/2021/11/01/i-tried-to.html",
@@ -429,7 +472,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/28/youll-be-missed.html",
 				
-				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n\n<p><img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" /></p>\n",
+				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2021-10-28T22:46:40+01:00",
 				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html"
@@ -437,7 +480,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/26/i-just-finished.html",
 				
-				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n\n<p><img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" /></p>\n",
+				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-26T22:28:58+01:00",
 				"url": "https://otavio.cc/2021/10/26/i-just-finished.html",
@@ -507,7 +550,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/20/i-see-this.html",
 				
-				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n\n<p><img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" /></p>\n",
+				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
 				"date_published": "2021-10-20T07:29:10+01:00",
 				"url": "https://otavio.cc/2021/10/20/i-see-this.html"
@@ -515,7 +558,7 @@
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/20/apples-new-computers.html",
 				
-				"content_html": "<p>Apple&rsquo;s new computers look amazing, but it&rsquo;s hard to justify buying one. The most <em>basic</em> 14&rdquo; model costs $1,999 in the US (before taxes), while the same model costs 2.249 € or $2,600+ in Germany. At least I&rsquo;m not in Brazil, where it costs $4,900+ (27x the country&rsquo;s minimun wage).</p>\n",
+				"content_html": "<p>Apple&rsquo;s new computers look amazing, but it&rsquo;s hard to justify buying one. The most <em>basic</em> 14&quot; model costs $1,999 in the US (before taxes), while the same model costs 2.249 € or $2,600+ in Germany. At least I&rsquo;m not in Brazil, where it costs $4,900+ (27x the country&rsquo;s minimun wage).</p>\n",
 				"content_text": "Apple's new computers look amazing, but it's hard to justify buying one. The most _basic_ 14\" model costs $1,999 in the US (before taxes), while the same model costs 2.249 € or $2,600+ in Germany. At least I'm not in Brazil, where it costs $4,900+ (27x the country's minimun wage).\n",
 				"date_published": "2021-10-20T07:14:34+01:00",
 				"url": "https://otavio.cc/2021/10/20/apples-new-computers.html",
