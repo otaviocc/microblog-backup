@@ -7,6 +7,41 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/03/01/the-commute-to.html",
+				
+				"content_html": "<p>🚲 The commute to the new office space takes more time by subway than by bicycle. I guess it&rsquo;s time to gift me a <a href=\"https://www.brompton.com/\">Brompton</a>.</p>\n",
+				"content_text": "🚲 The commute to the new office space takes more time by subway than by bicycle. I guess it's time to gift me a [Brompton](https://www.brompton.com/).\n",
+				"date_published": "2022-03-01T10:06:57+01:00",
+				"url": "https://otavio.cc/2022/03/01/the-commute-to.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/02/27/after-six-years.html",
+				
+				"content_html": "<p>📚 After six years living in Berlin I learned the city has an <a href=\"https://www.voebb.de/\">amazing digital library</a> for a mere 10 EUR/year.</p>\n",
+				"content_text": "📚 After six years living in Berlin I learned the city has an [amazing digital library](https://www.voebb.de/) for a mere 10 EUR/year.\n",
+				"date_published": "2022-02-27T08:34:20+01:00",
+				"url": "https://otavio.cc/2022/02/27/after-six-years.html",
+				"tags": ["books"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/02/24/this-magic-keyboard.html",
+				
+				"content_html": "<p>This <a href=\"https://www.apple.com/ipad-keyboards/\">Magic Keyboard</a> for the iPad Pro is truly magical. Pricy, but magical 👨‍💻</p>\n",
+				"content_text": "This [Magic Keyboard](https://www.apple.com/ipad-keyboards/) for the iPad Pro is truly magical. Pricy, but magical 👨‍💻\n",
+				"date_published": "2022-02-24T10:38:31+01:00",
+				"url": "https://otavio.cc/2022/02/24/this-magic-keyboard.html",
+				"tags": ["apple"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/02/22/apparently-a-good.html",
+				
+				"content_html": "<p>Apparently a good way to practice a language skill is keeping a journal in the language one wants to exercise. I’ll start journaling in German ✍🏻 🇩🇪</p>\n",
+				"content_text": "Apparently a good way to practice a language skill is keeping a journal in the language one wants to exercise. I’ll start journaling in German ✍🏻 🇩🇪\n",
+				"date_published": "2022-02-22T11:28:23+01:00",
+				"url": "https://otavio.cc/2022/02/22/apparently-a-good.html",
+				"tags": ["productivity"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/02/21/its-past-am.html",
 				
 				"content_html": "<p>It&rsquo;s past 2am and Xcode quit unexpectedly. Maybe it&rsquo;s a sign I should head to bed 👨‍💻</p>\n",
