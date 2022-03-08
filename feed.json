@@ -7,6 +7,49 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/03/08/floating-lights-ok.html",
+				
+				"content_html": "<p>📷 Floating lights. OK, no really; the cars and buildings are reflections on the store window. The neon is on the store&rsquo;s back wall.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Floating lights. OK, no really; the cars and buildings are reflections on the store window. The neon is on the store's back wall.\n\n<img src=\"uploads/2022/bd44daf10c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-03-08T11:24:45+01:00",
+				"url": "https://otavio.cc/2022/03/08/floating-lights-ok.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/06/first-time-using.html",
+				
+				"content_html": "<p>First time using <a href=\"https://getdrafts.com/\">Drafts</a>. Not bad. It&rsquo;s fast, supports automation, and allows me to publish to social networks directly from the app 👨‍💻</p>\n",
+				"content_text": "First time using [Drafts](https://getdrafts.com/). Not bad. It's fast, supports automation, and allows me to publish to social networks directly from the app 👨‍💻\n",
+				"date_published": "2022-03-06T19:17:10+01:00",
+				"url": "https://otavio.cc/2022/03/06/first-time-using.html",
+				"tags": ["blog","apple","software","productivity"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/06/i-took-the.html",
+				
+				"content_html": "<p>I took the day off tomorrow. Maybe I can finish the post about testing that I&rsquo;ve been procrastinating for a long time ✍️</p>\n",
+				"content_text": "I took the day off tomorrow. Maybe I can finish the post about testing that I've been procrastinating for a long time ✍️\n",
+				"date_published": "2022-03-06T18:45:00+01:00",
+				"url": "https://otavio.cc/2022/03/06/i-took-the.html",
+				"tags": ["blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/03/its-possible-to.html",
+				
+				"content_html": "<p>It’s possible to turn off the weird cursor behavior on the iPadOS. It’s hidden in <code>Accessibility &gt; Pointer Animation</code>. Turning it off does the trick.</p>\n",
+				"content_text": "It’s possible to turn off the weird cursor behavior on the iPadOS. It’s hidden in `Accessibility > Pointer Animation`. Turning it off does the trick.\n",
+				"date_published": "2022-03-03T19:26:18+01:00",
+				"url": "https://otavio.cc/2022/03/03/its-possible-to.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/01/after-years-using.html",
+				
+				"content_html": "<p>After years using Safari I decided to go back to <a href=\"https://www.mozilla.org/en-US/firefox/\">Firefox</a>. No only the browser but also Relay, for email aliases, and Pocket, for bookmark management/read later. Byt the way, Firefox&rsquo;s <a href=\"https://support.mozilla.org/en-US/kb/containers\">Multi-Account Containers</a> is a killer feature.</p>\n",
+				"content_text": "After years using Safari I decided to go back to [Firefox](https://www.mozilla.org/en-US/firefox/). No only the browser but also Relay, for email aliases, and Pocket, for bookmark management/read later. Byt the way, Firefox's [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) is a killer feature.\n",
+				"date_published": "2022-03-01T10:23:55+01:00",
+				"url": "https://otavio.cc/2022/03/01/after-years-using.html",
+				"tags": ["internet","software","productivity"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/03/01/the-commute-to.html",
 				
 				"content_html": "<p>🚲 The commute to the new office space takes more time by subway than by bicycle. I guess it&rsquo;s time to gift me a <a href=\"https://www.brompton.com/\">Brompton</a>.</p>\n",
