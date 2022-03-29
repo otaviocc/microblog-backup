@@ -7,6 +7,64 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/03/25/two-days-ago.html",
+				
+				"content_html": "<p>Two days ago I reinstalled Instagram to try the new &ldquo;feature&rdquo;, which allows users to <a href=\"https://about.instagram.com/blog/announcements/favorites-and-following\">filter their timelines by favorites and following</a>. Truth is, this is just a way they found to shoehorn more ads/promoted content in the user&rsquo;s feed. Uninstalled today.</p>\n",
+				"content_text": "Two days ago I reinstalled Instagram to try the new \"feature\", which allows users to [filter their timelines by favorites and following](https://about.instagram.com/blog/announcements/favorites-and-following). Truth is, this is just a way they found to shoehorn more ads/promoted content in the user's feed. Uninstalled today.\n",
+				"date_published": "2022-03-25T12:37:09+02:00",
+				"url": "https://otavio.cc/2022/03/25/two-days-ago.html",
+				"tags": ["internet","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/22/today-i-updated.html",
+				
+				"content_html": "<p>Today I updated <a href=\"https://github.com/MicroClientSwift/MicroClient\">my network client library</a> and documented all its public methods. For <a href=\"https://microclientswift.github.io/MicroClient/documentation/microclient/\">publishing the documentation</a> I&rsquo;ve used <a href=\"https://github.com/apple/swift-docc\">Swift-DocC</a>, Apple&rsquo;s documentation compiler for Swift modules 👨‍💻</p>\n",
+				"content_text": "Today I updated [my network client library](https://github.com/MicroClientSwift/MicroClient) and documented all its public methods. For [publishing the documentation](https://microclientswift.github.io/MicroClient/documentation/microclient/) I've used [Swift-DocC](https://github.com/apple/swift-docc), Apple's documentation compiler for Swift modules 👨‍💻\n",
+				"date_published": "2022-03-23T00:06:58+02:00",
+				"url": "https://otavio.cc/2022/03/22/today-i-updated.html",
+				"tags": ["programming","apple","software"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/22/i-have-some.html",
+				
+				"content_html": "<p>I have some weird hobbies. The current one is drawing fantasy maps. I&rsquo;m obsessed by fantasy maps lately.</p>\n",
+				"content_text": "I have some weird hobbies. The current one is drawing fantasy maps. I'm obsessed by fantasy maps lately.\n",
+				"date_published": "2022-03-22T08:42:47+02:00",
+				"url": "https://otavio.cc/2022/03/22/i-have-some.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/22/the-apple-watch.html",
+				
+				"content_html": "<p>The Apple Watch armband is burning my wrist. That little piece of metal from the Sport Band, from the <a href=\"https://www.apple.com/shop/product/MKU83AM/A/41mm-midnight-sport-band-regular\">pin-and-tuck mechanism</a>.</p>\n",
+				"content_text": "The Apple Watch armband is burning my wrist. That little piece of metal from the Sport Band, from the [pin-and-tuck mechanism](https://www.apple.com/shop/product/MKU83AM/A/41mm-midnight-sport-band-regular).\n",
+				"date_published": "2022-03-22T08:36:29+02:00",
+				"url": "https://otavio.cc/2022/03/22/the-apple-watch.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/21/the-first-think.html",
+				
+				"content_html": "<p>The first think I do in the morning is to get my phone and start browsing. Last night I decided to leave the phone outside the bedroom and take only my Kindle with me. When I woke up, I got the Kindle and read an entire chapter. From now on, I&rsquo;ll do this every night.</p>\n",
+				"content_text": "The first think I do in the morning is to get my phone and start browsing. Last night I decided to leave the phone outside the bedroom and take only my Kindle with me. When I woke up, I got the Kindle and read an entire chapter. From now on, I'll do this every night.\n",
+				"date_published": "2022-03-21T12:13:01+02:00",
+				"url": "https://otavio.cc/2022/03/21/the-first-think.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/21/i-wish-it.html",
+				
+				"content_html": "<p>I wish it was possible to share photos on Instagram privately with a selected number of people without having to make the entire profile private.</p>\n<p>Even making the profile private, I still have to share with all the followers. I would like to select a group of people per photo.</p>\n",
+				"content_text": "I wish it was possible to share photos on Instagram privately with a selected number of people without having to make the entire profile private.\n\nEven making the profile private, I still have to share with all the followers. I would like to select a group of people per photo.\n",
+				"date_published": "2022-03-21T10:51:28+01:00",
+				"url": "https://otavio.cc/2022/03/21/i-wish-it.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/03/21/somone-didnt-like.html",
+				
+				"content_html": "<p>📷 Someone didn&rsquo;t like what they read on the newspaper.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Someone didn't like what they read on the newspaper.\n\n<img src=\"uploads/2022/6285d2b481.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-03-21T01:15:52+02:00",
+				"url": "https://otavio.cc/2022/03/21/somone-didnt-like.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/03/19/i-was-trying.html",
 				
 				"content_html": "<p>I was trying to read, but my neighbors are turning their walls into sieves. They&rsquo;re drilling every square foot of their apartment&rsquo;s walls.</p>\n",
@@ -17,9 +75,9 @@
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/13/stop-wars.html",
 				
-				"content_html": "<p>📷 Stop Wars\n<img src=\"https://otavio.cc/uploads/2022/116c07b17f.jpg\" alt=\"095A1FEE-A719-402C-8DA7-4C46ABB27218.jpg\"></p>\n",
-				"content_text": "📷 Stop Wars\n![095A1FEE-A719-402C-8DA7-4C46ABB27218.jpg](https://otavio.cc/uploads/2022/116c07b17f.jpg)\n",
-				"date_published": "2022-03-13T10:32:38+01:00",
+				"content_html": "<p>📷 Stop Wars</p>\n<p><img src=\"https://otavio.cc/uploads/2022/116c07b17f.jpg\" alt=\"095A1FEE-A719-402C-8DA7-4C46ABB27218.jpg\"></p>\n",
+				"content_text": "📷 Stop Wars\n\n![095A1FEE-A719-402C-8DA7-4C46ABB27218.jpg](https://otavio.cc/uploads/2022/116c07b17f.jpg)\n",
+				"date_published": "2022-03-13T11:32:00+02:00",
 				"url": "https://otavio.cc/2022/03/13/stop-wars.html"
 			},
 			{
@@ -27,7 +85,7 @@
 				
 				"content_html": "<p>I&rsquo;ve reset my Firefox browser and installed <a href=\"https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/\">Firefox Multi-Account Containers</a> to manage sessions. The concept is quite interesting, and every browser should implement something similar.</p>\n",
 				"content_text": "I've reset my Firefox browser and installed [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) to manage sessions. The concept is quite interesting, and every browser should implement something similar.\n",
-				"date_published": "2022-03-12T01:18:03+01:00",
+				"date_published": "2022-03-12T02:18:03+02:00",
 				"url": "https://otavio.cc/2022/03/12/ive-reset-my.html",
 				"tags": ["internet","software","productivity"]
 			},
@@ -36,7 +94,7 @@
 				
 				"content_html": "<p>A long time ago I bought these <a href=\"https://www.storycubes.com/en/games/\">Story Cubes</a> but never played with them. Starting today I&rsquo;ll use them daily to create stories and practice German. Don&rsquo;t worry, I won&rsquo;t share any of the stories.</p>\n",
 				"content_text": "A long time ago I bought these [Story Cubes](https://www.storycubes.com/en/games/) but never played with them. Starting today I'll use them daily to create stories and practice German. Don't worry, I won't share any of the stories.\n",
-				"date_published": "2022-03-09T17:51:35+01:00",
+				"date_published": "2022-03-09T18:51:35+02:00",
 				"url": "https://otavio.cc/2022/03/09/a-long-time.html"
 			},
 			{
@@ -69,7 +127,7 @@
 				"id": "http://otaviocc.micro.blog/2022/03/08/floating-lights-ok.html",
 				
 				"content_html": "<p>📷 Floating lights</p>\n<!-- raw HTML omitted -->\n<p>The cars and buildings are reflections on the store window, and the neon is on the store&rsquo;s back wall. I really love the effect.</p>\n",
-				"content_text": "📷 Floating lights\n\n<img src=\"uploads/2022/bd44daf10c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nThe cars and buildings are reflections on the store window, and the neon is on the store's back wall. I really love the effect.\n",
+				"content_text": "📷 Floating lights\n\n<img src=\"https://otavio.cc/uploads/2022/bd44daf10c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nThe cars and buildings are reflections on the store window, and the neon is on the store's back wall. I really love the effect.\n",
 				"date_published": "2022-03-08T11:24:00+01:00",
 				"url": "https://otavio.cc/2022/03/08/floating-lights-ok.html"
 			},
@@ -206,7 +264,7 @@
 				"id": "http://otaviocc.micro.blog/2022/02/05/kapitalismus-normalisiert-zerstrt.html",
 				
 				"content_html": "<p>📷 Kapitalismus normalisiert, zerstört und tötet.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": " 📷 Kapitalismus normalisiert, zerstört und tötet.\n\n<img src=\"uploads/2022/66a36c18c5.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": " 📷 Kapitalismus normalisiert, zerstört und tötet.\n\n<img src=\"https://otavio.cc/uploads/2022/66a36c18c5.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-02-05T15:44:21+01:00",
 				"url": "https://otavio.cc/2022/02/05/kapitalismus-normalisiert-zerstrt.html"
 			},
@@ -248,7 +306,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/25/two-taxes-in.html",
 				
 				"content_html": "<p>📷 Two taxes in one photo: <a href=\"https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)\">Kirchensteuer</a> ⛪️ and <a href=\"https://de.wikipedia.org/wiki/Rundfunkbeitrag\">Rundfunkbeitrag</a> 📺</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Two taxes in one photo: [Kirchensteuer](https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)) ⛪️ and [Rundfunkbeitrag](https://de.wikipedia.org/wiki/Rundfunkbeitrag) 📺\n\n<img src=\"uploads/2022/288932484c.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "📷 Two taxes in one photo: [Kirchensteuer](https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)) ⛪️ and [Rundfunkbeitrag](https://de.wikipedia.org/wiki/Rundfunkbeitrag) 📺\n\n<img src=\"https://otavio.cc/uploads/2022/288932484c.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-25T11:20:42+01:00",
 				"url": "https://otavio.cc/2022/01/25/two-taxes-in.html"
 			},
@@ -256,7 +314,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/24/humboldt-forum-jpeg.html",
 				
 				"content_html": "<p>Humboldt Forum. JPEG, SOOC 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Humboldt Forum. JPEG, SOOC 📷\n\n<img src=\"uploads/2022/06525a2f7d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Humboldt Forum. JPEG, SOOC 📷\n\n<img src=\"https://otavio.cc/uploads/2022/06525a2f7d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-24T00:23:40+01:00",
 				"url": "https://otavio.cc/2022/01/24/humboldt-forum-jpeg.html"
 			},
@@ -291,7 +349,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/12/who-needs-ifttt.html",
 				
 				"content_html": "<p>Who needs <a href=\"https://ifttt.com\">IFTTT</a> when <a href=\"https://support.apple.com/guide/shortcuts/welcome/ios\">Shortcuts</a> can do a better job locally? I&rsquo;m using Shortcuts and <a href=\"https://datajar.app\">Data Jar</a> to import my photos from <a href=\"https://glass.photo\">glass.photo</a> into <a href=\"https://dayoneapp.com\">Day One</a>. While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Who needs [IFTTT](https://ifttt.com) when [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can do a better job locally? I'm using Shortcuts and [Data Jar](https://datajar.app) to import my photos from [glass.photo](https://glass.photo) into [Day One](https://dayoneapp.com). While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.\n\n<img src=\"uploads/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" />\n",
+				"content_text": "Who needs [IFTTT](https://ifttt.com) when [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can do a better job locally? I'm using Shortcuts and [Data Jar](https://datajar.app) to import my photos from [glass.photo](https://glass.photo) into [Day One](https://dayoneapp.com). While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.\n\n<img src=\"https://otavio.cc/uploads/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2022-01-12T11:22:51+01:00",
 				"url": "https://otavio.cc/2022/01/12/who-needs-ifttt.html",
 				"tags": ["programming","apple","software"]
@@ -342,7 +400,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/08/people-watching.html",
 				
 				"content_html": "<p>People watching… 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "People watching… 📷\n\n<img src=\"uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "People watching… 📷\n\n<img src=\"https://otavio.cc/uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-08T22:10:44+01:00",
 				"url": "https://otavio.cc/2022/01/08/people-watching.html"
 			},
@@ -400,7 +458,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/29/the-xv-lens.html",
 				
 				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"https://otavio.cc/uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-29T10:30:37+01:00",
 				"url": "https://otavio.cc/2021/12/29/the-xv-lens.html"
 			},
@@ -461,7 +519,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/12/fog.html",
 				
 				"content_html": "<p>Fog 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Fog 📷\n\n<img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "Fog 📷\n\n<img src=\"https://otavio.cc/uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-12T13:51:57+01:00",
 				"url": "https://otavio.cc/2021/12/12/fog.html"
 			},
@@ -487,7 +545,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/07/every-single-morning.html",
 				
 				"content_html": "<p>Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️\n\n<img src=\"uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️\n\n<img src=\"https://otavio.cc/uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-07T22:49:00+01:00",
 				"url": "https://otavio.cc/2021/12/07/every-single-morning.html"
 			},
@@ -495,7 +553,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/06/comfort-food-contact.html",
 				
 				"content_html": "<p>&ldquo;Comfort food&rdquo; 📚 📷</p>\n<ol>\n<li><a href=\"https://micro.blog/books/9781501197987\">Contact</a> by Carl Sagan</li>\n<li><a href=\"https://micro.blog/books/9780345538987\">Jurassic Park</a> by Michael Crichton</li>\n<li><a href=\"https://micro.blog/books/9780345539014\">Timeline</a> by Michael Crichton</li>\n</ol>\n<!-- raw HTML omitted -->\n",
-				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"https://otavio.cc/uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-06T23:11:59+01:00",
 				"url": "https://otavio.cc/2021/12/06/comfort-food-contact.html",
 				"tags": ["books"]
@@ -504,7 +562,7 @@
 				"id": "http://otaviocc.micro.blog/2021/11/29/black-friday.html",
 				
 				"content_html": "<p>&ldquo;Black Friday&rdquo; 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "\"Black Friday\" 📷\n\n<img src=\"uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "\"Black Friday\" 📷\n\n<img src=\"https://otavio.cc/uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-29T16:38:40+01:00",
 				"url": "https://otavio.cc/2021/11/29/black-friday.html"
 			},
@@ -658,7 +716,7 @@
 				"id": "http://otaviocc.micro.blog/2021/11/07/glasmll.html",
 				
 				"content_html": "<p>Glasmüll</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Glasmüll\n\n<img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "Glasmüll\n\n<img src=\"https://otavio.cc/uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-07T00:34:02+01:00",
 				"url": "https://otavio.cc/2021/11/07/glasmll.html"
 			},
@@ -666,7 +724,7 @@
 				"id": "http://otaviocc.micro.blog/2021/11/04/ive-started-laying.html",
 				
 				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
+				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"https://otavio.cc/uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
 				"date_published": "2021-11-04T08:46:00+01:00",
 				"url": "https://otavio.cc/2021/11/04/ive-started-laying.html",
 				"tags": ["programming","blog","software"]
@@ -711,7 +769,7 @@
 				"id": "http://otaviocc.micro.blog/2021/10/28/youll-be-missed.html",
 				
 				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
+				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"https://otavio.cc/uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2021-10-28T22:46:40+01:00",
 				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html"
 			},
@@ -719,7 +777,7 @@
 				"id": "http://otaviocc.micro.blog/2021/10/26/i-just-finished.html",
 				
 				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"https://otavio.cc/uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-26T22:28:58+01:00",
 				"url": "https://otavio.cc/2021/10/26/i-just-finished.html",
 				"tags": ["music"]
@@ -789,7 +847,7 @@
 				"id": "http://otaviocc.micro.blog/2021/10/20/i-see-this.html",
 				
 				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
+				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"https://otavio.cc/uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
 				"date_published": "2021-10-20T07:29:10+01:00",
 				"url": "https://otavio.cc/2021/10/20/i-see-this.html"
 			},
