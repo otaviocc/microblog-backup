@@ -7,6 +7,75 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/04/22/i-pay-around.html",
+				
+				"content_html": "<p>I pay around 60 EUR/year to my bank for “maintenance” and they can’t event connect both my debit and credit card to Apple Pay. It’s either/or 🤦‍♂️</p>\n",
+				"content_text": "I pay around 60 EUR/year to my bank for “maintenance” and they can’t event connect both my debit and credit card to Apple Pay. It’s either/or 🤦‍♂️\n",
+				"date_published": "2022-04-22T13:25:23+02:00",
+				"url": "https://otavio.cc/2022/04/22/i-pay-around.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/22/i-prefer-shooting.html",
+				
+				"content_html": "<p>📷 I prefer shooting with my FUJI camera, but I&rsquo;m always impressed by what&rsquo;s possible to do with a phone these days. I took this photo with an old iPhone Xs with an app called <a href=\"https://obscura.camera/\">Obscura 3</a>. The photo was taken in black and white, and this photo is straight out of camera (SOOC).</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 I prefer shooting with my FUJI camera, but I'm always impressed by what's possible to do with a phone these days. I took this photo with an old iPhone Xs with an app called [Obscura 3](https://obscura.camera/). The photo was taken in black and white, and this photo is straight out of camera (SOOC).\n\n<img src=\"uploads/2022/a9537c7098.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-04-22T00:07:47+02:00",
+				"url": "https://otavio.cc/2022/04/22/i-prefer-shooting.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/21/i-wish-there.html",
+				
+				"content_html": "<p>I wish there was more people using <a href=\"https://threema.ch/en\">Threema</a> 💬</p>\n",
+				"content_text": "I wish there was more people using [Threema](https://threema.ch/en) 💬 \n",
+				"date_published": "2022-04-21T12:59:48+02:00",
+				"url": "https://otavio.cc/2022/04/21/i-wish-there.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/20/yesterday-i-made.html",
+				
+				"content_html": "<p>Yesterday I made a list of internet services I don’t use and closed them. Fifteen websites I no longer have to worry about.</p>\n",
+				"content_text": "Yesterday I made a list of internet services I don’t use and closed them. Fifteen websites I no longer have to worry about.\n",
+				"date_published": "2022-04-20T12:33:38+02:00",
+				"url": "https://otavio.cc/2022/04/20/yesterday-i-made.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/19/unfortunately-i-still.html",
+				
+				"content_html": "<p>Unfortunately I still need Twitter for a couple of things. Two services I use in Germany offer support via DM. If you email them, it takes more than a week to get a reply. If you DM them, it takes 10 minutes.</p>\n",
+				"content_text": "Unfortunately I still need Twitter for a couple of things. Two services I use in Germany offer support via DM. If you email them, it takes more than a week to get a reply. If you DM them, it takes 10 minutes.\n",
+				"date_published": "2022-04-19T13:59:02+02:00",
+				"url": "https://otavio.cc/2022/04/19/unfortunately-i-still.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/19/to-delete-the.html",
+				
+				"content_html": "<p>To delete the 8000+ remaining tweets I’ve used <a href=\"https://tweetdelete.net/\">TweetDelete</a> (Premium). Basically you upload your Twitter archive and the service uses the tweet IDs to delete old tweets that aren’t available in the timeline API.</p>\n",
+				"content_text": "To delete the 8000+ remaining tweets I’ve used [TweetDelete](https://tweetdelete.net/) (Premium). Basically you upload your Twitter archive and the service uses the tweet IDs to delete old tweets that aren’t available in the timeline API.\n",
+				"date_published": "2022-04-19T13:56:13+02:00",
+				"url": "https://otavio.cc/2022/04/19/to-delete-the.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/18/elon-musk-demonstrates.html",
+				
+				"content_html": "<p><a href=\"https://www.techdirt.com/2022/04/15/elon-musk-demonstrates-how-little-he-understands-about-content-moderation/\">Elon Musk demonstrates how little he understands about content moderation</a></p>\n<blockquote>\n<p>humans are complex and ever-changing. And content moderation on a platform like Twitter is about recognizing that complexity and figuring out ways to deal with it.</p>\n</blockquote>\n<p>I don&rsquo;t get why people worship Musk.</p>\n",
+				"content_text": "[Elon Musk demonstrates how little he understands about content moderation](https://www.techdirt.com/2022/04/15/elon-musk-demonstrates-how-little-he-understands-about-content-moderation/)\r\n\r\n> humans are complex and ever-changing. And content moderation on a platform like Twitter is about recognizing that complexity and figuring out ways to deal with it.\r\n\r\nI don't get why people worship Musk.\n",
+				"date_published": "2022-04-18T11:52:43+02:00",
+				"url": "https://otavio.cc/2022/04/18/elon-musk-demonstrates.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/18/twitter-boards-poison.html",
+				
+				"content_html": "<p><a href=\"https://www.pbs.org/newshour/economy/twitter-board-of-directors-adopt-poison-pill-defense-against-musk-takeover-bid\">Twitter board&rsquo;s ‘poison pill’ defense against Musk takeover bid</a></p>\n<blockquote>\n<p>Mark Cuban, weighed in on Twitter to share his theory that Musk is making his bid to goose the company’s stock price so he can sell his stake at a profit.</p>\n</blockquote>\n<p>It wouldn&rsquo;t be the first time he does something similar.</p>\n",
+				"content_text": "[Twitter board's ‘poison pill’ defense against Musk takeover bid](https://www.pbs.org/newshour/economy/twitter-board-of-directors-adopt-poison-pill-defense-against-musk-takeover-bid)\r\n\r\n> Mark Cuban, weighed in on Twitter to share his theory that Musk is making his bid to goose the company’s stock price so he can sell his stake at a profit.\r\n\r\nIt wouldn't be the first time he does something similar. \n",
+				"date_published": "2022-04-18T11:40:25+02:00",
+				"url": "https://otavio.cc/2022/04/18/twitter-boards-poison.html",
+				"tags": ["internet"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/04/15/a-couple-of.html",
 				
 				"content_html": "<p>A couple of days ago I started deleting all my tweets. I had 18,000 tweets and managed to delete 10,000 already. My account is November 2007, and Twitter changed a lot since then; is no longer a healthy community it once was. 8,000 more tweets to go!</p>\n",
@@ -37,7 +106,7 @@
 				"id": "http://otaviocc.micro.blog/2022/04/09/its-happening.html",
 				
 				"content_html": "<p>It’s happening!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "It’s happening!\n\n<img src=\"uploads/2022/84cf2e2302.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
+				"content_text": "It’s happening!\n\n<img src=\"https://otavio.cc/uploads/2022/84cf2e2302.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
 				"date_published": "2022-04-09T09:55:03+02:00",
 				"url": "https://otavio.cc/2022/04/09/its-happening.html",
 				"tags": ["photography"]
