@@ -7,6 +7,103 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/05/01/this-morning-i.html",
+				
+				"content_html": "<p>This morning I started writing about my trip to Paris. I took tons of photos to help to build the map of events and saved stamps, receipts, tickets, and museum stubs! Just have to fill the blanks now ✈️ 🇫🇷 📷</p>\n",
+				"content_text": "This morning I started writing about my trip to Paris. I took tons of photos to help to build the map of events and saved stamps, receipts, tickets, and museum stubs! Just have to fill the blanks now ✈️ 🇫🇷 📷\n",
+				"date_published": "2022-05-01T21:16:22+02:00",
+				"url": "https://otavio.cc/2022/05/01/this-morning-i.html",
+				"tags": ["photography","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/29/i-saw-a.html",
+				
+				"content_html": "<p>I saw a lot of wonderful things today, but nothing beats</p>\n<ul>\n<li>Foucault&rsquo;s pendulum (original)</li>\n<li>Lavoisier&rsquo;s  Laboratory</li>\n<li>Tombs of Marie Curie ❤️ and Pierre Curie</li>\n<li>Marie Curie ❤️ Museum</li>\n</ul>\n<p>Best anniversary ever!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "I saw a lot of wonderful things today, but nothing beats\n \n* Foucault's pendulum (original)\n* Lavoisier's  Laboratory\n* Tombs of Marie Curie ❤️ and Pierre Curie\n* Marie Curie ❤️ Museum\n\nBest anniversary ever!\n\n<img src=\"uploads/2022/10e158c281.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-04-29T22:52:26+02:00",
+				"url": "https://otavio.cc/2022/04/29/i-saw-a.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/28/went-to-the.html",
+				
+				"content_html": "<p>📷 Went to the Louvre today and spent a good number of hours it there. It’s a magical place! It’s amazing to see in person all those sculptures and paintings we see and learn about in the History books.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Went to the Louvre today and spent a good number of hours it there. It’s a magical place! It’s amazing to see in person all those sculptures and paintings we see and learn about in the History books.\n\n<img src=\"uploads/2022/d5f618e8ef.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-04-28T23:52:38+02:00",
+				"url": "https://otavio.cc/2022/04/28/went-to-the.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/25/when-someone-who.html",
+				
+				"content_html": "<p>When someone who doesn&rsquo;t know the difference between free speech and hate speech wins&hellip;</p>\n",
+				"content_text": "When someone who doesn't know the difference between free speech and hate speech wins...\n",
+				"date_published": "2022-04-25T21:41:09+02:00",
+				"url": "https://otavio.cc/2022/04/25/when-someone-who.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/25/i-love-my.html",
+				
+				"content_html": "<p>I love my Fuji camera, but its app for iOS is virtually impossible to use. I spent 30 minutes trying to make the camera and the app <em>talk</em> to each other, without succeed. The good thing is that the camera has an USB-C interface, therefore I can transfer photos directly to an iPad.</p>\n",
+				"content_text": "I love my Fuji camera, but its app for iOS is virtually impossible to use. I spent 30 minutes trying to make the camera and the app _talk_ to each other, without succeed. The good thing is that the camera has an USB-C interface, therefore I can transfer photos directly to an iPad.\n",
+				"date_published": "2022-04-25T16:22:26+02:00",
+				"url": "https://otavio.cc/2022/04/25/i-love-my.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/25/microblog-for-macos.html",
+				
+				"content_html": "<p>Micro.blog for macOS allows users to export their entries to Day One. I use Day One as a digital journal, but when importing my posts from Micro.blog I noticed some posts where missing. More specifically, posts with images. I&rsquo;m submitting a patch.</p>\n",
+				"content_text": "Micro.blog for macOS allows users to export their entries to Day One. I use Day One as a digital journal, but when importing my posts from Micro.blog I noticed some posts where missing. More specifically, posts with images. I'm submitting a patch.\n",
+				"date_published": "2022-04-25T00:46:00+02:00",
+				"url": "https://otavio.cc/2022/04/25/microblog-for-macos.html",
+				"tags": ["blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/24/001852.html",
+				
+				"content_html": "<p>The latest batch of subscriptions I canceled includes Pocket, Drafts, Tweetbot, Bear, and CARROT Weather.</p>\n",
+				"content_text": "The latest batch of subscriptions I canceled includes Pocket, Drafts, Tweetbot, Bear, and CARROT Weather.\n",
+				"date_published": "2022-04-24T00:18:52+02:00",
+				"url": "https://otavio.cc/2022/04/24/001852.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/24/the-latest-batch.html",
+				
+				"content_html": "<p>The latest batch of accounts I deleted includes Airbnb, Bitbucket, Coursera, <strong>Dropbox</strong>, <strong>Evernote</strong>, Fitbit, Foursquare, Goodreads, ICQ, Keybase.io, <strong>LinkedIn</strong>, Literal, Quora, <strong>Reddit</strong>, Signal, Slashdot, Snapfish, <strong>Spotify</strong>, Steam, The Omni Group, Things Cloud, and Withings 🎉</p>\n",
+				"content_text": "The latest batch of accounts I deleted includes Airbnb, Bitbucket, Coursera, **Dropbox**, **Evernote**, Fitbit, Foursquare, Goodreads, ICQ, Keybase.io, **LinkedIn**, Literal, Quora, **Reddit**, Signal, Slashdot, Snapfish, **Spotify**, Steam, The Omni Group, Things Cloud, and Withings 🎉\n",
+				"date_published": "2022-04-24T00:14:33+02:00",
+				"url": "https://otavio.cc/2022/04/24/the-latest-batch.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/23/sorry-about-this.html",
+				
+				"content_html": "<p>Sorry about this person&rsquo;s French, but I had to capture it 📷</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Sorry about this person's French, but I had to capture it 📷\n\n<img src=\"uploads/2022/617a9ff2ff.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
+				"date_published": "2022-04-23T14:30:30+02:00",
+				"url": "https://otavio.cc/2022/04/23/sorry-about-this.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/23/the-dropout-seems.html",
+				
+				"content_html": "<p><a href=\"https://www.themoviedb.org/tv/122066-the-dropout\">The Dropout</a> seems interesting. I&rsquo;ve watched the first episode and I&rsquo;m looking forward to watching more. Kinda crazy to think Theranos tried to hire my wife when we were living in California 🩸 📺</p>\n",
+				"content_text": "[The Dropout](https://www.themoviedb.org/tv/122066-the-dropout) seems interesting. I've watched the first episode and I'm looking forward to watching more. Kinda crazy to think Theranos tried to hire my wife when we were living in California 🩸 📺\n",
+				"date_published": "2022-04-23T14:18:30+02:00",
+				"url": "https://otavio.cc/2022/04/23/the-dropout-seems.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/04/23/finished-reading-dude.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9781440505362\">Dude, You&rsquo;re Gonna Be a Dad!: How to Get (Both of You) Through the Next 9 Months</a> by John Pfeiffer 📚</p>\n",
+				"content_text": "Finished reading: [Dude, You're Gonna Be a Dad!: How to Get (Both of You) Through the Next 9 Months](https://micro.blog/books/9781440505362) by John Pfeiffer 📚\n",
+				"date_published": "2022-04-23T14:00:05+02:00",
+				"url": "https://otavio.cc/2022/04/23/finished-reading-dude.html",
+				"tags": ["book"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/04/22/i-pay-around.html",
 				
 				"content_html": "<p>I pay around 60 EUR/year to my bank for “maintenance” and they can’t event connect both my debit and credit card to Apple Pay. It’s either/or 🤦‍♂️</p>\n",
@@ -17,8 +114,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/22/i-prefer-shooting.html",
 				
-				"content_html": "<p>📷 I prefer shooting with my FUJI camera, but I&rsquo;m always impressed by what&rsquo;s possible to do with a phone these days. I took this photo with an old iPhone Xs with an app called <a href=\"https://obscura.camera/\">Obscura 3</a>. The photo was taken in black and white, and this photo is straight out of camera (SOOC).</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 I prefer shooting with my FUJI camera, but I'm always impressed by what's possible to do with a phone these days. I took this photo with an old iPhone Xs with an app called [Obscura 3](https://obscura.camera/). The photo was taken in black and white, and this photo is straight out of camera (SOOC).\n\n<img src=\"uploads/2022/a9537c7098.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_html": "<p>📷 I prefer shooting with my FUJI camera, but I&rsquo;m always impressed by what&rsquo;s possible to do with a phone these days. I took this photo with an old iPhone Xs with an app called <a href=\"https://obscura.camera/\">Obscura 3</a>. The photo was taken in black and white, and is straight out of camera (SOOC).</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 I prefer shooting with my FUJI camera, but I'm always impressed by what's possible to do with a phone these days. I took this photo with an old iPhone Xs with an app called [Obscura 3](https://obscura.camera/). The photo was taken in black and white, and is straight out of camera (SOOC).\n\n<img src=\"uploads/2022/a9537c7098.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-04-22T00:07:47+02:00",
 				"url": "https://otavio.cc/2022/04/22/i-prefer-shooting.html",
 				"tags": ["photography"]
@@ -47,7 +144,8 @@
 				"content_html": "<p>Unfortunately I still need Twitter for a couple of things. Two services I use in Germany offer support via DM. If you email them, it takes more than a week to get a reply. If you DM them, it takes 10 minutes.</p>\n",
 				"content_text": "Unfortunately I still need Twitter for a couple of things. Two services I use in Germany offer support via DM. If you email them, it takes more than a week to get a reply. If you DM them, it takes 10 minutes.\n",
 				"date_published": "2022-04-19T13:59:02+02:00",
-				"url": "https://otavio.cc/2022/04/19/unfortunately-i-still.html"
+				"url": "https://otavio.cc/2022/04/19/unfortunately-i-still.html",
+				"tags": ["internet"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/19/to-delete-the.html",
@@ -55,7 +153,8 @@
 				"content_html": "<p>To delete the 8000+ remaining tweets I’ve used <a href=\"https://tweetdelete.net/\">TweetDelete</a> (Premium). Basically you upload your Twitter archive and the service uses the tweet IDs to delete old tweets that aren’t available in the timeline API.</p>\n",
 				"content_text": "To delete the 8000+ remaining tweets I’ve used [TweetDelete](https://tweetdelete.net/) (Premium). Basically you upload your Twitter archive and the service uses the tweet IDs to delete old tweets that aren’t available in the timeline API.\n",
 				"date_published": "2022-04-19T13:56:13+02:00",
-				"url": "https://otavio.cc/2022/04/19/to-delete-the.html"
+				"url": "https://otavio.cc/2022/04/19/to-delete-the.html",
+				"tags": ["internet"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/18/elon-musk-demonstrates.html",
@@ -106,7 +205,7 @@
 				"id": "http://otaviocc.micro.blog/2022/04/09/its-happening.html",
 				
 				"content_html": "<p>It’s happening!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "It’s happening!\n\n<img src=\"https://otavio.cc/uploads/2022/84cf2e2302.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
+				"content_text": "It’s happening!\n\n<img src=\"uploads/2022/84cf2e2302.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
 				"date_published": "2022-04-09T09:55:03+02:00",
 				"url": "https://otavio.cc/2022/04/09/its-happening.html",
 				"tags": ["photography"]
@@ -247,7 +346,7 @@
 				"id": "http://otaviocc.micro.blog/2022/03/21/somone-didnt-like.html",
 				
 				"content_html": "<p>📷 Someone didn&rsquo;t like what they read on the newspaper.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Someone didn't like what they read on the newspaper.\n\n<img src=\"https://otavio.cc/uploads/2022/6285d2b481.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 Someone didn't like what they read on the newspaper.\n\n<img src=\"uploads/2022/6285d2b481.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-03-21T01:15:52+02:00",
 				"url": "https://otavio.cc/2022/03/21/somone-didnt-like.html",
 				"tags": ["photography"]
@@ -317,7 +416,7 @@
 				"id": "http://otaviocc.micro.blog/2022/03/08/floating-lights-ok.html",
 				
 				"content_html": "<p>📷 Floating lights</p>\n<!-- raw HTML omitted -->\n<p>The cars and buildings are reflections on the store window, and the neon is on the store&rsquo;s back wall. I really love the effect.</p>\n",
-				"content_text": "📷 Floating lights\n\n<img src=\"https://otavio.cc/uploads/2022/bd44daf10c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nThe cars and buildings are reflections on the store window, and the neon is on the store's back wall. I really love the effect.\n",
+				"content_text": "📷 Floating lights\n\n<img src=\"uploads/2022/bd44daf10c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nThe cars and buildings are reflections on the store window, and the neon is on the store's back wall. I really love the effect.\n",
 				"date_published": "2022-03-08T12:24:00+02:00",
 				"url": "https://otavio.cc/2022/03/08/floating-lights-ok.html",
 				"tags": ["photography"]
@@ -456,7 +555,7 @@
 				"id": "http://otaviocc.micro.blog/2022/02/05/kapitalismus-normalisiert-zerstrt.html",
 				
 				"content_html": "<p>📷 Kapitalismus normalisiert, zerstört und tötet.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": " 📷 Kapitalismus normalisiert, zerstört und tötet.\n\n<img src=\"https://otavio.cc/uploads/2022/66a36c18c5.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": " 📷 Kapitalismus normalisiert, zerstört und tötet.\n\n<img src=\"uploads/2022/66a36c18c5.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-02-05T16:44:21+02:00",
 				"url": "https://otavio.cc/2022/02/05/kapitalismus-normalisiert-zerstrt.html",
 				"tags": ["photography"]
@@ -501,7 +600,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/25/two-taxes-in.html",
 				
 				"content_html": "<p>📷 Two taxes in one photo: <a href=\"https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)\">Kirchensteuer</a> ⛪️ and <a href=\"https://de.wikipedia.org/wiki/Rundfunkbeitrag\">Rundfunkbeitrag</a> 📺</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Two taxes in one photo: [Kirchensteuer](https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)) ⛪️ and [Rundfunkbeitrag](https://de.wikipedia.org/wiki/Rundfunkbeitrag) 📺\n\n<img src=\"https://otavio.cc/uploads/2022/288932484c.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "📷 Two taxes in one photo: [Kirchensteuer](https://de.wikipedia.org/wiki/Kirchensteuer_(Deutschland)) ⛪️ and [Rundfunkbeitrag](https://de.wikipedia.org/wiki/Rundfunkbeitrag) 📺\n\n<img src=\"uploads/2022/288932484c.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-25T12:20:42+02:00",
 				"url": "https://otavio.cc/2022/01/25/two-taxes-in.html",
 				"tags": ["photography"]
@@ -510,7 +609,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/24/humboldt-forum-jpeg.html",
 				
 				"content_html": "<p>Humboldt Forum. JPEG, SOOC 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Humboldt Forum. JPEG, SOOC 📷\n\n<img src=\"https://otavio.cc/uploads/2022/06525a2f7d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "Humboldt Forum. JPEG, SOOC 📷\n\n<img src=\"uploads/2022/06525a2f7d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-24T01:23:40+02:00",
 				"url": "https://otavio.cc/2022/01/24/humboldt-forum-jpeg.html",
 				"tags": ["photography"]
@@ -546,7 +645,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/12/who-needs-ifttt.html",
 				
 				"content_html": "<p>Who needs <a href=\"https://ifttt.com\">IFTTT</a> when <a href=\"https://support.apple.com/guide/shortcuts/welcome/ios\">Shortcuts</a> can do a better job locally? I&rsquo;m using Shortcuts and <a href=\"https://datajar.app\">Data Jar</a> to import my photos from <a href=\"https://glass.photo\">glass.photo</a> into <a href=\"https://dayoneapp.com\">Day One</a>. While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Who needs [IFTTT](https://ifttt.com) when [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can do a better job locally? I'm using Shortcuts and [Data Jar](https://datajar.app) to import my photos from [glass.photo](https://glass.photo) into [Day One](https://dayoneapp.com). While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.\n\n<img src=\"https://otavio.cc/uploads/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" />\n",
+				"content_text": "Who needs [IFTTT](https://ifttt.com) when [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can do a better job locally? I'm using Shortcuts and [Data Jar](https://datajar.app) to import my photos from [glass.photo](https://glass.photo) into [Day One](https://dayoneapp.com). While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.\n\n<img src=\"uploads/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2022-01-12T12:22:51+02:00",
 				"url": "https://otavio.cc/2022/01/12/who-needs-ifttt.html",
 				"tags": ["photography"]
@@ -600,7 +699,7 @@
 				"id": "http://otaviocc.micro.blog/2022/01/08/people-watching.html",
 				
 				"content_html": "<p>People watching… 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "People watching… 📷\n\n<img src=\"https://otavio.cc/uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "People watching… 📷\n\n<img src=\"uploads/2022/5f67b287bd.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-01-08T23:10:44+02:00",
 				"url": "https://otavio.cc/2022/01/08/people-watching.html",
 				"tags": ["photography"]
@@ -663,7 +762,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/29/the-xv-lens.html",
 				
 				"content_html": "<p>The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"https://otavio.cc/uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "The X100V lens cap doesn’t fit when the weather sealing filter is attached, but the one from the X100T does 📷\n\n<img src=\"uploads/2021/ef2c95d8a4.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-29T11:30:37+02:00",
 				"url": "https://otavio.cc/2021/12/29/the-xv-lens.html",
 				"tags": ["photography"]
@@ -726,7 +825,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/12/fog.html",
 				
 				"content_html": "<p>Fog 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Fog 📷\n\n<img src=\"https://otavio.cc/uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "Fog 📷\n\n<img src=\"uploads/2021/56aadbed23.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-12T14:51:57+02:00",
 				"url": "https://otavio.cc/2021/12/12/fog.html",
 				"tags": ["photography"]
@@ -753,7 +852,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/07/every-single-morning.html",
 				
 				"content_html": "<p>Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️\n\n<img src=\"https://otavio.cc/uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "Every single morning he goes outside for about 30 seconds to check the weather and then jumps on the sofa 📷 ❄️\n\n<img src=\"uploads/2021/ece63ed7ce.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-07T23:49:00+02:00",
 				"url": "https://otavio.cc/2021/12/07/every-single-morning.html",
 				"tags": ["photography"]
@@ -762,7 +861,7 @@
 				"id": "http://otaviocc.micro.blog/2021/12/06/comfort-food-contact.html",
 				
 				"content_html": "<p>&ldquo;Comfort food&rdquo; 📚 📷</p>\n<ol>\n<li><a href=\"https://micro.blog/books/9781501197987\">Contact</a> by Carl Sagan</li>\n<li><a href=\"https://micro.blog/books/9780345538987\">Jurassic Park</a> by Michael Crichton</li>\n<li><a href=\"https://micro.blog/books/9780345539014\">Timeline</a> by Michael Crichton</li>\n</ol>\n<!-- raw HTML omitted -->\n",
-				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"https://otavio.cc/uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"uploads/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-07T00:11:59+02:00",
 				"url": "https://otavio.cc/2021/12/06/comfort-food-contact.html",
 				"tags": ["photography","book"]
@@ -771,7 +870,7 @@
 				"id": "http://otaviocc.micro.blog/2021/11/29/black-friday.html",
 				
 				"content_html": "<p>&ldquo;Black Friday&rdquo; 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "\"Black Friday\" 📷\n\n<img src=\"https://otavio.cc/uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "\"Black Friday\" 📷\n\n<img src=\"uploads/2021/3ac787765b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-29T17:38:40+02:00",
 				"url": "https://otavio.cc/2021/11/29/black-friday.html",
 				"tags": ["photography"]
@@ -931,7 +1030,7 @@
 				"id": "http://otaviocc.micro.blog/2021/11/07/glasmll.html",
 				
 				"content_html": "<p>Glasmüll</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Glasmüll\n\n<img src=\"https://otavio.cc/uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "Glasmüll\n\n<img src=\"uploads/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-07T01:34:02+02:00",
 				"url": "https://otavio.cc/2021/11/07/glasmll.html",
 				"tags": ["photography"]
@@ -940,7 +1039,7 @@
 				"id": "http://otaviocc.micro.blog/2021/11/04/ive-started-laying.html",
 				
 				"content_html": "<p>I&rsquo;ve started laying out what I want in my Micro.blog application. I don&rsquo;t have much time to work on it as I wish I had, but I&rsquo;ll get there. It won&rsquo;t be named MicroUI, this name&rsquo;s just because I had to name the project 👨‍💻</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"https://otavio.cc/uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
+				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"uploads/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
 				"date_published": "2021-11-04T09:46:00+02:00",
 				"url": "https://otavio.cc/2021/11/04/ive-started-laying.html",
 				"tags": ["photography"]
@@ -985,7 +1084,7 @@
 				"id": "http://otaviocc.micro.blog/2021/10/28/youll-be-missed.html",
 				
 				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"https://otavio.cc/uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
+				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"uploads/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2021-10-28T23:46:40+02:00",
 				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html",
 				"tags": ["photography"]
@@ -994,7 +1093,7 @@
 				"id": "http://otaviocc.micro.blog/2021/10/26/i-just-finished.html",
 				
 				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"https://otavio.cc/uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"uploads/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-26T23:28:58+02:00",
 				"url": "https://otavio.cc/2021/10/26/i-just-finished.html",
 				"tags": ["photography"]
@@ -1066,7 +1165,7 @@
 				"id": "http://otaviocc.micro.blog/2021/10/20/i-see-this.html",
 				
 				"content_html": "<p>I see this car everytime I walk in this neighborhood 🚗 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"https://otavio.cc/uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
+				"content_text": "I see this car everytime I walk in this neighborhood 🚗 📷\n\n<img src=\"uploads/2021/08e52a4dd5.jpg\" width=\"600\" height=\"400\" alt=\"Tiny yellow car parked\" />\n",
 				"date_published": "2021-10-20T08:29:10+02:00",
 				"url": "https://otavio.cc/2021/10/20/i-see-this.html",
 				"tags": ["photography"]
