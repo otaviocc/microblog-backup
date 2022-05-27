@@ -7,6 +7,68 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/05/25/inheriting-froebels-gifts.html",
+				
+				"content_html": "<p><a href=\"https://99percentinvisible.org/episode/inheriting-froebels-gifts/\">Inheriting Froebel&rsquo;s Gifts</a>:</p>\n<blockquote>\n<p>If you’ve ever looked at a piece of abstract art or Modernist architecture and thought “my kindergartener could have made that,” well, that may be more true than you realize.</p>\n</blockquote>\n<p>Another amazing <a href=\"https://99percentinvisible.org\">99% Invisible</a> episode.</p>\n",
+				"content_text": "[Inheriting Froebel's Gifts](https://99percentinvisible.org/episode/inheriting-froebels-gifts/):\n\n> If you’ve ever looked at a piece of abstract art or Modernist architecture and thought “my kindergartener could have made that,” well, that may be more true than you realize. \n\nAnother amazing [99% Invisible](https://99percentinvisible.org) episode.\n\n",
+				"date_published": "2022-05-25T01:06:20+02:00",
+				"url": "https://otavio.cc/2022/05/25/inheriting-froebels-gifts.html",
+				"tags": ["design"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/05/24/185800.html",
+				
+				"content_html": "<p><a href=\"https://twitterrific.com/ios/\">Twitterrific</a>:</p>\n<blockquote>\n<p>Muffle people, hashtags, and domains to keep your timeline free from spoilers and unwanted tweets.</p>\n</blockquote>\n<p>Bonus: regex! This is a great feature and allows you to mute content without getting rid of it. The content gets collapsed, but you can expand it if you want.</p>\n",
+				"content_text": "[Twitterrific](https://twitterrific.com/ios/):\n\n> Muffle people, hashtags, and domains to keep your timeline free from spoilers and unwanted tweets.\n\nBonus: regex! This is a great feature and allows you to mute content without getting rid of it. The content gets collapsed, but you can expand it if you want.\n\n",
+				"date_published": "2022-05-24T18:58:00+02:00",
+				"url": "https://otavio.cc/2022/05/24/185800.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/05/21/im-trying-ulysses.html",
+				
+				"content_html": "<p>I’m trying <a href=\"https://ulysses.app/\" title=\"Ulysses\">Ulysses</a> for the first time, and am impressed. It does a really good job and renders code blocks like no other markdown editor for iOS/iPadOS. It’s perfect for long technical posts/articles 👍 👨‍💻</p>\n",
+				"content_text": "I’m trying [Ulysses](https://ulysses.app/ \"Ulysses\") for the first time, and am impressed. It does a really good job and renders code blocks like no other markdown editor for iOS/iPadOS. It’s perfect for long technical posts/articles 👍 👨‍💻\n\n",
+				"date_published": "2022-05-21T22:56:09+02:00",
+				"url": "https://otavio.cc/2022/05/21/im-trying-ulysses.html",
+				"tags": ["programming","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/05/21/i-was-planning.html",
+				
+				"content_html": "<p>I was planning on writing a few long posts about Software Architecture, Modularization, and Unit Testing, but I always find something else to do instead. Maybe I should break these posts into series of shorter posts. Easier to write and commit to 👨‍💻</p>\n",
+				"content_text": "I was planning on writing a few long posts about Software Architecture, Modularization, and Unit Testing, but I always find something else to do instead. Maybe I should break these posts into series of shorter posts. Easier to write and commit to 👨‍💻\n\n",
+				"date_published": "2022-05-21T22:41:53+02:00",
+				"url": "https://otavio.cc/2022/05/21/i-was-planning.html",
+				"tags": ["engineering","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/05/21/saturday-am-coffee.html",
+				
+				"content_html": "<p>Saturday 8am. Coffee, Combine and async/await ☕️ 👨‍💻</p>\n",
+				"content_text": "Saturday 8am. Coffee, Combine and async/await ☕️ 👨‍💻\n",
+				"date_published": "2022-05-21T08:33:39+02:00",
+				"url": "https://otavio.cc/2022/05/21/saturday-am-coffee.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/05/20/day-indulgence-morning.html",
+				
+				"content_html": "<p>📷 Day 19: <strong>Indulgence</strong>. Morning coffee at a local coffee shop. I didn&rsquo;t have my camera on me this morning, so I had to use my phone for this one.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Day 19: **Indulgence**. Morning coffee at a local coffee shop. I didn't have my camera on me this morning, so I had to use my phone for this one.\n\n<img src=\"uploads/2022/aa05c55ec0.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-05-20T09:56:00+02:00",
+				"url": "https://otavio.cc/2022/05/20/day-indulgence-morning.html",
+				"tags": ["photography","bike"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/05/20/duckduckgo-for-macos.html",
+				
+				"content_html": "<p>👨‍💻 <a href=\"https://spreadprivacy.com/introducing-duckduckgo-for-mac/\">DuckDuckGo for macOS</a> is fast. Incredibly fast.</p>\n",
+				"content_text": "👨‍💻 [DuckDuckGo for macOS](https://spreadprivacy.com/introducing-duckduckgo-for-mac/) is fast. Incredibly fast.\n",
+				"date_published": "2022-05-20T07:45:39+02:00",
+				"url": "https://otavio.cc/2022/05/20/duckduckgo-for-macos.html",
+				"tags": ["internet"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/05/20/day-beverage-for.html",
 				
 				"content_html": "<p>📷 Day 20: <strong>Beverage</strong>. For some people this isn&rsquo;t &ldquo;beverage&rdquo; because it&rsquo;s just (sparkling) <strong>water</strong>, but I don&rsquo;t drink anything else other than water (and coffee).</p>\n<!-- raw HTML omitted -->\n",
