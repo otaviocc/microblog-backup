@@ -7,13 +7,47 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/06/25/my-wife-never.html",
+				
+				"content_html": "<p>My wife never enjoyed &ldquo;pew pew pew&rdquo;<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>. But then she watched <a href=\"https://en.wikipedia.org/wiki/The_Mandalorian\">The Mandalorian</a> and everything changed. Grogu&rsquo;s <strong>Force</strong> is really strong, huh?</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>Yes, that&rsquo;s how she calls <strong>Star Wars</strong>.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
+				"content_text": "My wife never enjoyed \"pew pew pew\"[^1]. But then she watched [The Mandalorian](https://en.wikipedia.org/wiki/The_Mandalorian) and everything changed. Grogu's **Force** is really strong, huh?\n\n[^1]: Yes, that's how she calls **Star Wars**.\n",
+				"date_published": "2022-06-25T18:46:29+02:00",
+				"url": "https://otavio.cc/2022/06/25/my-wife-never.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/06/23/the-list-of.html",
+				
+				"content_html": "<p>The list of topics I have to write for my other blog - <a href=\"https://swiftdev.coffee\" title=\"swiftdev.coffee\">swiftdev.coffee</a> - keeps growing. The amount of time I have to write them, on the other hand… 👨‍💻</p>\n",
+				"content_text": "The list of topics I have to write for my other blog - [swiftdev.coffee](https://swiftdev.coffee \"swiftdev.coffee\") - keeps growing. The amount of time I have to write them, on the other hand… 👨‍💻\n\n",
+				"date_published": "2022-06-23T14:51:30+02:00",
+				"url": "https://otavio.cc/2022/06/23/the-list-of.html",
+				"tags": ["productivity","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/06/23/i-saw-this.html",
+				
+				"content_html": "<p>📷 I saw this on the asphalt today and had to stop to take a picture. This is a JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 I saw this on the asphalt today and had to stop to take a picture. This is a JPEG, SOOC.\n\n<img src=\"uploads/2022/e31f475f62.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"date_published": "2022-06-23T00:49:15+02:00",
+				"url": "https://otavio.cc/2022/06/23/i-saw-this.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/06/22/a-tale-of.html",
+				
+				"content_html": "<p><a href=\"https://manas.tungare.name/blog/a-tale-of-two-interfaces\">A Tale of Two Interfaces</a>:</p>\n<blockquote>\n<p>QuickSynergy puts the user first, and is designed to let the user work naturally with their mental model of a keyboard/mouse layout. Synergy starts from the configuration file and slaps on a UI on top of it.</p>\n</blockquote>\n<p>I spent a lot of time designing the QS UI.</p>\n",
+				"content_text": "[A Tale of Two Interfaces](https://manas.tungare.name/blog/a-tale-of-two-interfaces):\n\n> QuickSynergy puts the user first, and is designed to let the user work naturally with their mental model of a keyboard/mouse layout. Synergy starts from the configuration file and slaps on a UI on top of it.\n\nI spent a lot of time designing the QS UI.\n",
+				"date_published": "2022-06-22T14:01:21+02:00",
+				"url": "https://otavio.cc/2022/06/22/a-tale-of.html",
+				"tags": ["programming","design"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/06/19/my-brain-isnt.html",
 				
-				"content_html": "<p>My brain isn’t working today; 34° C outside and 28.4° C inside (according to Eve room). Going to rewatch some movie I’ve watched a bazillion times already.</p>\n",
-				"content_text": "My brain isn’t working today; 34° C outside and 28.4° C inside (according to Eve room). Going to rewatch some movie I’ve watched a bazillion times already.\n\n",
+				"content_html": "<p>My brain isn’t working today; 34° C outside and 28.4° C inside (according to Eve room). Going to rewatch some movie I’ve watched a bazillion times already.</p>\n<p><em>Update</em>: 37º C and no AC at home.</p>\n",
+				"content_text": "My brain isn’t working today; 34° C outside and 28.4° C inside (according to Eve room). Going to rewatch some movie I’ve watched a bazillion times already.\n\n_Update_: 37º C and no AC at home.\n",
 				"date_published": "2022-06-19T12:42:17+02:00",
-				"url": "https://otavio.cc/2022/06/19/my-brain-isnt.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2022/06/19/my-brain-isnt.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/18/selfcheckout-is-so.html",
@@ -52,7 +86,7 @@
 				"id": "http://otaviocc.micro.blog/2022/06/09/jodie-foster-jpeg.html",
 				
 				"content_html": "<p>📷 <strong>Jodie Foster</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 **Jodie Foster**. JPEG, SOOC.\n\n<img src=\"uploads/2022/215679e65e.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 **Jodie Foster**. JPEG, SOOC.\n\n<img src=\"https://otavio.cc/uploads/2022/215679e65e.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-06-09T11:22:45+02:00",
 				"url": "https://otavio.cc/2022/06/09/jodie-foster-jpeg.html",
 				"tags": ["photography"]
