@@ -7,6 +7,66 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/07/21/basketball-in-lithuania.html",
+				
+				"content_html": "<p>📷 Basketball in Lithuania. Taken with an iPhone using Obscura 3.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Basketball in Lithuania. Taken with an iPhone using Obscura 3.\n\n<img src=\"uploads/2022/1ea9a53b11.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-07-21T20:34:10+02:00",
+				"url": "https://otavio.cc/2022/07/21/basketball-in-lithuania.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/20/my-cat-photo.html",
+				
+				"content_html": "<p>📷 My <strong>cat</strong>. Photo taken with an iPhone using the Obscura 3 camera app and the setup I <a href=\"https://otavio.cc/2022/07/12/yesterday-i-configured.html\">mentioned a few days ago</a>.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 My **cat**. Photo taken with an iPhone using the Obscura 3 camera app and the setup I [mentioned a few days ago](https://otavio.cc/2022/07/12/yesterday-i-configured.html).\n\n<img src=\"uploads/2022/2b46469880.jpg\" width=\"399\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-07-20T01:52:43+02:00",
+				"url": "https://otavio.cc/2022/07/20/my-cat-photo.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/18/git-version-was.html",
+				
+				"content_html": "<p>git version 2.37.0 was giving me <code>too long unix socket path</code> when fetching a CocoaPod repo. Reverting back to 2.32.1, default in macOS 12.4, &ldquo;fixed&rdquo; the problem 👨‍💻</p>\n",
+				"content_text": "git version 2.37.0 was giving me `too long unix socket path` when fetching a CocoaPod repo. Reverting back to 2.32.1, default in macOS 12.4, \"fixed\" the problem 👨‍💻\n",
+				"date_published": "2022-07-18T09:04:09+02:00",
+				"url": "https://otavio.cc/2022/07/18/git-version-was.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/17/this-is-pretty.html",
+				
+				"content_html": "<p>👨‍💻 This is pretty much all I install in my work computer:</p>\n<ul>\n<li><a href=\"https://developer.apple.com/xcode/\">Xcode</a></li>\n<li><a href=\"https://kapeli.com/dash\">Dash</a></li>\n<li><a href=\"https://www.git-tower.com/mac\">Tower</a></li>\n<li><a href=\"https://www.sublimetext.com\">Sublime Text</a></li>\n<li><a href=\"https://xscopeapp.com\">xScope</a></li>\n<li><a href=\"https://paw.app/oauth\">Paw</a></li>\n<li><a href=\"https://testflight.apple.com\">TestFlight</a></li>\n<li><a href=\"https://www.alfredapp.com\">Alfred</a></li>\n<li><a href=\"https://www.macbartender.com\">Bartender</a></li>\n<li><a href=\"https://culturedcode.com/things/\">Things</a></li>\n<li><a href=\"https://www.omnigroup.com/omnioutliner\">OmniOutliner</a></li>\n<li><a href=\"https://monodraw.helftone.com\">Monodraw</a></li>\n<li><a href=\"https://nordlayer.com\">NordLayer</a></li>\n<li><a href=\"https://slack.com\">Slack</a></li>\n<li>latest <code>git</code> via <a href=\"https://brew.sh\">brew</a></li>\n</ul>\n<p>I don&rsquo;t need to install <a href=\"https://nordvpn.com\">NordVPN</a> since I run it directly via Xcode.</p>\n",
+				"content_text": "👨‍💻 This is pretty much all I install in my work computer:\n\n* [Xcode](https://developer.apple.com/xcode/)\n* [Dash](https://kapeli.com/dash)\n* [Tower](https://www.git-tower.com/mac)\n* [Sublime Text](https://www.sublimetext.com)\n* [xScope](https://xscopeapp.com)\n* [Paw](https://paw.app/oauth)\n* [TestFlight](https://testflight.apple.com)\n* [Alfred](https://www.alfredapp.com)\n* [Bartender](https://www.macbartender.com)\n* [Things](https://culturedcode.com/things/)\n* [OmniOutliner](https://www.omnigroup.com/omnioutliner)\n* [Monodraw](https://monodraw.helftone.com)\n* [NordLayer](https://nordlayer.com)\n* [Slack](https://slack.com)\n* latest `git` via [brew](https://brew.sh)\n\nI don't need to install [NordVPN](https://nordvpn.com) since I run it directly via Xcode.\n",
+				"date_published": "2022-07-17T13:06:00+02:00",
+				"url": "https://otavio.cc/2022/07/17/this-is-pretty.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/17/im-impressed-with.html",
+				
+				"content_html": "<p>I&rsquo;m impressed with the built quality and performance of these latest MacBook Pro models 👨‍💻</p>\n",
+				"content_text": "I'm impressed with the built quality and performance of these latest MacBook Pro models 👨‍💻\n",
+				"date_published": "2022-07-17T12:50:27+02:00",
+				"url": "https://otavio.cc/2022/07/17/im-impressed-with.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/14/duckduckgos-browser-for.html",
+				
+				"content_html": "<p>DuckDuckGo&rsquo;s browser for macOS requires an invitation code, which&rsquo;s sent via Push Notification to one&rsquo;s phone. This invitation code expires and there&rsquo;s no way to retrieve a new one, which mean it&rsquo;s not possible to reinstall the browser on a new computer 👨‍💻</p>\n",
+				"content_text": "DuckDuckGo's browser for macOS requires an invitation code, which's sent via Push Notification to one's phone. This invitation code expires and there's no way to retrieve a new one, which mean it's not possible to reinstall the browser on a new computer 👨‍💻\n",
+				"date_published": "2022-07-14T18:33:15+02:00",
+				"url": "https://otavio.cc/2022/07/14/duckduckgos-browser-for.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/14/xcode-takes-ages.html",
+				
+				"content_html": "<p>Xcode takes ages to install even on the latest MacBook Pro model 👨‍💻</p>\n",
+				"content_text": "Xcode takes ages to install even on the latest MacBook Pro model 👨‍💻\n",
+				"date_published": "2022-07-14T18:30:52+02:00",
+				"url": "https://otavio.cc/2022/07/14/xcode-takes-ages.html",
+				"tags": ["productivity","engineering"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/07/14/macbook-pro-m.html",
 				
 				"content_html": "<p>MacBook Pro M1 Pro: <a href=\"https://slack.com/\">Slack</a>&rsquo;s still slow.</p>\n",
@@ -19,7 +79,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/12/yesterday-i-configured.html",
 				
 				"content_html": "<p>📷 Yesterday I configured <a href=\"https://obscura.camera\">Obscura 3</a> to open in manual mode, saving to JPEG instead of RAW and using Monochrome by default. Today I had the chance to use it when commuting back home. I&rsquo;m pretty happy with the result.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Yesterday I configured [Obscura 3](https://obscura.camera) to open in manual mode, saving to JPEG instead of RAW and using Monochrome by default. Today I had the chance to use it when commuting back home. I'm pretty happy with the result.\n\n<img src=\"uploads/2022/bfd5f1a80d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 Yesterday I configured [Obscura 3](https://obscura.camera) to open in manual mode, saving to JPEG instead of RAW and using Monochrome by default. Today I had the chance to use it when commuting back home. I'm pretty happy with the result.\n\n<img src=\"https://otavio.cc/uploads/2022/bfd5f1a80d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-12T23:47:01+02:00",
 				"url": "https://otavio.cc/2022/07/12/yesterday-i-configured.html",
 				"tags": ["photography"]
@@ -54,7 +114,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/10/cycle-path-in.html",
 				
 				"content_html": "<p>📷 Cycle path in <strong>Germany</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Cycle path in **Germany**. JPEG, SOOC.\n\n<img src=\"uploads/2022/8aa10783a8.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 Cycle path in **Germany**. JPEG, SOOC.\n\n<img src=\"https://otavio.cc/uploads/2022/8aa10783a8.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-10T21:26:00+02:00",
 				"url": "https://otavio.cc/2022/07/10/cycle-path-in.html",
 				"tags": ["photography"]
@@ -72,7 +132,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/09/all-these-cameras.html",
 				
 				"content_html": "<p>📷 All these cameras weight about the same.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 All these cameras weight about the same.\n\n<img src=\"uploads/2022/4bcd7ec7b2.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 All these cameras weight about the same.\n\n<img src=\"https://otavio.cc/uploads/2022/4bcd7ec7b2.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-09T18:53:25+02:00",
 				"url": "https://otavio.cc/2022/07/09/all-these-cameras.html",
 				"tags": ["photography"]
