@@ -7,10 +7,87 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/08/04/sometimes-when-i.html",
+				
+				"content_html": "<p>Sometimes when I am writing in SwiftUI I think &ldquo;that would be so much easier in AppKit&rdquo;, and when I&rsquo;m working with AppKit, &ldquo;that would be so much easier in SwiftUI&rdquo; 👨‍💻 🤦‍♂️</p>\n",
+				"content_text": "Sometimes when I am writing in SwiftUI I think \"that would be so much easier in AppKit\", and when I'm working with AppKit, \"that would be so much easier in SwiftUI\" 👨‍💻 🤦‍♂️\n",
+				"date_published": "2022-08-04T00:09:43+02:00",
+				"url": "https://otavio.cc/2022/08/04/sometimes-when-i.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/03/i-spend-too.html",
+				
+				"content_html": "<p>I spend too much money in fancy coffee shops. And honestly, I can brew with the same quality, as long as I have good beans<sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>. Gonna brew at home and take the <a href=\"https://fellowproducts.com/products/carter-everywhere-mug\">Carter Everywhere Mug</a> (amazing mug, by the way), outside ☕️ 💸</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>I learned from the barista from one of my favorite coffee shops.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
+				"content_text": "I spend too much money in fancy coffee shops. And honestly, I can brew with the same quality, as long as I have good beans[^1]. Gonna brew at home and take the [Carter Everywhere Mug](https://fellowproducts.com/products/carter-everywhere-mug) (amazing mug, by the way), outside ☕️ 💸\n\n[^1]: I learned from the barista from one of my favorite coffee shops.\n",
+				"date_published": "2022-08-03T18:22:35+02:00",
+				"url": "https://otavio.cc/2022/08/03/i-spend-too.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/03/for-now-my.html",
+				
+				"content_html": "<p>For now my <a href=\"http://pinboard.in/\">Pinboard</a> client sends links to Micro.blog using the following URL:</p>\n<pre tabindex=\"0\"><code>https://micro.blog/bookmark?url=PAGE_URL\n</code></pre><p>but I&rsquo;m thinking of using my <a href=\"https://github.com/otaviocc/MicroblogAPI\">MicroblogAPI</a> framework to save bookmarks directly there, without having to open the browser.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "For now my [Pinboard](http://pinboard.in/) client sends links to Micro.blog using the following URL:\n\n```\nhttps://micro.blog/bookmark?url=PAGE_URL\n```\n\nbut I'm thinking of using my [MicroblogAPI](https://github.com/otaviocc/MicroblogAPI) framework to save bookmarks directly there, without having to open the browser.\n\n<img src=\"uploads/2022/39663d1d2e.png\" width=\"600\" height=\"572\" alt=\"\" />\n",
+				"date_published": "2022-08-03T15:15:35+02:00",
+				"url": "https://otavio.cc/2022/08/03/for-now-my.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/03/i-wish-there.html",
+				
+				"content_html": "<p>I wish there was more people using <a href=\"https://threema.ch/en/\">Threema</a>. This is not the first time I write this here, but I really wish there was more people there 💬</p>\n",
+				"content_text": "I wish there was more people using [Threema](https://threema.ch/en/). This is not the first time I write this here, but I really wish there was more people there 💬\n",
+				"date_published": "2022-08-03T12:10:59+02:00",
+				"url": "https://otavio.cc/2022/08/03/i-wish-there.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/03/adding-an-option.html",
+				
+				"content_html": "<p>Adding an option to save links from my Pinboard client as Micro.blog bookmarks. I don’t use Pinboard to read articles, only to store links organized by tags. For reading - and note taking - I prefer Micro.blog instead 👨‍💻 🔗</p>\n",
+				"content_text": "Adding an option to save links from my Pinboard client as Micro.blog bookmarks. I don’t use Pinboard to read articles, only to store links organized by tags. For reading - and note taking - I prefer Micro.blog instead 👨‍💻 🔗\n",
+				"date_published": "2022-08-03T01:32:38+02:00",
+				"url": "https://otavio.cc/2022/08/03/adding-an-option.html",
+				"tags": ["programming","internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/30/officially-back-to.html",
+				
+				"content_html": "<p>Officially back to <a href=\"https://pinboard.in\">Pinboard</a>. GoodLinks exports a JSON file, which can be easily parsed, and I&rsquo;ve used my <a href=\"https://github.com/otaviocc/MicroPinboardAPI/\">MicroPinboardAPI</a> framework to import all the bookmarks to my Pinboard account. I might add this importer to the Pinboard client I&rsquo;m <em>slowly</em> writing.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Officially back to [Pinboard](https://pinboard.in). GoodLinks exports a JSON file, which can be easily parsed, and I've used my [MicroPinboardAPI](https://github.com/otaviocc/MicroPinboardAPI/) framework to import all the bookmarks to my Pinboard account. I might add this importer to the Pinboard client I'm _slowly_ writing.\n\n<img src=\"uploads/2022/66087693d1.png\" width=\"600\" height=\"572\" alt=\"\" />\n",
+				"date_published": "2022-07-30T23:08:27+02:00",
+				"url": "https://otavio.cc/2022/07/30/officially-back-to.html",
+				"tags": ["photography","programming","internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/30/i-made-the.html",
+				
+				"content_html": "<p>I made the mistake of migrating all my bookmarks from <a href=\"https://pinboard.in/\">Pinboard</a> to <a href=\"https://goodlinks.app\">GoodLinks</a>. The app&rsquo;s amazing, but there&rsquo;s no way to export the content from there in a format used by other applications (e.g., the classic bookmarks HTML). I&rsquo;ll have to write a script for that now 👨‍💻</p>\n",
+				"content_text": "I made the mistake of migrating all my bookmarks from [Pinboard](https://pinboard.in/) to [GoodLinks](https://goodlinks.app). The app's amazing, but there's no way to export the content from there in a format used by other applications (e.g., the classic bookmarks HTML). I'll have to write a script for that now 👨‍💻\n",
+				"date_published": "2022-07-30T21:28:23+02:00",
+				"url": "https://otavio.cc/2022/07/30/i-made-the.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/30/seven-years-ago.html",
+				
+				"content_html": "<p>Seven years ago I bought a TV and a washing machine. Both stopped working this week.</p>\n",
+				"content_text": "Seven years ago I bought a TV and a washing machine. Both stopped working this week.\n",
+				"date_published": "2022-07-30T20:00:28+02:00",
+				"url": "https://otavio.cc/2022/07/30/seven-years-ago.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/07/29/tree-rocks-and.html",
+				
+				"content_html": "<p>📷 <strong>Tree, rocks, and Trakai Castle</strong>, Lithuania.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 **Tree, rocks, and Trakai Castle**, Lithuania.\n\n<img src=\"uploads/2022/6c171f3cd9.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"date_published": "2022-07-29T13:00:37+02:00",
+				"url": "https://otavio.cc/2022/07/29/tree-rocks-and.html",
+				"tags": ["photography"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/07/29/basketball-in-lithuania.html",
 				
 				"content_html": "<p>📷 <strong>Basketball</strong> in Lithuania.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 **Basketball** in Lithuania.\n\n<img src=\"uploads/2022/74a5716572.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
+				"content_text": "📷 **Basketball** in Lithuania.\n\n<img src=\"https://otavio.cc/uploads/2022/74a5716572.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
 				"date_published": "2022-07-29T11:22:20+02:00",
 				"url": "https://otavio.cc/2022/07/29/basketball-in-lithuania.html",
 				"tags": ["photography"]
@@ -19,7 +96,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/26/end-of-day.html",
 				
 				"content_html": "<p>📷 <strong>End of day</strong> in Lithuania.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 **End of day** in Lithuania.\n\n<img src=\"uploads/2022/4355dec824.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 **End of day** in Lithuania.\n\n<img src=\"https://otavio.cc/uploads/2022/4355dec824.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-26T13:36:30+02:00",
 				"url": "https://otavio.cc/2022/07/26/end-of-day.html",
 				"tags": ["photography"]
@@ -28,7 +105,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/24/back-home.html",
 				
 				"content_html": "<p>📷 Back home, safe and sound (and hours late).</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Back home, safe and sound (and hours late).\n\n<img src=\"uploads/2022/46204ce488.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 Back home, safe and sound (and hours late).\n\n<img src=\"https://otavio.cc/uploads/2022/46204ce488.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-24T12:33:16+02:00",
 				"url": "https://otavio.cc/2022/07/24/back-home.html",
 				"tags": ["photography"]
@@ -37,7 +114,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/24/trakai-castle-lithuania.html",
 				
 				"content_html": "<p>📷 <strong>Trakai Castle</strong>, Lithuania.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 **Trakai Castle**, Lithuania.\n\n<img src=\"uploads/2022/c40d935c1d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "📷 **Trakai Castle**, Lithuania.\n\n<img src=\"https://otavio.cc/uploads/2022/c40d935c1d.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-07-24T12:30:13+02:00",
 				"url": "https://otavio.cc/2022/07/24/trakai-castle-lithuania.html",
 				"tags": ["photography"]
@@ -46,7 +123,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/24/pier-in-trakai.html",
 				
 				"content_html": "<p>📷 Pier in <strong>Trakai Castle Island</strong>, Lithuania.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Pier in **Trakai Castle Island**, Lithuania.\n\n<img src=\"uploads/2022/1d511ec60c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 Pier in **Trakai Castle Island**, Lithuania.\n\n<img src=\"https://otavio.cc/uploads/2022/1d511ec60c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-24T12:28:57+02:00",
 				"url": "https://otavio.cc/2022/07/24/pier-in-trakai.html",
 				"tags": ["photography"]
@@ -55,7 +132,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/24/122813.html",
 				
 				"content_html": "<p>📷 Boats in <strong>Trakai Castle Island</strong>, Lithuania.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Boats in **Trakai Castle Island**, Lithuania.\n\n<img src=\"uploads/2022/fbc929a209.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "📷 Boats in **Trakai Castle Island**, Lithuania.\n\n<img src=\"https://otavio.cc/uploads/2022/fbc929a209.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-07-24T12:28:13+02:00",
 				"url": "https://otavio.cc/2022/07/24/122813.html",
 				"tags": ["photography"]
@@ -64,7 +141,7 @@
 				"id": "http://otaviocc.micro.blog/2022/07/24/boat-in-trakai.html",
 				
 				"content_html": "<p>📷 Boat in <strong>Trakai Castle Island</strong>, Lithuania.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Boat in **Trakai Castle Island**, Lithuania.\n\n<img src=\"uploads/2022/64bcc39db0.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
+				"content_text": "📷 Boat in **Trakai Castle Island**, Lithuania.\n\n<img src=\"https://otavio.cc/uploads/2022/64bcc39db0.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-07-24T12:27:06+02:00",
 				"url": "https://otavio.cc/2022/07/24/boat-in-trakai.html",
 				"tags": ["photography"]
