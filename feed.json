@@ -7,6 +7,68 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/09/06/i-thought-i.html",
+				
+				"content_html": "<p>I thought I was prepared, but after 16 hours of Birth Preparation Classes last weekend, I can confidently say I’m not prepared.</p>\n",
+				"content_text": "I thought I was prepared, but after 16 hours of Birth Preparation Classes last weekend, I can confidently say I’m not prepared.\n",
+				"date_published": "2022-09-06T14:51:06+02:00",
+				"url": "https://otavio.cc/2022/09/06/i-thought-i.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/02/i-always-forget.html",
+				
+				"content_html": "<p>I always forget there&rsquo;s this Globe button on the MacBook keyboard 🤦‍♂️</p>\n",
+				"content_text": "I always forget there's this Globe button on the MacBook keyboard 🤦‍♂️\n",
+				"date_published": "2022-09-02T10:56:31+02:00",
+				"url": "https://otavio.cc/2022/09/02/i-always-forget.html",
+				"tags": ["productivity"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/02/doing-some-tests.html",
+				
+				"content_html": "<p>Doing some tests with <a href=\"https://dayoneapp.com\">DayOne</a> and Obsidian. If it works fine, I might cancel the DayOne subscription which&rsquo;s about to be renew. The good thing is that adding entries back to DayOne is trivial using their command line tool, in case I decide to go back later 👨‍💻</p>\n",
+				"content_text": "Doing some tests with [DayOne](https://dayoneapp.com) and Obsidian. If it works fine, I might cancel the DayOne subscription which's about to be renew. The good thing is that adding entries back to DayOne is trivial using their command line tool, in case I decide to go back later 👨‍💻\n",
+				"date_published": "2022-09-02T10:54:19+02:00",
+				"url": "https://otavio.cc/2022/09/02/doing-some-tests.html",
+				"tags": ["productivity","internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/30/leather-work-for.html",
+				"title": "Leather work for my EDC",
+				"content_html": "<!-- raw HTML omitted -->\n<p>Two weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I&rsquo;m carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it&rsquo;s easier to move all my EDC from one pouch to another.</p>\n<p>Leather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.</p>\n<p>I&rsquo;m pretty happy with the final result. Below the pocket knife and flashlight.</p>\n<!-- raw HTML omitted -->\n<p>And the one for pocket notebook, cards, and small pen.</p>\n<!-- raw HTML omitted -->\n<p>I&rsquo;ve also made a strap for FFP2 masks, because I hate those elastics around my ears.</p>\n",
+				"content_text": "<img src=\"uploads/2022/c2934e60ba.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nTwo weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I'm carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it's easier to move all my EDC from one pouch to another.\n\nLeather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.\n\nI'm pretty happy with the final result. Below the pocket knife and flashlight.\n\n<img src=\"uploads/2022/3fcdc85d96.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAnd the one for pocket notebook, cards, and small pen.\n\n<img src=\"uploads/2022/4d3c421fa6.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nI've also made a strap for FFP2 masks, because I hate those elastics around my ears.\n",
+				"date_published": "2022-08-30T15:41:51+02:00",
+				"url": "https://otavio.cc/2022/08/30/leather-work-for.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/30/ive-added-a.html",
+				
+				"content_html": "<p>I&rsquo;ve added a link back from Goodreads to Micro.blog. They are called Book Links and can be created <a href=\"https://www.goodreads.com/book_link/create\">here</a> 📚</p>\n<!-- raw HTML omitted -->\n<p>For Micro.blog:</p>\n<pre tabindex=\"0\"><code>ISBN: https://micro.blog/books/search?q=#ISBN#\nISBN 13: https://micro.blog/books/search?q=#ISBN13#\nTitle: https://micro.blog/books/search?q=#TITLE#\n</code></pre>",
+				"content_text": "I've added a link back from Goodreads to Micro.blog. They are called Book Links and can be created [here](https://www.goodreads.com/book_link/create) 📚\n\n<img src=\"uploads/2022/2adcd9ffab.png\" width=\"600\" height=\"467\" alt=\"\" />\n\nFor Micro.blog:\n\n```\nISBN: https://micro.blog/books/search?q=#ISBN#\nISBN 13: https://micro.blog/books/search?q=#ISBN13#\nTitle: https://micro.blog/books/search?q=#TITLE#\n```\n",
+				"date_published": "2022-08-30T11:10:38+02:00",
+				"url": "https://otavio.cc/2022/08/30/ive-added-a.html",
+				"tags": ["photography","book","internet","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/29/no-matter-how.html",
+				
+				"content_html": "<p>No matter how many times I try to teach <a href=\"https://www.hey.com\">HEY</a> to handle JIRA and GitLab e-mails, it never remembers they should go to the Feed. These are e-mails I would prefer to read in the Feed rather then in the &ldquo;Imbox&rdquo;. Maybe HEY isn&rsquo;t for me 👨‍💻</p>\n",
+				"content_text": "No matter how many times I try to teach [HEY](https://www.hey.com) to handle JIRA and GitLab e-mails, it never remembers they should go to the Feed. These are e-mails I would prefer to read in the Feed rather then in the \"Imbox\". Maybe HEY isn't for me 👨‍💻\n",
+				"date_published": "2022-08-29T15:56:43+02:00",
+				"url": "https://otavio.cc/2022/08/29/no-matter-how.html",
+				"tags": ["productivity","internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/08/29/trying-digital-zettelkasten.html",
+				
+				"content_html": "<p>Trying digital <a href=\"https://en.wikipedia.org/wiki/Zettelkasten\">Zettelkasten</a> using <a href=\"https://obsidian.md\">Obsidian</a>.</p>\n",
+				"content_text": "Trying digital [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) using [Obsidian](https://obsidian.md). \n",
+				"date_published": "2022-08-29T00:40:51+02:00",
+				"url": "https://otavio.cc/2022/08/29/trying-digital-zettelkasten.html",
+				"tags": ["productivity"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/08/28/trying-hey.html",
 				
 				"content_html": "<p>Trying <a href=\"https://www.hey.com\">Hey</a>.</p>\n",
@@ -36,7 +98,7 @@
 				"id": "http://otaviocc.micro.blog/2022/08/13/no-name-taken.html",
 				
 				"content_html": "<p>📷 No name. Taken with an iPhone.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 No name. Taken with an iPhone.\n\n<img src=\"uploads/2022/82af28140a.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
+				"content_text": "📷 No name. Taken with an iPhone.\n\n<img src=\"https://otavio.cc/uploads/2022/82af28140a.jpg\" width=\"400\" height=\"600\" alt=\"\" />\n",
 				"date_published": "2022-08-13T19:02:08+02:00",
 				"url": "https://otavio.cc/2022/08/13/no-name-taken.html",
 				"tags": ["photography"]
