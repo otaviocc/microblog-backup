@@ -7,6 +7,40 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/09/13/todays-nintendo-direct.html",
+				
+				"content_html": "<p>Today’s <strong>Nintendo Direct</strong>:</p>\n<ul>\n<li>Octopath Traveler II, 2023-02-24</li>\n<li>Mario + Rabbids: Sparks of Hope, 2022-10-20</li>\n<li><strong>The Legend of Zelda: Tears of the Kingdom</strong>, 2023-05-12</li>\n</ul>\n<p>💸 🎮 😍</p>\n",
+				"content_text": "Today’s **Nintendo Direct**:\n\n- Octopath Traveler II, 2023-02-24\n- Mario + Rabbids: Sparks of Hope, 2022-10-20\n- **The Legend of Zelda: Tears of the Kingdom**, 2023-05-12\n\n💸 🎮 😍\n",
+				"date_published": "2022-09-13T16:48:00+02:00",
+				"url": "https://otavio.cc/2022/09/13/todays-nintendo-direct.html",
+				"tags": ["game"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/08/the-duckduckgo-code.html",
+				
+				"content_html": "<p>The DuckDuckGo code I had to install their macOS browser expired, but I texted them and they sent me a new one 👨‍💻 🦆</p>\n",
+				"content_text": "The DuckDuckGo code I had to install their macOS browser expired, but I texted them and they sent me a new one 👨‍💻 🦆\n",
+				"date_published": "2022-09-08T19:46:32+02:00",
+				"url": "https://otavio.cc/2022/09/08/the-duckduckgo-code.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/07/was-going-to.html",
+				
+				"content_html": "<p>Was going to install iOS 16 RC on my personal device, but decided to wait for the official release next week.</p>\n",
+				"content_text": "Was going to install iOS 16 RC on my personal device, but decided to wait for the official release next week.\n",
+				"date_published": "2022-09-07T22:41:54+02:00",
+				"url": "https://otavio.cc/2022/09/07/was-going-to.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/07/canceled-another-subscription.html",
+				
+				"content_html": "<p>Canceled another subscription today.</p>\n",
+				"content_text": "Canceled another subscription today.\n",
+				"date_published": "2022-09-07T10:57:05+02:00",
+				"url": "https://otavio.cc/2022/09/07/canceled-another-subscription.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/09/06/i-thought-i.html",
 				
 				"content_html": "<p>I thought I was prepared, but after 16 hours of Birth Preparation Classes last weekend, I can confidently say I’m not prepared.</p>\n",
@@ -36,7 +70,7 @@
 				"id": "http://otaviocc.micro.blog/2022/08/30/leather-work-for.html",
 				"title": "Leather work for my EDC",
 				"content_html": "<!-- raw HTML omitted -->\n<p>Two weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I&rsquo;m carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it&rsquo;s easier to move all my EDC from one pouch to another.</p>\n<p>Leather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.</p>\n<p>I&rsquo;m pretty happy with the final result. Below the pocket knife and flashlight.</p>\n<!-- raw HTML omitted -->\n<p>And the one for pocket notebook, cards, and small pen.</p>\n<!-- raw HTML omitted -->\n<p>I&rsquo;ve also made a strap for FFP2 masks, because I hate those elastics around my ears.</p>\n",
-				"content_text": "<img src=\"uploads/2022/c2934e60ba.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nTwo weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I'm carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it's easier to move all my EDC from one pouch to another.\n\nLeather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.\n\nI'm pretty happy with the final result. Below the pocket knife and flashlight.\n\n<img src=\"uploads/2022/3fcdc85d96.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAnd the one for pocket notebook, cards, and small pen.\n\n<img src=\"uploads/2022/4d3c421fa6.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nI've also made a strap for FFP2 masks, because I hate those elastics around my ears.\n",
+				"content_text": "<img src=\"https://otavio.cc/uploads/2022/c2934e60ba.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nTwo weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I'm carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it's easier to move all my EDC from one pouch to another.\n\nLeather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.\n\nI'm pretty happy with the final result. Below the pocket knife and flashlight.\n\n<img src=\"https://otavio.cc/uploads/2022/3fcdc85d96.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAnd the one for pocket notebook, cards, and small pen.\n\n<img src=\"https://otavio.cc/uploads/2022/4d3c421fa6.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nI've also made a strap for FFP2 masks, because I hate those elastics around my ears.\n",
 				"date_published": "2022-08-30T15:41:51+02:00",
 				"url": "https://otavio.cc/2022/08/30/leather-work-for.html",
 				"tags": ["photography"]
@@ -45,7 +79,7 @@
 				"id": "http://otaviocc.micro.blog/2022/08/30/ive-added-a.html",
 				
 				"content_html": "<p>I&rsquo;ve added a link back from Goodreads to Micro.blog. They are called Book Links and can be created <a href=\"https://www.goodreads.com/book_link/create\">here</a> 📚</p>\n<!-- raw HTML omitted -->\n<p>For Micro.blog:</p>\n<pre tabindex=\"0\"><code>ISBN: https://micro.blog/books/search?q=#ISBN#\nISBN 13: https://micro.blog/books/search?q=#ISBN13#\nTitle: https://micro.blog/books/search?q=#TITLE#\n</code></pre>",
-				"content_text": "I've added a link back from Goodreads to Micro.blog. They are called Book Links and can be created [here](https://www.goodreads.com/book_link/create) 📚\n\n<img src=\"uploads/2022/2adcd9ffab.png\" width=\"600\" height=\"467\" alt=\"\" />\n\nFor Micro.blog:\n\n```\nISBN: https://micro.blog/books/search?q=#ISBN#\nISBN 13: https://micro.blog/books/search?q=#ISBN13#\nTitle: https://micro.blog/books/search?q=#TITLE#\n```\n",
+				"content_text": "I've added a link back from Goodreads to Micro.blog. They are called Book Links and can be created [here](https://www.goodreads.com/book_link/create) 📚\n\n<img src=\"https://otavio.cc/uploads/2022/2adcd9ffab.png\" width=\"600\" height=\"467\" alt=\"\" />\n\nFor Micro.blog:\n\n```\nISBN: https://micro.blog/books/search?q=#ISBN#\nISBN 13: https://micro.blog/books/search?q=#ISBN13#\nTitle: https://micro.blog/books/search?q=#TITLE#\n```\n",
 				"date_published": "2022-08-30T11:10:38+02:00",
 				"url": "https://otavio.cc/2022/08/30/ive-added-a.html",
 				"tags": ["photography","book","internet","blog"]
