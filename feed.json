@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/09/16/returning-these-to.html",
+				
+				"content_html": "<p>Returning these to Apple tomorrow ♻️</p>\n<ul>\n<li>3 iPhones 2013</li>\n<li>2 iPod touches 2014</li>\n<li>1 Pad 2011</li>\n<li>1 Pad mini 2013</li>\n<li>2 Watches 2015</li>\n<li>1 MacBook Air 2011</li>\n</ul>\n<p>Enough with electronic waste.</p>\n",
+				"content_text": "Returning these to Apple tomorrow ♻️\r\n\r\n- 3 iPhones 2013\r\n- 2 iPod touches 2014\r\n- 1 Pad 2011\r\n- 1 Pad mini 2013\r\n- 2 Watches 2015\r\n- 1 MacBook Air 2011\r\n\r\nEnough with electronic waste.\r\n",
+				"date_published": "2022-09-16T00:36:46+02:00",
+				"url": "https://otavio.cc/2022/09/16/returning-these-to.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/14/apples-filemerge-added.html",
+				
+				"content_html": "<p>Apple added dark mode support to FileMerge in Xcode 14. Finally 👨‍💻</p>\n",
+				"content_text": "Apple added dark mode support to FileMerge in Xcode 14. Finally 👨‍💻\n",
+				"date_published": "2022-09-14T14:05:38+02:00",
+				"url": "https://otavio.cc/2022/09/14/apples-filemerge-added.html",
+				"tags": ["programming","productivity"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/09/13/todays-nintendo-direct.html",
 				
 				"content_html": "<p>Today’s <strong>Nintendo Direct</strong>:</p>\n<ul>\n<li>Octopath Traveler II, 2023-02-24</li>\n<li>Mario + Rabbids: Sparks of Hope, 2022-10-20</li>\n<li><strong>The Legend of Zelda: Tears of the Kingdom</strong>, 2023-05-12</li>\n</ul>\n<p>💸 🎮 😍</p>\n",
