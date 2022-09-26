@@ -7,6 +7,42 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/09/25/have-a-cup.html",
+				
+				"content_html": "<p>Have a cup of <a href=\"https://www.fiveelephant.com/\">high-quality coffee</a> and coding in <a href=\"https://www.typescriptlang.org/\">TypeScript</a>.</p>\n",
+				"content_text": "Have a cup of [high-quality coffee](https://www.fiveelephant.com/) and coding in [TypeScript](https://www.typescriptlang.org/).\n",
+				"date_published": "2022-09-25T12:37:08+02:00",
+				"url": "https://otavio.cc/2022/09/25/have-a-cup.html",
+				"tags": ["programming","obsidian"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/23/submitted-my-microblog.html",
+				
+				"content_html": "<p>Submitted my <em>Micro.blog Publish</em> plugin for Obsidian to review.</p>\n",
+				"content_text": "Submitted my *Micro.blog Publish* plugin for Obsidian to review.\n",
+				"date_published": "2022-09-23T00:03:58+02:00",
+				"url": "https://otavio.cc/2022/09/23/submitted-my-microblog.html",
+				"tags": ["obsidian"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/22/microblog-publish-for.html",
+				"title": "Micro.blog Publish for Obsidian",
+				"content_html": "<p>First version of my <a href=\"https://micro.blog/\">Micro.blog</a> plugin for <a href=\"https://obsidian.md/\">Obsidian</a> is ready 👨‍💻 Some feature are missing - as expected for a first release -, but I plan to add them in the future. E.g.,</p>\n<ul>\n<li>Blog selection</li>\n<li>Set categories/tags</li>\n</ul>\n<p>Currently it allows users to</p>\n<ul>\n<li>Set the default post visibility for new posts</li>\n<li>Set the post title</li>\n<li>Open post, preview, and edit URLs after publishing the post</li>\n</ul>\n<p>The plugin can be found on <a href=\"https://github.com/otaviocc/obsidian-microblog\">GitHub</a>. The next step is to submit it to Obsidian&rsquo;s <em>Community Plugins</em>.</p>\n<p><strong>Important</strong>: The name isn&rsquo;t final since this is not an official Micro.blog product. I have to find a better name for it.</p>\n<p>Some screenshots:</p>\n<p><strong>Preferences</strong></p>\n<!-- raw HTML omitted -->\n<p><strong>Command</strong></p>\n<!-- raw HTML omitted -->\n<p><strong>Review</strong></p>\n<!-- raw HTML omitted -->\n<p><strong>Confirmation</strong></p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "First version of my [Micro.blog](https://micro.blog/) plugin for [Obsidian](https://obsidian.md/) is ready 👨‍💻 Some feature are missing - as expected for a first release -, but I plan to add them in the future. E.g.,\n\n- Blog selection\n- Set categories/tags\n\nCurrently it allows users to\n\n- Set the default post visibility for new posts\n- Set the post title\n- Open post, preview, and edit URLs after publishing the post\n\nThe plugin can be found on [GitHub](https://github.com/otaviocc/obsidian-microblog). The next step is to submit it to Obsidian's *Community Plugins*.\n\n**Important**: The name isn't final since this is not an official Micro.blog product. I have to find a better name for it.\n\nSome screenshots:\n\n**Preferences**\n\n<img src=\"uploads/2022/e2561051fb.png\" width=\"600\" height=\"480\" alt=\"\" />\n\n**Command**\n\n<img src=\"uploads/2022/07528018f7.png\" width=\"600\" height=\"480\" alt=\"\" />\n\n**Review**\n\n<img src=\"uploads/2022/94c8942ddd.png\" width=\"600\" height=\"480\" alt=\"\" />\n\n**Confirmation**\n\n<img src=\"uploads/2022/507520fc03.png\" width=\"600\" height=\"480\" alt=\"\" />\n",
+				"date_published": "2022-09-22T00:18:17+02:00",
+				"url": "https://otavio.cc/2022/09/22/microblog-publish-for.html",
+				"tags": ["programming","internet","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/09/21/wrote-an-obsidian.html",
+				
+				"content_html": "<p>Wrote an Obsidian plugin to publish notes on <a href=\"https://micro.blog\">Micro.blog</a>. It&rsquo;s my first time writing in <a href=\"https://en.wikipedia.org/wiki/TypeScript\">Typescript</a>, so I might have to clean up the code a little bit before I publish it on GitHub.</p>\n",
+				"content_text": "Wrote an Obsidian plugin to publish notes on [Micro.blog](https://micro.blog). It's my first time writing in [Typescript](https://en.wikipedia.org/wiki/TypeScript), so I might have to clean up the code a little bit before I publish it on GitHub.\n",
+				"date_published": "2022-09-21T00:52:59+02:00",
+				"url": "https://otavio.cc/2022/09/21/wrote-an-obsidian.html",
+				"tags": ["programming","productivity","internet"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/09/16/returning-these-to.html",
 				
 				"content_html": "<p>Returning these to Apple tomorrow ♻️</p>\n<ul>\n<li>3 iPhones 2013</li>\n<li>2 iPod touches 2014</li>\n<li>1 Pad 2011</li>\n<li>1 Pad mini 2013</li>\n<li>2 Watches 2015</li>\n<li>1 MacBook Air 2011</li>\n</ul>\n<p>Enough with electronic waste.</p>\n",
