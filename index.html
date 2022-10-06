@@ -25,6 +25,116 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://otavio.cc/2022/10/06/im-still-waiting.html" class="u-url"><time class="dt-published" datetime="2022-10-06 22:04:38 &#43;0200">Oct 6, 2022</time></a>
+
+		<div class="e-content">
+			 <p>I’m still waiting for the Obsidian team to review my Micro.publish plugin👨‍💻</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2022/09/30/currently-reading-o.html" class="u-url"><time class="dt-published" datetime="2022-09-30 02:01:24 &#43;0200">Sep 30, 2022</time></a>
+
+		<div class="e-content">
+			 <p>Currently reading: <a href="https://micro.blog/books/6559790800">O Negócio do Jair: A história proibida do clã Bolsonaro </a> by Juliana Dal Piva 📚</p>
+<p>I was looking forward to reading this book before the Brazilian elections, but it wasn&rsquo;t available at Amazon.com, only at Amazon.com.br. I have three days to finish it 🤓</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2022/09/30/starting-today-im.html" class="u-url"><time class="dt-published" datetime="2022-09-30 01:53:31 &#43;0200">Sep 30, 2022</time></a>
+
+		<div class="e-content">
+			 <p>Starting today I&rsquo;m on a long vacation (of almost three months) 🐣 🍼</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2022/09/30/i-had-no.html" class="u-url"><time class="dt-published" datetime="2022-09-30 01:46:15 &#43;0200">Sep 30, 2022</time></a>
+
+		<div class="e-content">
+			 <p>I had no idea Visual Studio Code <a href="https://code.visualstudio.com/docs/editor/settings-sync">had native settings sync</a>. It&rsquo;s possible to sign in with a Microsoft or GitHub account to have all settings, themes, keybindings, and installed extensions synchrornized between computers. Magical 👨‍💻</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2022/09/26/urban-vertical-garden.html" class="u-url"><time class="dt-published" datetime="2022-09-26 16:25:28 &#43;0200">Sep 26, 2022</time></a>
+
+		<div class="e-content">
+			 <p>📷 Urban Vertical Garden</p>
+<!-- raw HTML omitted -->
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2022/09/26/john-oliver-discusses.html" class="u-url"><time class="dt-published" datetime="2022-09-26 13:59:40 &#43;0200">Sep 26, 2022</time></a>
+
+		<div class="e-content">
+			 <blockquote>
+<p>John Oliver discusses Jair Bolsonaro, how he’s run Brazil as president, how far he might go to maintain power after the upcoming election.</p>
+</blockquote>
+<p>I don&rsquo;t have the vocabulary to describe <a href="https://www.youtube.com/watch?v=uySgklnlX3Y">this disease</a>, so I&rsquo;ll let John Oliver do it for me.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://otavio.cc/2022/09/26/micropublish.html">Micro.publish</a></h1>
+		
+
+		<a href="https://otavio.cc/2022/09/26/micropublish.html" class="u-url"><time class="dt-published" datetime="2022-09-26 11:08:55 &#43;0200">Sep 26, 2022</time></a>
+
+		<div class="e-content">
+			 <p>Obsidian is the <em>source of truth</em> for most of my writings<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> and I though it would be interesting to post to <a href="https://micro.blog/">Micro.blog</a> directly from it. In the past I explored several applications such as <a href="https://ulysses.app/">Ulysses</a>, <a href="https://ia.net/writer">iA Writer</a>, and many others which allow publishing to Micro.blog, but they don&rsquo;t work for me, they don&rsquo;t reflect the way I think and take notes. Obsidian does.</p>
+<p>So I searched on Micro.blog and found <a href="https://philbowell.me/2021/12/22/i-wonder-if.html">this post</a> from <a href="https://micro.blog/philbowell">@philbowell</a>:</p>
+<blockquote>
+<p>I wonder if there is a way to post to Micro.blog from Obsidian. 🤔</p>
+</blockquote>
+<p>And nope, there isn&rsquo;t. So I took the challenge.</p>
+<p>Obsidian isn&rsquo;t a native application and I can&rsquo;t remember when it was the last time I wrote something which isn&rsquo;t <em>compiled</em> to run on an specific architecture 👨‍💻, so I had to learn <a href="https://www.typescriptlang.org/">TypeScript</a> and <code>npm</code>, and spent a good amount of time making <a href="https://code.visualstudio.com/">Visual Studio Code</a> look pretty (stealing ideas from my friend <a href="https://atila.io/">Atila</a>).</p>
+<p>Luckily for me, the TypeScript syntax isn&rsquo;t that different from Swift, so in a matter of hours I had something working. Since the Obsidian Plugin architecture is <a href="https://en.wikipedia.org/wiki/Object-oriented_programming">OOP</a>, I decided to go with OOP using <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel">MVVM</a>, without third-party dependencies to avoid taking unnecessary complexity into Obsidian.</p>
+<p>The result of all this is <a href="https://github.com/otaviocc/obsidian-microblog">Micro.publish</a>, my Obsidian plugin to publish to Micro.blog. The plugin isn&rsquo;t available to install from Obsidian&rsquo;s <em>Community Plugins</em> yet since they review all the plugins there, but it&rsquo;s possible to install it directly from GitHub by following some manual steps.</p>
+<p>Micro.publish has the features I need. It allows</p>
+<ul>
+<li>setting default tags</li>
+<li>setting the default post visibility</li>
+<li>setting a default blog (for those with more than one M.b blog)</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>And before publishing, it&rsquo;s possible to override these default settings for the post being published.</p>
+<!-- raw HTML omitted -->
+<p>More features are planned, and will be coming soon.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://dayoneapp.com/">DayOne</a>, don&rsquo;t worry I won&rsquo;t dump you.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://otavio.cc/2022/09/25/have-a-cup.html" class="u-url"><time class="dt-published" datetime="2022-09-25 12:37:08 &#43;0200">Sep 25, 2022</time></a>
 
 		<div class="e-content">
