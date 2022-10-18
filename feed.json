@@ -7,10 +7,44 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/10/18/bitdo-please-stop.html",
+				
+				"content_html": "<p><strong>8BitDo</strong>, please stop launching new <a href=\"https://www.8bitdo.com/ultimate-bluetooth-controller/\">amazing controllers</a> 🎮</p>\n",
+				"content_text": "**8BitDo**, please stop launching new [amazing controllers](https://www.8bitdo.com/ultimate-bluetooth-controller/) 🎮\n",
+				"date_published": "2022-10-18T02:59:36+02:00",
+				"url": "https://otavio.cc/2022/10/18/bitdo-please-stop.html",
+				"tags": ["game"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/10/15/my-mother-tattooed.html",
+				
+				"content_html": "<p>My mother tattooed my son’s name on her arm.</p>\n",
+				"content_text": "My mother tattooed my son’s name on her arm.\n",
+				"date_published": "2022-10-15T21:16:34+02:00",
+				"url": "https://otavio.cc/2022/10/15/my-mother-tattooed.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/10/14/protonmail-now-supports.html",
+				
+				"content_html": "<p>ProtonMail now supports <a href=\"https://proton.me/support/2fa-security-key\">Security Keys</a> 👨‍💻</p>\n",
+				"content_text": "ProtonMail now supports [Security Keys](https://proton.me/support/2fa-security-key) 👨‍💻\n",
+				"date_published": "2022-10-14T16:25:46+02:00",
+				"url": "https://otavio.cc/2022/10/14/protonmail-now-supports.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/10/14/went-to-the.html",
+				
+				"content_html": "<p>Went to the office today to handle some Parental Leave stuff. Taken with an iPhone 📷 ☕️</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Went to the office today to handle some Parental Leave stuff. Taken with an iPhone 📷 ☕️\n\n<img src=\"uploads/2022/819f01f636.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2022-10-14T04:15:00+02:00",
+				"url": "https://otavio.cc/2022/10/14/went-to-the.html",
+				"tags": ["photography"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/10/12/reflection-taken-with.html",
 				
-				"content_html": "<p><strong>Reflection</strong>. Taken with an iPhone in monochrome using the camera Obscura 3 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "**Reflection**. Taken with an iPhone in monochrome using the camera Obscura 3 📷\n\n<img src=\"uploads/2022/395ca366db.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_html": "<p><strong>Reflection</strong>. Taken with an iPhone in monochrome using the camera Obscura 3 📷 ☕️</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "**Reflection**. Taken with an iPhone in monochrome using the camera Obscura 3 📷 ☕️\n\n<img src=\"uploads/2022/395ca366db.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2022-10-12T15:27:24+02:00",
 				"url": "https://otavio.cc/2022/10/12/reflection-taken-with.html",
 				"tags": ["photography"]
@@ -36,7 +70,7 @@
 				"id": "http://otaviocc.micro.blog/2022/10/09/we-took-him.html",
 				
 				"content_html": "<p>📷 🐣 We took him for a stroll yesterday.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 🐣 We took him for a stroll yesterday.\n\n<img src=\"uploads/2022/802ea28b2d.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "📷 🐣 We took him for a stroll yesterday.\n\n<img src=\"https://otavio.cc/uploads/2022/802ea28b2d.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2022-10-09T11:03:52+02:00",
 				"url": "https://otavio.cc/2022/10/09/we-took-him.html",
 				"tags": ["photography"]
@@ -45,7 +79,7 @@
 				"id": "http://otaviocc.micro.blog/2022/10/08/if-friends-were.html",
 				
 				"content_html": "<p>“Müllraum” in Berlin. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "“Müllraum” in Berlin. JPEG, SOOC.\n\n<img src=\"uploads/2022/6efe0cde9a.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "“Müllraum” in Berlin. JPEG, SOOC.\n\n<img src=\"https://otavio.cc/uploads/2022/6efe0cde9a.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2022-10-08T15:44:20+02:00",
 				"url": "https://otavio.cc/2022/10/08/if-friends-were.html",
 				"tags": ["photography"]
@@ -54,7 +88,7 @@
 				"id": "http://otaviocc.micro.blog/2022/10/06/221151.html",
 				
 				"content_html": "<p>📷 🐣 🏥</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 🐣 🏥\n\n<img src=\"uploads/2022/cc03a08de3.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "📷 🐣 🏥\n\n<img src=\"https://otavio.cc/uploads/2022/cc03a08de3.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2022-10-06T22:11:51+02:00",
 				"url": "https://otavio.cc/2022/10/06/221151.html",
 				"tags": ["photography"]
