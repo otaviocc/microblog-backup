@@ -7,6 +7,41 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/10/28/i-open-pull.html",
+				
+				"content_html": "<p>I open Pull Requests in my own projects and review my own code as if I were reviewing a coworker&rsquo;s work. It&rsquo;s so much easier to spot room for improvements this way 👨‍💻</p>\n",
+				"content_text": "I open Pull Requests in my own projects and review my own code as if I were reviewing a coworker's work. It's so much easier to spot room for improvements this way 👨‍💻\n",
+				"date_published": "2022-10-28T00:01:29+02:00",
+				"url": "https://otavio.cc/2022/10/28/i-open-pull.html",
+				"tags": ["programming","productivity","engineering"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/10/27/i-added-a.html",
+				
+				"content_html": "<p>I added a categories picker to my <a href=\"https://obsidian.md/plugins?search=Micro.publish\">Micro.publish</a> plugin today. Currently testing it to make sure it&rsquo;s all good and will release the update later today or tomorrow morning 👨‍💻</p>\n",
+				"content_text": "I added a categories picker to my [Micro.publish](https://obsidian.md/plugins?search=Micro.publish) plugin today. Currently testing it to make sure it's all good and will release the update later today or tomorrow morning 👨‍💻\n",
+				"date_published": "2022-10-27T23:48:30+02:00",
+				"url": "https://otavio.cc/2022/10/27/i-added-a.html",
+				"tags": ["programming","productivity","blog","obsidian"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/10/27/i-had-my.html",
+				
+				"content_html": "<p>I had my Micro.blog set to cross-post to Twitter, and my Twitter account to auto-delete posts after two weeks. Just removed the integration since I don&rsquo;t even have Twitter on my devices. I&rsquo;m thinking if I should do the same with Mastodon 👨‍💻</p>\n",
+				"content_text": "I had my Micro.blog set to cross-post to Twitter, and my Twitter account to auto-delete posts after two weeks. Just removed the integration since I don't even have Twitter on my devices. I'm thinking if I should do the same with Mastodon 👨‍💻\n",
+				"date_published": "2022-10-27T20:35:47+02:00",
+				"url": "https://otavio.cc/2022/10/27/i-had-my.html",
+				"tags": ["internet","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/10/26/yubico-authenticator-added.html",
+				
+				"content_html": "<p><a href=\"https://www.yubico.com/products/yubico-authenticator/\">Yubico Authenticator</a> added USB-C support on iPads running iPadOS 16 👨‍💻 🔒</p>\n",
+				"content_text": "[Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/) added USB-C support on iPads running iPadOS 16 👨‍💻 🔒\n",
+				"date_published": "2022-10-26T15:39:35+02:00",
+				"url": "https://otavio.cc/2022/10/26/yubico-authenticator-added.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/10/18/bitdo-please-stop.html",
 				
 				"content_html": "<p><strong>8BitDo</strong>, please stop launching new <a href=\"https://www.8bitdo.com/ultimate-bluetooth-controller/\">amazing controllers</a> 🎮</p>\n",
