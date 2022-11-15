@@ -7,6 +7,40 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/11/15/finished-reading-a.html",
+				
+				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780307916570\">A Wrinkle in Time (Madeleine L&rsquo;Engle&rsquo;s Time Quintet)</a> by Madeleine L&rsquo;Engle 📚</p>\n",
+				"content_text": "Finished reading: [A Wrinkle in Time (Madeleine L'Engle's Time Quintet)](https://micro.blog/books/9780307916570) by Madeleine L'Engle 📚\n",
+				"date_published": "2022-11-15T16:07:30+01:00",
+				"url": "https://otavio.cc/2022/11/15/finished-reading-a.html",
+				"tags": ["book"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/11/12/youll-be-leaving.html",
+				
+				"content_html": "<p>📷 &ldquo;You&rsquo;ll be leaving the Amazone&rdquo;, local bookstore in Berlin.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 \"You'll be leaving the Amazone\", local bookstore in Berlin.\n\n<img src=\"uploads/2022/8d2086a619.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2022-11-12T14:30:50+01:00",
+				"url": "https://otavio.cc/2022/11/12/youll-be-leaving.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/11/12/today-was-the.html",
+				
+				"content_html": "<p>Today was the first time I took my newborn to the papeterie/stationery store we shop. The guy knows me so well he asked if my son&rsquo;s name was <a href=\"https://blackwing602.com\">Palomino</a> 🤣 🤓</p>\n",
+				"content_text": "Today was the first time I took my newborn to the papeterie/stationery store we shop. The guy knows me so well he asked if my son's name was [Palomino](https://blackwing602.com) 🤣 🤓\n",
+				"date_published": "2022-11-12T13:44:51+01:00",
+				"url": "https://otavio.cc/2022/11/12/today-was-the.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/11/11/have-you-ever.html",
+				
+				"content_html": "<p>Have you ever tried to do taxes in the US without using an app or service? 401k, Flexible Spending Account, Loan, Stocks, etc… I have, and it’s a piece of cake compared to applying to Elterngeld and Kindergeld in Germany 😡</p>\n",
+				"content_text": "Have you ever tried to do taxes in the US without using an app or service? 401k, Flexible Spending Account, Loan, Stocks, etc… I have, and it’s a piece of cake compared to applying to Elterngeld and Kindergeld in Germany 😡\n",
+				"date_published": "2022-11-11T16:36:21+01:00",
+				"url": "https://otavio.cc/2022/11/11/have-you-ever.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/11/10/finished-reading-astrophysics.html",
 				
 				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780393609400\">Astrophysics for People in a Hurry</a> by Neil deGrasse Tyson 📚</p>\n",
