@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2022/12/03/after-two-months.html",
+				
+				"content_html": "<p>After two months away from work, I&rsquo;m back next Monday.</p>\n",
+				"content_text": "After two months away from work, I'm back next Monday.\n",
+				"date_published": "2022-12-03T23:38:42+01:00",
+				"url": "https://otavio.cc/2022/12/03/after-two-months.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/11/25/i-just-canceled.html",
+				
+				"content_html": "<p>I just canceled my <a href=\"https://fieldnotesbrand.com\">Field Notes</a> and <a href=\"https://blackwing602.com\">Blackwings</a> subscriptions. I&rsquo;m a long time subscriber, but it&rsquo;s getting expensive to keep them. On top of the subscription price there&rsquo;s the shipping cost and import taxes which I have to pay everytime I go get them at the post office.</p>\n",
+				"content_text": "I just canceled my [Field Notes](https://fieldnotesbrand.com) and [Blackwings](https://blackwing602.com) subscriptions. I'm a long time subscriber, but it's getting expensive to keep them. On top of the subscription price there's the shipping cost and import taxes which I have to pay everytime I go get them at the post office.\n",
+				"date_published": "2022-11-25T12:41:56+01:00",
+				"url": "https://otavio.cc/2022/11/25/i-just-canceled.html"
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/11/15/finished-reading-a.html",
 				
 				"content_html": "<p>Finished reading: <a href=\"https://micro.blog/books/9780307916570\">A Wrinkle in Time (Madeleine L&rsquo;Engle&rsquo;s Time Quintet)</a> by Madeleine L&rsquo;Engle 📚</p>\n",
