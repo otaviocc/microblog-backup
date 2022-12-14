@@ -25,6 +25,17 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://otavio.cc/2022/12/13/i-usually-browse.html" class="u-url"><time class="dt-published" datetime="2022-12-13 23:37:18 &#43;0100">Dec 13, 2022</time></a>
+
+		<div class="e-content">
+			 <p>I usually browse Micro.blog using their official iOS application, but recently I decided to try <a href="https://gluon.app/">Gluon</a>, and am impressed. The app is incredible, it has features that take the Micro.blog experience to a whole new level 🧑‍💻</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://otavio.cc/2022/12/04/finished-reading-contact.html" class="u-url"><time class="dt-published" datetime="2022-12-04 00:08:24 &#43;0100">Dec 4, 2022</time></a>
 
 		<div class="e-content">
@@ -4095,48 +4106,6 @@ NSString <span style="color:#f92672">*</span>description
 * The World Is Not Enough (Tomatometer: 51)
 </code></pre><p>But putting all the fun and excitement aside, would I use these methods on an Objective-C project? Probably not — <code>NSArray</code> already implements methods for sorting and filtering arrays using <code>NSPredicate</code>.</p>
 <p>My point here was to experiment and practice <em>map</em>, <em>filter</em>, <em>sort</em>, <em>reduce</em>, and <em>curried functions</em>. Programming requires practice. And practicing these techniques and methods (and reimplementing them) in Objective-C improved the way I use them in Swift.</p>
-
-		</div>
-	  </div>
-	
-	  <div class="h-entry">
-		
-			<h1><a href="https://otavio.cc/2022/02/06/curried-function-in.html">Curried Function in Objective-C</a></h1>
-		
-
-		<a href="https://otavio.cc/2022/02/06/curried-function-in.html" class="u-url"><time class="dt-published" datetime="2016-04-04 12:00:00 &#43;0100">Apr 4, 2016</time></a>
-
-		<div class="e-content">
-			 <p><a href="https://en.wikipedia.org/wiki/Currying">Function Currying</a> and <em>uncurrying</em> have been extensively discussed since Apple introduced Swift in 2014. I won’t extend myself on this topic because there are some great resources about it on the Internet.</p>
-<p>But, shortly, what is currying? It’s a technique that transforms a function that takes several arguments into a sequence of functions, each with a single argument. The result is a chain of functions returning functions. It’s beautiful, it’s mathematics!</p>
-<p>Below, a simple example in Swift:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">add</span>(<span style="color:#66d9ef">_</span> a: Int) -&gt; (Int) -&gt; (Int) -&gt; Int {
-    { b <span style="color:#66d9ef">in</span> { c <span style="color:#66d9ef">in</span> a <span style="color:#f92672">+</span> b <span style="color:#f92672">+</span> c } }
-}
-
-<span style="color:#66d9ef">let</span> addTwo = add(<span style="color:#ae81ff">2</span>)               <span style="color:#75715e">// Int -&gt; Int -&gt; Int</span>
-<span style="color:#66d9ef">let</span> addFive = addTwo(<span style="color:#ae81ff">3</span>)           <span style="color:#75715e">// Int -&gt; Int</span>
-<span style="color:#66d9ef">let</span> result = addFive(<span style="color:#ae81ff">4</span>)           <span style="color:#75715e">// 9</span>
-
-print(<span style="color:#e6db74">&#34;result = </span><span style="color:#e6db74">\(</span>result<span style="color:#e6db74">)</span><span style="color:#e6db74">&#34;</span>)       <span style="color:#75715e">// result = 9</span>
-</code></pre></div><p>and the same example in Objective-C:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-objc" data-lang="objc"><span style="color:#66d9ef">typedef</span> <span style="color:#a6e22e">NSInteger</span>(<span style="color:#f92672">^</span>FuncInt2Int)(NSInteger);
-<span style="color:#66d9ef">typedef</span> <span style="color:#a6e22e">FuncInt2Int</span>(<span style="color:#f92672">^</span>FuncInt2Int2Int)(NSInteger);
-
-FuncInt2Int2Int(<span style="color:#f92672">^</span>add)(NSInteger) <span style="color:#f92672">=</span> <span style="color:#f92672">^</span>FuncInt2Int2Int(NSInteger a) {
-    <span style="color:#66d9ef">return</span> <span style="color:#f92672">^</span>FuncInt2Int(NSInteger b) {
-        <span style="color:#66d9ef">return</span> <span style="color:#f92672">^</span>NSInteger(NSInteger c) {
-            <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b <span style="color:#f92672">+</span> c;
-        };
-    };
-};
-
-FuncInt2Int2Int addTwo <span style="color:#f92672">=</span> add(<span style="color:#ae81ff">2</span>);        <span style="color:#75715e">// Int -&gt; Int -&gt; Int
-</span><span style="color:#75715e"></span>FuncInt2Int addFive <span style="color:#f92672">=</span> addTwo(<span style="color:#ae81ff">3</span>);        <span style="color:#75715e">// Int -&gt; Int
-</span><span style="color:#75715e"></span>NSInteger result <span style="color:#f92672">=</span> addFive(<span style="color:#ae81ff">4</span>);          <span style="color:#75715e">// 9
-</span><span style="color:#75715e"></span>
-NSLog(<span style="color:#e6db74">@&#34;result = %ld&#34;</span>, result);         <span style="color:#75715e">// result = 9
-</span></code></pre></div><p>The Swift version is minimal and elegant. But the Objective-C one has its charm, doesn’t it?</p>
 
 		</div>
 	  </div>
