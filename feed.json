@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/01/01/after-four-long.html",
+				
+				"content_html": "<p>After four long and stressful years, 2022 was a magical year for us. The year started with the wonderful news we were pregnant and 9 months later, our <em>tinyScientist</em> was born. 2023 will a year full of challenges and learnings, and we’re ready for it. Bring it on.</p>\n",
+				"content_text": "After four long and stressful years, 2022 was a magical year for us. The year started with the wonderful news we were pregnant and 9 months later, our _tinyScientist_ was born. 2023 will a year full of challenges and learnings, and we’re ready for it. Bring it on.\n",
+				"date_published": "2023-01-01T16:46:55+01:00",
+				"url": "https://otavio.cc/2023/01/01/after-four-long.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2022/12/26/first-part-of.html",
+				
+				"content_html": "<p>First part of my IndieWeb app for macOS is ready: login. User can login using their domain 👨‍💻</p>\n",
+				"content_text": "First part of my IndieWeb app for macOS is ready: login. User can login using their domain 👨‍💻\n",
+				"date_published": "2022-12-26T15:56:28+01:00",
+				"url": "https://otavio.cc/2022/12/26/first-part-of.html",
+				"tags": ["programming","internet","blog"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2022/12/24/finished-pokmon-violet.html",
 				
 				"content_html": "<p>🎮 Finished <a href=\"https://scarletviolet.pokemon.com/en-gb/\"><em>Pokémon Violet</em></a>. This is the kinda game that&rsquo;s problematic for people with OCD. I don&rsquo;t give up while I don&rsquo;t have everything.</p>\n<p>I&rsquo;ve seen so many people complaining about performance and bugs, but the truth is, the game is amazing and I enjoyed every second of it.</p>\n",
@@ -53,7 +70,7 @@
 				"id": "http://otaviocc.micro.blog/2022/12/18/my-father-used.html",
 				
 				"content_html": "<p>My father used his <a href=\"https://en.wikipedia.org/wiki/Asahi_Pentax\">Asahi Pentax</a> to take this photo decades ago. We don’t know which film he used, but this is the aesthetic I wish I knew how to recreate using Film Simulations (in my Fujifilm) 📷</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "My father used his [Asahi Pentax](https://en.wikipedia.org/wiki/Asahi_Pentax) to take this photo decades ago. We don’t know which film he used, but this is the aesthetic I wish I knew how to recreate using Film Simulations (in my Fujifilm) 📷\n\n<img src=\"uploads/2022/fdc75f99b8.jpg\" width=\"600\" height=\"399\" alt=\"\">\n",
+				"content_text": "My father used his [Asahi Pentax](https://en.wikipedia.org/wiki/Asahi_Pentax) to take this photo decades ago. We don’t know which film he used, but this is the aesthetic I wish I knew how to recreate using Film Simulations (in my Fujifilm) 📷\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/fdc75f99b8.jpg\" width=\"600\" height=\"399\" alt=\"\">\n",
 				"date_published": "2022-12-18T00:40:55+01:00",
 				"url": "https://otavio.cc/2022/12/18/my-father-used.html",
 				"tags": ["photography"]
