@@ -7,10 +7,63 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/01/17/one-of-the.html",
+				
+				"content_html": "<p>One of the reasons Twitter is what it is today is thanks to the dozens of mobile apps that appeared back in 2007-2010.</p>\n<p>Twitter&rsquo;s first mobile client only existed thanks to a third-party application they bought (Tweetie), hiring the mind behind it (Loren Brichter).</p>\n",
+				"content_text": "One of the reasons Twitter is what it is today is thanks to the dozens of mobile apps that appeared back in 2007-2010.\r\n\r\nTwitter's first mobile client only existed thanks to a third-party application they bought (Tweetie), hiring the mind behind it (Loren Brichter).\n",
+				"date_published": "2023-01-17T21:37:35+01:00",
+				"url": "https://otavio.cc/2023/01/17/one-of-the.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/01/17/i-had-to.html",
+				
+				"content_html": "<p>I had to use Twitter the other day to contact Vodafone&rsquo;s technical support and, since I was there, decided to check on Musk. People on the platform were celebrating the fact Twitter native app was the number 1 in the AppStore. Easy when you <a href=\"https://daringfireball.net/linked/2023/01/14/information-twitter-slack-confirmation\">get rid of the competitor</a>.</p>\n",
+				"content_text": "I had to use Twitter the other day to contact Vodafone's technical support and, since I was there, decided to check on Musk. People on the platform were celebrating the fact Twitter native app was the number 1 in the AppStore. Easy when you [get rid of the competitor](https://daringfireball.net/linked/2023/01/14/information-twitter-slack-confirmation).\n",
+				"date_published": "2023-01-17T21:35:32+01:00",
+				"url": "https://otavio.cc/2023/01/17/i-had-to.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/01/17/im-happy-with.html",
+				
+				"content_html": "<p>I’m happy with the two <em>blogs</em> I have, <a href=\"https://otavio.cc\">otavio.cc</a> and <a href=\"https://photos.otavio.cc\">photos.otavio.cc</a>, but I might merge them into one and have an RSS feed for all the content and one just for the photos. WIM 📷  👨‍💻</p>\n",
+				"content_text": "I’m happy with the two _blogs_ I have, [otavio.cc](https://otavio.cc) and [photos.otavio.cc](https://photos.otavio.cc), but I might merge them into one and have an RSS feed for all the content and one just for the photos. WIM 📷  👨‍💻\n",
+				"date_published": "2023-01-17T21:07:27+01:00",
+				"url": "https://otavio.cc/2023/01/17/im-happy-with.html",
+				"tags": ["photography","internet","blog"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/01/14/im-a-big.html",
+				
+				"content_html": "<p>I&rsquo;m a big Obsidian fan - even created <a href=\"https://obsidian.md/plugins?search=micro.publish\">Micro.publish</a> to send posts from Obsidian directly to Micro.blog - but Obsidian Publish is a little bit pricey. I&rsquo;m thinking if it makes sense to use Micro.blog Pages to build a Digital Garden&hellip; 🤷‍♂️ 📷</p>\n",
+				"content_text": "I'm a big Obsidian fan - even created [Micro.publish](https://obsidian.md/plugins?search=micro.publish) to send posts from Obsidian directly to Micro.blog - but Obsidian Publish is a little bit pricey. I'm thinking if it makes sense to use Micro.blog Pages to build a Digital Garden... 🤷‍♂️ 📷\n",
+				"date_published": "2023-01-14T10:39:53+01:00",
+				"url": "https://otavio.cc/2023/01/14/im-a-big.html",
+				"tags": ["photography","productivity","blog","obsidian"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/01/14/starting-on-monday.html",
+				
+				"content_html": "<p>👨‍💻 Starting on Monday I&rsquo;m no longer a Senior macOS Engineer at NordVPN, but a macOS Engineering Team Lead. I still code, but have a team to manage.</p>\n",
+				"content_text": "👨‍💻 Starting on Monday I'm no longer a Senior macOS Engineer at NordVPN, but a macOS Engineering Team Lead. I still code, but have a team to manage.\n",
+				"date_published": "2023-01-14T00:23:21+01:00",
+				"url": "https://otavio.cc/2023/01/14/starting-on-monday.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/01/14/001152.html",
+				
+				"content_html": "<p>📷 After lunch coffee. Taken with an iPhone.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 After lunch coffee. Taken with an iPhone.\n\n<img src=\"uploads/2023/340fc12c2d.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-01-14T00:12:31+01:00",
+				"url": "https://otavio.cc/2023/01/14/001152.html",
+				"tags": ["photography"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/01/13/tony-stubblebine-in.html",
 				
-				"content_html": "<p>Tony Stubblebine in <a href=\"https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11\">Medium embraces Mastodon</a>:</p>\n<blockquote>\n<p>Today, Medium is launching a Mastodon instance at me.dm to help our authors, publications and readers find a home in the fediverse.</p>\n</blockquote>\n<p>Evan Williams' Medium is embracing <a href=\"https://me.dm/@medium\">Mastodon</a>. Kinda funny, and good for <a href=\"https://medium.com\">Medium</a>.</p>\n",
-				"content_text": "Tony Stubblebine in [Medium embraces Mastodon](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11):\r\n\r\n> Today, Medium is launching a Mastodon instance at me.dm to help our authors, publications and readers find a home in the fediverse.\r\n\r\nEvan Williams' Medium is embracing [Mastodon](https://me.dm/@medium). Kinda funny, and good for [Medium](https://medium.com).\n",
+				"content_html": "<p>Tony Stubblebine in <a href=\"https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11\">Medium embraces Mastodon</a>:</p>\n<blockquote>\n<p>Today, Medium is launching a Mastodon instance at me.dm to help our authors, publications and readers find a home in the fediverse.</p>\n</blockquote>\n<p>Evan Williams' Medium is embracing <a href=\"https://me.dm/@medium\">Mastodon</a>. Kinda funny.</p>\n",
+				"content_text": "Tony Stubblebine in [Medium embraces Mastodon](https://blog.medium.com/medium-embraces-mastodon-19dcb873eb11):\n\n> Today, Medium is launching a Mastodon instance at me.dm to help our authors, publications and readers find a home in the fediverse.\n\nEvan Williams' Medium is embracing [Mastodon](https://me.dm/@medium). Kinda funny.\n",
 				"date_published": "2023-01-13T04:48:19+01:00",
 				"url": "https://otavio.cc/2023/01/13/tony-stubblebine-in.html",
 				"tags": ["internet","blog"]
