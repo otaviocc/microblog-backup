@@ -7,6 +7,76 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/02/06/my-ragdoll-cat.html",
+				
+				"content_html": "<p>📷 My <a href=\"https://en.wikipedia.org/wiki/Ragdoll\">ragdoll cat</a> updating <a href=\"https://www.atlassian.com/software/jira\">JIRA</a> tickets.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 My [ragdoll cat](https://en.wikipedia.org/wiki/Ragdoll) updating [JIRA](https://www.atlassian.com/software/jira) tickets.\n\n<img src=\"uploads/2023/9401493502.jpg\" width=\"600\" height=\"400\" alt=\"My ragdoll cat snooping my computer while I work\">\n",
+				"date_published": "2023-02-06T11:10:37+01:00",
+				"url": "https://otavio.cc/2023/02/06/my-ragdoll-cat.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/05/043516.html",
+				"title": "Week 2023-05",
+				"content_html": "<p>Earlier this week I took my parents to the airport and had the opportunity to work on my side project on the train on my way back home. For some reason I enjoy coding on trains, buses, and airplanes. Especially when it’s raining outside. A wonderful combination of white noise sounds, I suppose.</p>\n<p><em>tinyScientist</em> went to the doctor for his <em>U-Untersuchungen</em> and took some other vaccines. My wife has a Phd in vaccine development working with viruses, so of course <em>tinyScientist</em> won’t miss a single shot.</p>\n<p>On Tuesday I returned to work after two weeks off and had my contract updated to match my new title: Engineering Team Lead. Never have I imagined I would take such kind of role, but the setup we have in the company works so well that I decided to accept the challenge. I’m glad I have the time to write code and lead a team.</p>\n<p>Internet in Germany has its ups and downs; probably more downs than ups. This week my Internet Provider gave me money back because the service is too unstable in my area, I had to use my phone as personal hotspot in 30% of the meetings I attended.</p>\n<p>Earlier this year LEGO released the <a href=\"https://www.lego.com/en-us/product/lego-minifigures-series-24-71037\">Series 24</a> of its minifigures. We went to a store to <em>feel the packages</em>, as we always do, and found 10 minifigures. Still missing 2.</p>\n<p>And finally, I canceled Audible. The local public library is great and offers thousands of audiobooks via <a href=\"https://www.overdrive.com/apps/libby\">Libby</a> for 10 EUR/year.</p>\n",
+				"content_text": "Earlier this week I took my parents to the airport and had the opportunity to work on my side project on the train on my way back home. For some reason I enjoy coding on trains, buses, and airplanes. Especially when it’s raining outside. A wonderful combination of white noise sounds, I suppose.\n\n_tinyScientist_ went to the doctor for his _U-Untersuchungen_ and took some other vaccines. My wife has a Phd in vaccine development working with viruses, so of course _tinyScientist_ won’t miss a single shot.\n\nOn Tuesday I returned to work after two weeks off and had my contract updated to match my new title: Engineering Team Lead. Never have I imagined I would take such kind of role, but the setup we have in the company works so well that I decided to accept the challenge. I’m glad I have the time to write code and lead a team.\n\nInternet in Germany has its ups and downs; probably more downs than ups. This week my Internet Provider gave me money back because the service is too unstable in my area, I had to use my phone as personal hotspot in 30% of the meetings I attended.\n\nEarlier this year LEGO released the [Series 24](https://www.lego.com/en-us/product/lego-minifigures-series-24-71037) of its minifigures. We went to a store to _feel the packages_, as we always do, and found 10 minifigures. Still missing 2.\n\nAnd finally, I canceled Audible. The local public library is great and offers thousands of audiobooks via [Libby](https://www.overdrive.com/apps/libby) for 10 EUR/year.\n",
+				"date_published": "2023-02-05T04:35:16+01:00",
+				"url": "https://otavio.cc/2023/02/05/043516.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/05/made-good-progress.html",
+				
+				"content_html": "<p>Made good progress in my side-project today, but now it&rsquo;s bed time 👨‍💻 🛌</p>\n",
+				"content_text": "Made good progress in my side-project today, but now it's bed time 👨‍💻 🛌\n",
+				"date_published": "2023-02-05T02:23:04+01:00",
+				"url": "https://otavio.cc/2023/02/05/made-good-progress.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/04/i-see-a.html",
+				
+				"content_html": "<p>🎮 🤣 I see a lot of people talking about shooting down the Chinese balloon, but no one says a word when I shoot down balloons on Animal Crossing every 10 minutes&hellip;</p>\n",
+				"content_text": "🎮 🤣 I see a lot of people talking about shooting down the Chinese balloon, but no one says a word when I shoot down balloons on Animal Crossing every 10 minutes...\n",
+				"date_published": "2023-02-04T23:34:02+01:00",
+				"url": "https://otavio.cc/2023/02/04/i-see-a.html",
+				"tags": ["game"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/03/github-added-to.html",
+				
+				"content_html": "<p>GitHub added to people&rsquo;s profiles open fields for social accounts. I linked my Mastodon account <a href=\"https://github.com/otaviocc\">there</a> and now it shows my GitHub profile as a verified URL on <a href=\"https://social.lol/@otaviocc\">Mastodon</a> 👨‍💻</p>\n",
+				"content_text": "GitHub added to people's profiles open fields for social accounts. I linked my Mastodon account [there](https://github.com/otaviocc) and now it shows my GitHub profile as a verified URL on [Mastodon](https://social.lol/@otaviocc) 👨‍💻\n",
+				"date_published": "2023-02-03T19:27:24+01:00",
+				"url": "https://otavio.cc/2023/02/03/github-added-to.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/03/im-impressed-by.html",
+				
+				"content_html": "<p>I&rsquo;m impressed by <a href=\"https://hq.getmatter.com/\">Matter</a>&rsquo;s support. I sent a feedback/suggestion earlier today and they implemented and deployed it within a couple of hours 👨‍💻</p>\n",
+				"content_text": "I'm impressed by [Matter](https://hq.getmatter.com/)'s support. I sent a feedback/suggestion earlier today and they implemented and deployed it within a couple of hours 👨‍💻\n",
+				"date_published": "2023-02-03T18:13:50+01:00",
+				"url": "https://otavio.cc/2023/02/03/im-impressed-by.html",
+				"tags": ["internet"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/02/boris-tinyscientists-new.html",
+				
+				"content_html": "<p>📷 <strong>Boris</strong>, <em>tinyScientist</em>&rsquo;s new friend.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 **Boris**, _tinyScientist_'s new friend.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/2d7413fd78.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-02-02T10:31:18+01:00",
+				"url": "https://otavio.cc/2023/02/02/boris-tinyscientists-new.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/02/ive-made-some.html",
+				
+				"content_html": "<p>I&rsquo;ve made some changes to my blog yesterday, putting some <a href=\"https://www.nordtheme.com/\">Nord</a> colors here and there. For the codeblocks, the following lines were added to Micro.blog&rsquo;s <code>config.json</code>:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-json\" data-lang=\"json\"><span style=\"color:#eceff4\">{</span>\n    <span style=\"color:#81a1c1\">&#34;pygmentsCodefences&#34;</span><span style=\"color:#eceff4\">:</span> <span style=\"color:#81a1c1;font-weight:bold\">true</span><span style=\"color:#eceff4\">,</span>\n    <span style=\"color:#81a1c1\">&#34;pygmentsCodefencesGuessSyntax&#34;</span><span style=\"color:#eceff4\">:</span> <span style=\"color:#81a1c1;font-weight:bold\">true</span><span style=\"color:#eceff4\">,</span>\n    <span style=\"color:#81a1c1\">&#34;pygmentsStyle&#34;</span><span style=\"color:#eceff4\">:</span> <span style=\"color:#a3be8c\">&#34;nord&#34;</span>\n<span style=\"color:#eceff4\">}</span>\n</code></pre></div>",
+				"content_text": "I've made some changes to my blog yesterday, putting some [Nord](https://www.nordtheme.com/) colors here and there. For the codeblocks, the following lines were added to Micro.blog's `config.json`:\n\n```json\n{\n    \"pygmentsCodefences\": true,\n    \"pygmentsCodefencesGuessSyntax\": true,\n    \"pygmentsStyle\": \"nord\"\n}\n```\n",
+				"date_published": "2023-02-02T10:22:50+01:00",
+				"url": "https://otavio.cc/2023/02/02/ive-made-some.html",
+				"tags": ["internet","blog"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/02/01/theres-no-hbo.html",
 				
 				"content_html": "<p>There’s no HBO Max in Germany 📺 🤦‍♂️</p>\n",
@@ -18,7 +88,7 @@
 				"id": "http://otaviocc.micro.blog/2023/01/31/i-wish-i.html",
 				
 				"content_html": "<p>👨‍💻 I wish I had more time to work on my native <a href=\"https://home.omg.lol/\">omg.lol</a> client for macOS and iOS. I still have some vacation days I have to take before the end of March and might use them for that.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "👨‍💻 I wish I had more time to work on my native [omg.lol](https://home.omg.lol/) client for macOS and iOS. I still have some vacation days I have to take before the end of March and might use them for that.\n\n<img src=\"uploads/2023/f3c252536f.png\" width=\"600\" height=\"408\" alt=\"\">\n",
+				"content_text": "👨‍💻 I wish I had more time to work on my native [omg.lol](https://home.omg.lol/) client for macOS and iOS. I still have some vacation days I have to take before the end of March and might use them for that.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/f3c252536f.png\" width=\"600\" height=\"408\" alt=\"\">\n",
 				"date_published": "2023-01-31T02:47:03+01:00",
 				"url": "https://otavio.cc/2023/01/31/i-wish-i.html",
 				"tags": ["coding"]
@@ -160,7 +230,7 @@
 				"content_text": "With a couple of lines of code I migrated my app from `NavigationView` to `NavigationSplitView`, which offers much better navigation in SwiftUI.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/929db4037b.png\" alt=\"Pinboarding sidebar visible\" border=\"0\" width=\"600\" height=\"408\" />\n\nAnd I got for free the ability to show/hide the sidebar.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/adf27dde60.png\" alt=\"Pinboarding sidebar hidden\" border=\"0\" width=\"600\" height=\"408\" />\n\nApple has a pretty [good session about `NavigationSplitView` and `NavigationStack`](https://developer.apple.com/wwdc22/10054) on their developer portal. The jokes and puns are awful, but the content is really good.\n",
 				"date_published": "2023-01-11T23:07:22+01:00",
 				"url": "https://otavio.cc/2023/01/11/230722.html",
-				"tags": ["photography","programming"]
+				"tags": ["coding","swiftui"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/01/01/brazil-has-democracy.html",
@@ -184,8 +254,7 @@
 				"content_html": "<p>First part of my IndieWeb app for macOS is ready: login. User can login using their domain 👨‍💻</p>\n",
 				"content_text": "First part of my IndieWeb app for macOS is ready: login. User can login using their domain 👨‍💻\n",
 				"date_published": "2022-12-26T15:56:28+01:00",
-				"url": "https://otavio.cc/2022/12/26/first-part-of.html",
-				"tags": ["programming","internet","blog"]
+				"url": "https://otavio.cc/2022/12/26/first-part-of.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/12/24/finished-pokmon-violet.html",
@@ -218,8 +287,7 @@
 				"content_html": "<p>This is the message I got today when trying to post my Mastodon link on Twitter:</p>\n<blockquote>\n<p>Something went wrong, but don&rsquo;t fret - let&rsquo;s give it another shot.</p>\n</blockquote>\n<p>and the message when I tried to add the link to my profile:</p>\n<blockquote>\n<p>Account update failed: Description is considered malware.</p>\n</blockquote>\n",
 				"content_text": "This is the message I got today when trying to post my Mastodon link on Twitter:\n\n> Something went wrong, but don't fret - let's give it another shot.\n\nand the message when I tried to add the link to my profile:\n\n> Account update failed: Description is considered malware.\n",
 				"date_published": "2022-12-19T13:37:16+01:00",
-				"url": "https://otavio.cc/2022/12/19/something-went-wrong.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/12/19/something-went-wrong.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/12/18/my-father-used.html",
@@ -268,8 +336,7 @@
 				"content_html": "<p>Firefox&rsquo;s my favorite browser since the days it was called Phoenix, but there&rsquo;s a bug on Firefox for iPad that drives me insane. When using the iPad with the Magic Keyboard attached, Firefox doesn&rsquo;t show (or should I say unhide?) the address bar when scrolling back to the top.</p>\n",
 				"content_text": "Firefox's my favorite browser since the days it was called Phoenix, but there's a bug on Firefox for iPad that drives me insane. When using the iPad with the Magic Keyboard attached, Firefox doesn't show (or should I say unhide?) the address bar when scrolling back to the top.\n",
 				"date_published": "2022-12-14T02:23:42+01:00",
-				"url": "https://otavio.cc/2022/12/14/firefoxs-my-favorite.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2022/12/14/firefoxs-my-favorite.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/12/13/i-usually-browse.html",
@@ -278,7 +345,7 @@
 				"content_text": "I usually browse Micro.blog using their official iOS application, but recently I decided to try [Gluon](https://gluon.app/), and am impressed. The app is incredible, it has features that take the Micro.blog experience to a whole new level 🧑‍💻\n",
 				"date_published": "2022-12-13T23:37:18+01:00",
 				"url": "https://otavio.cc/2022/12/13/i-usually-browse.html",
-				"tags": ["blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/12/04/finished-reading-contact.html",
@@ -287,7 +354,7 @@
 				"content_text": "Finished reading: [Contact](https://micro.blog/books/9781501197987) by Carl Sagan 📚\r\n\r\nI have a bookshelf called *Comfort Food*, and Contact is one of the books in it. From time to time I read it again.\n",
 				"date_published": "2022-12-04T00:08:24+01:00",
 				"url": "https://otavio.cc/2022/12/04/finished-reading-contact.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/12/03/after-two-months.html",
@@ -312,7 +379,7 @@
 				"content_text": "Finished reading: [A Wrinkle in Time (Madeleine L'Engle's Time Quintet)](https://micro.blog/books/9780307916570) by Madeleine L'Engle 📚\n",
 				"date_published": "2022-11-15T16:07:30+01:00",
 				"url": "https://otavio.cc/2022/11/15/finished-reading-a.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/11/12/youll-be-leaving.html",
@@ -346,7 +413,7 @@
 				"content_text": "Finished reading: [Astrophysics for People in a Hurry](https://micro.blog/books/9780393609400) by Neil deGrasse Tyson 📚\n",
 				"date_published": "2022-11-10T00:10:33+01:00",
 				"url": "https://otavio.cc/2022/11/10/finished-reading-astrophysics.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/11/05/listening-to-another.html",
@@ -363,7 +430,7 @@
 				"content_text": "Finished reading: [Goodbye, Things: The New Japanese Minimalism](https://micro.blog/books/9780393609042) by Fumio Sasaki 📚\r\n\r\nDecided to give audiobooks a try using the local public library service (using the [Libby app](https://libbyapp.com)).\n",
 				"date_published": "2022-11-04T17:35:41+01:00",
 				"url": "https://otavio.cc/2022/11/04/finished-reading-goodbye.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/10/28/i-open-pull.html",
@@ -371,8 +438,7 @@
 				"content_html": "<p>I open Pull Requests in my own projects and review my own code as if I were reviewing a coworker&rsquo;s work. It&rsquo;s so much easier to spot room for improvements this way 👨‍💻</p>\n",
 				"content_text": "I open Pull Requests in my own projects and review my own code as if I were reviewing a coworker's work. It's so much easier to spot room for improvements this way 👨‍💻\n",
 				"date_published": "2022-10-27T23:01:29+01:00",
-				"url": "https://otavio.cc/2022/10/28/i-open-pull.html",
-				"tags": ["programming","productivity","engineering"]
+				"url": "https://otavio.cc/2022/10/28/i-open-pull.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/10/27/i-added-a.html",
@@ -381,7 +447,7 @@
 				"content_text": "I added a categories picker to my [Micro.publish](https://obsidian.md/plugins?search=Micro.publish) plugin today. Currently testing it to make sure it's all good and will release the update later today or tomorrow morning 👨‍💻\n",
 				"date_published": "2022-10-27T22:48:30+01:00",
 				"url": "https://otavio.cc/2022/10/27/i-added-a.html",
-				"tags": ["programming","productivity","blog","obsidian"]
+				"tags": ["obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/10/27/i-had-my.html",
@@ -450,7 +516,7 @@
 				"content_text": "My Obsidian plugin [Micro.publish](https://otavio.cc/2022/09/26/micropublish.html) - to post notes to [Micro.blog](https://micro.blog/) - was accepted and can be installed directly from the Community Plugins. New features coming soon 👨‍💻\n",
 				"date_published": "2022-10-11T16:29:56+01:00",
 				"url": "https://otavio.cc/2022/10/11/my-obsidian-plugin.html",
-				"tags": ["programming","obsidian"]
+				"tags": ["internet","blog","obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/10/11/i-tried-to.html",
@@ -475,8 +541,7 @@
 				"content_html": "<p>“Müllraum” in Berlin. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "“Müllraum” in Berlin. JPEG, SOOC.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/6efe0cde9a.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2022-10-08T14:44:20+01:00",
-				"url": "https://otavio.cc/2022/10/08/if-friends-were.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2022/10/08/if-friends-were.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/10/06/221151.html",
@@ -493,7 +558,8 @@
 				"content_html": "<p>I’m still waiting for the Obsidian team to review my Micro.publish plugin👨‍💻</p>\n",
 				"content_text": "I’m still waiting for the Obsidian team to review my Micro.publish plugin👨‍💻\n",
 				"date_published": "2022-10-06T21:04:38+01:00",
-				"url": "https://otavio.cc/2022/10/06/im-still-waiting.html"
+				"url": "https://otavio.cc/2022/10/06/im-still-waiting.html",
+				"tags": ["obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/30/currently-reading-o.html",
@@ -502,7 +568,7 @@
 				"content_text": "Currently reading: [O Negócio do Jair: A história proibida do clã Bolsonaro ](https://micro.blog/books/6559790800) by Juliana Dal Piva 📚\r\n\r\nI was looking forward to reading this book before the Brazilian elections, but it wasn't available at Amazon.com, only at Amazon.com.br. I have three days to finish it 🤓\n",
 				"date_published": "2022-09-30T01:01:24+01:00",
 				"url": "https://otavio.cc/2022/09/30/currently-reading-o.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/30/starting-today-im.html",
@@ -518,8 +584,7 @@
 				"content_html": "<p>I had no idea Visual Studio Code <a href=\"https://code.visualstudio.com/docs/editor/settings-sync\">had native settings sync</a>. It&rsquo;s possible to sign in with a Microsoft or GitHub account to have all settings, themes, keybindings, and installed extensions synchrornized between computers. Magical 👨‍💻</p>\n",
 				"content_text": "I had no idea Visual Studio Code [had native settings sync](https://code.visualstudio.com/docs/editor/settings-sync). It's possible to sign in with a Microsoft or GitHub account to have all settings, themes, keybindings, and installed extensions synchrornized between computers. Magical 👨‍💻\n",
 				"date_published": "2022-09-30T00:46:15+01:00",
-				"url": "https://otavio.cc/2022/09/30/i-had-no.html",
-				"tags": ["programming","productivity"]
+				"url": "https://otavio.cc/2022/09/30/i-had-no.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/26/urban-vertical-garden.html",
@@ -545,7 +610,7 @@
 				"content_text": "Obsidian is the *source of truth* for most of my writings[^dayone] and I though it would be interesting to post to [Micro.blog](https://micro.blog/) directly from it. In the past I explored several applications such as [Ulysses](https://ulysses.app/), [iA Writer](https://ia.net/writer), and many others which allow publishing to Micro.blog, but they don't work for me, they don't reflect the way I think and take notes. Obsidian does.\n\nSo I searched on Micro.blog and found [this post](https://philbowell.me/2021/12/22/i-wonder-if.html) from [@philbowell](https://micro.blog/philbowell):\n\n> I wonder if there is a way to post to Micro.blog from Obsidian. 🤔\n\nAnd nope, there isn't. So I took the challenge.\n\nObsidian isn't a native application and I can't remember when it was the last time I wrote something which isn't *compiled* to run on an specific architecture 👨‍💻, so I had to learn [TypeScript](https://www.typescriptlang.org/) and `npm`, and spent a good amount of time making [Visual Studio Code](https://code.visualstudio.com/) look pretty (stealing ideas from my friend [Atila](https://atila.io/)).\n\nLuckily for me, the TypeScript syntax isn't that different from Swift, so in a matter of hours I had something working. Since the Obsidian Plugin architecture is [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming), I decided to go with OOP using [MVVM](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel), without third-party dependencies to avoid taking unnecessary complexity into Obsidian.\n\nThe result of all this is [Micro.publish](https://github.com/otaviocc/obsidian-microblog), my Obsidian plugin to publish to Micro.blog. The plugin isn't available to install from Obsidian's *Community Plugins* yet since they review all the plugins there, but it's possible to install it directly from GitHub by following some manual steps.\n\nMicro.publish has the features I need. It allows\n\n- setting default tags\n- setting the default post visibility\n- setting a default blog (for those with more than one M.b blog)\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/162a3148ca.png\" width=\"600\" height=\"618\" alt=\"\" />\n\nAnd before publishing, it's possible to override these default settings for the post being published.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/a38b4e61ad.png\" width=\"600\" height=\"618\" alt=\"\" />\n\nMore features are planned, and will be coming soon.\n\n[^dayone]: [DayOne](https://dayoneapp.com/), don't worry I won't dump you.\n",
 				"date_published": "2022-09-26T10:08:55+01:00",
 				"url": "https://otavio.cc/2022/09/26/micropublish.html",
-				"tags": ["programming","productivity","internet","blog","obsidian"]
+				"tags": ["coding","internet","blog","obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/25/have-a-cup.html",
@@ -553,8 +618,7 @@
 				"content_html": "<p>Have a cup of <a href=\"https://www.fiveelephant.com/\">high-quality coffee</a> and coding in <a href=\"https://www.typescriptlang.org/\">TypeScript</a>.</p>\n",
 				"content_text": "Have a cup of [high-quality coffee](https://www.fiveelephant.com/) and coding in [TypeScript](https://www.typescriptlang.org/).\n",
 				"date_published": "2022-09-25T11:37:08+01:00",
-				"url": "https://otavio.cc/2022/09/25/have-a-cup.html",
-				"tags": ["programming","obsidian"]
+				"url": "https://otavio.cc/2022/09/25/have-a-cup.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/23/submitted-my-microblog.html",
@@ -563,7 +627,7 @@
 				"content_text": "Submitted my *Micro.blog Publish* plugin for Obsidian to review.\n",
 				"date_published": "2022-09-22T23:03:58+01:00",
 				"url": "https://otavio.cc/2022/09/23/submitted-my-microblog.html",
-				"tags": ["obsidian"]
+				"tags": ["internet","blog","obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/22/microblog-publish-for.html",
@@ -572,7 +636,7 @@
 				"content_text": "First version of my [Micro.blog](https://micro.blog/) plugin for [Obsidian](https://obsidian.md/) is ready 👨‍💻 Some feature are missing - as expected for a first release -, but I plan to add them in the future. E.g.,\n\n- Blog selection\n- Set categories/tags\n\nCurrently it allows users to\n\n- Set the default post visibility for new posts\n- Set the post title\n- Open post, preview, and edit URLs after publishing the post\n\nThe plugin can be found on [GitHub](https://github.com/otaviocc/obsidian-microblog). The next step is to submit it to Obsidian's *Community Plugins*.\n\n**Important**: The name isn't final since this is not an official Micro.blog product. I have to find a better name for it.\n\nSome screenshots:\n\n**Preferences**\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/e2561051fb.png\" width=\"600\" height=\"480\" alt=\"\" />\n\n**Command**\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/07528018f7.png\" width=\"600\" height=\"480\" alt=\"\" />\n\n**Review**\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/94c8942ddd.png\" width=\"600\" height=\"480\" alt=\"\" />\n\n**Confirmation**\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/507520fc03.png\" width=\"600\" height=\"480\" alt=\"\" />\n",
 				"date_published": "2022-09-21T23:18:17+01:00",
 				"url": "https://otavio.cc/2022/09/22/microblog-publish-for.html",
-				"tags": ["programming","internet","blog"]
+				"tags": ["internet","blog","obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/21/wrote-an-obsidian.html",
@@ -581,7 +645,7 @@
 				"content_text": "Wrote an Obsidian plugin to publish notes on [Micro.blog](https://micro.blog). It's my first time writing in [Typescript](https://en.wikipedia.org/wiki/TypeScript), so I might have to clean up the code a little bit before I publish it on GitHub.\n",
 				"date_published": "2022-09-20T23:52:59+01:00",
 				"url": "https://otavio.cc/2022/09/21/wrote-an-obsidian.html",
-				"tags": ["programming","productivity","internet"]
+				"tags": ["internet","blog","obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/16/returning-these-to.html",
@@ -597,8 +661,7 @@
 				"content_html": "<p>Apple added dark mode support to FileMerge in Xcode 14. Finally 👨‍💻</p>\n",
 				"content_text": "Apple added dark mode support to FileMerge in Xcode 14. Finally 👨‍💻\n",
 				"date_published": "2022-09-14T13:05:38+01:00",
-				"url": "https://otavio.cc/2022/09/14/apples-filemerge-added.html",
-				"tags": ["programming","productivity"]
+				"url": "https://otavio.cc/2022/09/14/apples-filemerge-added.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/13/todays-nintendo-direct.html",
@@ -615,8 +678,7 @@
 				"content_html": "<p>The DuckDuckGo code I had to install their macOS browser expired, but I texted them and they sent me a new one 👨‍💻 🦆</p>\n",
 				"content_text": "The DuckDuckGo code I had to install their macOS browser expired, but I texted them and they sent me a new one 👨‍💻 🦆\n",
 				"date_published": "2022-09-08T18:46:32+01:00",
-				"url": "https://otavio.cc/2022/09/08/the-duckduckgo-code.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/09/08/the-duckduckgo-code.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/07/was-going-to.html",
@@ -648,8 +710,7 @@
 				"content_html": "<p>I always forget there&rsquo;s this Globe button on the MacBook keyboard 🤦‍♂️</p>\n",
 				"content_text": "I always forget there's this Globe button on the MacBook keyboard 🤦‍♂️\n",
 				"date_published": "2022-09-02T09:56:31+01:00",
-				"url": "https://otavio.cc/2022/09/02/i-always-forget.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2022/09/02/i-always-forget.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/09/02/doing-some-tests.html",
@@ -658,7 +719,7 @@
 				"content_text": "Doing some tests with [DayOne](https://dayoneapp.com) and Obsidian. If it works fine, I might cancel the DayOne subscription which's about to be renew. The good thing is that adding entries back to DayOne is trivial using their command line tool, in case I decide to go back later 👨‍💻\n",
 				"date_published": "2022-09-02T09:54:19+01:00",
 				"url": "https://otavio.cc/2022/09/02/doing-some-tests.html",
-				"tags": ["productivity","internet"]
+				"tags": ["obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/30/leather-work-for.html",
@@ -666,8 +727,7 @@
 				"content_html": "<!-- raw HTML omitted -->\n<p>Two weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I&rsquo;m carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it&rsquo;s easier to move all my EDC from one pouch to another.</p>\n<p>Leather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.</p>\n<p>I&rsquo;m pretty happy with the final result. Below the pocket knife and flashlight.</p>\n<!-- raw HTML omitted -->\n<p>And the one for pocket notebook, cards, and small pen.</p>\n<!-- raw HTML omitted -->\n<p>I&rsquo;ve also made a strap for FFP2 masks, because I hate those elastics around my ears.</p>\n",
 				"content_text": "<img src=\"https://cdn.uploads.micro.blog/14222/2022/c2934e60ba.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nTwo weeks ago I decided to get my leather tools in the cellar and make something. Since I have more than one pouch - a small one, and a bigger when I'm carrying my Fuji - I decided to make something to put my pocket notebooks - which I also make -, cards, pocket knife, and flashlight. This way it's easier to move all my EDC from one pouch to another.\n\nLeather work is fun, and for me it works for medidation or to listen to podcasts I need to focus on.\n\nI'm pretty happy with the final result. Below the pocket knife and flashlight.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/3fcdc85d96.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAnd the one for pocket notebook, cards, and small pen.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/4d3c421fa6.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nI've also made a strap for FFP2 masks, because I hate those elastics around my ears.\n",
 				"date_published": "2022-08-30T14:41:51+01:00",
-				"url": "https://otavio.cc/2022/08/30/leather-work-for.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2022/08/30/leather-work-for.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/30/ive-added-a.html",
@@ -676,7 +736,7 @@
 				"content_text": "I've added a link back from Goodreads to Micro.blog. They are called Book Links and can be created [here](https://www.goodreads.com/book_link/create) 📚\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/2adcd9ffab.png\" width=\"600\" height=\"467\" alt=\"\" />\n\nFor Micro.blog:\n\n```\nISBN: https://micro.blog/books/search?q=#ISBN#\nISBN 13: https://micro.blog/books/search?q=#ISBN13#\nTitle: https://micro.blog/books/search?q=#TITLE#\n```\n",
 				"date_published": "2022-08-30T10:10:38+01:00",
 				"url": "https://otavio.cc/2022/08/30/ive-added-a.html",
-				"tags": ["photography","book","internet","blog"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/29/no-matter-how.html",
@@ -684,8 +744,7 @@
 				"content_html": "<p>No matter how many times I try to teach <a href=\"https://www.hey.com\">HEY</a> to handle JIRA and GitLab e-mails, it never remembers they should go to the Feed. These are e-mails I would prefer to read in the Feed rather then in the &ldquo;Imbox&rdquo;. Maybe HEY isn&rsquo;t for me 👨‍💻</p>\n",
 				"content_text": "No matter how many times I try to teach [HEY](https://www.hey.com) to handle JIRA and GitLab e-mails, it never remembers they should go to the Feed. These are e-mails I would prefer to read in the Feed rather then in the \"Imbox\". Maybe HEY isn't for me 👨‍💻\n",
 				"date_published": "2022-08-29T14:56:43+01:00",
-				"url": "https://otavio.cc/2022/08/29/no-matter-how.html",
-				"tags": ["productivity","internet"]
+				"url": "https://otavio.cc/2022/08/29/no-matter-how.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/29/trying-digital-zettelkasten.html",
@@ -694,7 +753,7 @@
 				"content_text": "Trying digital [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) using [Obsidian](https://obsidian.md). \n",
 				"date_published": "2022-08-28T23:40:51+01:00",
 				"url": "https://otavio.cc/2022/08/29/trying-digital-zettelkasten.html",
-				"tags": ["productivity"]
+				"tags": ["obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/28/trying-hey.html",
@@ -702,8 +761,7 @@
 				"content_html": "<p>Trying <a href=\"https://www.hey.com\">Hey</a>.</p>\n",
 				"content_text": "Trying [Hey](https://www.hey.com).\n",
 				"date_published": "2022-08-28T10:38:57+01:00",
-				"url": "https://otavio.cc/2022/08/28/trying-hey.html",
-				"tags": ["productivity","internet"]
+				"url": "https://otavio.cc/2022/08/28/trying-hey.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/23/swiftprotocol-compressionservice-func.html",
@@ -712,7 +770,7 @@
 				"content_text": "```swift\r\nprotocol CompressionService {\r\n    func compress(\r\n        url: URL\r\n    ) throws -> URL\r\n}\r\n```\r\n\r\nSimple interface. More than 300 lines of code to test all the scenarios.\n",
 				"date_published": "2022-08-23T14:58:36+01:00",
 				"url": "https://otavio.cc/2022/08/23/swiftprotocol-compressionservice-func.html",
-				"tags": ["programming"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/16/my-great-friend.html",
@@ -753,7 +811,8 @@
 				"content_html": "<p>Sometimes when I am writing in SwiftUI I think &ldquo;that would be so much easier in AppKit&rdquo;, and when I&rsquo;m working with AppKit, &ldquo;that would be so much easier in SwiftUI&rdquo; 👨‍💻 🤦‍♂️</p>\n",
 				"content_text": "Sometimes when I am writing in SwiftUI I think \"that would be so much easier in AppKit\", and when I'm working with AppKit, \"that would be so much easier in SwiftUI\" 👨‍💻 🤦‍♂️\n",
 				"date_published": "2022-08-03T23:09:43+01:00",
-				"url": "https://otavio.cc/2022/08/04/sometimes-when-i.html"
+				"url": "https://otavio.cc/2022/08/04/sometimes-when-i.html",
+				"tags": ["coding","swiftui"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/03/i-spend-too.html",
@@ -770,7 +829,7 @@
 				"content_text": "For now my [Pinboard](http://pinboard.in/) client sends links to Micro.blog using the following URL:\n\n```\nhttps://micro.blog/bookmark?url=PAGE_URL\n```\n\nbut I'm thinking of using my [MicroblogAPI](https://github.com/otaviocc/MicroblogAPI) framework to save bookmarks directly there, without having to open the browser.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/39663d1d2e.png\" width=\"600\" height=\"572\" alt=\"\" />\n",
 				"date_published": "2022-08-03T14:15:35+01:00",
 				"url": "https://otavio.cc/2022/08/03/for-now-my.html",
-				"tags": ["photography"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/08/03/i-wish-there.html",
@@ -787,7 +846,7 @@
 				"content_text": "Adding an option to save links from my Pinboard client as Micro.blog bookmarks. I don’t use Pinboard to read articles, only to store links organized by tags. For reading - and note taking - I prefer Micro.blog instead 👨‍💻 🔗\n",
 				"date_published": "2022-08-03T00:32:38+01:00",
 				"url": "https://otavio.cc/2022/08/03/adding-an-option.html",
-				"tags": ["programming","internet"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/30/officially-back-to.html",
@@ -795,8 +854,7 @@
 				"content_html": "<p>Officially back to <a href=\"https://pinboard.in\">Pinboard</a>. GoodLinks exports a JSON file, which can be easily parsed, and I&rsquo;ve used my <a href=\"https://github.com/otaviocc/MicroPinboardAPI/\">MicroPinboardAPI</a> framework to import all the bookmarks to my Pinboard account. I might add this importer to the Pinboard client I&rsquo;m <em>slowly</em> writing.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Officially back to [Pinboard](https://pinboard.in). GoodLinks exports a JSON file, which can be easily parsed, and I've used my [MicroPinboardAPI](https://github.com/otaviocc/MicroPinboardAPI/) framework to import all the bookmarks to my Pinboard account. I might add this importer to the Pinboard client I'm _slowly_ writing.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/66087693d1.png\" width=\"600\" height=\"572\" alt=\"\" />\n",
 				"date_published": "2022-07-30T22:08:27+01:00",
-				"url": "https://otavio.cc/2022/07/30/officially-back-to.html",
-				"tags": ["photography","programming","internet"]
+				"url": "https://otavio.cc/2022/07/30/officially-back-to.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/30/i-made-the.html",
@@ -804,8 +862,7 @@
 				"content_html": "<p>I made the mistake of migrating all my bookmarks from <a href=\"https://pinboard.in/\">Pinboard</a> to <a href=\"https://goodlinks.app\">GoodLinks</a>. The app&rsquo;s amazing, but there&rsquo;s no way to export the content from there in a format used by other applications (e.g., the classic bookmarks HTML). I&rsquo;ll have to write a script for that now 👨‍💻</p>\n",
 				"content_text": "I made the mistake of migrating all my bookmarks from [Pinboard](https://pinboard.in/) to [GoodLinks](https://goodlinks.app). The app's amazing, but there's no way to export the content from there in a format used by other applications (e.g., the classic bookmarks HTML). I'll have to write a script for that now 👨‍💻\n",
 				"date_published": "2022-07-30T20:28:23+01:00",
-				"url": "https://otavio.cc/2022/07/30/i-made-the.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/07/30/i-made-the.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/30/seven-years-ago.html",
@@ -997,8 +1054,7 @@
 				"content_html": "<p>DuckDuckGo&rsquo;s browser for macOS requires an invitation code, which&rsquo;s sent via Push Notification to one&rsquo;s phone. This invitation code expires and there&rsquo;s no way to retrieve a new one, which mean it&rsquo;s not possible to reinstall the browser on a new computer 👨‍💻</p>\n",
 				"content_text": "DuckDuckGo's browser for macOS requires an invitation code, which's sent via Push Notification to one's phone. This invitation code expires and there's no way to retrieve a new one, which mean it's not possible to reinstall the browser on a new computer 👨‍💻\n",
 				"date_published": "2022-07-14T17:33:15+01:00",
-				"url": "https://otavio.cc/2022/07/14/duckduckgos-browser-for.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/07/14/duckduckgos-browser-for.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/14/xcode-takes-ages.html",
@@ -1006,8 +1062,7 @@
 				"content_html": "<p>Xcode takes ages to install even on the latest MacBook Pro model 👨‍💻</p>\n",
 				"content_text": "Xcode takes ages to install even on the latest MacBook Pro model 👨‍💻\n",
 				"date_published": "2022-07-14T17:30:52+01:00",
-				"url": "https://otavio.cc/2022/07/14/xcode-takes-ages.html",
-				"tags": ["productivity","engineering"]
+				"url": "https://otavio.cc/2022/07/14/xcode-takes-ages.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/14/macbook-pro-m.html",
@@ -1015,8 +1070,7 @@
 				"content_html": "<p>MacBook Pro M1 Pro: <a href=\"https://slack.com/\">Slack</a>&rsquo;s still slow.</p>\n",
 				"content_text": "MacBook Pro M1 Pro: [Slack](https://slack.com/)'s still slow.\n",
 				"date_published": "2022-07-14T14:56:02+01:00",
-				"url": "https://otavio.cc/2022/07/14/macbook-pro-m.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2022/07/14/macbook-pro-m.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/12/yesterday-i-configured.html",
@@ -1041,8 +1095,7 @@
 				"content_html": "<p>Yesterday I canceled my <a href=\"https://feedbin.com/\">Feedbin</a> subscription. I don’t consume RSS while working, only on my personal devices using <a href=\"https://netnewswire.com/\">NetNewsWire</a>. Since NNW can sync over iCloud, I don’t need the service.</p>\n<p>Feedbin is a great service, but it doesn’t fit in my workflow at the moment</p>\n",
 				"content_text": "Yesterday I canceled my [Feedbin](https://feedbin.com/) subscription. I don’t consume RSS while working, only on my personal devices using [NetNewsWire](https://netnewswire.com/). Since NNW can sync over iCloud, I don’t need the service.\n\nFeedbin is a great service, but it doesn’t fit in my workflow at the moment \n",
 				"date_published": "2022-07-11T15:46:42+01:00",
-				"url": "https://otavio.cc/2022/07/11/yesterday-i-canceled.html",
-				"tags": ["productivity","internet"]
+				"url": "https://otavio.cc/2022/07/11/yesterday-i-canceled.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/11/when-i-saw.html",
@@ -1050,8 +1103,7 @@
 				"content_html": "<p>When I saw that the <a href=\"https://support.apple.com/en-us/HT205890\">Reminders</a> app had tags and recurring tasks, I switched to it. But it doesn’t work for me, some features I need are lacking, so I returned to my old friend <a href=\"https://culturedcode.com/things/\">Things</a>, my favorite task manager for over a decade 👨‍💻</p>\n",
 				"content_text": "When I saw that the [Reminders](https://support.apple.com/en-us/HT205890) app had tags and recurring tasks, I switched to it. But it doesn’t work for me, some features I need are lacking, so I returned to my old friend [Things](https://culturedcode.com/things/), my favorite task manager for over a decade 👨‍💻\n",
 				"date_published": "2022-07-11T15:40:14+01:00",
-				"url": "https://otavio.cc/2022/07/11/when-i-saw.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2022/07/11/when-i-saw.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/10/cycle-path-in.html",
@@ -1069,7 +1121,7 @@
 				"content_text": "Basic Apple Guy's  [$9.99/Month](https://basicappleguy.com/basicappleblog/999month):\r\n\r\n> The entire purpose of this exercise was to bring more awareness to the dozens of slowly accruing subscriptions I've accumulated over the years.\r\n\r\nI did this a while back and as result I stopped subscriptions and deleted accounts I no longer use.\n",
 				"date_published": "2022-07-10T16:39:49+01:00",
 				"url": "https://otavio.cc/2022/07/10/basic-apple-guys.html",
-				"tags": ["internet"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/09/all-these-cameras.html",
@@ -1086,8 +1138,7 @@
 				"content_html": "<p>I used my <a href=\"https://otavio.cc/2022/07/09/the-company-has.html\">time-off</a> yesterday to take my <a href=\"https://www.brompton.com\">Brompton</a> for a spin: 40 km in the city riding only in bike lanes and bike dedicated streets. The city has more than 500 km of bicycle paths, with plans to expand even more, which is nice for a city where 70% of its residents own bikes 🚲</p>\n",
 				"content_text": "I used my [time-off](https://otavio.cc/2022/07/09/the-company-has.html) yesterday to take my [Brompton](https://www.brompton.com) for a spin: 40 km in the city riding only in bike lanes and bike dedicated streets. The city has more than 500 km of bicycle paths, with plans to expand even more, which is nice for a city where 70% of its residents own bikes 🚲\n",
 				"date_published": "2022-07-09T14:29:46+01:00",
-				"url": "https://otavio.cc/2022/07/09/i-used-my.html",
-				"tags": ["bike"]
+				"url": "https://otavio.cc/2022/07/09/i-used-my.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/09/the-company-has.html",
@@ -1095,7 +1146,8 @@
 				"content_html": "<p>The company has the tradition of giving us Fridays off during summer, and this year isn’t different. I’m gonna use my time to finish all the pending posts I have to publish at <a href=\"https://swiftdev.coffee\">swiftdev.coffee</a> 👨‍💻</p>\n",
 				"content_text": "The company has the tradition of giving us Fridays off during summer, and this year isn’t different. I’m gonna use my time to finish all the pending posts I have to publish at [swiftdev.coffee](https://swiftdev.coffee) 👨‍💻\n",
 				"date_published": "2022-07-09T14:15:34+01:00",
-				"url": "https://otavio.cc/2022/07/09/the-company-has.html"
+				"url": "https://otavio.cc/2022/07/09/the-company-has.html",
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/07/i-love-to.html",
@@ -1121,8 +1173,7 @@
 				"content_html": "<p>The best thing about working with macOS is not having to deal with the iOS Simulator.</p>\n",
 				"content_text": "The best thing about working with macOS is not having to deal with the iOS Simulator.\n",
 				"date_published": "2022-07-07T08:59:59+01:00",
-				"url": "https://otavio.cc/2022/07/07/the-best-thing.html",
-				"tags": ["programming","productivity"]
+				"url": "https://otavio.cc/2022/07/07/the-best-thing.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/01/hidden-math-the.html",
@@ -1130,8 +1181,7 @@
 				"content_html": "<p><a href=\"https://bricknerd.com/home/hidden-math-the-numbers-that-make-lego-work-6-10-22\">Hidden Math: The Numbers That Make LEGO Work</a></p>\n<blockquote>\n<p>What math is hidden in your favorite LEGO sets, how can you recognize it, and how does it magically make LEGO geometry work so perfectly?</p>\n</blockquote>\n<p>One of the coolest posts I&rsquo;ve read this week.</p>\n",
 				"content_text": "[Hidden Math: The Numbers That Make LEGO Work](https://bricknerd.com/home/hidden-math-the-numbers-that-make-lego-work-6-10-22)\n\n> What math is hidden in your favorite LEGO sets, how can you recognize it, and how does it magically make LEGO geometry work so perfectly?\n\nOne of the coolest posts I've read this week.\n",
 				"date_published": "2022-07-01T22:02:36+01:00",
-				"url": "https://otavio.cc/2022/07/01/hidden-math-the.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/07/01/hidden-math-the.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/07/01/last-year-when.html",
@@ -1155,7 +1205,8 @@
 				"content_html": "<p>I pay for hosting for my blog, email, RSS, and photo services. I pay to support the products I enjoy using and that don&rsquo;t collect information to sell/share or that push products on me.</p>\n",
 				"content_text": "I pay for hosting for my blog, email, RSS, and photo services. I pay to support the products I enjoy using and that don't collect information to sell/share or that push products on me.\n",
 				"date_published": "2022-06-30T22:37:36+01:00",
-				"url": "https://otavio.cc/2022/06/30/i-pay-for.html"
+				"url": "https://otavio.cc/2022/06/30/i-pay-for.html",
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/30/sometimes-i-feel.html",
@@ -1163,7 +1214,8 @@
 				"content_html": "<p>Sometimes I feel I might be missing something by not using Twitter, but then I remember I make much better use of my time by following blogs and websites using RSS.</p>\n",
 				"content_text": "Sometimes I feel I might be missing something by not using Twitter, but then I remember I make much better use of my time by following blogs and websites using RSS.\n",
 				"date_published": "2022-06-30T22:32:46+01:00",
-				"url": "https://otavio.cc/2022/06/30/sometimes-i-feel.html"
+				"url": "https://otavio.cc/2022/06/30/sometimes-i-feel.html",
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/26/i-keep-about.html",
@@ -1189,7 +1241,7 @@
 				"content_text": "The list of topics I have to write for my other blog - [swiftdev.coffee](https://swiftdev.coffee \"swiftdev.coffee\") - keeps growing. The amount of time I have to write them, on the other hand… 👨‍💻\n\n",
 				"date_published": "2022-06-23T13:51:30+01:00",
 				"url": "https://otavio.cc/2022/06/23/the-list-of.html",
-				"tags": ["productivity","blog"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/23/i-saw-this.html",
@@ -1207,7 +1259,7 @@
 				"content_text": "[A Tale of Two Interfaces](https://manas.tungare.name/blog/a-tale-of-two-interfaces):\n\n> QuickSynergy puts the user first, and is designed to let the user work naturally with their mental model of a keyboard/mouse layout. Synergy starts from the configuration file and slaps on a UI on top of it.\n\nI spent a lot of time designing the QS UI.\n",
 				"date_published": "2022-06-22T13:01:21+01:00",
 				"url": "https://otavio.cc/2022/06/22/a-tale-of.html",
-				"tags": ["programming","design"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/19/my-brain-isnt.html",
@@ -1266,7 +1318,7 @@
 				"content_text": "I have a post ready to publish in [swiftdev.coffee](https://swiftdev.coffee), but I don't think it's a smart move to publish it during WWDC week 👨‍💻\n",
 				"date_published": "2022-06-08T12:12:57+01:00",
 				"url": "https://otavio.cc/2022/06/08/i-have-a.html",
-				"tags": ["programming","engineering","blog"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/07/last-time-i.html",
@@ -1283,7 +1335,7 @@
 				"content_text": "Today was a good day for a **Bánh mì** in the park 🚲 📷\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/992d038913.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-06-07T15:30:54+01:00",
 				"url": "https://otavio.cc/2022/06/07/today-was-a.html",
-				"tags": ["photography","bike"]
+				"tags": ["photography"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/06/wwdcs-speaker-just.html",
@@ -1299,7 +1351,8 @@
 				"content_html": "<p>Nice to see SwiftLint being mentioned at WWDC 👨‍💻</p>\n",
 				"content_text": "Nice to see SwiftLint being mentioned at WWDC 👨‍💻\n",
 				"date_published": "2022-06-06T21:19:26+01:00",
-				"url": "https://otavio.cc/2022/06/06/nice-to-see.html"
+				"url": "https://otavio.cc/2022/06/06/nice-to-see.html",
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/06/wwdcs-keynote-was.html",
@@ -1315,7 +1368,8 @@
 				"content_html": "<p>👨‍💻 📓 Adding a new feature to Micro.blog&rsquo;s app for macOS. Writing Objective-C code after so many years!</p>\n",
 				"content_text": "👨‍💻 📓 Adding a new feature to Micro.blog's app for macOS. Writing Objective-C code after so many years!\n",
 				"date_published": "2022-06-04T15:28:38+01:00",
-				"url": "https://otavio.cc/2022/06/04/adding-a-new.html"
+				"url": "https://otavio.cc/2022/06/04/adding-a-new.html",
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/06/01/morning-coffee-i.html",
@@ -1359,7 +1413,7 @@
 				"content_text": "Looking forward to finding some time to finish my first post for my new blog [swiftdev.coffee](https://swiftdev.coffee/) 👨‍💻 ☕️\n",
 				"date_published": "2022-05-31T13:03:53+01:00",
 				"url": "https://otavio.cc/2022/05/31/looking-forward-to.html",
-				"tags": ["programming","engineering","blog"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/30/i-never-got.html",
@@ -1377,7 +1431,7 @@
 				"content_text": "My new blog, [swiftdev.coffee](https://swiftdev.coffee) is about to go live. My goal for the blog is to capture some of my learnings and ideas I apply when building software, focusing on Swift, SwiftUI, and everything Apple related. So grab a good cup of coffee and follow me there.\n\n",
 				"date_published": "2022-05-29T07:06:48+01:00",
 				"url": "https://otavio.cc/2022/05/29/my-new-blog.html",
-				"tags": ["programming","engineering","blog"]
+				"tags": ["coding","internet","blog","swiftui"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/28/potsdamer-platz-jpeg.html",
@@ -1403,7 +1457,8 @@
 				"content_html": "<p>👨‍💻 I&rsquo;m creating another blog (hosted by Micro.blog) for Swift related content. My idea is to publish long posts there, leaving my main blog for comments about life, the universe, and everything.</p>\n",
 				"content_text": "👨‍💻 I'm creating another blog (hosted by Micro.blog) for Swift related content. My idea is to publish long posts there, leaving my main blog for comments about life, the universe, and everything.\n",
 				"date_published": "2022-05-28T07:30:25+01:00",
-				"url": "https://otavio.cc/2022/05/28/im-creating-another.html"
+				"url": "https://otavio.cc/2022/05/28/im-creating-another.html",
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/27/ive-used-the.html",
@@ -1411,7 +1466,8 @@
 				"content_html": "<p>I&rsquo;ve used the iPad to write a simple <a href=\"https://en.wikipedia.org/wiki/Dependency_injection\">Dependency Injection</a> Package using <a href=\"https://www.apple.com/swift/playgrounds/\">Playgrounds</a>. This is the first time I&rsquo;ve used Playgrounds on the iPad to build something usable. The <a href=\"https://www.apple.com/ipad-keyboards/\">Magic Keyboard</a> makes everything so much easier 👨‍💻</p>\n",
 				"content_text": "I've used the iPad to write a simple [Dependency Injection](https://en.wikipedia.org/wiki/Dependency_injection) Package using [Playgrounds](https://www.apple.com/swift/playgrounds/). This is the first time I've used Playgrounds on the iPad to build something usable. The [Magic Keyboard](https://www.apple.com/ipad-keyboards/) makes everything so much easier 👨‍💻\n",
 				"date_published": "2022-05-27T20:01:14+01:00",
-				"url": "https://otavio.cc/2022/05/27/ive-used-the.html"
+				"url": "https://otavio.cc/2022/05/27/ive-used-the.html",
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/25/inheriting-froebels-gifts.html",
@@ -1419,8 +1475,7 @@
 				"content_html": "<p><a href=\"https://99percentinvisible.org/episode/inheriting-froebels-gifts/\">Inheriting Froebel&rsquo;s Gifts</a>:</p>\n<blockquote>\n<p>If you’ve ever looked at a piece of abstract art or Modernist architecture and thought “my kindergartener could have made that,” well, that may be more true than you realize.</p>\n</blockquote>\n<p>Another amazing <a href=\"https://99percentinvisible.org\">99% Invisible</a> episode.</p>\n",
 				"content_text": "[Inheriting Froebel's Gifts](https://99percentinvisible.org/episode/inheriting-froebels-gifts/):\n\n> If you’ve ever looked at a piece of abstract art or Modernist architecture and thought “my kindergartener could have made that,” well, that may be more true than you realize. \n\nAnother amazing [99% Invisible](https://99percentinvisible.org) episode.\n\n",
 				"date_published": "2022-05-25T00:06:20+01:00",
-				"url": "https://otavio.cc/2022/05/25/inheriting-froebels-gifts.html",
-				"tags": ["design"]
+				"url": "https://otavio.cc/2022/05/25/inheriting-froebels-gifts.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/24/185800.html",
@@ -1428,8 +1483,7 @@
 				"content_html": "<p><a href=\"https://twitterrific.com/ios/\">Twitterrific</a>:</p>\n<blockquote>\n<p>Muffle people, hashtags, and domains to keep your timeline free from spoilers and unwanted tweets.</p>\n</blockquote>\n<p>Bonus: regex! This is a great feature and allows you to mute content without getting rid of it. The content gets collapsed, but you can expand it if you want.</p>\n",
 				"content_text": "[Twitterrific](https://twitterrific.com/ios/):\n\n> Muffle people, hashtags, and domains to keep your timeline free from spoilers and unwanted tweets.\n\nBonus: regex! This is a great feature and allows you to mute content without getting rid of it. The content gets collapsed, but you can expand it if you want.\n\n",
 				"date_published": "2022-05-24T17:58:00+01:00",
-				"url": "https://otavio.cc/2022/05/24/185800.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/05/24/185800.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/21/im-trying-ulysses.html",
@@ -1437,8 +1491,7 @@
 				"content_html": "<p>I’m trying <a href=\"https://ulysses.app/\" title=\"Ulysses\">Ulysses</a> for the first time, and am impressed. It does a really good job and renders code blocks like no other markdown editor for iOS/iPadOS. It’s perfect for long technical posts/articles 👍 👨‍💻</p>\n",
 				"content_text": "I’m trying [Ulysses](https://ulysses.app/ \"Ulysses\") for the first time, and am impressed. It does a really good job and renders code blocks like no other markdown editor for iOS/iPadOS. It’s perfect for long technical posts/articles 👍 👨‍💻\n\n",
 				"date_published": "2022-05-21T21:56:09+01:00",
-				"url": "https://otavio.cc/2022/05/21/im-trying-ulysses.html",
-				"tags": ["programming","blog"]
+				"url": "https://otavio.cc/2022/05/21/im-trying-ulysses.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/21/i-was-planning.html",
@@ -1446,8 +1499,7 @@
 				"content_html": "<p>I was planning on writing a few long posts about Software Architecture, Modularization, and Unit Testing, but I always find something else to do instead. Maybe I should break these posts into series of shorter posts. Easier to write and commit to 👨‍💻</p>\n",
 				"content_text": "I was planning on writing a few long posts about Software Architecture, Modularization, and Unit Testing, but I always find something else to do instead. Maybe I should break these posts into series of shorter posts. Easier to write and commit to 👨‍💻\n\n",
 				"date_published": "2022-05-21T21:41:53+01:00",
-				"url": "https://otavio.cc/2022/05/21/i-was-planning.html",
-				"tags": ["engineering","blog"]
+				"url": "https://otavio.cc/2022/05/21/i-was-planning.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/21/saturday-am-coffee.html",
@@ -1464,7 +1516,7 @@
 				"content_text": "📷 Day 19: **Indulgence**. Morning coffee at a local coffee shop. I didn't have my camera on me this morning, so I had to use my phone for this one.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/aa05c55ec0.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-05-20T08:56:00+01:00",
 				"url": "https://otavio.cc/2022/05/20/day-indulgence-morning.html",
-				"tags": ["photography","bike"]
+				"tags": ["photography"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/20/duckduckgo-for-macos.html",
@@ -1472,8 +1524,7 @@
 				"content_html": "<p>👨‍💻 <a href=\"https://spreadprivacy.com/introducing-duckduckgo-for-mac/\">DuckDuckGo for macOS</a> is fast. Incredibly fast.</p>\n",
 				"content_text": "👨‍💻 [DuckDuckGo for macOS](https://spreadprivacy.com/introducing-duckduckgo-for-mac/) is fast. Incredibly fast.\n",
 				"date_published": "2022-05-20T06:45:39+01:00",
-				"url": "https://otavio.cc/2022/05/20/duckduckgo-for-macos.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/05/20/duckduckgo-for-macos.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/20/day-beverage-for.html",
@@ -1490,8 +1541,7 @@
 				"content_html": "<p>After so many back and forth with Instagram, I decided to deactivate my accounts - public and private - there. I’m impressed by the quality of the content I see in <a href=\"https://glass.photo\">Glass.photo</a> and will use the platform to share and browse photos.</p>\n",
 				"content_text": "After so many back and forth with Instagram, I decided to deactivate my accounts - public and private - there. I’m impressed by the quality of the content I see in [Glass.photo](https://glass.photo) and will use the platform to share and browse photos.\n",
 				"date_published": "2022-05-17T08:52:53+01:00",
-				"url": "https://otavio.cc/2022/05/17/after-so-many.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2022/05/17/after-so-many.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/14/providing-your-birthday.html",
@@ -1499,8 +1549,7 @@
 				"content_html": "<p>Instagram:</p>\n<blockquote>\n<p>Providing your birthday improves the features and ads you see, and helps us keep the Instagram community safe.</p>\n</blockquote>\n<p>Instagram is now asking its users to provide their birthdate to target ads, while pretending they care about the community 🕸 👨‍💻</p>\n",
 				"content_text": "Instagram:\n\n> Providing your birthday improves the features and ads you see, and helps us keep the Instagram community safe.\n\nInstagram is now asking its users to provide their birthdate to target ads, while pretending they care about the community 🕸 👨‍💻\n",
 				"date_published": "2022-05-14T09:35:00+01:00",
-				"url": "https://otavio.cc/2022/05/14/providing-your-birthday.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2022/05/14/providing-your-birthday.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/13/yesterday-i-decided.html",
@@ -1544,8 +1593,7 @@
 				"content_html": "<p>🎵 I can’t stop listening to <a href=\"https://www.youtube.com/watch?v=u9Dg-g7t2l4\">The Sound Of Silence</a> (Disturbed version).</p>\n",
 				"content_text": "🎵 I can’t stop listening to [The Sound Of Silence](https://www.youtube.com/watch?v=u9Dg-g7t2l4) (Disturbed version).\n",
 				"date_published": "2022-05-07T13:32:35+01:00",
-				"url": "https://otavio.cc/2022/05/07/i-cant-stop.html",
-				"tags": ["music"]
+				"url": "https://otavio.cc/2022/05/07/i-cant-stop.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/06/day-park-this.html",
@@ -1571,8 +1619,7 @@
 				"content_html": "<p>Third day riding my bicycle to work 🚲 Felling healthy already 🤣</p>\n",
 				"content_text": "Third day riding my bicycle to work 🚲 Felling healthy already 🤣\n",
 				"date_published": "2022-05-04T16:52:26+01:00",
-				"url": "https://otavio.cc/2022/05/04/third-day-riding.html",
-				"tags": ["bike"]
+				"url": "https://otavio.cc/2022/05/04/third-day-riding.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/04/after-all-these.html",
@@ -1580,8 +1627,7 @@
 				"content_html": "<p>After all these years, Flickr&rsquo;s app didn&rsquo;t improve much. Uploading photos, for instance, takes forever. But I&rsquo;m back in the platform, and I love it, so I should stop complaining (and giving constructive feedback instead).</p>\n",
 				"content_text": "After all these years, Flickr's app didn't improve much. Uploading photos, for instance, takes forever. But I'm back in the platform, and I love it, so I should stop complaining (and giving constructive feedback instead).\n",
 				"date_published": "2022-05-04T16:20:04+01:00",
-				"url": "https://otavio.cc/2022/05/04/after-all-these.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2022/05/04/after-all-these.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/02/ill-have-to.html",
@@ -1589,8 +1635,7 @@
 				"content_html": "<p>I&rsquo;ll have to go thru all the photos I took during my vacations, fixing their timestamps. I completely forgot to adjust my camera&rsquo;s clock when daylight saving time started this year. As result, the photos I took with my camera don&rsquo;t match the time of those I took with my phone.</p>\n",
 				"content_text": "I'll have to go thru all the photos I took during my vacations, fixing their timestamps. I completely forgot to adjust my camera's clock when daylight saving time started this year. As result, the photos I took with my camera don't match the time of those I took with my phone.\n",
 				"date_published": "2022-05-02T16:27:11+01:00",
-				"url": "https://otavio.cc/2022/05/02/ill-have-to.html",
-				"tags": ["photography","productivity"]
+				"url": "https://otavio.cc/2022/05/02/ill-have-to.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/05/01/this-morning-i.html",
@@ -1599,7 +1644,7 @@
 				"content_text": "This morning I started writing about my trip to Paris. I took tons of photos to help to build the map of events and saved stamps, receipts, tickets, and museum stubs! Just have to fill the blanks now ✈️ 🇫🇷 📷\n",
 				"date_published": "2022-05-01T20:16:22+01:00",
 				"url": "https://otavio.cc/2022/05/01/this-morning-i.html",
-				"tags": ["photography","blog"]
+				"tags": ["photography"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/29/i-saw-a.html",
@@ -1607,8 +1652,7 @@
 				"content_html": "<p>I saw a lot of wonderful things today, but nothing beats</p>\n<ul>\n<li>Foucault&rsquo;s pendulum (original)</li>\n<li>Lavoisier&rsquo;s  Laboratory</li>\n<li>Tombs of Marie Curie ❤️ and Pierre Curie</li>\n<li>Marie Curie ❤️ Museum</li>\n</ul>\n<p>Best anniversary ever!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I saw a lot of wonderful things today, but nothing beats\n \n* Foucault's pendulum (original)\n* Lavoisier's  Laboratory\n* Tombs of Marie Curie ❤️ and Pierre Curie\n* Marie Curie ❤️ Museum\n\nBest anniversary ever!\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/10e158c281.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2022-04-29T21:52:26+01:00",
-				"url": "https://otavio.cc/2022/04/29/i-saw-a.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2022/04/29/i-saw-a.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/28/went-to-the.html",
@@ -1633,8 +1677,7 @@
 				"content_html": "<p>I love my Fuji camera, but its app for iOS is virtually impossible to use. I spent 30 minutes trying to make the camera and the app <em>talk</em> to each other, without succeed. The good thing is that the camera has an USB-C interface, therefore I can transfer photos directly to an iPad.</p>\n",
 				"content_text": "I love my Fuji camera, but its app for iOS is virtually impossible to use. I spent 30 minutes trying to make the camera and the app _talk_ to each other, without succeed. The good thing is that the camera has an USB-C interface, therefore I can transfer photos directly to an iPad.\n",
 				"date_published": "2022-04-25T15:22:26+01:00",
-				"url": "https://otavio.cc/2022/04/25/i-love-my.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2022/04/25/i-love-my.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/25/microblog-for-macos.html",
@@ -1643,7 +1686,7 @@
 				"content_text": "Micro.blog for macOS allows users to export their entries to Day One. I use Day One as a digital journal, but when importing my posts from Micro.blog I noticed some posts where missing. More specifically, posts with images. I'm submitting a patch.\n",
 				"date_published": "2022-04-24T23:46:00+01:00",
 				"url": "https://otavio.cc/2022/04/25/microblog-for-macos.html",
-				"tags": ["blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/24/001852.html",
@@ -1651,8 +1694,7 @@
 				"content_html": "<p>The latest batch of subscriptions I canceled includes Pocket, Drafts, Tweetbot, Bear, and CARROT Weather.</p>\n",
 				"content_text": "The latest batch of subscriptions I canceled includes Pocket, Drafts, Tweetbot, Bear, and CARROT Weather.\n",
 				"date_published": "2022-04-23T23:18:52+01:00",
-				"url": "https://otavio.cc/2022/04/24/001852.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/24/001852.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/24/the-latest-batch.html",
@@ -1660,8 +1702,7 @@
 				"content_html": "<p>The latest batch of accounts I deleted includes Airbnb, Bitbucket, Coursera, <strong>Dropbox</strong>, <strong>Evernote</strong>, Fitbit, Foursquare, Goodreads, ICQ, Keybase.io, <strong>LinkedIn</strong>, Literal, Quora, <strong>Reddit</strong>, Signal, Slashdot, Snapfish, <strong>Spotify</strong>, Steam, The Omni Group, Things Cloud, and Withings 🎉</p>\n",
 				"content_text": "The latest batch of accounts I deleted includes Airbnb, Bitbucket, Coursera, **Dropbox**, **Evernote**, Fitbit, Foursquare, Goodreads, ICQ, Keybase.io, **LinkedIn**, Literal, Quora, **Reddit**, Signal, Slashdot, Snapfish, **Spotify**, Steam, The Omni Group, Things Cloud, and Withings 🎉\n",
 				"date_published": "2022-04-23T23:14:33+01:00",
-				"url": "https://otavio.cc/2022/04/24/the-latest-batch.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/24/the-latest-batch.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/23/sorry-about-this.html",
@@ -1687,7 +1728,7 @@
 				"content_text": "Finished reading: [Dude, You're Gonna Be a Dad!: How to Get (Both of You) Through the Next 9 Months](https://micro.blog/books/9781440505362) by John Pfeiffer 📚\n",
 				"date_published": "2022-04-23T13:00:05+01:00",
 				"url": "https://otavio.cc/2022/04/23/finished-reading-dude.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/22/i-pay-around.html",
@@ -1712,8 +1753,7 @@
 				"content_html": "<p>I wish there was more people using <a href=\"https://threema.ch/en\">Threema</a> 💬</p>\n",
 				"content_text": "I wish there was more people using [Threema](https://threema.ch/en) 💬 \n",
 				"date_published": "2022-04-21T11:59:48+01:00",
-				"url": "https://otavio.cc/2022/04/21/i-wish-there.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/21/i-wish-there.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/20/yesterday-i-made.html",
@@ -1721,8 +1761,7 @@
 				"content_html": "<p>Yesterday I made a list of internet services I don’t use and closed them. Fifteen websites I no longer have to worry about.</p>\n",
 				"content_text": "Yesterday I made a list of internet services I don’t use and closed them. Fifteen websites I no longer have to worry about.\n",
 				"date_published": "2022-04-20T11:33:38+01:00",
-				"url": "https://otavio.cc/2022/04/20/yesterday-i-made.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/20/yesterday-i-made.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/19/unfortunately-i-still.html",
@@ -1730,8 +1769,7 @@
 				"content_html": "<p>Unfortunately I still need Twitter for a couple of things. Two services I use in Germany offer support via DM. If you email them, it takes more than a week to get a reply. If you DM them, it takes 10 minutes.</p>\n",
 				"content_text": "Unfortunately I still need Twitter for a couple of things. Two services I use in Germany offer support via DM. If you email them, it takes more than a week to get a reply. If you DM them, it takes 10 minutes.\n",
 				"date_published": "2022-04-19T12:59:02+01:00",
-				"url": "https://otavio.cc/2022/04/19/unfortunately-i-still.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/19/unfortunately-i-still.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/19/to-delete-the.html",
@@ -1739,8 +1777,7 @@
 				"content_html": "<p>To delete the 8000+ remaining tweets I’ve used <a href=\"https://tweetdelete.net/\">TweetDelete</a> (Premium). Basically you upload your Twitter archive and the service uses the tweet IDs to delete old tweets that aren’t available in the timeline API.</p>\n",
 				"content_text": "To delete the 8000+ remaining tweets I’ve used [TweetDelete](https://tweetdelete.net/) (Premium). Basically you upload your Twitter archive and the service uses the tweet IDs to delete old tweets that aren’t available in the timeline API.\n",
 				"date_published": "2022-04-19T12:56:13+01:00",
-				"url": "https://otavio.cc/2022/04/19/to-delete-the.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/19/to-delete-the.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/18/elon-musk-demonstrates.html",
@@ -1748,8 +1785,7 @@
 				"content_html": "<p><a href=\"https://www.techdirt.com/2022/04/15/elon-musk-demonstrates-how-little-he-understands-about-content-moderation/\">Elon Musk demonstrates how little he understands about content moderation</a></p>\n<blockquote>\n<p>humans are complex and ever-changing. And content moderation on a platform like Twitter is about recognizing that complexity and figuring out ways to deal with it.</p>\n</blockquote>\n<p>I don&rsquo;t get why people worship Musk.</p>\n",
 				"content_text": "[Elon Musk demonstrates how little he understands about content moderation](https://www.techdirt.com/2022/04/15/elon-musk-demonstrates-how-little-he-understands-about-content-moderation/)\r\n\r\n> humans are complex and ever-changing. And content moderation on a platform like Twitter is about recognizing that complexity and figuring out ways to deal with it.\r\n\r\nI don't get why people worship Musk.\n",
 				"date_published": "2022-04-18T10:52:43+01:00",
-				"url": "https://otavio.cc/2022/04/18/elon-musk-demonstrates.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/18/elon-musk-demonstrates.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/18/twitter-boards-poison.html",
@@ -1757,8 +1793,7 @@
 				"content_html": "<p><a href=\"https://www.pbs.org/newshour/economy/twitter-board-of-directors-adopt-poison-pill-defense-against-musk-takeover-bid\">Twitter board&rsquo;s ‘poison pill’ defense against Musk takeover bid</a></p>\n<blockquote>\n<p>Mark Cuban, weighed in on Twitter to share his theory that Musk is making his bid to goose the company’s stock price so he can sell his stake at a profit.</p>\n</blockquote>\n<p>It wouldn&rsquo;t be the first time he does something similar.</p>\n",
 				"content_text": "[Twitter board's ‘poison pill’ defense against Musk takeover bid](https://www.pbs.org/newshour/economy/twitter-board-of-directors-adopt-poison-pill-defense-against-musk-takeover-bid)\r\n\r\n> Mark Cuban, weighed in on Twitter to share his theory that Musk is making his bid to goose the company’s stock price so he can sell his stake at a profit.\r\n\r\nIt wouldn't be the first time he does something similar. \n",
 				"date_published": "2022-04-18T10:40:25+01:00",
-				"url": "https://otavio.cc/2022/04/18/twitter-boards-poison.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/18/twitter-boards-poison.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/15/a-couple-of.html",
@@ -1766,8 +1801,7 @@
 				"content_html": "<p>A couple of days ago I started deleting all my tweets. I had 18,000 tweets and managed to delete 10,000 already. My account is November 2007, and Twitter changed a lot since then; is no longer a healthy community it once was. 8,000 more tweets to go!</p>\n",
 				"content_text": "A couple of days ago I started deleting all my tweets. I had 18,000 tweets and managed to delete 10,000 already. My account is November 2007, and Twitter changed a lot since then; is no longer a healthy community it once was. 8,000 more tweets to go!\n",
 				"date_published": "2022-04-15T12:49:05+01:00",
-				"url": "https://otavio.cc/2022/04/15/a-couple-of.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/15/a-couple-of.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/09/decided-to-create.html",
@@ -1785,7 +1819,7 @@
 				"content_text": "[Proton and SimpleLogin are joining forces](https://protonmail.com/blog/proton-and-simplelogin-join-forces/):\n\n> (...) we’re happy to announce today that SimpleLogin has joined Proton to help further our shared mission.\n\nProtonMail was running behind other services, so this is big. I use [Mozilla Relay](https://relay.firefox.com) and highly recommend services like this.\n",
 				"date_published": "2022-04-09T13:21:29+01:00",
 				"url": "https://otavio.cc/2022/04/09/proton-and-simplelogin.html",
-				"tags": ["productivity","internet"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/09/its-happening.html",
@@ -1793,8 +1827,7 @@
 				"content_html": "<p>It’s happening!</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "It’s happening!\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/84cf2e2302.jpg\" width=\"600\" height=\"399\" alt=\"\" />\n",
 				"date_published": "2022-04-09T08:55:03+01:00",
-				"url": "https://otavio.cc/2022/04/09/its-happening.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2022/04/09/its-happening.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/06/i-decided-to.html",
@@ -1802,8 +1835,7 @@
 				"content_html": "<p>I decided to return to <a href=\"http://flic.kr/otaviocc\">Flickr</a>, it&rsquo;s still my favorite platform to share, store, and learn from others. I use <a href=\"https://glass.photo/\">Glass</a> as well, as Instagram alternative.</p>\n",
 				"content_text": "I decided to return to [Flickr](http://flic.kr/otaviocc), it's still my favorite platform to share, store, and learn from others. I use [Glass](https://glass.photo/) as well, as Instagram alternative.\n",
 				"date_published": "2022-04-06T09:24:12+01:00",
-				"url": "https://otavio.cc/2022/04/06/i-decided-to.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2022/04/06/i-decided-to.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/05/markdown-in-marsedit.html",
@@ -1812,7 +1844,7 @@
 				"content_text": " [Markdown in MarsEdit](https://www.manton.org/2020/04/22/markdown-in-marsedit.html) by [@manton](https://micro.blog/manton)\n\n> Here’s a simple tip for using MarsEdit with Micro.blog. By default, formatting options in MarsEdit such as Bold and Italic map to HTML (...). You can customize them to use Markdown instead.\n\nExcellent tip on how make ⌘B and ⌘I work with Markdown.\n",
 				"date_published": "2022-04-05T14:56:00+01:00",
 				"url": "https://otavio.cc/2022/04/05/markdown-in-marsedit.html",
-				"tags": ["productivity","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/05/i-already-know.html",
@@ -1820,8 +1852,7 @@
 				"content_html": "<p>I already know what I&rsquo;m gonna build next, and my plan is to sell it in the App Store for macOS and <em>maybe</em> for iOS. But I believe macOS users need it more than iOS users. I&rsquo;m excited 👨‍💻</p>\n",
 				"content_text": "I already know what I'm gonna build next, and my plan is to sell it in the App Store for macOS and *maybe* for iOS. But I believe macOS users need it more than iOS users. I'm excited 👨‍💻\n",
 				"date_published": "2022-04-05T14:46:36+01:00",
-				"url": "https://otavio.cc/2022/04/05/i-already-know.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2022/04/05/i-already-know.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/03/what-i-like.html",
@@ -1829,8 +1860,7 @@
 				"content_html": "<p>What I like about <a href=\"https://www.flickr.com/\">Flickr</a> and <a href=\"https://glass.photo/\">Glass</a> is the fact they show the pictures’ metadata. Information such as aperture, exposure, and ISO are extremely valuable when you want to learn/improve your photo skills.</p>\n",
 				"content_text": "What I like about [Flickr](https://www.flickr.com/) and [Glass](https://glass.photo/) is the fact they show the pictures’ metadata. Information such as aperture, exposure, and ISO are extremely valuable when you want to learn/improve your photo skills.\n",
 				"date_published": "2022-04-03T16:05:10+01:00",
-				"url": "https://otavio.cc/2022/04/03/what-i-like.html",
-				"tags": ["photography","productivity","internet"]
+				"url": "https://otavio.cc/2022/04/03/what-i-like.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/03/every-now-and.html",
@@ -1838,8 +1868,7 @@
 				"content_html": "<p>Every now and then I reinstall Instagram to find some good photographers to follow. But after scrolling the feed for a few minutes, I’m bombarded with ads and products. It’s frustrating.</p>\n<p><a href=\"https://www.flickr.com/\">Flickr</a> and <a href=\"https://glass.photo/\">Glass</a> focus on photos, but on the other hand are way behind in number of users.</p>\n",
 				"content_text": "Every now and then I reinstall Instagram to find some good photographers to follow. But after scrolling the feed for a few minutes, I’m bombarded with ads and products. It’s frustrating.\n\n[Flickr](https://www.flickr.com/) and [Glass](https://glass.photo/) focus on photos, but on the other hand are way behind in number of users.\n",
 				"date_published": "2022-04-03T16:00:06+01:00",
-				"url": "https://otavio.cc/2022/04/03/every-now-and.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/04/03/every-now-and.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/03/i-just-bought.html",
@@ -1848,7 +1877,7 @@
 				"content_text": "I just bought [@danielpunkass](https://micro.blog/danielpunkass)'s [MarsEdit](https://redsweater.com/marsedit/). I love the fact it can render Micro.blog's templates for previewing posts. It's perfect for long posts ✍️ 👨‍💻\n",
 				"date_published": "2022-04-03T14:59:00+01:00",
 				"url": "https://otavio.cc/2022/04/03/i-just-bought.html",
-				"tags": ["productivity","internet","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/02/feedbin-can-share.html",
@@ -1857,7 +1886,7 @@
 				"content_text": "[Feedbin](https://feedbin.com) can share and save articles to a variety of services. For services it doesn't offer direct support, it's possible to manually configure the integration. That's what I've done with Micro.blog. In [Settings & Share](https://feedbin.com/settings/sharing), I've added:\n\n```\nhttps://micro.blog/bookmark?url=${url}\n```\n",
 				"date_published": "2022-04-02T15:51:00+01:00",
 				"url": "https://otavio.cc/2022/04/02/feedbin-can-share.html",
-				"tags": ["productivity","internet","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/04/01/lego-has-a.html",
@@ -1883,7 +1912,7 @@
 				"content_text": "Two days ago I reinstalled Instagram to try the new \"feature\", which allows users to [filter their timelines by favorites and following](https://about.instagram.com/blog/announcements/favorites-and-following). Truth is, this is just a way they found to shoehorn more ads/promoted content in the user's feed. Uninstalled today.\n",
 				"date_published": "2022-03-25T11:37:09+01:00",
 				"url": "https://otavio.cc/2022/03/25/two-days-ago.html",
-				"tags": ["photography","internet"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/22/today-i-updated.html",
@@ -1892,7 +1921,7 @@
 				"content_text": "Today I updated [my network client library](https://github.com/MicroClientSwift/MicroClient) and documented all its public methods. For [publishing the documentation](https://microclientswift.github.io/MicroClient/documentation/microclient/) I've used [Swift-DocC](https://github.com/apple/swift-docc), Apple's documentation compiler for Swift modules 👨‍💻\n",
 				"date_published": "2022-03-22T23:06:58+01:00",
 				"url": "https://otavio.cc/2022/03/22/today-i-updated.html",
-				"tags": ["programming"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/22/i-have-some.html",
@@ -1916,8 +1945,7 @@
 				"content_html": "<p>The first think I do in the morning is to get my phone and start browsing. Last night I decided to leave the phone outside the bedroom and take only my Kindle with me. When I woke up, I got the Kindle and read an entire chapter. From now on, I&rsquo;ll do this every night.</p>\n",
 				"content_text": "The first think I do in the morning is to get my phone and start browsing. Last night I decided to leave the phone outside the bedroom and take only my Kindle with me. When I woke up, I got the Kindle and read an entire chapter. From now on, I'll do this every night.\n",
 				"date_published": "2022-03-21T11:13:01+01:00",
-				"url": "https://otavio.cc/2022/03/21/the-first-think.html",
-				"tags": ["productivity","book","internet"]
+				"url": "https://otavio.cc/2022/03/21/the-first-think.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/21/i-wish-it.html",
@@ -1925,8 +1953,7 @@
 				"content_html": "<p>I wish it was possible to share photos on Instagram privately with a selected number of people without having to make the entire profile private.</p>\n<p>Even making the profile private, I still have to share with all the followers. I would like to select a group of people per photo.</p>\n",
 				"content_text": "I wish it was possible to share photos on Instagram privately with a selected number of people without having to make the entire profile private.\n\nEven making the profile private, I still have to share with all the followers. I would like to select a group of people per photo.\n",
 				"date_published": "2022-03-21T10:51:28+01:00",
-				"url": "https://otavio.cc/2022/03/21/i-wish-it.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2022/03/21/i-wish-it.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/21/somone-didnt-like.html",
@@ -1960,8 +1987,7 @@
 				"content_html": "<p>I&rsquo;ve reset my Firefox browser and installed <a href=\"https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/\">Firefox Multi-Account Containers</a> to manage sessions. The concept is quite interesting, and every browser should implement something similar.</p>\n",
 				"content_text": "I've reset my Firefox browser and installed [Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) to manage sessions. The concept is quite interesting, and every browser should implement something similar.\n",
 				"date_published": "2022-03-12T01:18:03+01:00",
-				"url": "https://otavio.cc/2022/03/12/ive-reset-my.html",
-				"tags": ["productivity","internet"]
+				"url": "https://otavio.cc/2022/03/12/ive-reset-my.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/09/a-long-time.html",
@@ -1969,8 +1995,7 @@
 				"content_html": "<p>A long time ago I bought these <a href=\"https://www.storycubes.com/en/games/\">Story Cubes</a> but never played with them. Starting today I&rsquo;ll use them daily to create stories and practice German. Don&rsquo;t worry, I won&rsquo;t share any of the stories.</p>\n",
 				"content_text": "A long time ago I bought these [Story Cubes](https://www.storycubes.com/en/games/) but never played with them. Starting today I'll use them daily to create stories and practice German. Don't worry, I won't share any of the stories.\n",
 				"date_published": "2022-03-09T17:51:35+01:00",
-				"url": "https://otavio.cc/2022/03/09/a-long-time.html",
-				"tags": ["game"]
+				"url": "https://otavio.cc/2022/03/09/a-long-time.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/09/the-catan-collection.html",
@@ -1978,8 +2003,7 @@
 				"content_html": "<p>🎲 The CATAN collection is growing&hellip;</p>\n<ul>\n<li>CATAN</li>\n<li>CATAN Traders &amp; Barbarians</li>\n<li>CATAN Traveler</li>\n<li>CATAN Dice Game</li>\n<li>CATAN for Nintendo Switch</li>\n</ul>\n",
 				"content_text": "🎲 The CATAN collection is growing...\n\n* CATAN\n* CATAN Traders & Barbarians\n* CATAN Traveler\n* CATAN Dice Game\n* CATAN for Nintendo Switch\n",
 				"date_published": "2022-03-09T11:23:40+01:00",
-				"url": "https://otavio.cc/2022/03/09/the-catan-collection.html",
-				"tags": ["game"]
+				"url": "https://otavio.cc/2022/03/09/the-catan-collection.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/08/i-have-three.html",
@@ -1995,8 +2019,7 @@
 				"content_html": "<p>🎲 Gonna play Catan today.</p>\n",
 				"content_text": "🎲 Gonna play Catan today.\n",
 				"date_published": "2022-03-08T13:41:00+01:00",
-				"url": "https://otavio.cc/2022/03/08/gonna-play-catan.html",
-				"tags": ["game"]
+				"url": "https://otavio.cc/2022/03/08/gonna-play-catan.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/08/floating-lights-ok.html",
@@ -2013,8 +2036,7 @@
 				"content_html": "<p>First time using <a href=\"https://getdrafts.com/\">Drafts</a>. Not bad. It&rsquo;s fast, supports automation, and allows me to publish to social networks directly from the app 👨‍💻</p>\n",
 				"content_text": "First time using [Drafts](https://getdrafts.com/). Not bad. It's fast, supports automation, and allows me to publish to social networks directly from the app 👨‍💻\n",
 				"date_published": "2022-03-06T19:17:10+01:00",
-				"url": "https://otavio.cc/2022/03/06/first-time-using.html",
-				"tags": ["productivity","blog"]
+				"url": "https://otavio.cc/2022/03/06/first-time-using.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/06/i-took-the.html",
@@ -2038,8 +2060,7 @@
 				"content_html": "<p>After years using Safari I decided to go back to <a href=\"https://www.mozilla.org/en-US/firefox/\">Firefox</a>. No only the browser but also Relay, for email aliases, and Pocket, for bookmark management/read later. Byt the way, Firefox&rsquo;s <a href=\"https://support.mozilla.org/en-US/kb/containers\">Multi-Account Containers</a> is a killer feature.</p>\n",
 				"content_text": "After years using Safari I decided to go back to [Firefox](https://www.mozilla.org/en-US/firefox/). No only the browser but also Relay, for email aliases, and Pocket, for bookmark management/read later. Byt the way, Firefox's [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) is a killer feature.\n",
 				"date_published": "2022-03-01T10:23:55+01:00",
-				"url": "https://otavio.cc/2022/03/01/after-years-using.html",
-				"tags": ["productivity","internet"]
+				"url": "https://otavio.cc/2022/03/01/after-years-using.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/03/01/the-commute-to.html",
@@ -2047,8 +2068,7 @@
 				"content_html": "<p>🚲 The commute to the new office space takes more time by subway than by bicycle. I guess it&rsquo;s time to gift me a <a href=\"https://www.brompton.com/\">Brompton</a>.</p>\n",
 				"content_text": "🚲 The commute to the new office space takes more time by subway than by bicycle. I guess it's time to gift me a [Brompton](https://www.brompton.com/).\n",
 				"date_published": "2022-03-01T10:06:57+01:00",
-				"url": "https://otavio.cc/2022/03/01/the-commute-to.html",
-				"tags": ["bike"]
+				"url": "https://otavio.cc/2022/03/01/the-commute-to.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/27/after-six-years.html",
@@ -2090,7 +2110,7 @@
 				"content_text": "Tomorrow I’ll work on my Micropub Swift framework. At the end of the weekend I want to have a working framework with support for posting, bookmarking, replying, and uploading media 👨🏻‍💻\n",
 				"date_published": "2022-02-18T11:27:23+01:00",
 				"url": "https://otavio.cc/2022/02/18/tomorrow-ill-work.html",
-				"tags": ["programming","blog"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/18/wouldnt-be-nice.html",
@@ -2098,8 +2118,7 @@
 				"content_html": "<p>Wouldn’t be nice if <a href=\"https://glass.photo/\">Glass</a> had free accounts for peoples who want to follow others but not necessarily post photos? Maybe it would drive even more people to become paid users.</p>\n",
 				"content_text": "Wouldn’t be nice if [Glass](https://glass.photo/) had free accounts for peoples who want to follow others but not necessarily post photos? Maybe it would drive even more people to become paid users.\n",
 				"date_published": "2022-02-18T11:20:44+01:00",
-				"url": "https://otavio.cc/2022/02/18/wouldnt-be-nice.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2022/02/18/wouldnt-be-nice.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/18/glass-added-ipad.html",
@@ -2117,7 +2136,7 @@
 				"content_text": "I'm splitting [MicroAPI](https://github.com/MicroClientSwift/MicroAPI) into two Swift Packages. One for Micro.blog and the other just for [Micropub](https://www.w3.org/TR/micropub/) related things. The website [Micropub Rocks!](https://micropub.rocks) is a great way to validate Micropub implementation 👨‍💻\n",
 				"date_published": "2022-02-13T12:41:19+01:00",
 				"url": "https://otavio.cc/2022/02/13/im-splitting-microapi.html",
-				"tags": ["programming","blog"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/microclient-has-a.html",
@@ -2126,7 +2145,7 @@
 				"content_text": "[MicroClient](https://github.com/MicroClientSwift/MicroClient) has a new house on GitHub. I'll use the [organization](https://github.com/MicroClientSwift) for _clients_ which use MicroClient, such as [MicroAPI](https://github.com/MicroClientSwift/MicroAPI) (for Micro.blog) and [MicroPinboard](https://github.com/MicroClientSwift/MicroPinboard) (Pinboard.in).\n",
 				"date_published": "2022-02-06T09:36:57+01:00",
 				"url": "https://otavio.cc/2022/02/06/microclient-has-a.html",
-				"tags": ["programming"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/ive-added-the.html",
@@ -2134,8 +2153,7 @@
 				"content_html": "<p>👨‍💻 I&rsquo;ve added the following to Marfa&rsquo;s <code>config.json</code> to get Xcode&rsquo;s theme for code blocks:</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#d8dee9;background-color:#2e3440;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-json\" data-lang=\"json\"><span style=\"color:#eceff4\">{</span>\n    <span style=\"color:#81a1c1\">&#34;pygmentsCodefences&#34;</span><span style=\"color:#eceff4\">:</span> <span style=\"color:#81a1c1;font-weight:bold\">true</span><span style=\"color:#eceff4\">,</span>\n    <span style=\"color:#81a1c1\">&#34;pygmentsCodefencesGuessSyntax&#34;</span><span style=\"color:#eceff4\">:</span> <span style=\"color:#81a1c1;font-weight:bold\">true</span><span style=\"color:#eceff4\">,</span>\n    <span style=\"color:#81a1c1\">&#34;pygmentsStyle&#34;</span><span style=\"color:#eceff4\">:</span> <span style=\"color:#a3be8c\">&#34;xcode&#34;</span>\n<span style=\"color:#eceff4\">}</span>\n</code></pre></div>",
 				"content_text": "👨‍💻 I've added the following to Marfa's `config.json` to get Xcode's theme for code blocks:\n\n```json\n{\n    \"pygmentsCodefences\": true,\n    \"pygmentsCodefencesGuessSyntax\": true,\n    \"pygmentsStyle\": \"xcode\"\n}\n```\n",
 				"date_published": "2022-02-06T09:25:26+01:00",
-				"url": "https://otavio.cc/2022/02/06/ive-added-the.html",
-				"tags": ["programming","blog"]
+				"url": "https://otavio.cc/2022/02/06/ive-added-the.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/05/kapitalismus-normalisiert-zerstrt.html",
@@ -2153,7 +2171,7 @@
 				"content_text": "I did some changes to Marfa's CSS to make more room for code blocks. E.g.,\r\n\r\n```swift\r\nlet request = MicropubRequestFactory.makeNewPostRequest(\r\n    content: \"This is the body\",\r\n    isDraft: true\r\n)\r\n\r\nlet postResponse = try await client.run(request)\r\n```\n",
 				"date_published": "2022-02-05T01:51:23+01:00",
 				"url": "https://otavio.cc/2022/02/05/i-did-some.html",
-				"tags": ["programming"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/04/when-i-created.html",
@@ -2161,8 +2179,7 @@
 				"content_html": "<p>When I created my DuckDuckGo email address I’ve used an old email address as forwarding address. I regretted my decision, and for a while it wasn’t possible to change it. Recently DDG created a <a href=\"https://duckduckgo.com/email/change-email-address\">page</a> which allows users to change the forwarding address, so all good now ✌️</p>\n",
 				"content_text": "When I created my DuckDuckGo email address I’ve used an old email address as forwarding address. I regretted my decision, and for a while it wasn’t possible to change it. Recently DDG created a [page](https://duckduckgo.com/email/change-email-address) which allows users to change the forwarding address, so all good now ✌️\n",
 				"date_published": "2022-02-04T15:42:11+01:00",
-				"url": "https://otavio.cc/2022/02/04/when-i-created.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2022/02/04/when-i-created.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/29/i-just-realized.html",
@@ -2170,8 +2187,7 @@
 				"content_html": "<p>I just realized Notes and Reminders have tags now. I&rsquo;m gonna used them for a few days to see if they could replace the apps I currently use.</p>\n",
 				"content_text": "I just realized Notes and Reminders have tags now. I'm gonna used them for a few days to see if they could replace the apps I currently use.\n",
 				"date_published": "2022-01-29T10:52:00+01:00",
-				"url": "https://otavio.cc/2022/01/29/i-just-realized.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2022/01/29/i-just-realized.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/25/im-addicted-to.html",
@@ -2206,8 +2222,7 @@
 				"content_html": "<p>Yesterday I wrote a Shortcut to <em>check in</em> on <a href=\"https://dayone.app\">Day One</a> using <a href=\"https://developer.foursquare.com/reference/places-nearby\">Foursquare&rsquo;s Places API</a>. It works fine, but I didn&rsquo;t find a way to pass the precise venue geo information - from the payload - to the Day One action as location 👨‍💻</p>\n",
 				"content_text": "Yesterday I wrote a Shortcut to *check in* on [Day One](https://dayone.app) using [Foursquare's Places API](https://developer.foursquare.com/reference/places-nearby). It works fine, but I didn't find a way to pass the precise venue geo information - from the payload - to the Day One action as location 👨‍💻\n",
 				"date_published": "2022-01-23T13:43:25+01:00",
-				"url": "https://otavio.cc/2022/01/23/yesterday-i-wrote.html",
-				"tags": ["programming","blog"]
+				"url": "https://otavio.cc/2022/01/23/yesterday-i-wrote.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/20/ive-imported-all.html",
@@ -2215,8 +2230,7 @@
 				"content_html": "<p>I&rsquo;ve imported all the movies I watched on Netflix, and all the checkins I have on Foursquare in <a href=\"https://dayone.app\">Day One</a> 🤓 👨‍💻 Netflix has a csv file with everything one watched, and Foursquare two json files, one for checkins another one for the photos. Fun stuff.</p>\n",
 				"content_text": "I've imported all the movies I watched on Netflix, and all the checkins I have on Foursquare in [Day One](https://dayone.app) 🤓 👨‍💻 Netflix has a csv file with everything one watched, and Foursquare two json files, one for checkins another one for the photos. Fun stuff.\n",
 				"date_published": "2022-01-20T00:24:18+01:00",
-				"url": "https://otavio.cc/2022/01/20/ive-imported-all.html",
-				"tags": ["blog"]
+				"url": "https://otavio.cc/2022/01/20/ive-imported-all.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/17/i-currently-have.html",
@@ -2225,7 +2239,7 @@
 				"content_text": "I currently have this Micro.blog and a Jekyll blog for longer posts, but I'm considering moving everything from Jekyll to Micro.blog, centralizing all in once place. The only downside is that Micro.blog doesn't support syntax highlighting for code snippets. But again, once place.\n",
 				"date_published": "2022-01-17T16:09:41+01:00",
 				"url": "https://otavio.cc/2022/01/17/i-currently-have.html",
-				"tags": ["blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/12/who-needs-ifttt.html",
@@ -2233,8 +2247,7 @@
 				"content_html": "<p>Who needs <a href=\"https://ifttt.com\">IFTTT</a> when <a href=\"https://support.apple.com/guide/shortcuts/welcome/ios\">Shortcuts</a> can do a better job locally? I&rsquo;m using Shortcuts and <a href=\"https://datajar.app\">Data Jar</a> to import my photos from <a href=\"https://glass.photo\">glass.photo</a> into <a href=\"https://dayoneapp.com\">Day One</a>. While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Who needs [IFTTT](https://ifttt.com) when [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) can do a better job locally? I'm using Shortcuts and [Data Jar](https://datajar.app) to import my photos from [glass.photo](https://glass.photo) into [Day One](https://dayoneapp.com). While the shortcut holds all the logic, Data Jar stores the ids of the photos already imported.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2022/1fef0ae1cb.png\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2022-01-12T11:22:51+01:00",
-				"url": "https://otavio.cc/2022/01/12/who-needs-ifttt.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2022/01/12/who-needs-ifttt.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/11/its-disappointing-than.html",
@@ -2242,8 +2255,7 @@
 				"content_html": "<p>It&rsquo;s disappointing that <a href=\"https://dayoneapp.com\">Day One</a> offers much more shortcut <em>actions</em> in iOS than macOS. It&rsquo;s much easier to write shortcuts on a bigger screen.</p>\n",
 				"content_text": "It's disappointing that [Day One](https://dayoneapp.com) offers much more shortcut _actions_ in iOS than macOS. It's much easier to write shortcuts on a bigger screen.\n",
 				"date_published": "2022-01-11T11:54:14+01:00",
-				"url": "https://otavio.cc/2022/01/11/its-disappointing-than.html",
-				"tags": ["productivity","blog"]
+				"url": "https://otavio.cc/2022/01/11/its-disappointing-than.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/10/yesterday-i-learned.html",
@@ -2251,8 +2263,7 @@
 				"content_html": "<p>Yesterday I learned about <a href=\"https://datajar.app\">Data Jar</a>, a pretty handy tool to use with <a href=\"https://support.apple.com/guide/shortcuts/welcome/ios\">iOS/macOS Shortcuts</a>. It&rsquo;s pretty much a storage container to save data from a shortcut to use later or access from another shortcut 👨‍💻</p>\n",
 				"content_text": "Yesterday I learned about [Data Jar](https://datajar.app), a pretty handy tool to use with [iOS/macOS Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios). It's pretty much a storage container to save data from a shortcut to use later or access from another shortcut 👨‍💻\n",
 				"date_published": "2022-01-10T13:58:03+01:00",
-				"url": "https://otavio.cc/2022/01/10/yesterday-i-learned.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2022/01/10/yesterday-i-learned.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/10/i-have-a.html",
@@ -2261,7 +2272,7 @@
 				"content_text": "I have a confession to make: the first time I saw [Obsidian](https://obsidian.md/) I hated it. But we shouldn't judge a book by its cover, so I started using it and I'm so glad I did. It's insanely good. I wish I had something this good when I was working on my dissertation years ago.\n",
 				"date_published": "2022-01-10T13:51:49+01:00",
 				"url": "https://otavio.cc/2022/01/10/i-have-a.html",
-				"tags": ["productivity"]
+				"tags": ["obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/09/im-gonna-create.html",
@@ -2270,7 +2281,7 @@
 				"content_text": "I'm gonna create a generic API wrapper for [Micropub](https://indieweb.org/Micropub) capable sites 👨‍💻 Then it can be used by different clients posting to different blogging platforms.\n",
 				"date_published": "2022-01-09T15:03:50+01:00",
 				"url": "https://otavio.cc/2022/01/09/im-gonna-create.html",
-				"tags": ["programming","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/09/when-i-wrote.html",
@@ -2279,7 +2290,7 @@
 				"content_text": "When I wrote [MicroAPI](https://github.com/otaviocc/MicroAPI), a Swift wrapper to access Micro.blog APIs, I decided to isolate the network client in separate swift package:  [MicroClient](https://github.com/otaviocc/MicroClient).\n\nToday I ported [PinboardKit](https://github.com/otaviocc/PinboardKit) to also use MicroClient.\n\nMicroClient is pretty generic and can be used by all sorts of projects 👨‍💻\n",
 				"date_published": "2022-01-09T14:25:28+01:00",
 				"url": "https://otavio.cc/2022/01/09/when-i-wrote.html",
-				"tags": ["programming","blog"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/08/people-watching.html",
@@ -2297,7 +2308,7 @@
 				"content_text": "I've started using [Obsidian](https://obsidian.md) to take notes. Using it with [Working Copy](https://workingcopy.app) takes the experience to a whole new level. Simply amazing 👨‍💻\n",
 				"date_published": "2022-01-07T14:09:50+01:00",
 				"url": "https://otavio.cc/2022/01/07/ive-started-using.html",
-				"tags": ["productivity"]
+				"tags": ["obsidian"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/06/i-want-to.html",
@@ -2306,7 +2317,7 @@
 				"content_text": "I want to port my blog's theme to Micro.blog. I wrote it for Jekyll, so I guess the first step is to learn Hugo and how theming works 💻\n",
 				"date_published": "2022-01-06T15:47:48+01:00",
 				"url": "https://otavio.cc/2022/01/06/i-want-to.html",
-				"tags": ["programming","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/06/after-weeks-months.html",
@@ -2324,7 +2335,7 @@
 				"content_text": "Kaleidoscope [released](https://blog.kaleidoscope.app/2022/01/04/xctest-results/) an update which allows developers to use the diff tool to read `XCTest` failures.\n\nThis is a nice idea, and I'm looking forward to using it.\n",
 				"date_published": "2022-01-05T20:00:53+01:00",
 				"url": "https://otavio.cc/2022/01/05/kaleidoscope-released-and.html",
-				"tags": ["programming"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/01/05/ritchie-roesch-did.html",
@@ -2341,8 +2352,7 @@
 				"content_html": "<p>The long weekend is almost over and I didn&rsquo;t work on the side projects/spikes I planned to put my hands on. On the other hand, I walked an average of 16k steps/day and took a lot of pictures with my new camera.</p>\n",
 				"content_text": "The long weekend is almost over and I didn't work on the side projects/spikes I planned to put my hands on. On the other hand, I walked an average of 16k steps/day and took a lot of pictures with my new camera.\n",
 				"date_published": "2022-01-02T12:40:31+01:00",
-				"url": "https://otavio.cc/2022/01/02/the-long-weekend.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2022/01/02/the-long-weekend.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/29/the-xv-lens.html",
@@ -2369,7 +2379,7 @@
 				"content_text": "OK, cool. I’ve used the [Network Client](https://github.com/otaviocc/MicroClient) and [API wrapper](https://github.com/otaviocc/MicroAPI) I wrote to run a 20-line Microblog app directly from the new Playgrounds for iPad.\n",
 				"date_published": "2021-12-20T01:41:00+01:00",
 				"url": "https://otavio.cc/2021/12/20/ok-cool-ive.html",
-				"tags": ["programming","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/16/thanks-to-my.html",
@@ -2377,8 +2387,7 @@
 				"content_html": "<p>Thanks to my internet connection it takes seconds (a minute?) to download Xcode. Thanks to my personal computer, it takes hours to install the very same Xcode. But I have no reasons to upgrade my computer since I use the company one to code and an iPad M1 for everything else.</p>\n",
 				"content_text": "Thanks to my internet connection it takes seconds (a minute?) to download Xcode. Thanks to my personal computer, it takes hours to install the very same Xcode. But I have no reasons to upgrade my computer since I use the company one to code and an iPad M1 for everything else.\n",
 				"date_published": "2021-12-16T07:35:04+01:00",
-				"url": "https://otavio.cc/2021/12/16/thanks-to-my.html",
-				"tags": ["productivity","internet"]
+				"url": "https://otavio.cc/2021/12/16/thanks-to-my.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/16/yesterday-apple-launched.html",
@@ -2387,7 +2396,7 @@
 				"content_text": "Yesterday Apple launched [Swift Playgrounds 4](https://developer.apple.com/news/?id=v868vy6e) for iPad, and it's possible now to build iPad and iOS applications directly from the iPad. I'm looking forward to porting some of my little experiments to the new project format 👨‍💻\n",
 				"date_published": "2021-12-16T06:17:25+01:00",
 				"url": "https://otavio.cc/2021/12/16/yesterday-apple-launched.html",
-				"tags": ["programming"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/13/i-dont-need.html",
@@ -2405,7 +2414,7 @@
 				"content_text": "I exported my [Goodreads](https://www.goodreads.com) shelf to import on [Micro.blog](https://micro.blog), but none of the books had ISBN! I had to use the [ISBN Search](https://isbnsearch.org) to add the information to more than 90 books 📚 The good news: [Micro.blog](https://micro.blog) imported all the books correctly.\n",
 				"date_published": "2021-12-12T14:00:55+01:00",
 				"url": "https://otavio.cc/2021/12/12/i-exported-my.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/12/fog.html",
@@ -2422,8 +2431,7 @@
 				"content_html": "<p>I learned <a href=\"https://www.vim.org\">Vim</a> 22 years ago and I still use it on a daily basis. That&rsquo;s insane 👨‍💻</p>\n",
 				"content_text": "I learned [Vim](https://www.vim.org) 22 years ago and I still use it on a daily basis. That's insane 👨‍💻\n",
 				"date_published": "2021-12-12T07:03:08+01:00",
-				"url": "https://otavio.cc/2021/12/12/i-learned-vim.html",
-				"tags": ["programming","productivity"]
+				"url": "https://otavio.cc/2021/12/12/i-learned-vim.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/10/eight-more-quickspecs.html",
@@ -2431,8 +2439,7 @@
 				"content_html": "<p>Eight more <code>QuickSpecs</code> to convert to <code>XCTests</code> and we can remove Quick and Nimble from the project 👨‍💻</p>\n",
 				"content_text": "Eight more `QuickSpecs` to convert to `XCTests` and we can remove Quick and Nimble from the project 👨‍💻\n",
 				"date_published": "2021-12-10T04:17:35+01:00",
-				"url": "https://otavio.cc/2021/12/10/eight-more-quickspecs.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2021/12/10/eight-more-quickspecs.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/12/07/every-single-morning.html",
@@ -2450,7 +2457,7 @@
 				"content_text": "\"Comfort food\" 📚 📷\r\n\r\n1. [Contact](https://micro.blog/books/9781501197987) by Carl Sagan\r\n2. [Jurassic Park](https://micro.blog/books/9780345538987) by Michael Crichton\r\n3. [Timeline](https://micro.blog/books/9780345539014) by Michael Crichton\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2021/fc0b0c466d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-12-06T23:11:59+01:00",
 				"url": "https://otavio.cc/2021/12/06/comfort-food-contact.html",
-				"tags": ["photography","book"]
+				"tags": ["photography","book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/29/black-friday.html",
@@ -2485,8 +2492,7 @@
 				"content_html": "<p>We have a new home in the macOS App Store for the <a href=\"https://apps.apple.com/app/nordvpn-vpn-fast-secure/id905953485\">NordVPN</a> app, and we&rsquo;re sharing it with the iOS folks. One centralized page for both apps improves discoverability a lot 👨‍💻</p>\n",
 				"content_text": "We have a new home in the macOS App Store for the [NordVPN](https://apps.apple.com/app/nordvpn-vpn-fast-secure/id905953485) app, and we're sharing it with the iOS folks. One centralized page for both apps improves discoverability a lot 👨‍💻\n",
 				"date_published": "2021-11-25T14:12:55+01:00",
-				"url": "https://otavio.cc/2021/11/25/we-have-a.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2021/11/25/we-have-a.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/19/microblog-users-can.html",
@@ -2495,7 +2501,7 @@
 				"content_text": "[Micro.blog](micro.blog) users can use their [Glass](https://glass.photo) feed to [automatically add photos](https://micro.blog/account/feeds) to their Micro.blog timeline! 📷 👨‍💻\n",
 				"date_published": "2021-11-19T14:54:40+01:00",
 				"url": "https://otavio.cc/2021/11/19/microblog-users-can.html",
-				"tags": ["photography"]
+				"tags": ["photography","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/19/its-possible-to.html",
@@ -2522,7 +2528,7 @@
 				"content_text": "I'm moving this book to the top of the pile: [A Philosophy of Software Design](https://micro.blog/books/9781732102200) by John Ousterhout 📚 I was told it's really good.\n",
 				"date_published": "2021-11-18T00:41:39+01:00",
 				"url": "https://otavio.cc/2021/11/18/im-moving-this.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/17/i-really-dislike.html",
@@ -2530,8 +2536,7 @@
 				"content_html": "<p>I really dislike having to write workarounds, but there&rsquo;s a macOS Monterey bug affecting my application and I&rsquo;ll have to handle it by writing more code than needed 👨‍💻</p>\n",
 				"content_text": "I really dislike having to write workarounds, but there's a macOS Monterey bug affecting my application and I'll have to handle it by writing more code than needed 👨‍💻\n",
 				"date_published": "2021-11-17T11:35:00+01:00",
-				"url": "https://otavio.cc/2021/11/17/i-really-dislike.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2021/11/17/i-really-dislike.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/14/the-best-thing.html",
@@ -2540,7 +2545,7 @@
 				"content_text": "The best thing about not having Twitter and Instagram on the phone is that I open [NetNewsWire](https://netnewswire.com), [Micro.blog](https://micro.blog), and [Glass](http://glass.photo) more often 🤓\n",
 				"date_published": "2021-11-14T16:06:52+01:00",
 				"url": "https://otavio.cc/2021/11/14/the-best-thing.html",
-				"tags": ["photography","internet","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/13/we-cant-use.html",
@@ -2548,8 +2553,7 @@
 				"content_html": "<p>We can&rsquo;t use <a href=\"https://developer.apple.com/documentation/combine\">Combine</a> since it&rsquo;s macOS 10.15+ and we ship our product starting with version 10.12. I&rsquo;m currently experimenting with <a href=\"https://github.com/OpenCombine/OpenCombine\">OpenCombine</a> to see if it&rsquo;s a good solution for now. Otherwise I&rsquo;ll use my custom lightweight binding solution (kinda compatible with Combine) 👨‍💻</p>\n",
 				"content_text": "We can't use [Combine](https://developer.apple.com/documentation/combine) since it's macOS 10.15+ and we ship our product starting with version 10.12. I'm currently experimenting with [OpenCombine](https://github.com/OpenCombine/OpenCombine) to see if it's a good solution for now. Otherwise I'll use my custom lightweight binding solution (kinda compatible with Combine) 👨‍💻\n",
 				"date_published": "2021-11-13T23:56:59+01:00",
-				"url": "https://otavio.cc/2021/11/13/we-cant-use.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2021/11/13/we-cant-use.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/13/i-need-a.html",
@@ -2566,8 +2570,7 @@
 				"content_html": "<p>I&rsquo;ve used <a href=\"https://github.com/cedarbdd/cedar\">Cedar</a> for three years, and <a href=\"https://github.com/specta/specta\">Specta</a> and <a href=\"https://github.com/quick/quick\">Quick</a> for another three. You didn&rsquo;t hear this from me, but I love pure <a href=\"https://developer.apple.com/documentation/xctest\">XCTests</a> 👨‍💻</p>\n",
 				"content_text": "I've used [Cedar](https://github.com/cedarbdd/cedar) for three years, and [Specta](https://github.com/specta/specta) and [Quick](https://github.com/quick/quick) for another three. You didn't hear this from me, but I love pure [XCTests](https://developer.apple.com/documentation/xctest) 👨‍💻\n",
 				"date_published": "2021-11-12T15:02:00+01:00",
-				"url": "https://otavio.cc/2021/11/12/ive-used-cedar.html",
-				"tags": ["programming"]
+				"url": "https://otavio.cc/2021/11/12/ive-used-cedar.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/11/so-usps-and.html",
@@ -2600,8 +2603,7 @@
 				"content_html": "<p>I upgraded my data plan on the phone. I don&rsquo;t have to worry about streaming music and using my computer when on the go 🤓</p>\n",
 				"content_text": "I upgraded my data plan on the phone. I don't have to worry about streaming music and using my computer when on the go 🤓\n",
 				"date_published": "2021-11-10T11:54:37+01:00",
-				"url": "https://otavio.cc/2021/11/10/i-upgraded-my.html",
-				"tags": ["productivity","music","internet"]
+				"url": "https://otavio.cc/2021/11/10/i-upgraded-my.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/07/i-cant-believe.html",
@@ -2618,8 +2620,7 @@
 				"content_html": "<p>Glasmüll</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "Glasmüll\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2021/de984ae285.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-11-07T00:34:02+01:00",
-				"url": "https://otavio.cc/2021/11/07/glasmll.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2021/11/07/glasmll.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/04/ive-started-laying.html",
@@ -2628,7 +2629,7 @@
 				"content_text": "I've started laying out what I want in my Micro.blog application. I don't have much time to work on it as I wish I had, but I'll get there. It won't be named MicroUI, this name's just because I had to name the project 👨‍💻\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2021/fd40e69f3e.png\" width=\"600\" height=\"406\" alt=\"\" />\n",
 				"date_published": "2021-11-04T08:46:00+01:00",
 				"url": "https://otavio.cc/2021/11/04/ive-started-laying.html",
-				"tags": ["photography"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/03/i-like-bear.html",
@@ -2636,8 +2637,7 @@
 				"content_html": "<p>I like <a href=\"https://bear.app\">Bear</a>, but I wish there was something more powerful I could use instead. The only problem is that the alternatives don&rsquo;t have good syntax highlight for code blocks, which is something I definitely need.</p>\n",
 				"content_text": "I like [Bear](https://bear.app), but I wish there was something more powerful I could use instead. The only problem is that the alternatives don't have good syntax highlight for code blocks, which is something I definitely need.\n",
 				"date_published": "2021-11-03T10:09:03+01:00",
-				"url": "https://otavio.cc/2021/11/03/i-like-bear.html",
-				"tags": ["productivity"]
+				"url": "https://otavio.cc/2021/11/03/i-like-bear.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/01/the-microblog-api.html",
@@ -2646,7 +2646,7 @@
 				"content_text": "The Micro.blog API Client I'm writing consists of two parts: a Swift Package with the [MicroClient](https://github.com/otaviocc/MicroClient), a generic/lightweight network client which can be used in completely unrelated projects, and [MicroAPI](https://github.com/otaviocc/MicroAPI), the Micro.blog API wrapper, which uses the MicroClient underneath 👨‍💻\n",
 				"date_published": "2021-11-01T14:15:11+01:00",
 				"url": "https://otavio.cc/2021/11/01/the-microblog-api.html",
-				"tags": ["programming","blog"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/11/01/i-tried-to.html",
@@ -2655,7 +2655,7 @@
 				"content_text": "I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo's straight-forward:\n\n```swift\nlet mediaRequest = MicropubRequestFactory.makeUploadRequest(\n    media: .jpeg(jpegData)\n)\nlet uploadResponse = try await client.run(mediaRequest)\n```\n",
 				"date_published": "2021-11-01T14:08:00+01:00",
 				"url": "https://otavio.cc/2021/11/01/i-tried-to.html",
-				"tags": ["programming"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/31/im-adding-photo.html",
@@ -2664,7 +2664,7 @@
 				"content_text": "I'm adding photo upload support to my Micro.blog API client. After that I can finally work on the macOS and iOS clients 👨‍💻\n",
 				"date_published": "2021-10-31T23:36:23+01:00",
 				"url": "https://otavio.cc/2021/10/31/im-adding-photo.html",
-				"tags": ["programming","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/28/youll-be-missed.html",
@@ -2672,8 +2672,7 @@
 				"content_html": "<p>You&rsquo;ll be missed, my friend. Love you.</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "You'll be missed, my friend. Love you.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2021/73ba61b16b.jpg\" width=\"600\" height=\"398\" alt=\"\" />\n",
 				"date_published": "2021-10-28T22:46:40+01:00",
-				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2021/10/28/youll-be-missed.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/26/i-just-finished.html",
@@ -2681,8 +2680,7 @@
 				"content_html": "<p>I just finished building the <a href=\"https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set\">LEGO Fender Stratocaster</a>. This set is fantastic. The attention to details is insane. Love it 🎸</p>\n<!-- raw HTML omitted -->\n",
 				"content_text": "I just finished building the [LEGO Fender Stratocaster](https://www.lego.com/en-us/aboutus/news/2021/september/lego-ideas-fender-stratocaster-set). This set is fantastic. The attention to details is insane. Love it 🎸\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2021/ec49dd7a16.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n",
 				"date_published": "2021-10-26T22:28:58+01:00",
-				"url": "https://otavio.cc/2021/10/26/i-just-finished.html",
-				"tags": ["photography"]
+				"url": "https://otavio.cc/2021/10/26/i-just-finished.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/26/things-is-by.html",
@@ -2691,7 +2689,7 @@
 				"content_text": "[Things](https://culturedcode.com/things/) is by far my favorite task manager. I've tried so many apps and methods, but Things's the only one I consistently use. [Their latest update](https://culturedcode.com/things/blog/2021/10/all-things-speed/) integrates with macOS Monterey's Shortcuts making it even easier to capture tasks.\n",
 				"date_published": "2021-10-26T13:10:03+01:00",
 				"url": "https://otavio.cc/2021/10/26/things-is-by.html",
-				"tags": ["productivity"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/25/i-wish-i.html",
@@ -2699,8 +2697,7 @@
 				"content_html": "<p>I wish I could update all my devices today, but Internet in Germany doesn&rsquo;t help.</p>\n",
 				"content_text": "I wish I could update all my devices today, but Internet in Germany doesn't help.\n",
 				"date_published": "2021-10-25T22:34:35+01:00",
-				"url": "https://otavio.cc/2021/10/25/i-wish-i.html",
-				"tags": ["internet"]
+				"url": "https://otavio.cc/2021/10/25/i-wish-i.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/24/microapi-isnt-ready.html",
@@ -2708,8 +2705,7 @@
 				"content_html": "<p><a href=\"https://github.com/otaviocc/MicroAPI\">MicroAPI</a> isn&rsquo;t ready yet but I pushed it to GitHub anyway. I decided to split the API client and the network client and published the <a href=\"https://github.com/otaviocc/MicroClient\">network client</a> in a different repository.  The network client knows nothing about MicroAPI and can be reused for different projects 👨‍💻</p>\n",
 				"content_text": "[MicroAPI](https://github.com/otaviocc/MicroAPI) isn't ready yet but I pushed it to GitHub anyway. I decided to split the API client and the network client and published the [network client](https://github.com/otaviocc/MicroClient) in a different repository.  The network client knows nothing about MicroAPI and can be reused for different projects 👨‍💻\n",
 				"date_published": "2021-10-24T20:30:20+01:00",
-				"url": "https://otavio.cc/2021/10/24/microapi-isnt-ready.html",
-				"tags": ["programming","blog"]
+				"url": "https://otavio.cc/2021/10/24/microapi-isnt-ready.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/24/went-for-a.html",
@@ -2745,7 +2741,7 @@
 				"content_text": "I deleted Twitter (Tweetbot), Instagram, and Reddit (Apollo) from my phone. The only social networks I still have installed are Mastodon and Micro.blog.  I don’t have any plans to delete those accounts, tho. Will just stop using them 🕸\n",
 				"date_published": "2021-10-20T13:45:01+01:00",
 				"url": "https://otavio.cc/2021/10/20/i-deleted-twitter.html",
-				"tags": ["internet"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/20/i-see-this.html",
@@ -2770,8 +2766,7 @@
 				"content_html": "<p>A few weeks ago I decided to download all the photos I have on Instagram (<code>Settings &gt; Security &gt; Download Data</code>). The next step is to remove all the pictures from there and delete the app from my phone.</p>\n",
 				"content_text": "A few weeks ago I decided to download all the photos I have on Instagram (`Settings > Security > Download Data`). The next step is to remove all the pictures from there and delete the app from my phone.\n",
 				"date_published": "2021-10-19T13:34:19+01:00",
-				"url": "https://otavio.cc/2021/10/19/a-few-weeks.html",
-				"tags": ["photography","internet"]
+				"url": "https://otavio.cc/2021/10/19/a-few-weeks.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/19/in-i-had.html",
@@ -2789,7 +2784,7 @@
 				"content_text": "The first part of my micro.blog API Client in Swift is implemented 👨‍💻. The API Client implements all the `/posts` methods from the [documentation](https://help.micro.blog/t/json-api/97). Later today I'm gonna work on the `/users` methods.\n",
 				"date_published": "2021-10-17T16:54:00+01:00",
 				"url": "https://otavio.cc/2021/10/17/the-first-part.html",
-				"tags": ["programming"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/17/i-was-planing.html",
@@ -2798,7 +2793,7 @@
 				"content_text": "I was planing to use Swift's [async/await](https://developer.apple.com/videos/play/wwdc2021/10132) for my micro.blog API client, but I'm gonna stick to Combine for now. Apple's new APIs require iOS 15.0+ and macOS 12.0+ 👨‍💻\n",
 				"date_published": "2021-10-17T00:15:31+01:00",
 				"url": "https://otavio.cc/2021/10/17/i-was-planing.html",
-				"tags": ["programming"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/16/finished-reading-the.html",
@@ -2807,7 +2802,7 @@
 				"content_text": "Finished reading: [The 99% Invisible City: A Field Guide to the Hidden World of Everyday Design](https://micro.blog/books/9780358126607) by Roman Mars 📚. [99% Invisible](https://99percentinvisible.org) is by far my favorite podcast, and their book is a must-read.\n",
 				"date_published": "2021-10-16T15:56:53+01:00",
 				"url": "https://otavio.cc/2021/10/16/finished-reading-the.html",
-				"tags": ["book"]
+				"tags": ["book","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/16/im-looking-forward.html",
@@ -2815,8 +2810,7 @@
 				"content_html": "<p>I&rsquo;m looking forward to upgrading to macOS Monterey 👨‍💻. I tried to use <a href=\"https://developer.apple.com/videos/play/wwdc2021/10212/\">Instruments to inspect HTTP traffic</a> this morning, but it requires iOS 15 and macOS Monterey to work.</p>\n",
 				"content_text": "I'm looking forward to upgrading to macOS Monterey 👨‍💻. I tried to use [Instruments to inspect HTTP traffic](https://developer.apple.com/videos/play/wwdc2021/10212/) this morning, but it requires iOS 15 and macOS Monterey to work.\n",
 				"date_published": "2021-10-16T11:39:43+01:00",
-				"url": "https://otavio.cc/2021/10/16/im-looking-forward.html",
-				"tags": ["programming","productivity"]
+				"url": "https://otavio.cc/2021/10/16/im-looking-forward.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/15/i-just-watched.html",
@@ -2834,7 +2828,7 @@
 				"content_text": "Just thinking out loud, is there a demand for a Micro.blog API client in Swift? My plan would be to build an API client and later an Open Source native SwiftUI application for macOS and iOS.\n",
 				"date_published": "2021-10-14T14:34:00+01:00",
 				"url": "https://otavio.cc/2021/10/14/just-thinking-out.html",
-				"tags": ["programming","blog"]
+				"tags": ["coding","internet","blog","swiftui"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/14/ive-added-a.html",
@@ -2843,7 +2837,7 @@
 				"content_text": "I've added a [/now page](https://otavio.cc/now/) to my blog - check [/now page movement](https://sive.rs/nowff) to learn more. The /now page is a snapshot of one's life, with 📚 one is reading, 🎮 one is playing, 💻 ongoing projects, etc...\n",
 				"date_published": "2021-10-14T14:32:00+01:00",
 				"url": "https://otavio.cc/2021/10/14/ive-added-a.html",
-				"tags": ["book","game"]
+				"tags": ["book","game","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2021/10/14/i-had-a.html",
@@ -2852,7 +2846,7 @@
 				"content_text": "I had a blog hosted on GitHub using Jekyll, but decided to start a [new one using a Micro.blog's hosted blog](https://otavio.cc). I'll keep the old one in a different subdomain just for longer technical articles and will link them on my [micro.blog page](https://micro.blog/otaviocc).\n",
 				"date_published": "2021-10-14T13:44:00+01:00",
 				"url": "https://otavio.cc/2021/10/14/i-had-a.html",
-				"tags": ["productivity","blog"]
+				"tags": ["internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/pair-programming-tdd.html",
@@ -2860,8 +2854,7 @@
 				"content_html": "<p>For about three years I had the chance to work in the most interesting setup I experienced in my professional career. At first it might sound complicated to maintain, but trust me, it&rsquo;s not. The results speak for themselves.</p>\n<p><a href=\"https://en.wikipedia.org/wiki/Pair_programming\"><strong>Pair Programming</strong></a> for 8 hours per day. Working in pairs was the default in our <em>development team</em>, with rare exceptions such as someone on sick leave or in jury duty <sup id=\"fnref:1\"><a href=\"#fn:1\" class=\"footnote-ref\" role=\"doc-noteref\">1</a></sup>. Some might think Pair Programming is hard to achieve and questions such as &ldquo;<em>Who drives?</em>&rdquo;, &ldquo;<em>When is it the time to switch?</em>&rdquo; “<em>What does one do while the other is coding?</em>” are always asked when I mention Pair Programming to someone not familiar with the technique.</p>\n<p>These questions are totally valid, and I risk to say I don&rsquo;t have the answers for an environment which doesn&rsquo;t do <a href=\"https://en.wikipedia.org/wiki/Test-driven_development\"><strong>Test Driven Development</strong></a> (TDD). Alongside Pair Programming, TDD was at the core of our culture. When in combination with Pair Programming, TDD defines the boundaries for the <em>driver</em> <sup id=\"fnref:2\"><a href=\"#fn:2\" class=\"footnote-ref\" role=\"doc-noteref\">2</a></sup>, making clear the moment engineers should switch: one writes a test, which should fail, and the other the code which makes the test pass. Once the test passes, the person who just implemented the code writes the next test so the <em>ping-pong</em> can continue. At the end of the day everyone ended up writing the same amount of code.</p>\n<p>While TDD helps to build better and structured code with clear contracts and interfaces <sup id=\"fnref:3\"><a href=\"#fn:3\" class=\"footnote-ref\" role=\"doc-noteref\">3</a></sup>, Pair Programming gives the chance to discuss every step of the process, from architectural to code design decisions.</p>\n<p>In a team of 10 engineers, pairing indefinitely with the same person wasn&rsquo;t an option for us. We wanted all the engineers to have the opportunity to work with each other, and in different areas of our mobile application (and <a href=\"https://duckduckgo.com/?q=Backend+for+Frontend+BFF\">Backend for Frontend</a>, BFF). So we had <strong>rotation</strong>. Two engineers would never pair for more than one consecutive day. If Alice and Bob are pairing today, tomorrow one of them hands over the position to Carol. If Alice gives her spot to Carol on the second day, the next move is Bob switching with Dave. on the third day.</p>\n<pre tabindex=\"0\"><code>Day 1:   Alice + Bob\nDay 2:           Bob + Carol\nDay 3:                 Carol + Dave\n</code></pre><p>The overlap is fundamental for knowledge transfer.</p>\n<p>Which brings me to another topic: <strong>Lanes</strong>. We had lanes of work, which are closer to <em>Epics</em> than <em>Missions</em> or <em>Verticals</em>. Lanes implement complete features and might exist from a couple of days to a few weeks and, in most cases, are completely independent from each other. E.g., photo backup, new settings menu, mosaics to make a collage of pictures, etc&hellip;</p>\n<p>Each engineer was in a lane for two days before jumping to another lane (thus the overlap for knowledge transfer in the example above).</p>\n<p>The benefits are obvious. While Pair Programming with TDD makes sure engineers are delivering the best at their best, rotation makes sure they have the whole picture of what they are putting in production (from engineering and product perspective).</p>\n<p>This setup promotes a feeling of shared ownership, where everyone is responsible for the product and technical decisions. The constant rotation also gives a chance to make adjustments to the technical choices made on previous days. It&rsquo;s always better to correct the direction sooner than later, reducing <em>technical debt</em>.</p>\n<p>Formal Code Review - e.g., via Pull Requests - doesn&rsquo;t exist in this setup. Code Review happens in real time by the pair working on the feature, and commits can be merged into the main branch at any time during the day (and multiple times in most cases).</p>\n<p>Having a shared ownership simplifies communication in the team, questions can be addressed by any person or pair at any time. Every engineer has all the knowledge and context to answer questions from the Product Owner, give/ask feedback to Designers, or interact with external teams. It also eliminates that feeling of &ldquo;<em>this is my code and I don&rsquo;t want anyone to touch it</em>&rdquo;.</p>\n<p>The last, but not least, important piece of the puzzle is the <a href=\"https://en.wikipedia.org/wiki/Pow_wow\">Pow Wow</a>. Whenever a pair would like to discuss something with other engineers, they would call for a Pow Wow. A ceremony as simple as everyone standing up to discuss a technical decision for 5-10 minutes. No formalities, no meeting rooms nor calendar invitations.</p>\n<p>Since we were all on the same page about technical topics, it was pretty easy to size User Stories during planning meetings. Almost three years working with the same team gave us confidence to perfectly size our 1-week sprints, simplifying our backlog refinement sessions and plannings. For our Product Owner this was extremely valuable in order to maintain the backlog relevant and prioritized.</p>\n<p>As a result we had a fast paced and united team, sharing every aspect of the development process, delivering high quality code with confidence, releasing updates every week, and supporting the Product Owner and Designers. We eliminated time waste by doing Code Review in real time, and technical debt by addressing <em>bad</em> choices sooner than later.</p>\n<p>Of course this is just part of the story, only covering our engineering ways of working. Equally important is the <em>partnership</em> with the Product Owner and Designers, but that&rsquo;s a topic for another post.</p>\n<section class=\"footnotes\" role=\"doc-endnotes\">\n<hr>\n<ol>\n<li id=\"fn:1\" role=\"doc-endnote\">\n<p>We had a list of chores in our backlog for when someone had to <em>solo</em>. Simple tickets with lower priority.&#160;<a href=\"#fnref:1\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n<li id=\"fn:2\" role=\"doc-endnote\">\n<p>We didn&rsquo;t use the terms <em>driver</em> and <em>navigator</em>. In fact, we didn&rsquo;t have names for these roles.&#160;<a href=\"#fnref:2\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n<li id=\"fn:3\" role=\"doc-endnote\">\n<p>I don&rsquo;t see TDD as a tool to write tests, but as a framework to help me to write better code.&#160;<a href=\"#fnref:3\" class=\"footnote-backref\" role=\"doc-backlink\">&#x21a9;&#xfe0e;</a></p>\n</li>\n</ol>\n</section>\n",
 				"content_text": "For about three years I had the chance to work in the most interesting setup I experienced in my professional career. At first it might sound complicated to maintain, but trust me, it's not. The results speak for themselves.\n\n[**Pair Programming**](https://en.wikipedia.org/wiki/Pair_programming) for 8 hours per day. Working in pairs was the default in our *development team*, with rare exceptions such as someone on sick leave or in jury duty [^a]. Some might think Pair Programming is hard to achieve and questions such as \"*Who drives?*\", \"*When is it the time to switch?*\" “*What does one do while the other is coding?*” are always asked when I mention Pair Programming to someone not familiar with the technique.\n\nThese questions are totally valid, and I risk to say I don't have the answers for an environment which doesn't do [**Test Driven Development**](https://en.wikipedia.org/wiki/Test-driven_development) (TDD). Alongside Pair Programming, TDD was at the core of our culture. When in combination with Pair Programming, TDD defines the boundaries for the *driver* [^b], making clear the moment engineers should switch: one writes a test, which should fail, and the other the code which makes the test pass. Once the test passes, the person who just implemented the code writes the next test so the *ping-pong* can continue. At the end of the day everyone ended up writing the same amount of code.\n\nWhile TDD helps to build better and structured code with clear contracts and interfaces [^c], Pair Programming gives the chance to discuss every step of the process, from architectural to code design decisions.\n\nIn a team of 10 engineers, pairing indefinitely with the same person wasn't an option for us. We wanted all the engineers to have the opportunity to work with each other, and in different areas of our mobile application (and [Backend for Frontend](https://duckduckgo.com/?q=Backend+for+Frontend+BFF), BFF). So we had **rotation**. Two engineers would never pair for more than one consecutive day. If Alice and Bob are pairing today, tomorrow one of them hands over the position to Carol. If Alice gives her spot to Carol on the second day, the next move is Bob switching with Dave. on the third day.\n\n```\nDay 1:   Alice + Bob\nDay 2:           Bob + Carol\nDay 3:                 Carol + Dave\n```\n\nThe overlap is fundamental for knowledge transfer.\n\nWhich brings me to another topic: **Lanes**. We had lanes of work, which are closer to *Epics* than *Missions* or *Verticals*. Lanes implement complete features and might exist from a couple of days to a few weeks and, in most cases, are completely independent from each other. E.g., photo backup, new settings menu, mosaics to make a collage of pictures, etc...\n\nEach engineer was in a lane for two days before jumping to another lane (thus the overlap for knowledge transfer in the example above).\n\nThe benefits are obvious. While Pair Programming with TDD makes sure engineers are delivering the best at their best, rotation makes sure they have the whole picture of what they are putting in production (from engineering and product perspective).\n\nThis setup promotes a feeling of shared ownership, where everyone is responsible for the product and technical decisions. The constant rotation also gives a chance to make adjustments to the technical choices made on previous days. It's always better to correct the direction sooner than later, reducing *technical debt*.\n\nFormal Code Review - e.g., via Pull Requests - doesn't exist in this setup. Code Review happens in real time by the pair working on the feature, and commits can be merged into the main branch at any time during the day (and multiple times in most cases). \n\nHaving a shared ownership simplifies communication in the team, questions can be addressed by any person or pair at any time. Every engineer has all the knowledge and context to answer questions from the Product Owner, give/ask feedback to Designers, or interact with external teams. It also eliminates that feeling of \"*this is my code and I don't want anyone to touch it*\".\n\nThe last, but not least, important piece of the puzzle is the [Pow Wow](https://en.wikipedia.org/wiki/Pow_wow). Whenever a pair would like to discuss something with other engineers, they would call for a Pow Wow. A ceremony as simple as everyone standing up to discuss a technical decision for 5-10 minutes. No formalities, no meeting rooms nor calendar invitations.\n\nSince we were all on the same page about technical topics, it was pretty easy to size User Stories during planning meetings. Almost three years working with the same team gave us confidence to perfectly size our 1-week sprints, simplifying our backlog refinement sessions and plannings. For our Product Owner this was extremely valuable in order to maintain the backlog relevant and prioritized.\n\nAs a result we had a fast paced and united team, sharing every aspect of the development process, delivering high quality code with confidence, releasing updates every week, and supporting the Product Owner and Designers. We eliminated time waste by doing Code Review in real time, and technical debt by addressing *bad* choices sooner than later.\n\nOf course this is just part of the story, only covering our engineering ways of working. Equally important is the *partnership* with the Product Owner and Designers, but that's a topic for another post.\n\n[^a]: We had a list of chores in our backlog for when someone had to *solo*. Simple tickets with lower priority.\n[^b]: We didn't use the terms *driver* and *navigator*. In fact, we didn't have names for these roles.\n[^c]: I don't see TDD as a tool to write tests, but as a framework to help me to write better code.\n",
 				"date_published": "2021-08-09T03:00:00+01:00",
-				"url": "https://otavio.cc/2022/02/06/pair-programming-tdd.html",
-				"tags": ["productivity","engineering"]
+				"url": "https://otavio.cc/2022/02/06/pair-programming-tdd.html"
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/reachability-using-nwpathmonitor.html",
@@ -2870,7 +2863,7 @@
 				"content_text": "About a month ago I decided to build a new app to attend a personal need, a desktop client for [Pinboard](https://pinboard.in), a service I've been using for over a decade to store and manage my bookmarks.\n\nAs any application which requires internet to fetch and update data, my client needed a way to detect network accessibility. For a long time the strategy adopted by engineers in this situation was to rely on Apple's Reachability class, a sample code the company used to provide for download on their developer portal. Well, either that or one of the many CocoaPods frameworks the community built to replace Apple's drag-and-drop solution. But since iOS 12.0 and macOS 10.14 there's a powerfull first-party alternative.\n\nIntroduced a couple of years ago, [`NWPathMonitor`](https://developer.apple.com/documentation/network/nwpathmonitor) is the easiest way to detect network changes (and retrieve connection properties). Its interface is extremely simple to use, providing a callback to get notified of updates.\n\n```swift\nlet monitor = NWPathMonitor()\nlet queue = DispatchQueue.global(qos: .background)\n\nmonitor.pathUpdateHandler = { path in\n    print(path.status) // .unsatisfied, .satisfied, .requiresConnection\n}\n\nmonitor.start(\n    queue: queue\n)\n\n// ...\n\nmonitor.stop()\n```\n\nMy application in built in SwiftUI (2.0) and Combine and the solution above wouldn't *feel right* in my View Model. So I started with a simple wrapper, hiding the monitor and exposing a publisher which notifies path changes. \n\n```swift\nlet wrapper = NWPathMonitorWrapper()\n\nlet cancellable = wrapper\n    .pathUpdatePublisher()\n    .receive(on: RunLoop.main)\n    .sink { path in\n        print(path.status)\n    }\n\nwrapper.start()\n```\n\nBut the implementation (below) still requires `NWPathMonitorWrapper.start()` to be called, hurting the beauty of the publisher-subscriber relationship.\n\n```swift\npublic final class NWPathMonitorWrapper {\n\n    // MARK: - Properties\n\n    private let monitor: NWPathMonitor\n    private let queue: DispatchQueue = .global(qos: .background)\n    private let pathUpdateSubject = PassthroughSubject<NWPath, Never>()\n\n    // MARK: - Life cycle\n\n    public init(\n        monitor: NWPathMonitor = NWPathMonitor()\n    ) {\n        self.monitor = monitor\n        self.monitor.pathUpdateHandler = {\n            self.pathUpdateSubject.send($0)\n        }\n    }\n\n    // MARK: - Public\n\n    public func start() {\n        monitor.start(\n            queue: queue\n        )\n    }\n\n    public func stop() {\n        monitor.cancel()\n    }\n\n    public func pathUpdatePublisher() -> AnyPublisher<NWPath, Never> {\n        pathUpdateSubject\n            .eraseToAnyPublisher()\n    }\n}\n```\n\nSo I looked for a similar example in Apple's frameworks, one which requires a method to be called to trigger the action. Turns out `URLSession`, familiar to every iOS/macOS engineer, is the perfect example since it requires `URLSession.resume()` to be called to fire the network requrest. Recently `URLSession` got a new method, a [publisher](https://developer.apple.com/documentation/foundation/urlsession/3329707-datataskpublisher) which starts the request at the moment there's demand (a subscriber):\n\n```swift\nlet session = URLSession.shared\n\nlet cancellable = session\n    .dataTaskPublisher(for: request)\n    .receive(on: RunLoop.main)\n    .tryMap { result in\n        // ...\n    }\n    .sink(\n        receiveCompletion: { _ in },\n        receiveValue: { _ in }    \n    )\n```\n\nAnd that's the interface I wanted for my monitor. A simple publisher which starts *emitting values* as soon as there's demand.\n\n```swift\nlet monitor = NWPathMonitor()\n\nlet cancellable = monitor\n    .pathUpdatePublisher()\n    .receive(on: RunLoop.main)\n    .sink { path in\n        print(path.status)\n    } \n```\n\nSwiftUI and Combine are new to me, I spiked and re-implemented some UI components I have up in my sleeve, but nothing too complex. Building this client is helping me to explore and learn new APIs.\n\nThe protocols `Publisher`, `Subscriber`, and `Subscription` are examples of these APIs. To implement a custom publisher it's necessary to implement types conforming to two of these protocols.\n\nFirst, a quick recap:\n\n* [`Publisher`](https://developer.apple.com/documentation/combine/publisher) is the type which emits events over time,\n* [`Subscriber`](https://developer.apple.com/documentation/combine/subscriber/) is the type which receives events published by the publisher, and\n* [`Subscription`](https://developer.apple.com/documentation/combine/subscription) implements the link between publishers and subscribers.\n\nThe first step was to define my publisher interface. Since the monitor requires a queue to run, I decided to pass the queue as argument. In order to simplify its interface, a background queue is passed by default to the implementation.\n\n```swift\nextension NWPathMonitor {\n  \n    public func pathUpdatePublisher(\n        on queue: DispatchQueue = .global(qos: .background)\n    ) -> NWPathMonitor.PathMonitorPublisher {\n      // ...\n    }\n}\n```\n\nThe interface provides a hint of the first type to be implemented, `NWPathMonitor.PathMonitorPublisher`. Most of the code is boilerplate, and for this publisher, the `Output` expected is `NWPath`, without a `Failure`.\n\nWhen the publisher *receives* a subscriber, the link between them is established.\n\n```swift\nextension NWPathMonitor {\n   \n  public struct PathMonitorPublisher: Publisher {\n\n        // MARK: - Nested types\n    \n        public typealias Output = NWPath\n        public typealias Failure = Never\n    \n        // MARK: - Properties\n    \n        private let monitor: NWPathMonitor\n        private let queue: DispatchQueue\n    \n        // MARK: - Life cycle\n    \n        fileprivate init(\n            monitor: NWPathMonitor,\n            queue: DispatchQueue\n        ) {\n            self.monitor = monitor\n            self.queue = queue\n        }\n    \n        // MARK: - Public\n    \n        public func receive<S>(\n            subscriber: S\n        ) where S: Subscriber, S.Failure == Failure, S.Input == Output {\n            let subscription = PathMonitorSubscription(\n                subscriber: subscriber,\n                monitor: monitor,\n                queue: queue\n            )\n    \n            subscriber.receive(\n                subscription: subscription\n            )\n        }\n    }\n}\n```\n\nThe `Subscription` fulfills the demand from the subscriber. As soon as there's demand, it starts monitoring changes using the monitor's callback, passing changes to the subscriber. And since `Subscription` conforms to [`Cancellable`](https://developer.apple.com/documentation/combine/Cancellable), `cancel()` can be used to stop the monitor.\n\n```swift\nextension NWPathMonitor {\n\n    private final class PathMonitorSubscription<\n        S: Subscriber\n    >: Subscription where S.Input == NWPath {\n\n        // MARK: - Nested types\n  \n        private let subscriber: S\n        private let monitor: NWPathMonitor\n        private let queue: DispatchQueue\n  \n        // MARK: - Life cycle\n  \n        init(\n            subscriber: S,\n            monitor: NWPathMonitor,\n            queue: DispatchQueue\n        ) {\n            self.subscriber = subscriber\n            self.monitor = monitor\n            self.queue = queue\n        }\n  \n        // MARK: - Public\n  \n        func request(\n            _ demand: Subscribers.Demand\n        ) {\n            guard\n                demand == .unlimited,\n                monitor.pathUpdateHandler == nil\n            else {\n                return\n            }\n  \n            monitor.pathUpdateHandler = { path in\n                _ = self.subscriber.receive(path)\n            }\n  \n            monitor.start(\n                queue: queue\n            )\n        }\n  \n        func cancel() {\n            monitor.cancel()\n        }\n    }\n}\n```\n\nWith all in place, the View Model becomes extremely simple and elegant. Below a View Model which publishes a boolean indicating the connectivity status to the View.\n\n```swift\nfinal class ViewModel: ObservableObject {\n\n    // MARK: - Properties\n\n    @Published var isConnected: Bool = false\n    private var monitorCancellable: Cancellable?\n\n    // MARK: - Life cycle\n\n    init(\n        pathMonitorPublisher: NWPathMonitor.PathMonitorPublisher\n    ) {\n        monitorCancellable = pathMonitorPublisher\n            .receive(on: RunLoop.main)\n            .map { $0.status == .satisfied }\n            .assign(to: \\.isConnected, on: self)\n    }\n}\n```\n\nOverall, I'm happy with the result, and am looking forward to using Combine (and SwiftUI) in production.\n\nResources:\n\n* [Using Combine](https://heckj.github.io/swiftui-notes/)\n* [Introducing Combine](https://www.apeth.com/UnderstandingCombine/start.html)\n",
 				"date_published": "2021-02-21T02:00:00+01:00",
 				"url": "https://otavio.cc/2022/02/06/reachability-using-nwpathmonitor.html",
-				"tags": ["programming"]
+				"tags": ["coding","swiftui"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/how-to-replace.html",
@@ -2879,7 +2872,7 @@
 				"content_text": "Like them or not, [type methods](https://docs.swift.org/swift-book/LanguageGuide/Methods.html), aka *class methods* or *static methods*, are heavily used in Swift and part of our daily lives as developers. \n\nFrom analytics trackers to requesting system permissions, we’ve all had to face type methods from external libraries in which we had no control over. Testing code that interacts with them might seem hard without using [method swizzling](http://nshipster.com/method-swizzling/), but fortunately, this doesn't always have to be the case.\n\nLet's suppose there's a class called `APIWrapper`, which implements a type method that requests search results from an endpoint.\n\n```swift\npublic class APIWrapper {\n    public static func search(\n        query: String,\n        completion: @escaping (Result<[String], Error>) -> Void\n    )\n}\n```\n\nThe method takes a query, `String`, and a completion block, `(Result<[String], Error>) -> Void`, which is triggered once the request finishes. Its internal implementation doesn't really matter since it could be from an external framework or generated by a [code generator](https://github.com/swagger-api/swagger-codegen) from the API specification.\n\nConsuming the method is straightforward:\n\n```swift\nAPIWrapper.search(query: \"fancy restaurant\") { result in\n    // do something with 'result'\n}\n```\n\nBut testing the part of the application that interacts with it isn't that obvious. Especially when we want to:\n\n1. avoid making real network requests\n2. stress all the possibilities the interface allows. For instance:\n   - Is the search method called with the correct query string?\n   - What happens when the completion block returns an empty array?\n   - What happens when the completion block returns an array of results?\n   - What happens when the completion block is called with an error?\n\n### **Basic Data Source implementation**\n\nThe snippet below shows `SearchResultsTableViewDataSource`, a `UITableViewDataSource` subclass which uses the API wrapper to populate the table view when the network request completes. Testing it triggers a real network request and doesn't provide what's needed to test the query passed to the wrapper and the different behaviors when the result returns.\n\n```swift\nfinal class SearchResultsTableViewDataSource: NSObject,\n                                              UITableViewDataSource {\n    private let tableView: UITableView\n    private var results: [String] = []\n\n    init(\n        tableView: UITableView\n    ) {\n        self.tableView = tableView\n    }\n\n    func fetchSearchResuls(query: String) {\n        APIWrapper.search(\n            query: query\n        ) { [weak self] result in\n            switch result {\n            case .success(let results): self?.results = results\n            case .failure: self?.results = []\n            }\n            self?.tableView.reloadData()\n        }\n    }\n\n    // ... UITableViewDataSource methods ...\n}\n```\n\nIf `APIWrapper` had an instance method instead of a type method, two easy and obvious solutions would emerge: *protocols* and *subclasses*. Using either/or it would be possible to replace the wrapper with a [test double](https://martinfowler.com/bliki/TestDouble.html) that captures the query parameter and completion block for verifying expectations.\n\n### **Dependency injection to the rescue**\n\nIn the example above, the API wrapper interface can't be changed and has to stay as a type method, therefore the easiest way to overcome this is via [dependency injection](https://en.wikipedia.org/wiki/Dependency_injection). In this case, *method injection* via object initialization\n\nThe code below stores a method which matches the qualified symbol name of the wrapper method, using it to perform the search. In order to simplify the `SearchResultsTableViewDataSource` interface, the wrapper's search method is assigned using a [default parameter value](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID169).\n\n```swift\nfinal class SearchResultsTableViewDataSource: NSObject,\n                                              UITableViewDataSource {\n    typealias SearcherCompletion\n        = (Result<[String], Error>) -> Void\n    typealias Searcher\n        = (String, @escaping SearcherCompletion) -> Void\n\n    private let tableView: UITableView\n    private var results: [String] = []\n    private var searcher: Searcher\n\n    init(\n        tableView: UITableView,\n        searcher: @escaping Searcher = APIWrapper.search(query:completion:)\n    ) {\n        self.tableView = tableView\n        self.searcher = searcher\n    }\n\n    func fetchSearchResuls(query: String) {\n        searcher(query) { [weak self] result in\n            switch result {\n            case .success(let results): self?.results = results\n            case .failure: self?.results = []\n            }\n            self?.tableView.reloadData()\n        }\n    }\n\n    // ... UITableViewDataSource methods ...\n}\n```\n\n### **Testing with Dependency Injection**\n\nFinally, testing becomes trivial. The injected method is used to capture the query term and the completion block passed to the API wrapper. Once captured, these can be used to verify expectations.\n\n```swift\nfinal class SearchResultsTableViewDataSourceTests: XCTestCase {\n    var tableView: UITableView!\n    var dataSource: SearchResultsTableViewDataSource?\n    var lastSearchQuery: String?\n    var lastSearchCompletion:\n        SearchResultsTableViewDataSource.SearcherCompletion?\n\n    override func setUp() {\n        super.setUp()\n\n        tableView = UITableView()\n\n        dataSource = SearchResultsTableViewDataSource(\n            tableView: tableView\n        ) { query, completion in\n            self.lastSearchQuery = query\n            self.lastSearchCompletion = completion\n        }\n    }\n\n    func testFetchSearchResultsQuery() {\n        // When the method is called\n        dataSource?.fetchSearchResuls(query: \"Mocked Search Query\")\n\n        XCTAssertEqual(\n            lastSearchQuery,\n            \"Mocked Search Query\",\n            \"It calls the API wrapper with the correct search query\"\n        )\n    }\n\n    func testFetchSearchResultsWithoutResults() {\n        // When the method is called\n        dataSource?.fetchSearchResuls(query: \"Mocked Search Query\")\n\n        // And the API wrapper completion block is called with an empty array\n        lastSearchCompletion?(.success([]))\n\n        XCTAssertEqual(\n            dataSource?.tableView(tableView, numberOfRowsInSection: 0),\n            0,\n            \"It empties the table view\"\n        )\n    }\n\n    func testFetchSearchResultsWithResults() {\n        // When the method is called\n        dataSource?.fetchSearchResuls(query: \"Mocked Search Query\")\n\n        // And the API wrapper completion block is called with results\n        lastSearchCompletion?(.success([\"result 1\", \"result 2\"]))\n\n        XCTAssertEqual(\n            dataSource?.tableView(tableView, numberOfRowsInSection: 0),\n            2,\n            \"It adds the correct number of results to the table view\"\n        )\n\n        XCTAssertEqual(\n            dataSource?.tableView(\n                tableView,\n                cellForRowAt: IndexPath(row: 0, section: 0)\n            ).textLabel?.text,\n            \"result 1\",\n            \"It configures the first cell\"\n        )\n\n        XCTAssertEqual(\n            dataSource?.tableView(\n                tableView,\n                cellForRowAt: IndexPath(row: 1, section: 0)\n            ).textLabel?.text,\n            \"result 2\",\n            \"It configures the second cell\"\n        )\n    }\n\n    func testFetchSearchResultsWithError() {\n        // When the method is called\n        dataSource?.fetchSearchResuls(query: \"Mocked Search Query\")\n\n        // And the API wrapper completion block is called with an error\n        enum MockError: Error { case someGenericError }\n        lastSearchCompletion?(.failure(MockError.someGenericError))\n\n        XCTAssertEqual(\n            dataSource?.tableView(tableView, numberOfRowsInSection: 0),\n            0,\n            \"It empties the table view\"\n        )\n    }\n}\n```\n\nMore importantly, not only does this method work with type methods but also with *free functions*, such as `SecItemAdd(_:_:)` used to [add items to the Keychain](https://developer.apple.com/documentation/security/1401659-secitemadd).\n",
 				"date_published": "2020-05-21T12:00:00+01:00",
 				"url": "https://otavio.cc/2022/02/06/how-to-replace.html",
-				"tags": ["programming"]
+				"tags": ["coding"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/map-filter-sort.html",
@@ -2888,7 +2881,7 @@
 				"content_text": "I strongly believe that the best way to learn something new is by experimenting and practicing it.\n\nA few months ago I was studying *Functional Programming in Swift*. Swift is a modern, powerful, and safe language. Its syntax is so simple and elegante that it works as an invitation to dive into the Functional Programming world.\n\nAfter practicing Functional Programming in Swift for a few weeks, I decided to try something a little bit different. I decided it was time to experiment with *curried functions*, *map*, *filter*, *sort*, and *reduce* in Objective-C.\n\nSwift collections implement *map*, *sort*, *filter*, and *reduce*, so the first step on my experiment was to reimplement these in a `NSArray` category, trying to match the method signature that Swift implements.\n\n* **Map**: given a *transform operation*, it returns a new `NSArray` where all its elements are transformed according to the operation. The *transform operation* takes an object and returns another object (that might be of a different type of the original object).\n* **Filter**: given a *condition operation*, it returns a new `NSArray` where all its elements satisfy the condition. The *condition operation* takes an object and returns a boolean.\n* **Sort**: given a *sort condition*, it returns a new `NSArray` where all its elements are sorted according to the condition. The *sort condition* takes two objects and returns a boolean.\n* **Reduce**: given a *combine operation*, it returns a recombined object by recursively processing its constituent parts. The *combine operation* takes the initial state and an object and returns a recombined object which is of the same type of the initial state.\n\nThe `NSArray` category ended up with the following interface:\n\n```objc\ntypedef id(^Transform)(id);\ntypedef BOOL(^Condition)(id);\ntypedef BOOL(^SortCondition)(id, id);\ntypedef id(^Combine)(id, id);\n\n[@interface](https://micro.blog/interface) NSArray (MFSR)\n\n- (NSArray *)map:(Transform)transform;\n- (NSArray *)filter:(Condition)condition;\n- (NSArray *)sort:(SortCondition)isOrderedBefore;\n- (id)reduce:(id)initial andCombine:(Combine)combine;\n\n@end\n```\n\nTo test the interface above and its implementation, I started with a immutable array of movies — James Bond movies — loaded from a *plist* file.\n\n```objc\nNSArray<Movie *> *movies = [[NSBundle mainBundle] moviesFromPlist];\n```\n\nWhere each movie contains a title, the actor’s name who played Bond, and some additional information about about the flick. The movie interface is defined as:\n\n```objc\n@interface Movie : NSObject\n\n@property (nonatomic, readonly) NSString *title;\n@property (nonatomic, readonly) NSString *actor;\n@property (nonatomic, readonly) NSInteger year;\n@property (nonatomic, readonly) CGFloat boxOffice;\n@property (nonatomic, readonly) CGFloat budget;\n@property (nonatomic, readonly) CGFloat tomatometer;\n\n@end\n```\n\n*Sorting* the array of movies requires a *sort condition* that takes two movies and returns a boolean that represents the relationship between them. So, for sorting all the British Secret Service agent movies by budget:\n\n```objc\nBOOL(^byBudget)(Movie *, Movie *) = ^BOOL(Movie *a, Movie *b) {\n    return a.budget > b.budget;\n};\n\nNSArray<Movie *> *moviesByBudget = [movies sort:byBudget];\n```\n\nSimple.\n\nFor *filtering*, the method requires a movie and returns *true* when the movie matches the condition and *false* otherwise. Below, a simple way to create an immutable array containing the Sean Connery movies.\n\n```objc\nBOOL(^isConnery)(Movie *) = ^BOOL(Movie *a) {\n    return [a.actor isEqual:@\"Sean Connery\"];\n};\n\nNSArray<Movie *> *conneryMovies = [movies filter:isConnery];\n```\n\nBut here is the tricky part. To filter movies played by other actors, more blocks like the one above would be required. The *functional* way to address this is using curried functions — popular technique in Swift (and in other Functional Programming languages).\n\nSince *filter* expects a block that takes a movie and returns a boolean, another function is required, where its output is a function matching this signature.\n\nThe new function takes a string (actor’s name) and returns a function that takes a movie and returns a boolean.\n\n```objc\ntypedef BOOL(^FuncMovieToBool)(Movie *);\n\nFuncMovieToBool(^isActor)(NSString *) = ^FuncMovieToBool(NSString *actor) {\n    return ^BOOL(Movie *movie) {\n        return [movie.actor isEqual:actor];\n    };\n};\n\nNSArray<Movie *> *actorMovies = [movies filter:isActor(@\"Daniel Craig\")];\n```\n\nWithout any changes to the *filter* method signature or implementation, it’s possible to filter the array of movies to get a list of movies played by any actor on the big screen.\n\nFinally, it’s possible to combine all these functions to achieve the desired result. Let’s say I want the movies were Pierce Brosnan played James Bond, *sorted* by ratings and *reduced* to a list.\n\n```objc\nNSArray<Movie *> *moviesByRatings\n    = [[movies filter:isActor(@\"Pierce Brosnan\")]sort:byRatings];\n\nNSString *description\n    = [moviesByRatings reduce:@\"Brosnan movies sorted by ratings:\"\n                   andCombine:^NSString *(NSString *initial, Movie *movie) {\n        return [NSString stringWithFormat:@\"%@\\n* %@ (Tomatometer: %@)\",\n                                          initial,\n                                          movie.title,\n                                          @(movie.tomatometer)];\n    }];\n```\n\nVoilà:\n\n```\nBrosnan movies sorted by ratings:\n* GoldenEye (Tomatometer: 82)\n* Die Another Day (Tomatometer: 57)\n* Tomorrow Never Dies (Tomatometer: 57)\n* The World Is Not Enough (Tomatometer: 51)\n```\n\nBut putting all the fun and excitement aside, would I use these methods on an Objective-C project? Probably not — `NSArray` already implements methods for sorting and filtering arrays using `NSPredicate`.\n\nMy point here was to experiment and practice *map*, *filter*, *sort*, *reduce*, and *curried functions*. Programming requires practice. And practicing these techniques and methods (and reimplementing them) in Objective-C improved the way I use them in Swift.\n",
 				"date_published": "2016-04-05T12:00:00+01:00",
 				"url": "https://otavio.cc/2022/02/06/map-filter-sort.html",
-				"tags": ["programming"]
+				"tags": ["coding","internet","blog"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2022/02/06/curried-function-in.html",
@@ -2897,7 +2890,7 @@
 				"content_text": "[Function Currying](https://en.wikipedia.org/wiki/Currying) and *uncurrying* have been extensively discussed since Apple introduced Swift in 2014. I won’t extend myself on this topic because there are some great resources about it on the Internet.\n\nBut, shortly, what is currying? It’s a technique that transforms a function that takes several arguments into a sequence of functions, each with a single argument. The result is a chain of functions returning functions. It’s beautiful, it’s mathematics!\n\nBelow, a simple example in Swift:\n\n```swift\nfunc add(_ a: Int) -> (Int) -> (Int) -> Int {\n    { b in { c in a + b + c } }\n}\n\nlet addTwo = add(2)               // Int -> Int -> Int\nlet addFive = addTwo(3)           // Int -> Int\nlet result = addFive(4)           // 9\n\nprint(\"result = \\(result)\")       // result = 9\n```\n\nand the same example in Objective-C:\n\n```objc\ntypedef NSInteger(^FuncInt2Int)(NSInteger);\ntypedef FuncInt2Int(^FuncInt2Int2Int)(NSInteger);\n\nFuncInt2Int2Int(^add)(NSInteger) = ^FuncInt2Int2Int(NSInteger a) {\n    return ^FuncInt2Int(NSInteger b) {\n        return ^NSInteger(NSInteger c) {\n            return a + b + c;\n        };\n    };\n};\n\nFuncInt2Int2Int addTwo = add(2);        // Int -> Int -> Int\nFuncInt2Int addFive = addTwo(3);        // Int -> Int\nNSInteger result = addFive(4);          // 9\n\nNSLog(@\"result = %ld\", result);         // result = 9\n```\n\nThe Swift version is minimal and elegant. But the Objective-C one has its charm, doesn’t it?\n",
 				"date_published": "2016-04-04T12:00:00+01:00",
 				"url": "https://otavio.cc/2022/02/06/curried-function-in.html",
-				"tags": ["programming"]
+				"tags": ["coding"]
 			}
 	]
 }
