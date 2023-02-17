@@ -1,19 +1,91 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Otavio Cordeiro",
+	"title": "Otávio Cordeiro",
 	"icon": "https://micro.blog/otaviocc/avatar.jpg",
 	"home_page_url": "https://otavio.cc/",
 	"feed_url": "https://otavio.cc/feed.json",
 	"items": [
 		
 			{
-				"id": "http://otaviocc.micro.blog/2023/02/12/week.html",
-				"title": "Week 2023-06",
-				"content_html": "<p><strong>Braille Institute</strong> released a font for low vision readers, <a href=\"https://brailleinstitute.org/freefont\">Atkinson Hyperlegible</a>. The font is great and I asked <a href=\"https://web.getmatter.com/list/queue\">Matter</a> to add it to their list of supported fonts. Matter accepted my requested and within a couple of hours they deployed the changes. I’ve update <a href=\"https://otavio.cc/\">my blog</a> to use Atkinson Hyperlegible as well.</p>\n<p>I keep going back-and-forth between Reminders and <a href=\"https://culturedcode.com/things/\">Things</a>. Every time there&rsquo;s a new macOS version I go back to Reminders to see what changed. But the truth is, Things is an amazing app and I decided to go back to it. The best of all, I can synchronize Things on all the computers I use, no matter if they’re using the same Apple ID or not. Reminders use iCloud, so I’m limited to the Apple ID I’m using. The downside is that I had to pay for Things twice.</p>\n<p>Same goes for Safari and Firefox. I’m a big Firefox fan (since it was called Phoenix) and love the <a href=\"https://support.mozilla.org/en-US/kb/containers\">Multi-Account Containers</a> feature, but Safari is so much faster and has better support for physical keys and Apple Pay so I keep going back to it.</p>\n<p>I read a review about <a href=\"https://readkit.app/\">ReadKit</a> and decided to give it a try. I deleted Reeder from my devices to force myself to use it. The application is actually nice and I’m enjoying it a lot. I like the way it integrates with Pinboard as well, which is a service I use for about 15 years. It supports Smart Folders, a great feature when subscribing to tons of feeds.</p>\n<p>Decided to create a <a href=\"https://otavio.cc/kleingarten/\">mini Digital Garden</a> on Micro.blog. It&rsquo;s not perfect because I have to create all the links between pages manually. But at least all the content is hosted in my blog. I have to check if there&rsquo;s an API to post Pages on Micro.blog directly, and add an option to my <a href=\"https://otavio.cc/micropublish/\">Micro.publish plugin</a> so that people can publish posts and pages from Obsidian. For now, the digital garden has notes about <a href=\"https://otavio.cc/unit-testing\">Unit Testing</a>, <a href=\"https://otavio.cc/open-source\">Open Source</a>, and <a href=\"https://otavio.cc/child-benefits-in-germany\">Child Benefits in Germany</a>.</p>\n<p>I released a minor change to <a href=\"https://otavio.cc/micropublish/\">Micro.publish plugin</a>, including a link to my <a href=\"https://www.buymeacoffee.com/otaviocc\">Buy My a Coffee</a> page. I added a link to <a href=\"https://www.buymeacoffee.com/otaviocc\">Buy My a Coffee</a> in all my <a href=\"https://otavio.cc/kleingarten/\">mini Digital Garden</a> pages as well.</p>\n<p>We&rsquo;re cat sitting for friends and I usually go to their house at night, after <em>tinyScientist</em> goes to bed. I&rsquo;m using my time there to work on my <a href=\"https://omg.lol\">omg.lol</a> native client for macOS and iOS. My client is fully modularized and each feature is a micro app on its own. Once all the setup is done, the app should scale pretty well, and adding new omg.lol features should be a breeze. I plan to write about <a href=\"https://otavio.cc/modularization/\">Modularization</a> once the setup is finished.</p>\n<p>I finally started playing <a href=\"https://www.nintendo.com/store/products/fire-emblem-engage-switch/\">Fire Emblem Encore</a>, but already have my eyes on <strong>Metroid Prime Remastered</strong>. I must resist, in two weeks there’s <strong>Octopath Traveler II</strong> and in May, <strong>The Legend of Zelda: Tears of the Kingdom</strong>.</p>\n<p>LEGO <a href=\"https://www.lego.com/en-us/product/lego-minifigures-series-24-71037\">Series 24</a> is complete. We went to a LEGO store and they had hundreds of minifigure bags. Spent a good amount of time there, <em>feeling</em> the bags and found the last two.</p>\n<p>And finally, I had to use Twitter to talk to my ISP&rsquo;s support. Their service is too unstable and every now and then I have to contact them to complain (and ask for my money back). Maybe it&rsquo;s time to switch providers so that I don&rsquo;t have to use Twitter anymore.</p>\n",
-				"content_text": "**Braille Institute** released a font for low vision readers, [Atkinson Hyperlegible](https://brailleinstitute.org/freefont). The font is great and I asked [Matter](https://web.getmatter.com/list/queue) to add it to their list of supported fonts. Matter accepted my requested and within a couple of hours they deployed the changes. I’ve update [my blog](https://otavio.cc/) to use Atkinson Hyperlegible as well.\n\nI keep going back-and-forth between Reminders and [Things](https://culturedcode.com/things/). Every time there's a new macOS version I go back to Reminders to see what changed. But the truth is, Things is an amazing app and I decided to go back to it. The best of all, I can synchronize Things on all the computers I use, no matter if they’re using the same Apple ID or not. Reminders use iCloud, so I’m limited to the Apple ID I’m using. The downside is that I had to pay for Things twice.\n\nSame goes for Safari and Firefox. I’m a big Firefox fan (since it was called Phoenix) and love the [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) feature, but Safari is so much faster and has better support for physical keys and Apple Pay so I keep going back to it.\n\nI read a review about [ReadKit](https://readkit.app/) and decided to give it a try. I deleted Reeder from my devices to force myself to use it. The application is actually nice and I’m enjoying it a lot. I like the way it integrates with Pinboard as well, which is a service I use for about 15 years. It supports Smart Folders, a great feature when subscribing to tons of feeds.\n\nDecided to create a [mini Digital Garden](https://otavio.cc/kleingarten/) on Micro.blog. It's not perfect because I have to create all the links between pages manually. But at least all the content is hosted in my blog. I have to check if there's an API to post Pages on Micro.blog directly, and add an option to my [Micro.publish plugin](https://otavio.cc/micropublish/) so that people can publish posts and pages from Obsidian. For now, the digital garden has notes about [Unit Testing](https://otavio.cc/unit-testing), [Open Source](https://otavio.cc/open-source), and [Child Benefits in Germany](https://otavio.cc/child-benefits-in-germany).\n\nI released a minor change to [Micro.publish plugin](https://otavio.cc/micropublish/), including a link to my [Buy My a Coffee](https://www.buymeacoffee.com/otaviocc) page. I added a link to [Buy My a Coffee](https://www.buymeacoffee.com/otaviocc) in all my [mini Digital Garden](https://otavio.cc/kleingarten/) pages as well.\n\nWe're cat sitting for friends and I usually go to their house at night, after *tinyScientist* goes to bed. I'm using my time there to work on my [omg.lol](https://omg.lol) native client for macOS and iOS. My client is fully modularized and each feature is a micro app on its own. Once all the setup is done, the app should scale pretty well, and adding new omg.lol features should be a breeze. I plan to write about [Modularization](https://otavio.cc/modularization/) once the setup is finished.\n\nI finally started playing [Fire Emblem Encore](https://www.nintendo.com/store/products/fire-emblem-engage-switch/), but already have my eyes on **Metroid Prime Remastered**. I must resist, in two weeks there’s **Octopath Traveler II** and in May, **The Legend of Zelda: Tears of the Kingdom**.\n\nLEGO [Series 24](https://www.lego.com/en-us/product/lego-minifigures-series-24-71037) is complete. We went to a LEGO store and they had hundreds of minifigure bags. Spent a good amount of time there, _feeling_ the bags and found the last two.\n\nAnd finally, I had to use Twitter to talk to my ISP's support. Their service is too unstable and every now and then I have to contact them to complain (and ask for my money back). Maybe it's time to switch providers so that I don't have to use Twitter anymore.\n",
-				"date_published": "2023-02-12T08:00:00+01:00",
-				"url": "https://otavio.cc/2023/02/12/week.html",
-				"tags": ["internet","blog","obsidian","week","longpost"]
+				"id": "http://otaviocc.micro.blog/2023/02/16/ill-write-some.html",
+				
+				"content_html": "<p>I&rsquo;ll write some code. It would be nice to write about this. Did someone write about it? I didn&rsquo;t find, but I found something else. Looks interesting too, maybe I should save for later. Which app should I use? I&rsquo;m gonna compare the one I use with that other one. I want to code.</p>\n",
+				"content_text": "I'll write some code. It would be nice to write about this. Did someone write about it? I didn't find, but I found something else. Looks interesting too, maybe I should save for later. Which app should I use? I'm gonna compare the one I use with that other one. I want to code.\n",
+				"date_published": "2023-02-16T23:34:52+01:00",
+				"url": "https://otavio.cc/2023/02/16/ill-write-some.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/15/200000.html",
+				
+				"content_html": "<p>🪴 👨‍💻 I&rsquo;ve added another entry to my digital garden, this time with <a href=\"https://otavio.cc/mona-themes/\">themes for the Mastodon app Mona</a>. There&rsquo;s a single theme there for now, Nórdico, based on the <a href=\"https://www.nordtheme.com\">Nord Theme</a>, but I have ideas for other themes already.</p>\n",
+				"content_text": "🪴 👨‍💻 I've added another entry to my digital garden, this time with [themes for the Mastodon app Mona](https://otavio.cc/mona-themes/). There's a single theme there for now, Nórdico, based on the [Nord Theme](https://www.nordtheme.com), but I have ideas for other themes already.\n",
+				"date_published": "2023-02-15T20:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/15/200000.html",
+				"tags": ["internet","shortpost","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/15/190000.html",
+				
+				"content_html": "<p>🪴 👨‍💻 I&rsquo;ve added a new entry to my <a href=\"https://otavio.cc/kleingarten/\">digital garden</a> called <a href=\"https://otavio.cc/fakes/\">Fakes</a>. It&rsquo;s part of a series of notes on <a href=\"https://otavio.cc/unit-testing/\">unit testing with doubles and fixtures</a> that I&rsquo;m putting together. The examples are in Swift, but the concepts are the same for all languages.</p>\n",
+				"content_text": "🪴 👨‍💻 I've added a new entry to my [digital garden](https://otavio.cc/kleingarten/) called [Fakes](https://otavio.cc/fakes/). It's part of a series of notes on [unit testing with doubles and fixtures](https://otavio.cc/unit-testing/) that I'm putting together. The examples are in Swift, but the concepts are the same for all languages.\n",
+				"date_published": "2023-02-15T19:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/15/190000.html",
+				"tags": ["coding","engineering","internet","swift","shortpost","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/13/iosipados-and-macos.html",
+				
+				"content_html": "<p>iOS/iPadOS 16.3.1 and macOS 13.2.1 are out with important fixes.</p>\n",
+				"content_text": "iOS/iPadOS 16.3.1 and macOS 13.2.1 are out with important fixes.\n",
+				"date_published": "2023-02-13T23:13:15+01:00",
+				"url": "https://otavio.cc/2023/02/13/iosipados-and-macos.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/13/220000.html",
+				
+				"content_html": "<p>Used my LEGO VIP points to reedem the set  <a href=\"https://brickarchitect.com/2023/40585-world-of-wonders-available-now-vip-rewards/\">World of Wonders</a>.</p>\n",
+				"content_text": "Used my LEGO VIP points to reedem the set  [World of Wonders](https://brickarchitect.com/2023/40585-world-of-wonders-available-now-vip-rewards/).\n",
+				"date_published": "2023-02-13T22:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/13/220000.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/13/210000.html",
+				
+				"content_html": "<p>🪴 The next topic I&rsquo;m working for my <strong>Digital Garden</strong> is <a href=\"https://otavio.cc/fakes/\">Fakes</a>, why they&rsquo;re important and when to use them in <a href=\"https://otavio.cc/unit-testing/\">Unit Tests</a>.</p>\n",
+				"content_text": "🪴 The next topic I'm working for my **Digital Garden** is [Fakes](https://otavio.cc/fakes/), why they're important and when to use them in [Unit Tests](https://otavio.cc/unit-testing/).\n",
+				"date_published": "2023-02-13T21:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/13/210000.html",
+				"tags": ["coding","engineering","shortpost","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/13/200000.html",
+				
+				"content_html": "<p>Just installed an <a href=\"https://obsidian.md/plugins?search=kindle%20highlights\">Obsidian plugin</a> for importing Kindle highlights. It&rsquo;s possible to either connect to an Amazon account or import directly from a device (using <code>My Clippings.txt</code>, which can be accessed by connecting the Kindle to a computer). Pretty cool.</p>\n",
+				"content_text": "Just installed an [Obsidian plugin](https://obsidian.md/plugins?search=kindle%20highlights) for importing Kindle highlights. It's possible to either connect to an Amazon account or import directly from a device (using `My Clippings.txt`, which can be accessed by connecting the Kindle to a computer). Pretty cool.\n",
+				"date_published": "2023-02-13T20:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/13/200000.html",
+				"tags": ["productivity","book","obsidian","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/13/digital-garden.html",
+				"title": "Digital Garden",
+				"content_html": "<p>🪴 <a href=\"https://otavio.cc/2023/02/11/week.html\">Last weekend</a> I moved some pages from my personal notes to a <a href=\"https://otavio.cc/kleingarten/\">Digital Garden</a> hosted in my domain. Digital Gardens don&rsquo;t follow the same structure of a blog and are in constant mutation. For now you can find there:</p>\n<ul>\n<li><a href=\"https://otavio.cc/unit-testing\">Unit Testing With Doubles and Fixtures</a></li>\n<li><a href=\"https://otavio.cc/open-source\">Contributions and Projects</a></li>\n<li><a href=\"https://otavio.cc/child-benefits-in-germany\">Child Benefits in Germany</a></li>\n</ul>\n<p>All the pages have a link to my <a href=\"https://www.buymeacoffee.com/otaviocc\">Buy Me a Coffee page</a>, for those who think the content is useful for them. Coffee helps to keep the Digital Garden growing.</p>\n",
+				"content_text": "🪴 [Last weekend](https://otavio.cc/2023/02/11/week.html) I moved some pages from my personal notes to a [Digital Garden](https://otavio.cc/kleingarten/) hosted in my domain. Digital Gardens don't follow the same structure of a blog and are in constant mutation. For now you can find there:\n\n- [Unit Testing With Doubles and Fixtures](https://otavio.cc/unit-testing)\n- [Contributions and Projects](https://otavio.cc/open-source)\n- [Child Benefits in Germany](https://otavio.cc/child-benefits-in-germany)\n\nAll the pages have a link to my [Buy Me a Coffee page](https://www.buymeacoffee.com/otaviocc), for those who think the content is useful for them. Coffee helps to keep the Digital Garden growing.\n",
+				"date_published": "2023-02-13T19:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/13/digital-garden.html",
+				"tags": ["productivity","internet","blog","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/13/feedbin-has-a.html",
+				
+				"content_html": "<p><a href=\"https://feedbin.com\">Feedbin</a> has a Podcast app called <a href=\"https://apps.apple.com/app/airshow-lightweight-podcasts/id1584582270\">Airshow</a>, which syncs with Feedbin. Although I use Feedbin for RSS and newsletter, for podcast I&rsquo;m still on <a href=\"https://overcast.fm\">Overcast</a>. Feedbin&rsquo;s app is limited and the UX needs some love. Overcast&rsquo;s far superior.</p>\n",
+				"content_text": "[Feedbin](https://feedbin.com) has a Podcast app called [Airshow](https://apps.apple.com/app/airshow-lightweight-podcasts/id1584582270), which syncs with Feedbin. Although I use Feedbin for RSS and newsletter, for podcast I'm still on [Overcast](https://overcast.fm). Feedbin's app is limited and the UX needs some love. Overcast's far superior.\n",
+				"date_published": "2023-02-13T18:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/13/feedbin-has-a.html",
+				"tags": ["productivity","internet","shortpost","podcast"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/02/11/week.html",
@@ -28,7 +100,7 @@
 				"id": "http://otaviocc.micro.blog/2023/02/11/i-had-a.html",
 				
 				"content_html": "<p>☕️ 📷 I had a <strong>flat-white</strong> and a <strong>pastel de nata</strong> for breakfast today. Photo taken with an iPhone and slightly edited using Darkroom.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "☕️ 📷 I had a **flat-white** and a **pastel de nata** for breakfast today. Photo taken with an iPhone and slightly edited using Darkroom.\n\n<img src=\"uploads/2023/b5adb98671.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "☕️ 📷 I had a **flat-white** and a **pastel de nata** for breakfast today. Photo taken with an iPhone and slightly edited using Darkroom.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/b5adb98671.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-02-11T14:46:06+01:00",
 				"url": "https://otavio.cc/2023/02/11/i-had-a.html",
 				"tags": ["photography","shortpost"]
@@ -46,7 +118,7 @@
 				"id": "http://otaviocc.micro.blog/2023/02/10/tinyscientist-learning-to.html",
 				
 				"content_html": "<p>📷 <em>tinyScientist</em> learning to code… Taken with an iPhone.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 _tinyScientist_ learning to code… Taken with an iPhone.\n\n<img src=\"uploads/2023/053178fe4b.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "📷 _tinyScientist_ learning to code… Taken with an iPhone.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/053178fe4b.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2023-02-10T16:23:18+01:00",
 				"url": "https://otavio.cc/2023/02/10/tinyscientist-learning-to.html",
 				"tags": ["photography","shortpost"]
@@ -55,7 +127,7 @@
 				"id": "http://otaviocc.micro.blog/2023/02/09/so-far-its.html",
 				
 				"content_html": "<p>👨‍💻 So far it&rsquo;s scaling pretty well. Repositories know about Services, and Features know about Repositories. The main application knows about Feature (which are micro apps). Instances needed by all the micro apps are resolved and injected by the main application.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "👨‍💻 So far it's scaling pretty well. Repositories know about Services, and Features know about Repositories. The main application knows about Feature (which are micro apps). Instances needed by all the micro apps are resolved and injected by the main application.\n\n<img src=\"uploads/2023/ec54d8ad71.png\" width=\"600\" height=\"343\" alt=\"\">\n",
+				"content_text": "👨‍💻 So far it's scaling pretty well. Repositories know about Services, and Features know about Repositories. The main application knows about Feature (which are micro apps). Instances needed by all the micro apps are resolved and injected by the main application.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/ec54d8ad71.png\" width=\"600\" height=\"343\" alt=\"\">\n",
 				"date_published": "2023-02-09T02:12:07+01:00",
 				"url": "https://otavio.cc/2023/02/09/so-far-its.html",
 				"tags": ["coding","engineering","swift","swiftui","shortpost"]
@@ -82,7 +154,7 @@
 				"id": "http://otaviocc.micro.blog/2023/02/07/current-setup.html",
 				
 				"content_html": "<p>📱 Current setup.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📱 Current setup.\n\n<img src=\"uploads/2023/1289ece5a4.png\" width=\"600\" height=\"649\" alt=\"\" />\n",
+				"content_text": "📱 Current setup.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/1289ece5a4.png\" width=\"600\" height=\"649\" alt=\"\" />\n",
 				"date_published": "2023-02-07T23:27:46+01:00",
 				"url": "https://otavio.cc/2023/02/07/current-setup.html",
 				"tags": ["productivity","shortpost"]
@@ -103,7 +175,7 @@
 				"content_text": "Earlier this week I took my parents to the airport and had the opportunity to work on my side project on the train on my way back home. For some reason I enjoy coding on trains, buses, and airplanes. Especially when it’s raining outside. A wonderful combination of white noise sounds, I suppose.\n\n_tinyScientist_ went to the doctor for his _U-Untersuchungen_ and took some other vaccines. My wife has a Phd in vaccine development working with viruses, so of course _tinyScientist_ won’t miss a single shot.\n\nOn Tuesday I returned to work after two weeks off and had my contract updated to match my new title: Engineering Team Lead. Never have I imagined I would take such kind of role, but the setup we have in the company works so well that I decided to accept the challenge. I’m glad I have the time to write code and lead a team.\n\nInternet in Germany has its ups and downs; probably more downs than ups. This week my Internet Provider gave me money back because the service is too unstable in my area, I had to use my phone as personal hotspot in 30% of the meetings I attended.\n\nEarlier this year LEGO released the [Series 24](https://www.lego.com/en-us/product/lego-minifigures-series-24-71037) of its minifigures. We went to a store to _feel the packages_, as we always do, and found 10 minifigures. Still missing 2.\n\nAnd finally, I canceled Audible. The local public library is great and offers thousands of audiobooks via [Libby](https://www.overdrive.com/apps/libby) for 10 EUR/year.\n",
 				"date_published": "2023-02-05T04:35:16+01:00",
 				"url": "https://otavio.cc/2023/02/05/043516.html",
-				"tags": ["longpost"]
+				"tags": ["week","longpost"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/02/05/made-good-progress.html",
