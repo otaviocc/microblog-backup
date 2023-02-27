@@ -7,13 +7,76 @@
 	"items": [
 		
 			{
-				"id": "http://otaviocc.micro.blog/2023/02/16/ill-write-some.html",
+				"id": "http://otaviocc.micro.blog/2023/02/27/theres-no-api.html",
 				
-				"content_html": "<p>I&rsquo;ll write some code. It would be nice to write about this. Did someone write about it? I didn&rsquo;t find, but I found something else. Looks interesting too, maybe I should save for later. Which app should I use? I&rsquo;m gonna compare the one I use with that other one. I want to code.</p>\n",
-				"content_text": "I'll write some code. It would be nice to write about this. Did someone write about it? I didn't find, but I found something else. Looks interesting too, maybe I should save for later. Which app should I use? I'm gonna compare the one I use with that other one. I want to code.\n",
-				"date_published": "2023-02-16T23:34:52+01:00",
-				"url": "https://otavio.cc/2023/02/16/ill-write-some.html",
+				"content_html": "<p>👨‍💻 There&rsquo;s no API for displaying an Emoji Picker, so I had to built my own.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "👨‍💻 There's no API for displaying an Emoji Picker, so I had to built my own.\r\n\r\n<img src=\"uploads/2023/1e896609bc.png\" width=\"600\" height=\"345\" alt=\"\" />\r\n\r\n<img src=\"uploads/2023/35b21ad40e.png\" width=\"600\" height=\"345\" alt=\"\" />\n",
+				"date_published": "2023-02-27T23:21:25+01:00",
+				"url": "https://otavio.cc/2023/02/27/theres-no-api.html",
+				"tags": ["coding","swift","swiftui","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/25/best-coffee-at.html",
+				
+				"content_html": "<p>📷 ☕️ Best coffee, at my favorite coffee shop.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 ☕️ Best coffee, at my favorite coffee shop.\n\n<img src=\"uploads/2023/d042a32789.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-02-25T18:02:41+01:00",
+				"url": "https://otavio.cc/2023/02/25/best-coffee-at.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/24/you-dont-want.html",
+				
+				"content_html": "<p>You don’t want migraines with aura and visual snow. Trust me.</p>\n",
+				"content_text": "You don’t want migraines with aura and visual snow. Trust me.\n",
+				"date_published": "2023-02-24T18:51:08+01:00",
+				"url": "https://otavio.cc/2023/02/24/you-dont-want.html",
 				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/20/another-entry-to.html",
+				
+				"content_html": "<p>🪴 👨‍💻 Another entry to my digital garden, <a href=\"https://otavio.cc/fixtures/\">Fixtures</a>, used in Unit Tests. As always, all the examples are in Swift.</p>\n",
+				"content_text": "🪴 👨‍💻 Another entry to my digital garden, [Fixtures](https://otavio.cc/fixtures/), used in Unit Tests. As always, all the examples are in Swift.\n",
+				"date_published": "2023-02-20T12:57:00+01:00",
+				"url": "https://otavio.cc/2023/02/20/another-entry-to.html",
+				"tags": ["coding","engineering","internet","swift","shortpost","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/19/i-found-margaret.html",
+				
+				"content_html": "<p>📷 ❤️ I found <strong>Margaret Hamilton</strong> today. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 ❤️ I found **Margaret Hamilton** today. JPEG, SOOC.\n\n<img src=\"uploads/2023/a0078d6184.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-02-19T16:32:59+01:00",
+				"url": "https://otavio.cc/2023/02/19/i-found-margaret.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/19/from-neil-macys.html",
+				
+				"content_html": "<p>From <a href=\"https://www.neilmacy.co.uk/blog\">Neil Macy</a>&rsquo;s blog (but not from a post):</p>\n<blockquote>\n<p>I’m falling back in love with reading and writing blogs. Twitter’s downfall isn’t all bad.</p>\n</blockquote>\n<p>I couldn&rsquo;t agree more. And I recommend his blog post <a href=\"https://www.neilmacy.co.uk/blog/blogs-are-dead-long-live-blogs\">Blogs are dead, long live blogs</a>.</p>\n",
+				"content_text": "From [Neil Macy](https://www.neilmacy.co.uk/blog)'s blog (but not from a post):\r\n\r\n> I’m falling back in love with reading and writing blogs. Twitter’s downfall isn’t all bad.\r\n\r\nI couldn't agree more. And I recommend his blog post [Blogs are dead, long live blogs](https://www.neilmacy.co.uk/blog/blogs-are-dead-long-live-blogs).\n",
+				"date_published": "2023-02-19T12:12:13+01:00",
+				"url": "https://otavio.cc/2023/02/19/from-neil-macys.html",
+				"tags": ["internet","blog","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/19/week.html",
+				"title": "Week 2023-07",
+				"content_html": "<p>It wasn&rsquo;t a good week. ADHD decided to show up. My head wouldn&rsquo;t stop and I got nothing (good) done. But at least I published a digital garden page about <a href=\"https://otavio.cc/fakes/\">Fakes</a> and <a href=\"https://otavio.cc/mona-themes/\">Nórdico</a>, a theme for the Mastodon app <a href=\"https://mastodon.social/@MonaApp\">Mona</a>.</p>\n",
+				"content_text": "It wasn't a good week. ADHD decided to show up. My head wouldn't stop and I got nothing (good) done. But at least I published a digital garden page about [Fakes](https://otavio.cc/fakes/) and [Nórdico](https://otavio.cc/mona-themes/), a theme for the Mastodon app [Mona](https://mastodon.social/@MonaApp).\n",
+				"date_published": "2023-02-19T08:00:00+01:00",
+				"url": "https://otavio.cc/2023/02/19/week.html",
+				"tags": ["engineering","swift","week","longpost","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/02/18/the-next-topic.html",
+				
+				"content_html": "<p>🪴 👨‍💻 The next topic I&rsquo;m working for my <strong>Digital Garden</strong> is <a href=\"https://otavio.cc/fixtures/\">Fixtures</a>, as part of the series on Unit Testing.</p>\n",
+				"content_text": "🪴 👨‍💻 The next topic I'm working for my **Digital Garden** is [Fixtures](https://otavio.cc/fixtures/), as part of the series on Unit Testing.\n",
+				"date_published": "2023-02-18T17:29:12+01:00",
+				"url": "https://otavio.cc/2023/02/18/the-next-topic.html",
+				"tags": ["coding","engineering","internet","swift","shortpost","digitalgarden"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/02/15/200000.html",
