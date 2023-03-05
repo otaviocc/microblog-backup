@@ -7,10 +7,91 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/03/05/day-tile-jpeg.html",
+				
+				"content_html": "<p>Day 5: <strong>Tile</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Day 5: **Tile**. JPEG, SOOC.\n\n<img src=\"uploads/2023/8e87aedbee.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-03-05T07:30:00+01:00",
+				"url": "https://otavio.cc/2023/03/05/day-tile-jpeg.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/04/day-zip-jpeg.html",
+				
+				"content_html": "<p>📷 Day 4: <strong>Zip</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Day 4: **Zip**. JPEG, SOOC.\n\n<img src=\"uploads/2023/56e5c2fbea.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-03-04T07:30:00+01:00",
+				"url": "https://otavio.cc/2023/03/04/day-zip-jpeg.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/03/day-solitude-jpeg.html",
+				
+				"content_html": "<p>📷 Day 3: <strong>Solitude</strong>. JPEG, SOOC. Photo taken at the <strong>Place des Vosges</strong>, in Paris.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Day 3: **Solitude**. JPEG, SOOC. Photo taken at the **Place des Vosges**, in Paris.\n\n<img src=\"uploads/2023/35cd948341.jpg\" width=\"600\" height=\"399\" alt=\"\">\n",
+				"date_published": "2023-03-03T07:30:00+01:00",
+				"url": "https://otavio.cc/2023/03/03/day-solitude-jpeg.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/02/i-finally-managed.html",
+				
+				"content_html": "<p>👨‍💻 I finally managed to answer all the direct messages, channels, and threads on Slack at work.</p>\n",
+				"content_text": "👨‍💻 I finally managed to answer all the direct messages, channels, and threads on Slack at work.\n",
+				"date_published": "2023-03-02T18:06:25+01:00",
+				"url": "https://otavio.cc/2023/03/02/i-finally-managed.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/02/five-minutes-using.html",
+				
+				"content_html": "<p>⌨️ 👨‍💻 Five minutes using my new mechanical keyboard and I already love it.</p>\n",
+				"content_text": "⌨️ 👨‍💻 Five minutes using my new mechanical keyboard and I already love it.\n",
+				"date_published": "2023-03-02T14:46:23+01:00",
+				"url": "https://otavio.cc/2023/03/02/five-minutes-using.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/02/day-weather-jpeg.html",
+				
+				"content_html": "<p>📷 Day 2: <strong>Weather</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Day 2: **Weather**. JPEG, SOOC.\n\n<img src=\"uploads/2023/b5a11ce0d1.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-03-02T12:42:31+01:00",
+				"url": "https://otavio.cc/2023/03/02/day-weather-jpeg.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/02/new-keyboard-day.html",
+				
+				"content_html": "<p>⌨️ 👨‍💻 New keyboard day. Exciting!</p>\n",
+				"content_text": "⌨️ 👨‍💻 New keyboard day. Exciting!\n",
+				"date_published": "2023-03-02T11:58:26+01:00",
+				"url": "https://otavio.cc/2023/03/02/new-keyboard-day.html",
+				"tags": ["productivity","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/02/day-secure-jpeg.html",
+				
+				"content_html": "<p>📷 Day 1: <strong>Secure</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Day 1: **Secure**. JPEG, SOOC.\n\n<img src=\"uploads/2023/a827d24d1c.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-03-02T11:43:42+01:00",
+				"url": "https://otavio.cc/2023/03/02/day-secure-jpeg.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/03/01/deleted-my-pinboard.html",
+				
+				"content_html": "<p>Deleted my Pinboard account and archived all my Pinboard related projects on GitHub.</p>\n",
+				"content_text": "Deleted my Pinboard account and archived all my Pinboard related projects on GitHub.\n",
+				"date_published": "2023-03-01T01:26:37+01:00",
+				"url": "https://otavio.cc/2023/03/01/deleted-my-pinboard.html",
+				"tags": ["coding","internet","shortpost"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/02/27/theres-no-api.html",
 				
-				"content_html": "<p>👨‍💻 There&rsquo;s no API for displaying an Emoji Picker, so I had to built my own.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
-				"content_text": "👨‍💻 There's no API for displaying an Emoji Picker, so I had to built my own.\r\n\r\n<img src=\"uploads/2023/1e896609bc.png\" width=\"600\" height=\"345\" alt=\"\" />\r\n\r\n<img src=\"uploads/2023/35b21ad40e.png\" width=\"600\" height=\"345\" alt=\"\" />\n",
+				"content_html": "<p>👨‍💻 There&rsquo;s no API for displaying an Emoji Picker, so I had to build my own.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "👨‍💻 There's no API for displaying an Emoji Picker, so I had to build my own.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/1e896609bc.png\" width=\"600\" height=\"345\" alt=\"\" />\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/35b21ad40e.png\" width=\"600\" height=\"345\" alt=\"\" />\n",
 				"date_published": "2023-02-27T23:21:25+01:00",
 				"url": "https://otavio.cc/2023/02/27/theres-no-api.html",
 				"tags": ["coding","swift","swiftui","shortpost"]
@@ -19,7 +100,7 @@
 				"id": "http://otaviocc.micro.blog/2023/02/25/best-coffee-at.html",
 				
 				"content_html": "<p>📷 ☕️ Best coffee, at my favorite coffee shop.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 ☕️ Best coffee, at my favorite coffee shop.\n\n<img src=\"uploads/2023/d042a32789.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "📷 ☕️ Best coffee, at my favorite coffee shop.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/d042a32789.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2023-02-25T18:02:41+01:00",
 				"url": "https://otavio.cc/2023/02/25/best-coffee-at.html",
 				"tags": ["photography","shortpost"]
@@ -46,7 +127,7 @@
 				"id": "http://otaviocc.micro.blog/2023/02/19/i-found-margaret.html",
 				
 				"content_html": "<p>📷 ❤️ I found <strong>Margaret Hamilton</strong> today. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 ❤️ I found **Margaret Hamilton** today. JPEG, SOOC.\n\n<img src=\"uploads/2023/a0078d6184.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "📷 ❤️ I found **Margaret Hamilton** today. JPEG, SOOC.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/a0078d6184.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-02-19T16:32:59+01:00",
 				"url": "https://otavio.cc/2023/02/19/i-found-margaret.html",
 				"tags": ["photography","shortpost"]
