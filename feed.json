@@ -1,11 +1,92 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Otávio C.",
+	"title": "Otávio Cordeiro",
 	"icon": "https://micro.blog/otaviocc/avatar.jpg",
 	"home_page_url": "https://otavio.cc/",
 	"feed_url": "https://otavio.cc/feed.json",
 	"items": [
 		
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/14/tears-of-the.html",
+				
+				"content_html": "<p>🎮 📦 <strong>Tears of the Kingdom Collector’s Edition</strong> arrived on Friday, but I didn’t have time to open it yet. They left it with a neighbor, but for that Amazon sent me an email with a password that I had to tell my neighbor over the phone which then Amazon confirmed he could receive it. <strong>Precious item</strong>!</p>\n",
+				"content_text": "🎮 📦 **Tears of the Kingdom Collector’s Edition** arrived on Friday, but I didn’t have time to open it yet. They left it with a neighbor, but for that Amazon sent me an email with a password that I had to tell my neighbor over the phone which then Amazon confirmed he could receive it. **Precious item**!\n",
+				"date_published": "2023-05-14T10:29:52+02:00",
+				"url": "https://otavio.cc/2023/05/14/tears-of-the.html",
+				"tags": ["game","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/12/tinyscientists-second-surgery.html",
+				
+				"content_html": "<p><em>tinyScientist</em>’s second surgery will be a piece of cake compared to the first one. In about 6 or 7 months from now.</p>\n",
+				"content_text": "*tinyScientist*’s second surgery will be a piece of cake compared to the first one. In about 6 or 7 months from now.\n",
+				"date_published": "2023-05-12T23:32:09+02:00",
+				"url": "https://otavio.cc/2023/05/12/tinyscientists-second-surgery.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/12/tinyscientists-surgery-was.html",
+				
+				"content_html": "<p><em>tinyScientist</em>’s surgery was a success. It took about 6 hours followed by another 2 in post-anesthesia recovery. The longest six hours of our lives! But we were waiting and preparing for this day since <em>tinyScientist</em> was born; his first (and most complex) surgery.</p>\n",
+				"content_text": "*tinyScientist*’s surgery was a success. It took about 6 hours followed by another 2 in post-anesthesia recovery. The longest six hours of our lives! But we were waiting and preparing for this day since *tinyScientist* was born; his first (and most complex) surgery.\n",
+				"date_published": "2023-05-12T23:31:28+02:00",
+				"url": "https://otavio.cc/2023/05/12/tinyscientists-surgery-was.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/12/waiting-outside-theres.html",
+				
+				"content_html": "<p>Waiting outside, cellphones don’t work inside the buildings…</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Waiting outside, cellphones don’t work inside the buildings…\n\n<img src=\"uploads/2023/d3b00ee8c4.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-05-12T11:49:28+02:00",
+				"url": "https://otavio.cc/2023/05/12/waiting-outside-theres.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/11/when-i-arrived.html",
+				
+				"content_html": "<p>🎮 When I arrived home, this was waiting for me! I wasn’t expecting to get it a day before the official launch date.</p>\n<p>The collector edition arrives tomorrow.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🎮 When I arrived home, this was waiting for me! I wasn’t expecting to get it a day before the official launch date.\n\nThe collector edition arrives tomorrow.\n\n<img src=\"uploads/2023/89671700e9.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-05-11T15:14:37+02:00",
+				"url": "https://otavio.cc/2023/05/11/when-i-arrived.html",
+				"tags": ["game","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/11/we-have-the.html",
+				
+				"content_html": "<p>🏥 We have the green light for <em>tinyScientist</em>’s surgery tomorrow. All good at the hospital today.</p>\n",
+				"content_text": "🏥 We have the green light for *tinyScientist*’s surgery tomorrow. All good at the hospital today.\n",
+				"date_published": "2023-05-11T15:11:53+02:00",
+				"url": "https://otavio.cc/2023/05/11/we-have-the.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/11/in-the-hospital.html",
+				
+				"content_html": "<p>🏥 At the hospital talking to doctors and signing papers for <em>tinyScientist</em>’s surgery tomorrow.</p>\n",
+				"content_text": "🏥 At the hospital talking to doctors and signing papers for *tinyScientist*’s surgery tomorrow.\n",
+				"date_published": "2023-05-11T10:17:15+02:00",
+				"url": "https://otavio.cc/2023/05/11/in-the-hospital.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/09/today-ive-implemented.html",
+				
+				"content_html": "<p>🧑‍💻 Today I&rsquo;ve implemented:</p>\n<ul>\n<li>As a user I want to see the list of pastes I have in my Pastebin</li>\n<li>As a user I want to edit a paste in my Pastebin</li>\n<li>As a user I want to share a paste as a status in the Statuslog</li>\n</ul>\n<p>Still have to finish:</p>\n<ul>\n<li>As a user I want to add a new paste to my Pastebin</li>\n</ul>\n",
+				"content_text": "🧑‍💻 Today I've implemented:\n\n- As a user I want to see the list of pastes I have in my Pastebin\n- As a user I want to edit a paste in my Pastebin\n- As a user I want to share a paste as a status in the Statuslog\n\nStill have to finish:\n\n- As a user I want to add a new paste to my Pastebin\n",
+				"date_published": "2023-05-09T23:00:00+02:00",
+				"url": "https://otavio.cc/2023/05/09/today-ive-implemented.html",
+				"tags": ["coding","internet","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/09/marshall.html",
+				
+				"content_html": "<p>📷 🎸 Marshall.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 🎸 Marshall.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/420bf9e949.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-05-09T17:11:42+02:00",
+				"url": "https://otavio.cc/2023/05/09/marshall.html",
+				"tags": ["photography","shortpost"]
+			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/09/rip-rita-lee.html",
 				
@@ -49,7 +130,7 @@
 				"content_text": "## Personal\r\n\r\nI’m on **Bluesky**, this new social network created by another billionaire. I don’t have plans to create content there, my focus is, and always will be, **Micro.blog**. The plan is to *cross-post* what I write on my blog there, as I already do with **Mastodon**.\r\n\r\n- **Bluesky**: `@otavio.cc`\r\n- **Mastodon**: `@otaviocc@social.lol`\r\n\r\nI canceled **Obsidian Sync** and **Obsidian Publish**. The service is really good, but I’m not it’s worth the price for my needs.  `git` works just fine for me.\r\n\r\n## Work\r\n\r\nMonday is the day with most of my meetings, retrospective, pre-planning, planning, syncs with other teams, etc… But this time I attended all from home. I’m avoiding working from the office until *tinyScientist*’s surgery.\r\n\r\nTuesday I took a day off to talk to doctors about *tinyScientist*’ surgery. And the rest of the week was just business as usual.\r\n\r\n## Hacking\r\n\r\nI wasn’t planning on starting another feature in my [omg.lol](https://omg.lol) client before releasing it to the public, but recently I started using **Pastebin** more and more and thought it would be a good idea to implement it in my client.\r\n\r\nOn Monday I worked on the `PastebinNetworkService`, responsible for the network requests for the feature.\r\n\r\nTuesday, Wednesday, and Thursday I didn’t have time to work on the project, but on Friday I started the `PastebinPersistencekService`, responsible for persisting the snippets locally on Core Data.\r\n\r\n## Gaming\r\n\r\nThe reason I didn’t have much time to work on my app has a name: [Cult of the Lamb](https://www.nintendo.com/store/products/cult-of-the-lamb-switch/).\r\n\r\n## Photography\r\n\r\n[Two weeks ago I traveled to Turkey](https://otavio.cc/2023/04/18/week.html) for the company Workation and didn’t take my camera with me. I knew I would miss the opportunity to take amazing photos, but I wanted to pack light, using a single backpack. So, I challenged myself to take RAW photos using my iPhone instead.\r\n\r\nEverything I know about RAW is theoretical. I don’t shoot RAW and don’t know how to edit or “develop” photos of this format.\r\n\r\nI have [Darkroom](https://www.darkroom.co/) instead on my devices, because I bought the life-time license a long time ago, and decided to give it a try.\r\n\r\nDarkroom is magical. All the controls and features are so intuitive I was impressed by the results. I even created a Preset for me, so that I can apply the same look and feel to other “similar” photos.\r\n\r\nWill I use RAW on my camera? No. My Fujifilm camera is for SOOC photos only, but I might start shooting RAW more often on the phone.\n",
 				"date_published": "2023-05-01T00:12:51+02:00",
 				"url": "https://otavio.cc/2023/05/01/week.html",
-				"tags": ["internet","blog","obsidian","week","longpost"]
+				"tags": ["internet","blog","obsidian","week","longpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/30/pastel-de-nata.html",
@@ -139,7 +220,7 @@
 				"content_text": "## Personal\n[Last week](https://otavio.cc/2023/04/18/week.html) I arrived from the Workation on Sunday, and stayed at home most of the week. The first time I left home this week was on Thursday.\n\nJust to be on the safe side, I took several COVID-19 tests. *tinyScientist*’s surgery is less than a month from now, and we want to protect him from any sort of cold or flu.\n\nWe were planning to take him to the zoo on Saturday to see the lions, but it was one of those rare sunny days, so the zoo was probably packed with kids, better to avoid it a while longer.\n\nDecided to walk in the city instead, found a park that’s open enough, and took tons of pictures. Also, coffee…\n\n![](https://cdn.uploads.micro.blog/14222/2023/e5c9565aff.jpg)\n\n## Hacking\nI didn’t hack a single line of code on my personal projects. The only thing I did was to post on social network a crash I noticed on my [omg.lol](https://omg.lol) client, which was introduced in the latest macOS update. It’s super weird, and no one knows how to solve it. I submitted a bug to Apple.\n\n",
 				"date_published": "2023-04-23T08:49:46+02:00",
 				"url": "https://otavio.cc/2023/04/23/week.html",
-				"tags": ["week","longpost"]
+				"tags": ["week","longpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/22/and-thats-who.html",
@@ -166,7 +247,7 @@
 				"content_text": "## Personal\n\nAnother short week in Germany 🇩🇪. On Monday, we had a holiday, [Easter Monday](https://en.wikipedia.org/wiki/Easter_Monday), and, as the day was beautiful, we took *tinyScientist* to a park. It was his first time on a swing (for babies), and he loved it!\n\nI like visiting different places, but I hate traveling. A simple 3-hour flight means a whole day of preparations, trains, airport, security checks, etc… but we don’t have teleportation yet, so…\n\n## Working? Vacationing? Hacking? Partying?\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/d9b42a8868.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nThis week we had our Workation and almost all of [Nord Security](https://nordsecurity.com/) traveled to a resort in [Turkey](https://en.wikipedia.org/wiki/Turkey) 🇹🇷; more than 1000 people flew from different parts of the World to our 2023 gathering. That’s not a typo, 10^3+ people traveled to our event…\n\n### Wednesday\n\nFor me, it all started with a train ride to the airport. Although the airport is far from the city center, public transit works and the express train runs from the Hauptbahnhof to the airport terminal in about 20–25 minutes.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/a487555583.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\n### Thursday\n\nWe arrived at the resort around 2am after a long flight and bus ride from the Antalya airport to the hotel. The main restaurant and bar are open until 6am, so after checking in, we headed there for dinner.\n\nI missed the city tour in the morning, I was exhausted and barely remember turning off the alarm. I woke up around 10am for a late breakfast, followed by a visit to the Sea. And then back for lunch.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/30e182d0f7.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nThere’s an hour time difference between Antalya and Germany, so after lunch I FaceTimed home to watch *tinyScientist* having his lunch.\n\nIn the afternoon, I worked on my [omg.lol](https://omg.lol/) for macOS with the most amazing view, and spent the rest of the day chatting with folks from work. Implemented the `WebpageNetworkService` for the Webpage feature, responsible for all the network calls.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/1eca7587db.jpg\" width=\"600\" height=\"900\" alt=\"\" />\n\nAfter dinner, I went to my room to FaceTime scientist and *tinyScientist* again.\n\n### Friday\n\nOn Thursday, I went to bed around 9 or 10 pm, planning to wake up earlier on Friday to see the sunrise. I got up around 5:30 am, packed my things and walked to the private beach. Since almost everyone was partying on the night before, I was the only one on the beach in the morning.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/5dff03b165.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/92d086db4b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nOnce I was done taking pictures, I sat in a chair, listening to the Mediterranean Sea (and some birds). Priceless. I can’t remember when was the last time I did something like this. Good thing my AirPods Pro had no juice.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/6d7d2a556b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/8ec7918886.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/68331e30ac.jpg\" width=\"600\" height=\"900\" alt=\"\" />\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/e09f01a88b.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAnother good reason to wake up early: breakfast before everyone else. I didn’t make healthier choices and ate scrambled eggs, egg with vegetables and boiled potatoes.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/b67f1e0877.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nI spent the rest of the morning socializing with teammates until lunch, which I skipped. The good thing is that all restaurants in the hotel are open 24/7, so having a late lunch is not a problem.\n\nI found time to do some more work on my [omg.lol](https://omg.lol/) client. Implemented the `WebpagePersistenceService` and the `WebpageRepository`. The first responsible for storing the webpage (and history of changes) on Core Data, and the latter the abstraction on top of the network and persistence services. The glue.\n\nFound a Starbucks inside the resort, next to one of the pools. Since this is an all-inclusive resort, Starbucks is also included. Perfect for cold drinks next to the beach or a pool.\n\nAt 4pm, we had our Q1 OKRs meeting with the entire company, followed by dinner and the OKR party. The OKR meeting was the only work part of the workation.\n\nBut before the party, I finished the Webpage Feature implementation and can now update [otavio.lol](https://otavio.lol/) using it.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/410ccc312d.png\" width=\"600\" height=\"337\" alt=\"\" />\n\n### Saturday\n\nI intended to take more pictures of the sun rising, but I overslept and woke up at 6:30. At that time, the sun was already out there, so I went straight to breakfast. Omelet, bread, and cheese.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/c239d54f9f.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAnd then headed out to my favorite spot in the whole resort.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/f7340eedad.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nImplemented the SwiftUI previews for the Webpage UI and then joined some folks from my team by one of the pools, drinking an Iced Coffee Americano from the hotel’s Starbucks.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/089c5bbe42.jpg\" width=\"600\" height=\"900\" alt=\"\" />\n\nI felt guilt for my food choices and decided to eat better during lunch.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/5d0a68a37c.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nAfter lunch, I must have coffee, so I did. After grabbing another Starbucks, I took the opportunity to walk the resort a bit and found this cat – one of many cats that live in the hotel – staring at me.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/fda2ac0e92.jpg\" width=\"600\" height=\"900\" alt=\"\" />\n\nI spent the rest of the day with my team, chatting and having dinner and some [baklavas](https://en.wikipedia.org/wiki/Baklava).\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/39ed0ea3fa.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nWhen the party started, I went to my room to talk to scientist and *tinyScientist*, pack my bag, and sleep.\n\n### Sunday\n\nHomecoming day. I woke up early again, and had a nice walk on the beach, followed by a long, unhealthy breakfast. Our bus was scheduled to leave for the airport at lunchtime, so I might have eaten more than needed to make up for the lunch I was about to miss.\n\nSpent the morning with the folks from the team and left the resort to visit some shops and buy souvenirs and Turkish tea to take back home. My bag was already packed from the day before, but I had to take everything out and repack it to make room for the tea set I bought.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/9addcebd3d.jpg\" width=\"600\" height=\"400\" alt=\"\" />\n\nI traveled with a single backpack (a big one, the limit for taking on the cabin), but after putting the tea set in it, it weighed about 10 kg. The limit is 8 kg, and I was afraid someone would weight it at the airport, but no one did, so it was fine.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/02e47b3c91.jpg\" width=\"600\" height=\"900\" alt=\"\" />\n\nI was so exhausted I didn’t feel the trip home. It was almost like teleportation finally existed. The workation was spectacular, something I’ve never done before, but it’s good to be back home. I missed scientist and *tinyScientist*, and seeing them again was a relief. The day ended with us giving *tinyScientist* a bath.\n",
 				"date_published": "2023-04-18T11:51:07+02:00",
 				"url": "https://otavio.cc/2023/04/18/week.html",
-				"tags": ["coding","swiftui","week","longpost"]
+				"tags": ["coding","swiftui","week","longpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/15/one-of-the.html",
@@ -184,7 +265,7 @@
 				"content_text": "👨‍💻 ⛱️ Yesterday I finished\r\n\r\n- As a user I want to edit my Webpage\r\n- As a user I want to share a link to my Webpage as a status in the Statuslog\r\n\r\nNow I have to decide on how to release and distribute my [omg.lol](https://omg.lol) client for macOS. AppStore or direct download? Open Source? Paid or free? No idea.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/a1f9b7c566.png\" width=\"600\" height=\"337\" alt=\"\">\n",
 				"date_published": "2023-04-15T08:54:08+02:00",
 				"url": "https://otavio.cc/2023/04/15/yesterday-i-finished.html",
-				"tags": ["shortpost"]
+				"tags": ["shortpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/14/finished-the-webpage.html",
@@ -193,7 +274,7 @@
 				"content_text": "👨‍💻 Finished the Webpage Feature in my [omg.lol](https://omg.lol) client. It's possible to edit the webpage and share it in the Statuslog. It keeps a history of modifications, in the case user wants to revert it to a previous version. \n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://cdn.uploads.micro.blog/14222/2023/211237535e.mp4\" width=\"640\" height=\"360\" poster=\"https://otavio.cc/uploads/2023/fc96ab9d27.png\" preload=\"none\"></video>\n",
 				"date_published": "2023-04-14T18:15:18+02:00",
 				"url": "https://otavio.cc/2023/04/14/finished-the-webpage.html",
-				"tags": ["shortpost"]
+				"tags": ["shortpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/14/once-i-finish.html",
@@ -202,7 +283,7 @@
 				"content_text": "👨‍💻 Once I finish the Webpage Feature of my [omg.lol](http://omg.lol) client I'll add support to editing a Micro.blog post to my Obsidian plugin, [Micro.publish](https://otavio.cc/micropublish/).\n",
 				"date_published": "2023-04-14T11:55:46+02:00",
 				"url": "https://otavio.cc/2023/04/14/once-i-finish.html",
-				"tags": ["internet","blog","obsidian","shortpost"]
+				"tags": ["internet","blog","obsidian","shortpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/14/stay-safe.html",
@@ -247,7 +328,7 @@
 				"content_text": "📷 Found the perfect spot to work on my [omg.lol](https://omg.lol) app.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/704db935a0.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-04-13T13:37:34+02:00",
 				"url": "https://otavio.cc/2023/04/13/found-the-perfect.html",
-				"tags": ["photography","shortpost"]
+				"tags": ["photography","shortpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/11/bahnhof-potsdamer-platz.html",
@@ -283,7 +364,7 @@
 				"content_text": "## Personal\n\n*tinyScientist* got a new bed. They grow so fast!\n\nAfter using so many **Read Later** services in the last decade, I believe I can finally stop looking for the right one for me. [Readwise's Read](https://read.readwise.io/later) works the way I need a Read Later app to work. Both their apps, [Readwise](https://apps.apple.com/us/app/readwise/id1476885528) and [Read](https://apps.apple.com/us/app/readwise-reader/id1567599761), have performance and UX issues, but they work, deliver what they promise, and are always improving. I was skeptical with all those YouTube videos praising the service, but I decided to give it a try and am impressed.\n\nLast week I migrated all my personal notes from [Obsidian](https://obsidian.md/) to [Bear](https://bear.app/), but maybe I was too eager to try Bear's update that I rushed things. Thinking again, Obsidian (and some other apps) offer something Bear doesn't: access to the notes without having to use the their app. Obsidian uses simple [Markdown](https://commonmark.org/) files in the file system, while Bear stores all notes and assets in a *sqlite* database, hidden away from the user.\n\nPortability is an important thing nowadays, especially with so many apps hiding their features behind subscriptions. With simple Markdown files I can edit my notes with anything, including my beloved [Vim](https://www.vim.org/).\n\n## Work\n\nAnother short week at work, 7th of April was the first day of Easter (Good Friday). But I went to the office twice, on Monday and Wednesday, for 1-on-1s with the folks from my team, to support them with their Development Plans.\n\n## Hacking\n\nI had plans to work on the Webpage Feature of my native [omg.lol](https://omg.lol) client for macOS, but decided to work a little bit on [Micro.publish](https://otavio.cc/micropublish/), my Obsidian plugin to post to Micro.blog.\n\nReadwise's plugin for Obsidian automatically fetches highlights and notes when Obsidian launches, so I decided to do the same for Micro.blog categories. Now, when the user opens Obsidian, it fetches the categories one has on their blogs.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/1ad84ecafd.png\" width=\"600\" height=\"337\" alt=\"\" />\n\nThe command to force fetch categories is still present and can be used at any time to retrieve categories (e.g., in case new categories were added directly to Micro.blog while Obsidian was open).\n\nAnother feature I've added is the ability to schedule a post for a future date. I usually don't scheduled my posts, but it's a nice feature to have.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/389bea7b4a.png\" width=\"600\" height=\"337\" alt=\"\" />\n\nI've also updated [my blog](https://otavio.cc/)'s colors to match the Obsidian dark theme I use, and used Xcode dark colors for the [code snippets](https://otavio.cc/mocks/). Feels much more natural to me now.\n\n## Photography\n\nDuring the week I published another page to my [Digital Garden](https://otavio.cc/kleingarten/), [Obscura](https://otavio.cc/obscura/), where I detail the setup I have to take Monochrome photos using the app.\n\nLater during the week I updated the page to include the missing piece in my setup, which was causing Glass not to show the EXIF of my photos.\n\nAfter talking to [Ben](https://mastodon.social/@BenRiceM), Software Engineer behind Obscura, we found what was missing, and now my setup is exactly the way I wanted it to be: Monochrome photos by default, saving JPEG SOOC, and with EXIF preserved, ready to share online (or not).\n",
 				"date_published": "2023-04-09T07:30:00+02:00",
 				"url": "https://otavio.cc/2023/04/09/week.html",
-				"tags": ["internet","blog","obsidian","week","longpost","digitalgarden"]
+				"tags": ["internet","blog","obsidian","week","longpost","digitalgarden","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/08/ive-updated-micropublish.html",
@@ -337,7 +418,7 @@
 				"content_text": "## Personal \n\n*tinyScientist* is officially six months old. I was browsing some of his early pictures and it’s crazy how much things have changed in such a short time. This week he tried [Parsnip](https://en.wikipedia.org/wiki/Parsnip) and Potato. He loved the first, but didn’t enjoy the latter that much. Pumpkin is still this favorite.\n\nBrowsing [Disney+](https://www.disneyplus.com/en-de) I found [Devs](https://en.wikipedia.org/wiki/Devs), a Hulu TV Show I had no idea existed. It's an 8-episode miniseries about *free will* and *determinism* where [Nick Offerman](https://nickofferman.co/) runs a tech company with quantum technology to... It doesn't matter, it's Nick Offerman. Interesting show, watched the entire thing.\n\nLast week Bear [released Bear 2 Beta on TestFlight](https://www.reddit.com/r/bearapp/comments/11xlgxs/the_bear_2_beta_is_here/) and, as a big Bear fan, I downloaded it to try. The editor was rebuilt from scratch, adding features users were asking for a long time. One of my favorite features is *backlinks*, something all [Obsidian](https://obsidian.md/) users know well. Currently Bear supports `[[WikiLinks]]`, allowing one to link another note (as Obsidian does), but the new version implements *backlinks*, showing which pages link the one selected. It also shows pages that mention the page but don't link them (*Unlinked Mention*). This is big! I exported all my [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) notes from Obsidian and imported on Bear and will use it for now on. And it's a native application, and I’m a sucker for good native applications.\n\nI’m using [Arc](https://arc.net/) from [The Browser Company](https://thebrowser.company/) as default browser in my work computer for a few months, and I’m loving it. The way the tabs are managed, the different spaces, and profiles, the pinned tabs, etc… I’m the kind of person who can’t handle multiple tabs open at the same time, quickly getting lost in a see of tiny *favicons*. Arc changed that completely, I can easily keep several sites open simultaneously and, more importantly, find my way in it.\n\nThursday [Arc released Arc for iPhone](https://www.youtube.com/watch?v=kEE8GhLy6U4). It’s not a browser but a *bookmark* manager. It gives access to Spaces, Easel, and Notes one has on their computer. And offers the ability to create new tabs by importing URLs from other apps via the iOS’ share sheet. Still not sure how useful it is; time will tell.\n\n## Work\n\nMost of the time I work from home, but if there's a day I like to go to the office, this day is Monday. It's the day I have most of my meetings (Retrospective, Planning, 1-on-1s), and it's the day the kitchen is restocked. Big day.\n\nOn Wednesday we had a public [Meshnet](https://nordvpn.com/meshnet/) Meetup, open to the community where the team talked about the feature and technical details and concepts on networking and how the whole architecture was designed and built. My [macOS team](https://nordvpn.com/download/mac/) works on Meshnet, and I’m happy to see the company promoting and talking about what we’re building openly. We even released [some](https://github.com/NordSecurity/libtelio) of the [libraries](https://github.com/NordSecurity/libdrop) as open source software. And, as in most meetups, tons of pizza and beer.\n\nDuring March I experienced [4-day workweeks](https://en.wikipedia.org/wiki/Four-day_workweek), but this week I had two days off, Thursday and Friday. Finally used all my vacation days from 2022.\n\n## Hacking\n\nI finished the Now Pages support on my [omg.lol](https://omg.lol) app for macOS. The implementation allows the user to update their Now Pages and keeps a history of previous edits, in case the user wants to roll back a version.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/24879ad6dd.png\" width=\"600\" height=\"414\" alt=\"\" />\n\nAdditionally, I've added a way to share the Now Page as a Status in the Statuslog.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/558e56c7d1.png\" width=\"600\" height=\"414\" alt=\"\" />\n\nNext week I plan to add the Webpage feature, so that users can edit their pages. Once that’s done, I will decide on how to release the application. I don’t know if Open Source or not, if AppStore or direct download (as [Micro.blog](https://micro.blog/) and [NetNewsWire](https://netnewswire.com/)). But I want to get it out before implementing the blog support, which will be a bit more complex.\n\n## Photography\n\nFirst year I managed to complete Micro.blog’s [March Photo Challenge](https://challenges.micro.blog/2023/02/28/march-photoblogging-challenge.html). I created a category and [added all my photos there,](https://otavio.cc/categories/mbmar/). These are my favorites:\n\n- [Solitude](https://otavio.cc/2023/03/03/day-solitude-jpeg.html) - JPEG, SOOC with a Fujifilm X100V\n- [Engineering](https://otavio.cc/2023/03/06/day-engineering-jpeg.html) - JPEG, SOOC with a Fujifilm X100V\n- [Road](https://otavio.cc/2023/03/16/day-a-brick.html) - JPEG, SOOC with a Fujifilm X100V\n- [Portico](https://otavio.cc/2023/03/18/day-portico-jpeg.html) - JPEG, SOOC with a Fujifilm X100V\n- [Court](https://otavio.cc/2023/03/24/day-court.html) - JPEG, SOOC with Obscura 3\n- [Support](https://otavio.cc/2023/03/28/day-support.html) - JPEG, SOOC with Obscura 3\n\nI’m planning to write a blog post (or [Digital Garden](https://otavio.cc/kleingarten/) entry) about [Obscura 3](https://obscura.camera/), the setup I have, and why it’s my favorite iPhone camera app.\n",
 				"date_published": "2023-04-01T21:49:45+02:00",
 				"url": "https://otavio.cc/2023/04/01/week.html",
-				"tags": ["internet","blog","obsidian","week","longpost","digitalgarden"]
+				"tags": ["internet","blog","obsidian","week","longpost","digitalgarden","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/01/ill-miss-microblogs.html",
@@ -391,7 +472,7 @@
 				"content_text": "👨‍💻 I added the ability to edit *Now Pages* (and added the history of previous changes) to my [omg.lol](https://omg.lol) client. It's also possible to share a Now Page in the *Statuslog*. I want to make some modifications to the editor, to add Markdown highlight, but will do that after implementing the *Webpage* feature.\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://cdn.uploads.micro.blog/14222/2023/b904f86498.mp4\" width=\"600\" poster=\"https://otavio.cc/uploads/2023/910d26c718.png\" preload=\"none\"></video>\n",
 				"date_published": "2023-03-28T15:14:43+02:00",
 				"url": "https://otavio.cc/2023/03/28/i-added-the.html",
-				"tags": ["shortpost"]
+				"tags": ["shortpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/03/28/day-prompt-jpeg.html",
@@ -436,7 +517,7 @@
 				"content_text": "Earlier this week I deleted another internet account: [OpenAI](https://openai.com/).\n\nWe - [Nord Security](https://nordsecurity.com/) - hosted the **CocoaHead Berlin** on Wednesday. It was great, full house, and we had too speakers from Nord Security. Bob from [NordLocker](https://nordlocker.com/) talked about SwiftUI and Ieva from [NordVPN](https://nordvpn.com/) about [fastlane](https://fastlane.tools/), screenshot automation and the iOS strategy to inject mock data for App Store screenshots.\n\nSpeaking of work, on Thursday I had a long training on Leadership (and Management) at the company. Earlier this year I got a new title/role, going from **Senior Software Engineer** to **Engineering Team Lead**, which means I’m half of the time Software Engineer and the other half Engineering Manager. It’s a brand new world to me, so I went back home exhausted. There’s a lot to process.\n\nOn Friday I had another day off, still taking 2022 vacation days before the end of March (German regulations, vacation days from a given year have to be spent before end of March of the following year). I took *tinyScientist* to a coffee shop around 9am, where *we* had coffee with a friend and talked about iOS and macOS development, leadership and management, and layoffs. *tinyScientist* got bored with all the talk and decided to take a nap in his *kinderwagen*.\n\nIn the previous weeks I finished two features of my [omg.lol](https://omg.lol) native client: *Statuslog* and *PURLs*, and during this week I started working on the **Now Page**. I still don’t know how I’m gonna distribute the app, if via AppStore, or directly for download as NetNewWire and Micro.blog do. Same goes for pricing, I still haven’t decided if it’ll be a paid app or not.\n\nFinally, the most important thing which happened during the week: *tinyScientist* **had his first *solid* meal**. We were not expecting him to eat (we thought he would only play with the food), but he loved pumpkin. As result, he had pumpkin four days in a row for lunch.\n",
 				"date_published": "2023-03-27T12:50:03+02:00",
 				"url": "https://otavio.cc/2023/03/27/week.html",
-				"tags": ["coding","internet","blog","swiftui","week","longpost"]
+				"tags": ["coding","internet","blog","swiftui","week","longpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/03/26/day-instrument-jpeg.html",
@@ -517,7 +598,7 @@
 				"content_text": "On Tuesday I returned from a 10-day vacation, and on Friday I had another day off. In Germany there’s no carry over from one year to another, and the deadline to spend the vacation days from the previous year is end of March. As I still have vacation days from 2022 that I’m *forced* to take, I’m taking all the Fridays off until the end of the Month.\r\n\r\nDuring the week we took *tinyScientist* to the doctor to do some extra tests he’ll for his surgery. We’re excited for him, but anxious as hell. I have faith in Science and in the doctors here. The support he’s getting from them is spectacular.\r\n\r\nAfter months waiting for *tinyScientist*’s [Kindergeld](https://otavio.cc/child-benefits-in-germany/), it has finally arrived. Bureaucracy in Germany is a big thing, but at the end everything works as expected.\r\n\r\nLast weekend I finished the modular architecture for my [omg.lol](https://omg.lol) client for macOS. The first feature I built while working in the architecture was the *Statuslog*. During the week, with just a few hours here and there I added *PURLs*. It’s a good indicator the modular architecture is a success. My goal was to achieve full decoupling in a way it should be easy to extend the application and add new features.\r\n\r\nI started playing [Octopath Traveler II](https://en.wikipedia.org/wiki/Octopath_Traveler_II). The first game was amazing, and I ordered the second game as soon as they started selling it.\n",
 				"date_published": "2023-03-20T23:17:50+02:00",
 				"url": "https://otavio.cc/2023/03/20/week.html",
-				"tags": ["week","longpost"]
+				"tags": ["week","longpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/03/20/day-houseplant-jpeg.html",
@@ -922,7 +1003,7 @@
 				"content_text": "**Braille Institute** released a font for low vision readers, [Atkinson Hyperlegible](https://brailleinstitute.org/freefont). The font is great and I asked [Matter](https://web.getmatter.com/list/queue) to add it to their list of supported fonts. Matter accepted my requested and within a couple of hours they deployed the changes. I’ve update [my blog](https://otavio.cc/) to use Atkinson Hyperlegible as well.\n\nI keep going back-and-forth between Reminders and [Things](https://culturedcode.com/things/). Every time there's a new macOS version I go back to Reminders to see what changed. But the truth is, Things is an amazing app and I decided to go back to it. The best of all, I can synchronize Things on all the computers I use, no matter if they’re using the same Apple ID or not. Reminders use iCloud, so I’m limited to the Apple ID I’m using. The downside is that I had to pay for Things twice.\n\nSame goes for Safari and Firefox. I’m a big Firefox fan (since it was called Phoenix) and love the [Multi-Account Containers](https://support.mozilla.org/en-US/kb/containers) feature, but Safari is so much faster and has better support for physical keys and Apple Pay so I keep going back to it.\n\nI read a review about [ReadKit](https://readkit.app/) and decided to give it a try. I deleted Reeder from my devices to force myself to use it. The application is actually nice and I’m enjoying it a lot. I like the way it integrates with Pinboard as well, which is a service I use for about 15 years. It supports Smart Folders, a great feature when subscribing to tons of feeds.\n\nDecided to create a [mini Digital Garden](https://otavio.cc/kleingarten/) on Micro.blog. It's not perfect because I have to create all the links between pages manually. But at least all the content is hosted in my blog. I have to check if there's an API to post Pages on Micro.blog directly, and add an option to my [Micro.publish plugin](https://otavio.cc/micropublish/) so that people can publish posts and pages from Obsidian. For now, the digital garden has notes about [Unit Testing](https://otavio.cc/unit-testing), [Open Source](https://otavio.cc/open-source), and [Child Benefits in Germany](https://otavio.cc/child-benefits-in-germany).\n\nI released a minor change to [Micro.publish plugin](https://otavio.cc/micropublish/), including a link to my [Buy My a Coffee](https://www.buymeacoffee.com/otaviocc) page. I added a link to [Buy My a Coffee](https://www.buymeacoffee.com/otaviocc) in all my [mini Digital Garden](https://otavio.cc/kleingarten/) pages as well.\n\nWe're cat sitting for friends and I usually go to their house at night, after *tinyScientist* goes to bed. I'm using my time there to work on my [omg.lol](https://omg.lol) native client for macOS and iOS. My client is fully modularized and each feature is a micro app on its own. Once all the setup is done, the app should scale pretty well, and adding new omg.lol features should be a breeze. I plan to write about [Modularization](https://otavio.cc/modularization/) once the setup is finished.\n\nI finally started playing [Fire Emblem Encore](https://www.nintendo.com/store/products/fire-emblem-engage-switch/), but already have my eyes on **Metroid Prime Remastered**. I must resist, in two weeks there’s **Octopath Traveler II** and in May, **The Legend of Zelda: Tears of the Kingdom**.\n\nLEGO [Series 24](https://www.lego.com/en-us/product/lego-minifigures-series-24-71037) is complete. We went to a LEGO store and they had hundreds of minifigure bags. Spent a good amount of time there, _feeling_ the bags and found the last two.\n\nAnd finally, I had to use Twitter to talk to my ISP's support. Their service is too unstable and every now and then I have to contact them to complain (and ask for my money back). Maybe it's time to switch providers so that I don't have to use Twitter anymore.\n",
 				"date_published": "2023-02-12T00:32:00+02:00",
 				"url": "https://otavio.cc/2023/02/11/week.html",
-				"tags": ["internet","blog","obsidian","week","longpost"]
+				"tags": ["internet","blog","obsidian","week","longpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/02/11/i-had-a.html",
@@ -1075,7 +1156,7 @@
 				"content_text": "👨‍💻 I wish I had more time to work on my native [omg.lol](https://home.omg.lol/) client for macOS and iOS. I still have some vacation days I have to take before the end of March and might use them for that.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/f3c252536f.png\" width=\"600\" height=\"408\" alt=\"\">\n",
 				"date_published": "2023-01-31T03:47:03+02:00",
 				"url": "https://otavio.cc/2023/01/31/i-wish-i.html",
-				"tags": ["coding","shortpost"]
+				"tags": ["coding","shortpost","omglol"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/01/30/week.html",
