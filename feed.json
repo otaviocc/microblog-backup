@@ -1,11 +1,47 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Otávio Cordeiro",
+	"title": "Otávio Cordeiro's Blog",
 	"icon": "https://micro.blog/otaviocc/avatar.jpg",
 	"home_page_url": "https://otavio.cc/",
 	"feed_url": "https://otavio.cc/feed.json",
 	"items": [
 		
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/20/saturday-morning-updating.html",
+				
+				"content_html": "<p>☕️ Saturday morning updating devices and drinking coffee while <em>Scientist</em> and <em>tinyScientist</em> sleep.</p>\n",
+				"content_text": "☕️ Saturday morning updating devices and drinking coffee while _Scientist_ and _tinyScientist_ sleep.\n",
+				"date_published": "2023-05-20T07:59:11+02:00",
+				"url": "https://otavio.cc/2023/05/20/saturday-morning-updating.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/17/now-that-tinyscientist.html",
+				
+				"content_html": "<p>🎮 Now that <em>tinyScientist</em> is back home I can start playing <strong>The Legend of Zelda Tears of the Kingdom</strong>.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "🎮 Now that *tinyScientist* is back home I can start playing **The Legend of Zelda Tears of the Kingdom**.\n\n<img src=\"uploads/2023/894f489b57.jpg\" width=\"600\" height=\"400\" alt=\"Zelda Collector's Edition\">\n",
+				"date_published": "2023-05-17T23:21:07+02:00",
+				"url": "https://otavio.cc/2023/05/17/now-that-tinyscientist.html",
+				"tags": ["game","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/17/tinyscientist-is-going.html",
+				
+				"content_html": "<p><em>tinyScientist</em> is going home today! 🎉</p>\n",
+				"content_text": "*tinyScientist* is going home today! 🎉\n",
+				"date_published": "2023-05-17T08:26:26+02:00",
+				"url": "https://otavio.cc/2023/05/17/tinyscientist-is-going.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/16/i-couldnt-contain.html",
+				
+				"content_html": "<p>I couldn&rsquo;t contain myself and bought a new domain, <a href=\"https://otavio.photos\">otavio.photos</a>. It&rsquo;s hosted on <a href=\"http://micro.blog\">Micro.blog</a> and I&rsquo;ll post the same pictures I publish to <a href=\"https://glass.photo\">Glass</a>.</p>\n<p>Everything will be automatically published to my <a href=\"http://micro.blog/otaviocc\">Micro.blog</a> timeline and cross-posted to <a href=\"https://staging.bsky.app/profile/otavio.cc\">Bluesky</a> and <a href=\"https://social.lol/@otaviocc\">Mastodon</a>. Ah, and there&rsquo;s an <a href=\"https://otavio.photos/feed.xml\">RSS</a> for nerds like me.</p>\n",
+				"content_text": "I couldn't contain myself and bought a new domain, [otavio.photos](https://otavio.photos). It's hosted on [Micro.blog](http://micro.blog) and I'll post the same pictures I publish to [Glass](https://glass.photo).\r\n\r\nEverything will be automatically published to my [Micro.blog](http://micro.blog/otaviocc) timeline and cross-posted to [Bluesky](https://staging.bsky.app/profile/otavio.cc) and [Mastodon](https://social.lol/@otaviocc). Ah, and there's an [RSS](https://otavio.photos/feed.xml) for nerds like me.\n",
+				"date_published": "2023-05-16T20:19:25+02:00",
+				"url": "https://otavio.cc/2023/05/16/i-couldnt-contain.html",
+				"tags": ["photography","internet","blog","shortpost"]
+			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/14/tears-of-the.html",
 				
@@ -37,7 +73,7 @@
 				"id": "http://otaviocc.micro.blog/2023/05/12/waiting-outside-theres.html",
 				
 				"content_html": "<p>Waiting outside, cellphones don’t work inside the buildings…</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Waiting outside, cellphones don’t work inside the buildings…\n\n<img src=\"uploads/2023/d3b00ee8c4.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "Waiting outside, cellphones don’t work inside the buildings…\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/d3b00ee8c4.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2023-05-12T11:49:28+02:00",
 				"url": "https://otavio.cc/2023/05/12/waiting-outside-theres.html",
 				"tags": ["shortpost"]
@@ -46,7 +82,7 @@
 				"id": "http://otaviocc.micro.blog/2023/05/11/when-i-arrived.html",
 				
 				"content_html": "<p>🎮 When I arrived home, this was waiting for me! I wasn’t expecting to get it a day before the official launch date.</p>\n<p>The collector edition arrives tomorrow.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🎮 When I arrived home, this was waiting for me! I wasn’t expecting to get it a day before the official launch date.\n\nThe collector edition arrives tomorrow.\n\n<img src=\"uploads/2023/89671700e9.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "🎮 When I arrived home, this was waiting for me! I wasn’t expecting to get it a day before the official launch date.\n\nThe collector edition arrives tomorrow.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/89671700e9.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2023-05-11T15:14:37+02:00",
 				"url": "https://otavio.cc/2023/05/11/when-i-arrived.html",
 				"tags": ["game","shortpost"]
