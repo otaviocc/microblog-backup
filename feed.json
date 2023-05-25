@@ -1,11 +1,65 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Otávio Cordeiro's Blog",
+	"title": "Otávio Cordeiro",
 	"icon": "https://micro.blog/otaviocc/avatar.jpg",
 	"home_page_url": "https://otavio.cc/",
 	"feed_url": "https://otavio.cc/feed.json",
 	"items": [
 		
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/25/fujifilms-xapp-requires.html",
+				
+				"content_html": "<p>Fujifilm&rsquo;s <a href=\"https://fujifilm-x.com/en-us/products/software/xapp/\">XApp</a> requires location access to be &ldquo;always allow&rdquo; and push notifications to be on all the time. Doesn&rsquo;t that violate Apple&rsquo;s App Store Review Guidelines since some of the features don&rsquo;t actually require location and notifications?</p>\n",
+				"content_text": "Fujifilm's [XApp](https://fujifilm-x.com/en-us/products/software/xapp/) requires location access to be \"always allow\" and push notifications to be on all the time. Doesn't that violate Apple's App Store Review Guidelines since some of the features don't actually require location and notifications?\n",
+				"date_published": "2023-05-25T10:54:36+02:00",
+				"url": "https://otavio.cc/2023/05/25/fujifilms-xapp-requires.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/24/my-camera-had.html",
+				
+				"content_html": "<p>My camera had the firmware version 2.11 installed. Upgrading it to 3.00 so that I can give <a href=\"https://www.theverge.com/2023/5/24/23734834/fujifilm-xapp-android-iphone-app-announced-features\">XApp</a> a try.</p>\n",
+				"content_text": "My camera had the firmware version 2.11 installed. Upgrading it to 3.00 so that I can give [XApp](https://www.theverge.com/2023/5/24/23734834/fujifilm-xapp-android-iphone-app-announced-features) a try.\n",
+				"date_published": "2023-05-24T23:30:09+02:00",
+				"url": "https://otavio.cc/2023/05/24/my-camera-had.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/24/fujifilm-released-a.html",
+				
+				"content_html": "<p>Fujifilm released a new iPhone app, <a href=\"https://apps.apple.com/app/id1586089681\">XApp</a> which works with some of its cameras. My camera is supported, but I need to upgrade its firmware before trying it.</p>\n<p>I hope this app is better than the old <strong>Cam Remote</strong> app.</p>\n",
+				"content_text": "Fujifilm released a new iPhone app, [XApp](https://apps.apple.com/app/id1586089681) which works with some of its cameras. My camera is supported, but I need to upgrade its firmware before trying it.\n\nI hope this app is better than the old **Cam Remote** app.\n",
+				"date_published": "2023-05-24T23:04:31+02:00",
+				"url": "https://otavio.cc/2023/05/24/fujifilm-released-a.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/22/im-so-happy.html",
+				
+				"content_html": "<p>I’m so happy with my new profile picture! <a href=\"https://social.lol/@andycarolan\">Andy Carolan</a>’s work is amazing and I had my eyes on his commissions page for a while, waiting for a slot.</p>\n<p>Last week Andy posted new slots, so I ordered three profile pictures, for <em>tinyScientist</em>, <em>scientist</em>, and me.</p>\n<p>The one he did for my son is a masterpiece.</p>\n",
+				"content_text": "I’m so happy with my new profile picture! [Andy Carolan](https://social.lol/@andycarolan)’s work is amazing and I had my eyes on his commissions page for a while, waiting for a slot.\n\nLast week Andy posted new slots, so I ordered three profile pictures, for _tinyScientist_, _scientist_, and me.\n\nThe one he did for my son is a masterpiece.\n",
+				"date_published": "2023-05-22T22:50:05+02:00",
+				"url": "https://otavio.cc/2023/05/22/im-so-happy.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/22/everything-we-know.html",
+				
+				"content_html": "<p><a href=\"https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/\">Everything we know about Instagram&rsquo;s Twitter clone</a></p>\n<blockquote>\n<p>(&hellip;) it will be partially integrated within Instagram. Users will keep their Instagram verification and handle, and all of their followers will receive a notification to follow them on the to-be-named platform. Meta’s text-based platform will be decentralized and interoperable with Mastodon, which is built on the ActivityPub protocol.</p>\n</blockquote>\n<p>Billions of users are joining ActivityPub this summer.</p>\n",
+				"content_text": " [Everything we know about Instagram's Twitter clone](https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/)\r\n\r\n> (...) it will be partially integrated within Instagram. Users will keep their Instagram verification and handle, and all of their followers will receive a notification to follow them on the to-be-named platform. Meta’s text-based platform will be decentralized and interoperable with Mastodon, which is built on the ActivityPub protocol.\r\n\r\nBillions of users are joining ActivityPub this summer.\n",
+				"date_published": "2023-05-22T17:34:28+02:00",
+				"url": "https://otavio.cc/2023/05/22/everything-we-know.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/05/22/hospital-jpeg-sooc.html",
+				
+				"content_html": "<p>📷 <strong>Hospital</strong>. JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": " 📷 **Hospital**. JPEG, SOOC.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/537ad0c0a0.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-05-22T11:00:54+02:00",
+				"url": "https://otavio.cc/2023/05/22/hospital-jpeg-sooc.html",
+				"tags": ["photography","shortpost"]
+			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/20/saturday-morning-updating.html",
 				
@@ -19,7 +73,7 @@
 				"id": "http://otaviocc.micro.blog/2023/05/17/now-that-tinyscientist.html",
 				
 				"content_html": "<p>🎮 Now that <em>tinyScientist</em> is back home I can start playing <strong>The Legend of Zelda Tears of the Kingdom</strong>.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "🎮 Now that *tinyScientist* is back home I can start playing **The Legend of Zelda Tears of the Kingdom**.\n\n<img src=\"uploads/2023/894f489b57.jpg\" width=\"600\" height=\"400\" alt=\"Zelda Collector's Edition\">\n",
+				"content_text": "🎮 Now that *tinyScientist* is back home I can start playing **The Legend of Zelda Tears of the Kingdom**.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/894f489b57.jpg\" width=\"600\" height=\"400\" alt=\"Zelda Collector's Edition\">\n",
 				"date_published": "2023-05-17T23:21:07+02:00",
 				"url": "https://otavio.cc/2023/05/17/now-that-tinyscientist.html",
 				"tags": ["game","shortpost"]
