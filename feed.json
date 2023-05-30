@@ -7,13 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/05/29/pm-xcode-or.html",
+				
+				"content_html": "<p>👨‍💻 🎮 8pm. Xcode or Tears of the Kingdom?</p>\n",
+				"content_text": "👨‍💻 🎮 8pm. Xcode or Tears of the Kingdom?\n",
+				"date_published": "2023-05-29T19:41:48+02:00",
+				"url": "https://otavio.cc/2023/05/29/pm-xcode-or.html",
+				"tags": ["game","shortpost"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/05/25/fujifilms-xapp-requires.html",
 				
 				"content_html": "<p>Fujifilm&rsquo;s <a href=\"https://fujifilm-x.com/en-us/products/software/xapp/\">XApp</a> requires location access to be &ldquo;always allow&rdquo; and push notifications to be on all the time. Doesn&rsquo;t that violate Apple&rsquo;s App Store Review Guidelines since some of the features don&rsquo;t actually require location and notifications?</p>\n",
 				"content_text": "Fujifilm's [XApp](https://fujifilm-x.com/en-us/products/software/xapp/) requires location access to be \"always allow\" and push notifications to be on all the time. Doesn't that violate Apple's App Store Review Guidelines since some of the features don't actually require location and notifications?\n",
 				"date_published": "2023-05-25T10:54:36+02:00",
 				"url": "https://otavio.cc/2023/05/25/fujifilms-xapp-requires.html",
-				"tags": ["shortpost"]
+				"tags": ["shortpost","fujifilm"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/24/my-camera-had.html",
@@ -22,7 +31,7 @@
 				"content_text": "My camera had the firmware version 2.11 installed. Upgrading it to 3.00 so that I can give [XApp](https://www.theverge.com/2023/5/24/23734834/fujifilm-xapp-android-iphone-app-announced-features) a try.\n",
 				"date_published": "2023-05-24T23:30:09+02:00",
 				"url": "https://otavio.cc/2023/05/24/my-camera-had.html",
-				"tags": ["shortpost"]
+				"tags": ["shortpost","fujifilm"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/24/fujifilm-released-a.html",
@@ -31,7 +40,7 @@
 				"content_text": "Fujifilm released a new iPhone app, [XApp](https://apps.apple.com/app/id1586089681) which works with some of its cameras. My camera is supported, but I need to upgrade its firmware before trying it.\n\nI hope this app is better than the old **Cam Remote** app.\n",
 				"date_published": "2023-05-24T23:04:31+02:00",
 				"url": "https://otavio.cc/2023/05/24/fujifilm-released-a.html",
-				"tags": ["shortpost"]
+				"tags": ["shortpost","fujifilm"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/22/im-so-happy.html",
