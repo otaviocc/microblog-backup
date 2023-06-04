@@ -1,11 +1,38 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Otávio Cordeiro",
+	"title": "Otávio's Blog",
 	"icon": "https://micro.blog/otaviocc/avatar.jpg",
 	"home_page_url": "https://otavio.cc/",
 	"feed_url": "https://otavio.cc/feed.json",
 	"items": [
 		
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/03/tinyscientists-first-time.html",
+				
+				"content_html": "<p>📷 <em>tinyScientist</em>’s first time eating <strong>feijão</strong> (black beans). JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 _tinyScientist_’s first time eating **feijão** (black beans). JPEG, SOOC.\n\n<img src=\"uploads/2023/d0dbcdd482.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-06-03T14:26:13+02:00",
+				"url": "https://otavio.cc/2023/06/03/tinyscientists-first-time.html",
+				"tags": ["photography","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/02/appnet-archive-migrated.html",
+				
+				"content_html": "<p>🔗 <a href=\"https://www.manton.org/2023/06/01/appnet-archive-migrated.html\">App.net archive migrated</a></p>\n<blockquote>\n<p>I’ve migrated the App.net posts archive to S3, to simplify hosting the archive. I’m not going to do any more work on this. No import feature for Micro.blog. The data files are there if anyone needs them.</p>\n</blockquote>\n<p>ADN was a great platform and thanks to <a href=\"https://micro.blog/manton\">Manton</a> all posts are safe and archived for posterity. I decided to fetch all my posts from Manton&rsquo;s archive and create a <a href=\"https://otavio.cc/adn/\">page</a> with entires from 2012 to 2014 (years I&rsquo;ve used the service). I didn&rsquo;t include replies to other people because, without context, these don&rsquo;t make much sense.</p>\n",
+				"content_text": "🔗 [App.net archive migrated](https://www.manton.org/2023/06/01/appnet-archive-migrated.html)\n\n> I’ve migrated the App.net posts archive to S3, to simplify hosting the archive. I’m not going to do any more work on this. No import feature for Micro.blog. The data files are there if anyone needs them.\n\nADN was a great platform and thanks to [Manton](https://micro.blog/manton) all posts are safe and archived for posterity. I decided to fetch all my posts from Manton's archive and create a [page](https://otavio.cc/adn/) with entires from 2012 to 2014 (years I've used the service). I didn't include replies to other people because, without context, these don't make much sense.\n",
+				"date_published": "2023-06-02T23:55:16+02:00",
+				"url": "https://otavio.cc/2023/06/02/appnet-archive-migrated.html",
+				"tags": ["internet","blog","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/01/parental-leave-commence.html",
+				
+				"content_html": "<p>👶 Parental leave commence.</p>\n",
+				"content_text": "👶 Parental leave commence.\n",
+				"date_published": "2023-06-01T09:03:30+02:00",
+				"url": "https://otavio.cc/2023/06/01/parental-leave-commence.html",
+				"tags": ["shortpost"]
+			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/29/pm-xcode-or.html",
 				
@@ -54,11 +81,11 @@
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/22/everything-we-know.html",
 				
-				"content_html": "<p><a href=\"https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/\">Everything we know about Instagram&rsquo;s Twitter clone</a></p>\n<blockquote>\n<p>(&hellip;) it will be partially integrated within Instagram. Users will keep their Instagram verification and handle, and all of their followers will receive a notification to follow them on the to-be-named platform. Meta’s text-based platform will be decentralized and interoperable with Mastodon, which is built on the ActivityPub protocol.</p>\n</blockquote>\n<p>Billions of users are joining ActivityPub this summer.</p>\n",
-				"content_text": " [Everything we know about Instagram's Twitter clone](https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/)\r\n\r\n> (...) it will be partially integrated within Instagram. Users will keep their Instagram verification and handle, and all of their followers will receive a notification to follow them on the to-be-named platform. Meta’s text-based platform will be decentralized and interoperable with Mastodon, which is built on the ActivityPub protocol.\r\n\r\nBillions of users are joining ActivityPub this summer.\n",
+				"content_html": "<p>🔗 <a href=\"https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/\">Everything we know about Instagram&rsquo;s Twitter clone</a></p>\n<blockquote>\n<p>(&hellip;) it will be partially integrated within Instagram. Users will keep their Instagram verification and handle, and all of their followers will receive a notification to follow them on the to-be-named platform. Meta’s text-based platform will be decentralized and interoperable with Mastodon, which is built on the ActivityPub protocol.</p>\n</blockquote>\n<p>Billions of users are joining ActivityPub this summer.</p>\n",
+				"content_text": "🔗 [Everything we know about Instagram's Twitter clone](https://techcrunch.com/2023/05/19/everything-we-know-about-instagrams-twitter-clone-due-this-summer/)\n\n> (...) it will be partially integrated within Instagram. Users will keep their Instagram verification and handle, and all of their followers will receive a notification to follow them on the to-be-named platform. Meta’s text-based platform will be decentralized and interoperable with Mastodon, which is built on the ActivityPub protocol.\n\nBillions of users are joining ActivityPub this summer.\n",
 				"date_published": "2023-05-22T17:34:28+02:00",
 				"url": "https://otavio.cc/2023/05/22/everything-we-know.html",
-				"tags": ["shortpost"]
+				"tags": ["internet","shortpost"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/05/22/hospital-jpeg-sooc.html",
@@ -279,8 +306,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2023/04/26/otvio-c-canceled.html",
 				
-				"content_html": "<p><a href=\"https://otavio.cc/2023/04/24/canceled-obsidian-sync.html\">Otávio C.</a>:</p>\n<blockquote>\n<p>Canceled Obsidian Sync and Publish today. I’m using Micro.blog to host my mini Digital Garden.</p>\n</blockquote>\n<p>I&rsquo;m not using any plugin to maintain a Digital Garden on Micro.blog. It would require a lot of transformation (file paths, dealing with file names, etc&hellip;) and I don&rsquo;t have much time now to put into a new plugin. For now it&rsquo;s all manually maintained.</p>\n<p>The only Obsidian plugin I use is <a href=\"https://otavio.cc/micropublish/\">Micro.publish</a>, for blog posts.</p>\n",
-				"content_text": " [Otávio C.](https://otavio.cc/2023/04/24/canceled-obsidian-sync.html):\n\n> Canceled Obsidian Sync and Publish today. I’m using Micro.blog to host my mini Digital Garden.\n\nI'm not using any plugin to maintain a Digital Garden on Micro.blog. It would require a lot of transformation (file paths, dealing with file names, etc...) and I don't have much time now to put into a new plugin. For now it's all manually maintained.\n\nThe only Obsidian plugin I use is [Micro.publish](https://otavio.cc/micropublish/), for blog posts.\n",
+				"content_html": "<p>🔗 <a href=\"https://otavio.cc/2023/04/24/canceled-obsidian-sync.html\">Otávio C.</a></p>\n<blockquote>\n<p>Canceled Obsidian Sync and Publish today. I’m using Micro.blog to host my mini Digital Garden.</p>\n</blockquote>\n<p>I&rsquo;m not using any plugin to maintain a Digital Garden on Micro.blog. It would require a lot of transformation (file paths, dealing with file names, etc&hellip;) and I don&rsquo;t have much time now to put into a new plugin. For now it&rsquo;s all manually maintained.</p>\n<p>The only Obsidian plugin I use is <a href=\"https://otavio.cc/micropublish/\">Micro.publish</a>, for blog posts.</p>\n",
+				"content_text": "🔗 [Otávio C.](https://otavio.cc/2023/04/24/canceled-obsidian-sync.html)\n\n> Canceled Obsidian Sync and Publish today. I’m using Micro.blog to host my mini Digital Garden.\n\nI'm not using any plugin to maintain a Digital Garden on Micro.blog. It would require a lot of transformation (file paths, dealing with file names, etc...) and I don't have much time now to put into a new plugin. For now it's all manually maintained.\n\nThe only Obsidian plugin I use is [Micro.publish](https://otavio.cc/micropublish/), for blog posts.\n",
 				"date_published": "2023-04-26T15:49:48+02:00",
 				"url": "https://otavio.cc/2023/04/26/otvio-c-canceled.html",
 				"tags": ["internet","blog","obsidian","shortpost","digitalgarden"]
