@@ -7,10 +7,55 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/06/09/running-my-omglol.html",
+				
+				"content_html": "<p>👨‍💻 Running my native <a href=\"https://omg.lol\">omg.lol</a> client on the iPad (iPadOS 17). It seems to be working fine.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "👨‍💻 Running my native [omg.lol](https://omg.lol) client on the iPad (iPadOS 17). It seems to be working fine.\n\n<img src=\"uploads/2023/0acdca5648.png\" width=\"600\" height=\"393\" alt=\"\">\n",
+				"date_published": "2023-06-09T18:52:51+02:00",
+				"url": "https://otavio.cc/2023/06/09/running-my-omglol.html",
+				"tags": ["shortpost","omglol"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/08/updating-to-ios.html",
+				
+				"content_html": "<p>👨‍💻 Updating to iOS 17. Let’s see.</p>\n",
+				"content_text": "👨‍💻 Updating to iOS 17. Let’s see.\n",
+				"date_published": "2023-06-08T13:29:15+02:00",
+				"url": "https://otavio.cc/2023/06/08/updating-to-ios.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/07/all-the-cool.html",
+				
+				"content_html": "<p>👨‍💻 All the cool things require macOS 14. It&rsquo;s too soon to update my work computer and personal computer to Sonoma.</p>\n",
+				"content_text": "👨‍💻 All the cool things require macOS 14. It's too soon to update my work computer and personal computer to Sonoma.\n",
+				"date_published": "2023-06-07T20:33:11+02:00",
+				"url": "https://otavio.cc/2023/06/07/all-the-cool.html",
+				"tags": ["engineering","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/06/its-possible-to.html",
+				
+				"content_html": "<p>🧑‍💻 It&rsquo;s possible to place bookmarks in the Xcode Editor now. Finally!</p>\n",
+				"content_text": "🧑‍💻 It's possible to place bookmarks in the Xcode Editor now. Finally!\n",
+				"date_published": "2023-06-06T13:48:30+02:00",
+				"url": "https://otavio.cc/2023/06/06/its-possible-to.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/05/im-ready-this.html",
+				
+				"content_html": "<p>📷 👨‍💻 I&rsquo;m ready for the WWDC! <a href=\"https://otavio.photos/2014/06/01/wwdc.html\">This photo</a> is from 2014, the year Apple introduced Swift to the World!</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 👨‍💻 I'm ready for the WWDC! [This photo](https://otavio.photos/2014/06/01/wwdc.html) is from 2014, the year Apple introduced Swift to the World!\n\n<img src=\"uploads/2023/3914547e07.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-06-05T11:09:54+02:00",
+				"url": "https://otavio.cc/2023/06/05/im-ready-this.html",
+				"tags": ["photography","coding","swift","shortpost"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/06/03/tinyscientists-first-time.html",
 				
 				"content_html": "<p>📷 <em>tinyScientist</em>’s first time eating <strong>feijão</strong> (black beans). JPEG, SOOC.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 _tinyScientist_’s first time eating **feijão** (black beans). JPEG, SOOC.\n\n<img src=\"uploads/2023/d0dbcdd482.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "📷 _tinyScientist_’s first time eating **feijão** (black beans). JPEG, SOOC.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/d0dbcdd482.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2023-06-03T14:26:13+02:00",
 				"url": "https://otavio.cc/2023/06/03/tinyscientists-first-time.html",
 				"tags": ["photography","shortpost"]
