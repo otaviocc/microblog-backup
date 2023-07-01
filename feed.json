@@ -7,6 +7,42 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/06/30/bolsonaro-ineligible-for.html",
+				
+				"content_html": "<p>Bolsonaro ineligible for public office for eight years 🎉</p>\n",
+				"content_text": "Bolsonaro ineligible for public office for eight years 🎉\n",
+				"date_published": "2023-06-30T17:38:50+02:00",
+				"url": "https://otavio.cc/2023/06/30/bolsonaro-ineligible-for.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/30/this-swift-change.html",
+				
+				"content_html": "<p>👨‍💻 <a href=\"https://github.com/apple/swift-evolution/blob/main/proposals/0380-if-switch-expressions.md\">This</a> Swift 5.9 change is simple, but makes the code much more readable.</p>\n<div class=\"highlight\"><pre tabindex=\"0\" style=\"color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4\"><code class=\"language-swift\" data-lang=\"swift\"><span style=\"color:#fc5fa3\">let</span><span style=\"color:#fff\"> </span><span style=\"color:#41a1c0\">value</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">=</span><span style=\"color:#fff\"> </span><span style=\"color:#fc5fa3\">switch</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">state</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">{</span><span style=\"color:#fff\">\n</span><span style=\"color:#fff\">    </span><span style=\"color:#fc5fa3\">case</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">.</span><span style=\"color:#fff\">solid</span><span style=\"color:#fff\">:</span><span style=\"color:#fff\"> </span><span style=\"color:#fc6a5d\">&#34;solid&#34;</span><span style=\"color:#fff\">\n</span><span style=\"color:#fff\">    </span><span style=\"color:#fc5fa3\">case</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">.</span><span style=\"color:#fff\">liquid</span><span style=\"color:#fff\">:</span><span style=\"color:#fff\"> </span><span style=\"color:#fc6a5d\">&#34;liquid&#34;</span><span style=\"color:#fff\">\n</span><span style=\"color:#fff\">    </span><span style=\"color:#fc5fa3\">case</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">.</span><span style=\"color:#fff\">gas</span><span style=\"color:#fff\">:</span><span style=\"color:#fff\"> </span><span style=\"color:#fc6a5d\">&#34;gas&#34;</span><span style=\"color:#fff\">\n</span><span style=\"color:#fff\">    </span><span style=\"color:#fc5fa3\">case</span><span style=\"color:#fff\"> </span><span style=\"color:#fff\">.</span><span style=\"color:#fff\">plasma</span><span style=\"color:#fff\">:</span><span style=\"color:#fff\"> </span><span style=\"color:#fc6a5d\">&#34;plasma&#34;</span><span style=\"color:#fff\">\n</span><span style=\"color:#fff\"></span><span style=\"color:#fff\">}</span><span style=\"color:#fff\">\n</span></code></pre></div><p>Making sure my <a href=\"http://omg.lol\">omg.lol</a> app uses all these new language features before my parental leave ends.</p>\n",
+				"content_text": "👨‍💻 [This](https://github.com/apple/swift-evolution/blob/main/proposals/0380-if-switch-expressions.md) Swift 5.9 change is simple, but makes the code much more readable.\n\n```swift\nlet value = switch state {\n    case .solid: \"solid\"\n    case .liquid: \"liquid\"\n    case .gas: \"gas\"\n    case .plasma: \"plasma\"\n}\n```\n\nMaking sure my [omg.lol](http://omg.lol) app uses all these new language features before my parental leave ends.\n",
+				"date_published": "2023-06-30T13:59:41+02:00",
+				"url": "https://otavio.cc/2023/06/30/this-swift-change.html",
+				"tags": ["coding","engineering","shortpost","omglol"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/28/parental-leave-ending.html",
+				
+				"content_html": "<p>Parental leave ending in a few days. Time flies.</p>\n",
+				"content_text": "Parental leave ending in a few days. Time flies.\n",
+				"date_published": "2023-06-28T22:47:00+02:00",
+				"url": "https://otavio.cc/2023/06/28/parental-leave-ending.html",
+				"tags": ["shortpost","iphone","darkroom"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/06/27/im-a-happy.html",
+				
+				"content_html": "<p>👨‍💻 I&rsquo;m a happy <a href=\"https://feedbin.com\">Feedbin</a> user, but recently I feel I&rsquo;m constantly switching between <a href=\"https://www.reederapp.com/\">Reeder</a>, app I use to access Feedbin, and Readwise&rsquo;s <a href=\"https://read.readwise.io/\">Read</a>. I&rsquo;m gonna give Read&rsquo;s feed feature a chance for a week and see how it goes.</p>\n",
+				"content_text": "👨‍💻 I'm a happy [Feedbin](https://feedbin.com) user, but recently I feel I'm constantly switching between [Reeder](https://www.reederapp.com/), app I use to access Feedbin, and Readwise's [Read](https://read.readwise.io/). I'm gonna give Read's feed feature a chance for a week and see how it goes.\n",
+				"date_published": "2023-06-27T14:41:51+02:00",
+				"url": "https://otavio.cc/2023/06/27/im-a-happy.html",
+				"tags": ["productivity","internet","shortpost"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/06/25/tried-to-log.html",
 				
 				"content_html": "<p>👨‍💻 Tried to log in to a website which uses passkeys using the iOS Simulator. It prompted the QR code so that I could use another device to confirm/approve. It didn&rsquo;t work. My iPhone showed a message saying the other device (the simulator) wasn&rsquo;t on the same network or didn&rsquo;t have Bluetooth on.</p>\n",
@@ -19,7 +55,7 @@
 				"id": "http://otaviocc.micro.blog/2023/06/22/geeking-out-with.html",
 				
 				"content_html": "<p>👨‍💻 Geeking out with Apple Vision Pro. Running my <a href=\"https://omg.lol\">omg.lol</a> client natively (and not as an iPad app).</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
-				"content_text": "👨‍💻 Geeking out with Apple Vision Pro. Running my [omg.lol](https://omg.lol) client natively (and not as an iPad app).\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://otavio.cc/uploads/2023/screen-recording-2023-06-22-at-10.52.41.mov\" width=\"640\" height=\"395\" poster=\"https://otavio.cc/uploads/2023/poster.png\" preload=\"none\"></video>\n",
+				"content_text": "👨‍💻 Geeking out with Apple Vision Pro. Running my [omg.lol](https://omg.lol) client natively (and not as an iPad app).\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://cdn.uploads.micro.blog/14222/2023/screen-recording-2023-06-22-at-10.52.41.mov\" width=\"640\" height=\"395\" poster=\"https://otavio.cc/uploads/2023/poster.png\" preload=\"none\"></video>\n",
 				"date_published": "2023-06-22T10:58:47+02:00",
 				"url": "https://otavio.cc/2023/06/22/geeking-out-with.html",
 				"tags": ["coding","engineering","shortpost","omglol"]
