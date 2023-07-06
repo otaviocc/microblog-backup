@@ -1,11 +1,20 @@
 {
 	"version": "https://jsonfeed.org/version/1",
-	"title": "Otávio's Blog",
+	"title": "Otávio Cordeiro",
 	"icon": "https://micro.blog/otaviocc/avatar.jpg",
 	"home_page_url": "https://otavio.cc/",
 	"feed_url": "https://otavio.cc/feed.json",
 	"items": [
 		
+			{
+				"id": "http://otaviocc.micro.blog/2023/07/03/parental-leave-is.html",
+				
+				"content_html": "<p>Parental leave is over. Back to work tomorrow morning 👨‍💻</p>\n",
+				"content_text": "Parental leave is over. Back to work tomorrow morning 👨‍💻\n",
+				"date_published": "2023-07-03T00:23:38+02:00",
+				"url": "https://otavio.cc/2023/07/03/parental-leave-is.html",
+				"tags": ["shortpost"]
+			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/06/30/bolsonaro-ineligible-for.html",
 				
