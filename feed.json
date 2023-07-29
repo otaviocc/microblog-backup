@@ -7,6 +7,51 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/07/29/pocket-has-a.html",
+				
+				"content_html": "<p>Pocket has a new app for iPhone and iPad. They added features no one asked for, and removed key features such as bulk editing (for tags) and highlighting. Yes, highlighting. If I were a subscriber, I would be so angry right now.</p>\n",
+				"content_text": "Pocket has a new app for iPhone and iPad. They added features no one asked for, and removed key features such as bulk editing (for tags) and highlighting. Yes, highlighting. If I were a subscriber, I would be so angry right now.\n",
+				"date_published": "2023-07-29T10:06:18+02:00",
+				"url": "https://otavio.cc/2023/07/29/pocket-has-a.html",
+				"tags": ["shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/07/27/submitted-fb-for.html",
+				
+				"content_html": "<p>👨‍💻 🐞 Submitted FB12770106 for <a href=\"https://otavio.cc/2023/07/27/xcode-beta-introduced.html\">this Xcode issue</a>.</p>\n",
+				"content_text": "👨‍💻 🐞 Submitted FB12770106 for [this Xcode issue](https://otavio.cc/2023/07/27/xcode-beta-introduced.html).\n",
+				"date_published": "2023-07-27T19:09:05+02:00",
+				"url": "https://otavio.cc/2023/07/27/submitted-fb-for.html",
+				"tags": ["coding","engineering","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/07/27/xcode-beta-introduced.html",
+				
+				"content_html": "<p>📷 <strong>Xcode beta 5</strong> introduced a bug that&rsquo;s driving me crazy. Whenever I try to add a file to a package, it wants to add the file to the project. In previous Xcode version it would simple create a file in the package.</p>\n<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>\n",
+				"content_text": "📷 **Xcode beta 5** introduced a bug that's driving me crazy. Whenever I try to add a file to a package, it wants to add the file to the project. In previous Xcode version it would simple create a file in the package.\n\n<video controls=\"controls\" playsinline=\"playsinline\" src=\"https://otavio.cc/uploads/2023/xcode-beta-5-bug.mp4\" width=\"640\" height=\"426\" poster=\"https://otavio.cc/uploads/2023/9c635bdacf.png\" preload=\"none\"></video>\n",
+				"date_published": "2023-07-27T15:52:59+02:00",
+				"url": "https://otavio.cc/2023/07/27/xcode-beta-introduced.html",
+				"tags": ["coding","engineering","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/07/26/this-was-a.html",
+				
+				"content_html": "<p>This was a good one (<a href=\"https://term.ooo/\">Termo</a> #570).</p>\n<p>⬛⬛🟩⬛🟩<br>\n🟩🟩🟩🟩🟩</p>\n",
+				"content_text": "This was a good one ([Termo](https://term.ooo/) #570).\n\n⬛⬛🟩⬛🟩  \n🟩🟩🟩🟩🟩\n",
+				"date_published": "2023-07-26T23:27:55+02:00",
+				"url": "https://otavio.cc/2023/07/26/this-was-a.html",
+				"tags": ["game","internet","shortpost"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/07/26/finished-legend-of.html",
+				
+				"content_html": "<p>🎮 Finished <a href=\"https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/\">Legend of Zelda: Tears of the Kingdom</a> today.</p>\n<ul>\n<li>All main quests, side quests, side adventures, shrine quests</li>\n<li>All shrines</li>\n<li>All clothes (and upgrades)</li>\n<li>All Sage&rsquo;s Wills</li>\n<li>All everything, except for caves (still missing 29), and Korok Seeds.</li>\n</ul>\n<p>Fantastic game, love it! Are we getting a DLC?</p>\n",
+				"content_text": "🎮 Finished [Legend of Zelda: Tears of the Kingdom](https://www.nintendo.com/store/products/the-legend-of-zelda-tears-of-the-kingdom-switch/) today.\n\n- All main quests, side quests, side adventures, shrine quests\n- All shrines\n- All clothes (and upgrades)\n- All Sage's Wills\n- All everything, except for caves (still missing 29), and Korok Seeds.\n\nFantastic game, love it! Are we getting a DLC?\n",
+				"date_published": "2023-07-26T00:47:18+02:00",
+				"url": "https://otavio.cc/2023/07/26/finished-legend-of.html",
+				"tags": ["game","shortpost"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/07/20/berlin-has-an.html",
 				
 				"content_html": "<p>Berlin has an official font: <a href=\"https://wir.berlin/en/be-a-part/the-new-berlin-font\">Berlin Type</a> 🇩🇪</p>\n",
