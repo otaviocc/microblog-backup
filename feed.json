@@ -7,6 +7,42 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/08/18/c-f-in.html",
+				
+				"content_html": "<p>🥵 32 ºC (90 ºF) in my home-office right now.</p>\n",
+				"content_text": "🥵 32 ºC (90 ºF) in my home-office right now.\n",
+				"date_published": "2023-08-18T14:00:14+02:00",
+				"url": "https://otavio.cc/2023/08/18/c-f-in.html",
+				"tags": ["life"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/08/15/ive-updated-unit.html",
+				
+				"content_html": "<p>🪴 👨‍💻 I’ve updated <a href=\"https://otavio.cc/unit-testing/\">Unit Testing With Doubles and Fixtures</a> in my Digital Garden. I still have to write about the different types of tests, and frameworks and tools. However, what matters is there.</p>\n",
+				"content_text": "🪴 👨‍💻 I’ve updated [Unit Testing With Doubles and Fixtures](https://otavio.cc/unit-testing/) in my Digital Garden. I still have to write about the different types of tests, and frameworks and tools. However, what matters is there.\n",
+				"date_published": "2023-08-15T22:57:25+02:00",
+				"url": "https://otavio.cc/2023/08/15/ive-updated-unit.html",
+				"tags": ["internet","digitalgarden","hacking"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/08/15/ive-updated-an.html",
+				
+				"content_html": "<p>🪴 📱 I’ve updated an entry in my digital garden, <a href=\"https://otavio.cc/pair-programming-tdd-rotation/\">Pair Programming, TDD, and Rotation?</a>.</p>\n",
+				"content_text": "🪴 📱 I’ve updated an entry in my digital garden, [Pair Programming, TDD, and Rotation?](https://otavio.cc/pair-programming-tdd-rotation/).\n",
+				"date_published": "2023-08-15T00:22:45+02:00",
+				"url": "https://otavio.cc/2023/08/15/ive-updated-an.html",
+				"tags": ["internet","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/08/14/xcode-beta-fixes.html",
+				
+				"content_html": "<p>👨‍💻 🐞 Xcode beta 6 fixes the bug introduced in a previous beta build. I wrote about it <a href=\"https://otavio.cc/2023/07/27/xcode-beta-introduced.html\">here</a> and <a href=\"https://otavio.cc/2023/07/27/submitted-fb-for.html\">here</a>.</p>\n",
+				"content_text": "👨‍💻 🐞 Xcode beta 6 fixes the bug introduced in a previous beta build. I wrote about it [here](https://otavio.cc/2023/07/27/xcode-beta-introduced.html) and [here](https://otavio.cc/2023/07/27/submitted-fb-for.html).\n",
+				"date_published": "2023-08-14T15:31:00+02:00",
+				"url": "https://otavio.cc/2023/08/14/xcode-beta-fixes.html",
+				"tags": ["hacking"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/08/13/mickey-mouse-tinyscientists.html",
 				
 				"content_html": "<p>📷 <strong>Mickey Mouse</strong>, <em>tinyScientist</em>’s favorite.</p>\n<!-- raw HTML omitted -->\n",
@@ -23,6 +59,15 @@
 				"date_published": "2023-08-13T00:45:14+02:00",
 				"url": "https://otavio.cc/2023/08/13/wordle.html",
 				"tags": ["game"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/08/13/xcode-beta-fixes.html",
+				
+				"content_html": "<p>👨‍💻 🐞 Xcode beta 6 fixes the bug introduced in a previous beta build. I wrote about it <a href=\"https://otavio.cc/2023/07/27/xcode-beta-introduced.html\">here</a> and <a href=\"https://otavio.cc/2023/07/27/submitted-fb-for.html\">here</a>.</p>\n",
+				"content_text": "👨‍💻 🐞 Xcode beta 6 fixes the bug introduced in a previous beta build. I wrote about it [here](https://otavio.cc/2023/07/27/xcode-beta-introduced.html) and [here](https://otavio.cc/2023/07/27/submitted-fb-for.html).\n",
+				"date_published": "2023-08-13T00:31:40+02:00",
+				"url": "https://otavio.cc/2023/08/13/xcode-beta-fixes.html",
+				"tags": ["hacking"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/08/13/week.html",
@@ -46,7 +91,7 @@
 				"id": "http://otaviocc.micro.blog/2023/08/11/coffee-break.html",
 				
 				"content_html": "<p>📷 Coffee break.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "📷 Coffee break.\n\n<img src=\"uploads/2023/image.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"content_text": "📷 Coffee break.\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2023/image.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
 				"date_published": "2023-08-11T20:00:17+02:00",
 				"url": "https://otavio.cc/2023/08/11/coffee-break.html",
 				"tags": ["photography","life"]
@@ -54,8 +99,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2023/08/08/apple-music-launches.html",
 				
-				"content_html": "<p>🎧 <a href=\"https://www.theverge.com/2023/8/7/23823577/apple-music-discovery-station-find-new-songs\">Apple Music launches a Discovery Station to help you find new songs</a>:</p>\n<blockquote>\n<p>Apple Music has a new station that’s designed to help you find songs you might like. The app’s Discovery Station will play a curated selection of music based on what you’ve been listening to lately but haven’t added to your library or heard before.</p>\n</blockquote>\n<p>The feature I missed the most when I switched from Spotify to Apple Music was the Discover Weekly. At some point Spotify&rsquo;s recommendations were so good that I would spend the week just listening to the Discover Weekly and nothing else.</p>\n",
-				"content_text": "🎧 [Apple Music launches a Discovery Station to help you find new songs](https://www.theverge.com/2023/8/7/23823577/apple-music-discovery-station-find-new-songs):\r\n\r\n> Apple Music has a new station that’s designed to help you find songs you might like. The app’s Discovery Station will play a curated selection of music based on what you’ve been listening to lately but haven’t added to your library or heard before.\r\n\r\nThe feature I missed the most when I switched from Spotify to Apple Music was the Discover Weekly. At some point Spotify's recommendations were so good that I would spend the week just listening to the Discover Weekly and nothing else.\n",
+				"content_html": "<p>🎧 <a href=\"https://www.theverge.com/2023/8/7/23823577/apple-music-discovery-station-find-new-songs\">Apple Music launches a Discovery Station to help you find new songs</a></p>\n<blockquote>\n<p>Apple Music has a new station that’s designed to help you find songs you might like. The app’s Discovery Station will play a curated selection of music based on what you’ve been listening to lately but haven’t added to your library or heard before.</p>\n</blockquote>\n<p>The feature I missed the most when I switched from Spotify to Apple Music was the Discover Weekly. At some point Spotify&rsquo;s recommendations were so good that I would spend the week just listening to the Discover Weekly and nothing else.</p>\n",
+				"content_text": "🎧 [Apple Music launches a Discovery Station to help you find new songs](https://www.theverge.com/2023/8/7/23823577/apple-music-discovery-station-find-new-songs)\r\n\r\n> Apple Music has a new station that’s designed to help you find songs you might like. The app’s Discovery Station will play a curated selection of music based on what you’ve been listening to lately but haven’t added to your library or heard before.\r\n\r\nThe feature I missed the most when I switched from Spotify to Apple Music was the Discover Weekly. At some point Spotify's recommendations were so good that I would spend the week just listening to the Discover Weekly and nothing else.\n",
 				"date_published": "2023-08-08T11:25:01+02:00",
 				"url": "https://otavio.cc/2023/08/08/apple-music-launches.html",
 				"tags": ["music","internet","technology"]
@@ -63,8 +108,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2023/08/05/passage-docs-passage.html",
 				
-				"content_html": "<p><a href=\"https://docs.passage.id/advanced/platform-compatibility\">Passage Docs</a>:</p>\n<blockquote>\n<p>Passage currently only supports platform authenticators and not roaming authenticators, such as Yubikeys. This is because platform authenticators (TouchID, FaceID, etc) are much more prevalent among consumers and disabling roaming authenticators provides a better user experience.</p>\n</blockquote>\n<p>That&rsquo;s a real bummer. It&rsquo;s true TouchID and FaceID are widespread, but I like to use two keys as backup (and for work related stuff).</p>\n",
-				"content_text": "[Passage Docs](https://docs.passage.id/advanced/platform-compatibility):\r\n\r\n> Passage currently only supports platform authenticators and not roaming authenticators, such as Yubikeys. This is because platform authenticators (TouchID, FaceID, etc) are much more prevalent among consumers and disabling roaming authenticators provides a better user experience.\r\n\r\nThat's a real bummer. It's true TouchID and FaceID are widespread, but I like to use two keys as backup (and for work related stuff).\n",
+				"content_html": "<p><a href=\"https://docs.passage.id/advanced/platform-compatibility\">Passage Docs</a></p>\n<blockquote>\n<p>Passage currently only supports platform authenticators and not roaming authenticators, such as Yubikeys. This is because platform authenticators (TouchID, FaceID, etc) are much more prevalent among consumers and disabling roaming authenticators provides a better user experience.</p>\n</blockquote>\n<p>That&rsquo;s a real bummer. It&rsquo;s true TouchID and FaceID are widespread, but I like to use two keys as backup (and for work related stuff).</p>\n",
+				"content_text": "[Passage Docs](https://docs.passage.id/advanced/platform-compatibility)\r\n\r\n> Passage currently only supports platform authenticators and not roaming authenticators, such as Yubikeys. This is because platform authenticators (TouchID, FaceID, etc) are much more prevalent among consumers and disabling roaming authenticators provides a better user experience.\r\n\r\nThat's a real bummer. It's true TouchID and FaceID are widespread, but I like to use two keys as backup (and for work related stuff).\n",
 				"date_published": "2023-08-05T23:16:55+02:00",
 				"url": "https://otavio.cc/2023/08/05/passage-docs-passage.html",
 				"tags": ["technology"]
@@ -81,8 +126,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2023/08/03/microblog-news-another.html",
 				
-				"content_html": "<p><a href=\"https://news.micro.blog/2023/08/02/another-update-to.html\">Micro.blog News</a>:</p>\n<blockquote>\n<p>Another update to Micro.blog for Mac is out today with more bug fixes. Special thanks to <a href=\"https://micro.blog/otaviocc\">@otaviocc</a> for pull requests on the open source project to address a couple problems.</p>\n</blockquote>\n<p>The beauty of Open Source Software! Glad to help!</p>\n",
-				"content_text": "[Micro.blog News](https://news.micro.blog/2023/08/02/another-update-to.html):\r\n\r\n> Another update to Micro.blog for Mac is out today with more bug fixes. Special thanks to [@otaviocc](https://micro.blog/otaviocc) for pull requests on the open source project to address a couple problems.\r\n\r\nThe beauty of Open Source Software! Glad to help!\n",
+				"content_html": "<p><a href=\"https://news.micro.blog/2023/08/02/another-update-to.html\">Micro.blog News</a></p>\n<blockquote>\n<p>Another update to Micro.blog for Mac is out today with more bug fixes. Special thanks to <a href=\"https://micro.blog/otaviocc\">@otaviocc</a> for pull requests on the open source project to address a couple problems.</p>\n</blockquote>\n<p>The beauty of Open Source Software! Glad to help!</p>\n",
+				"content_text": "[Micro.blog News](https://news.micro.blog/2023/08/02/another-update-to.html)\r\n\r\n> Another update to Micro.blog for Mac is out today with more bug fixes. Special thanks to [@otaviocc](https://micro.blog/otaviocc) for pull requests on the open source project to address a couple problems.\r\n\r\nThe beauty of Open Source Software! Glad to help!\n",
 				"date_published": "2023-08-03T10:18:37+02:00",
 				"url": "https://otavio.cc/2023/08/03/microblog-news-another.html"
 			},
