@@ -7,6 +7,33 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/11/13/mickey.html",
+				
+				"content_html": "<p>📷 Mickey.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Mickey.\n\n<img src=\"uploads/2023/a96361ef09.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-11-13T07:31:32+01:00",
+				"url": "https://otavio.cc/2023/11/13/mickey.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/11/11/week.html",
+				"title": "Week 2023-45",
+				"content_html": "<p>I visited the office three times this week — on Tuesday, Thursday, and Friday. It was a week filled with meetings and a Leadership workshop focusing on one-on-one meetings. On Friday afternoon, several of us gathered for our Learning Time, and in the evening, <em>scientist</em>, <em>tinyScientist</em>, and I enjoyed dinner with friends.</p>\n<p>Starting this weekend, we are officially practicing social distancing as <em>tinyScientist</em>&rsquo;s second surgery is on the horizon.</p>\n",
+				"content_text": "\nI visited the office three times this week — on Tuesday, Thursday, and Friday. It was a week filled with meetings and a Leadership workshop focusing on one-on-one meetings. On Friday afternoon, several of us gathered for our Learning Time, and in the evening, *scientist*, *tinyScientist*, and I enjoyed dinner with friends.\n\nStarting this weekend, we are officially practicing social distancing as *tinyScientist*'s second surgery is on the horizon.\n",
+				"date_published": "2023-11-11T18:38:01+01:00",
+				"url": "https://otavio.cc/2023/11/11/week.html",
+				"tags": ["week"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/11/09/i-asked-dalle.html",
+				
+				"content_html": "<p>I asked DALL-E 3 to create a logo for <a href=\"https://otavio.cc/micropublish/\">Micro.publish</a>. I told the AI Micro.publish is a plugin to publish notes as blog posts or pages from <a href=\"https://obsidian.md\">Obsidian</a> to <a href=\"https://micro.blog\">Micro.blog</a>.</p>\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n<!-- raw HTML omitted -->\n",
+				"content_text": "I asked DALL-E 3 to create a logo for [Micro.publish](https://otavio.cc/micropublish/). I told the AI Micro.publish is a plugin to publish notes as blog posts or pages from [Obsidian](https://obsidian.md) to [Micro.blog](https://micro.blog).\n\n<img src=\"uploads/2023/micro-publish-logo-0.png\" width=\"600\" height=\"600\" alt=\"\">\n\n<img src=\"uploads/2023/micro-publish-logo-1.png\" width=\"600\" height=\"600\" alt=\"\">\n\n<img src=\"uploads/2023/micro-publish-logo-2.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2023-11-09T16:11:28+01:00",
+				"url": "https://otavio.cc/2023/11/09/i-asked-dalle.html",
+				"tags": ["hacking","micropublish","obsidian"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/11/05/hey-siri-play.html",
 				
 				"content_html": "<p>— Hey Siri, play.<br>\n— Would you like me to resume here or in Our Bedroom?</p>\n<p>The look on my wife&rsquo;s face was priceless.</p>\n",
@@ -51,8 +78,8 @@
 			{
 				"id": "http://otaviocc.micro.blog/2023/11/01/micropublish.html",
 				"title": "Micro.publish 2.2.0",
-				"content_html": "<p>A couple of days ago, I released <a href=\"https://otavio.cc/2023/10/31/micropublish.html\">Micro.publish version 2.1.0</a>, which introduced the ability to publish and update pages on Micro.blog.</p>\n<p>However, there was a limitation. Pages created using the Micropub API would invariably be added to the blog&rsquo;s navigation, which, in most Micro.blog themes, appears as a bar at the top of the page.</p>\n<p>Since its release, <a href=\"https://manton.org\">Manton</a> has updated the Micropub API to accept a new parameter, <code>mp-navigation</code>. This addition allows developers to control whether a page should be included in the navigation bar.</p>\n<p>With Micro.publish 2.2.0, a fresh option is now available in the plugin settings. Users can determine the default setting for including new pages in the blog navigation.</p>\n<p><img src=\"https://otavio.cc/uploads/2023/settings-page-navigation.png\" alt=\"Settings for page navigation\"></p>\n<p>When publishing a new page, users have the opportunity to override this default setting for the specific page they are working on.</p>\n<p><img src=\"https://otavio.cc/uploads/2023/override-page-navigation.png\" alt=\"Override option for page navigation\"></p>\n<p>I cannot express enough gratitude to Manton for the API change. It significantly enhances the Micro.publish experience for all the users who regularly use the plugin.</p>\n",
-				"content_text": "\nA couple of days ago, I released [Micro.publish version 2.1.0](https://otavio.cc/2023/10/31/micropublish.html), which introduced the ability to publish and update pages on Micro.blog.\n\nHowever, there was a limitation. Pages created using the Micropub API would invariably be added to the blog's navigation, which, in most Micro.blog themes, appears as a bar at the top of the page.\n\nSince its release, [Manton](https://manton.org) has updated the Micropub API to accept a new parameter, `mp-navigation`. This addition allows developers to control whether a page should be included in the navigation bar.\n\nWith Micro.publish 2.2.0, a fresh option is now available in the plugin settings. Users can determine the default setting for including new pages in the blog navigation.\n\n![Settings for page navigation](https://otavio.cc/uploads/2023/settings-page-navigation.png)\n\nWhen publishing a new page, users have the opportunity to override this default setting for the specific page they are working on.\n\n![Override option for page navigation](https://otavio.cc/uploads/2023/override-page-navigation.png)\n\nI cannot express enough gratitude to Manton for the API change. It significantly enhances the Micro.publish experience for all the users who regularly use the plugin.\n",
+				"content_html": "<p>A couple of days ago, I released <a href=\"https://otavio.cc/2023/10/31/micropublish.html\">Micro.publish version 2.1.0</a>, which introduced the ability to publish and update pages on Micro.blog.</p>\n<p>However, there was a limitation. Pages created using the Micropub API would invariably be added to the blog&rsquo;s navigation, which, in most Micro.blog themes, appears as a bar at the top of the page.</p>\n<p>Since its release, <a href=\"https://manton.org\">Manton</a> has updated the Micropub API to accept a new parameter, <code>mp-navigation</code>. This addition allows developers to control whether a page should be included in the navigation bar.</p>\n<p>With Micro.publish 2.2.0, a fresh option is now available in the plugin settings. Users can determine the default setting for including new pages in the blog navigation.</p>\n<p><img src=\"https://cdn.uploads.micro.blog/14222/2023/settings-page-navigation.png\" alt=\"Settings for page navigation\"></p>\n<p>When publishing a new page, users have the opportunity to override this default setting for the specific page they are working on.</p>\n<p><img src=\"https://cdn.uploads.micro.blog/14222/2023/override-page-navigation.png\" alt=\"Override option for page navigation\"></p>\n<p>I cannot express enough gratitude to Manton for the API change. It significantly enhances the Micro.publish experience for all the users who regularly use the plugin.</p>\n",
+				"content_text": "\nA couple of days ago, I released [Micro.publish version 2.1.0](https://otavio.cc/2023/10/31/micropublish.html), which introduced the ability to publish and update pages on Micro.blog.\n\nHowever, there was a limitation. Pages created using the Micropub API would invariably be added to the blog's navigation, which, in most Micro.blog themes, appears as a bar at the top of the page.\n\nSince its release, [Manton](https://manton.org) has updated the Micropub API to accept a new parameter, `mp-navigation`. This addition allows developers to control whether a page should be included in the navigation bar.\n\nWith Micro.publish 2.2.0, a fresh option is now available in the plugin settings. Users can determine the default setting for including new pages in the blog navigation.\n\n![Settings for page navigation](https://cdn.uploads.micro.blog/14222/2023/settings-page-navigation.png)\n\nWhen publishing a new page, users have the opportunity to override this default setting for the specific page they are working on.\n\n![Override option for page navigation](https://cdn.uploads.micro.blog/14222/2023/override-page-navigation.png)\n\nI cannot express enough gratitude to Manton for the API change. It significantly enhances the Micro.publish experience for all the users who regularly use the plugin.\n",
 				"date_published": "2023-11-01T23:15:19+01:00",
 				"url": "https://otavio.cc/2023/11/01/micropublish.html",
 				"tags": ["hacking","micropublish","obsidian"]
