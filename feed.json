@@ -7,12 +7,84 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2023/12/21/im-not-fully.html",
+				
+				"content_html": "<p>📷 I&rsquo;m not entirely convinced that your days are over yet, my friend.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 I'm not entirely convinced that your days are over yet, my friend.\n\n<img src=\"uploads/2023/8d468b2927.jpg\" width=\"600\" height=\"400\" alt=\"3/4 of an inch long Blackwing Palomino pencil. \">\n",
+				"date_published": "2023-12-21T16:52:05+01:00",
+				"url": "https://otavio.cc/2023/12/21/im-not-fully.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/20/the-price-of.html",
+				
+				"content_html": "<p>The price of <a href=\"https://www.instapaper.com/\">Instapaper</a> has doubled, and to be very honest, I&rsquo;m uncertain if it justifies the new cost. I&rsquo;m considering whether <a href=\"https://goodlinks.app\">GoodLinks</a> could serve as a suitable alternative.</p>\n",
+				"content_text": "The price of [Instapaper](https://www.instapaper.com/) has doubled, and to be very honest, I'm uncertain if it justifies the new cost. I'm considering whether [GoodLinks](https://goodlinks.app) could serve as a suitable alternative.\n",
+				"date_published": "2023-12-20T00:36:48+01:00",
+				"url": "https://otavio.cc/2023/12/20/the-price-of.html",
+				"tags": ["productivity","life"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/19/trying-to-return.html",
+				
+				"content_html": "<p>📷 Trying to return home.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Trying to return home.\n\n<img src=\"uploads/2023/3dabaac740.jpg\" width=\"400\" height=\"600\" alt=\"Subway cars in Berlin, Germany.\">\n",
+				"date_published": "2023-12-19T21:08:02+01:00",
+				"url": "https://otavio.cc/2023/12/19/trying-to-return.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/18/weird-afternoon-yesterday.html",
+				
+				"content_html": "<p>📷 Weird afternoon yesterday.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Weird afternoon yesterday.\n\n<img src=\"uploads/2023/a4cd1390c0.jpg\" width=\"600\" height=\"400\" alt=\"\">\n",
+				"date_published": "2023-12-18T13:43:14+01:00",
+				"url": "https://otavio.cc/2023/12/18/weird-afternoon-yesterday.html",
+				"tags": ["photography"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/18/ive-just-updated.html",
+				
+				"content_html": "<p>🪴 I&rsquo;ve just updated my mini Digital Garden with a new page, <a href=\"https://otavio.cc/springboard/\">SpringBoard</a>. It complements the <a href=\"https://otavio.cc/app-defaults/\">App Defaults</a> and <a href=\"https://otavio.cc/subscriptions/\">Subscriptions</a> pages quite nicely.</p>\n",
+				"content_text": "🪴 I've just updated my mini Digital Garden with a new page, [SpringBoard](https://otavio.cc/springboard/). It complements the [App Defaults](https://otavio.cc/app-defaults/) and [Subscriptions](https://otavio.cc/subscriptions/) pages quite nicely.\n",
+				"date_published": "2023-12-18T13:32:10+01:00",
+				"url": "https://otavio.cc/2023/12/18/ive-just-updated.html",
+				"tags": ["internet","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/17/the-blog-post.html",
+				
+				"content_html": "<p>The blog post by <a href=\"https://micro.blog/maique\">Maique</a>, titled <a href=\"https://maique.eu/2023/12/17/subscriptions-edition.html\">Subscriptions</a>, published earlier today, served as a timely reminder for me to update the <a href=\"https://otavio.cc/subscriptions/\">Subscription page</a> I keep on my <a href=\"https://otavio.cc/kleingarten/\">mini Digital Garden</a> 🪴.</p>\n",
+				"content_text": "The blog post by [Maique](https://micro.blog/maique), titled [Subscriptions](https://maique.eu/2023/12/17/subscriptions-edition.html), published earlier today, served as a timely reminder for me to update the [Subscription page](https://otavio.cc/subscriptions/) I keep on my [mini Digital Garden](https://otavio.cc/kleingarten/) 🪴.\n",
+				"date_published": "2023-12-17T22:10:51+01:00",
+				"url": "https://otavio.cc/2023/12/17/the-blog-post.html",
+				"tags": ["internet","digitalgarden"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/17/i-just-learned.html",
+				
+				"content_html": "<p>I just <a href=\"https://www.20k.org/episodes/tournamentofchampions\">learned</a> that it&rsquo;s possible to change the Slack message notification sound to someone saying &lsquo;Hummus.&rsquo; I&rsquo;m changing it right now!</p>\n",
+				"content_text": "I just [learned](https://www.20k.org/episodes/tournamentofchampions) that it's possible to change the Slack message notification sound to someone saying 'Hummus.' I'm changing it right now!\n",
+				"date_published": "2023-12-17T01:14:20+01:00",
+				"url": "https://otavio.cc/2023/12/17/i-just-learned.html"
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2023/12/17/week.html",
+				"title": "Week 2023-50",
+				"content_html": "<p><a href=\"https://otavio.cc/2023/12/09/week.html\">Last week</a>, I took the entire week off due to <em>tinyScientist</em>&rsquo;s surgery. The surgery, being in a different city, ruled out the possibility of working due to the extensive commute. During this time, I chose to stay with my son and wife at the hospital.</p>\n<p>Upon my return to work on Monday, I had a lot to catch up on. My schedule was completely filled with clearing Slack messages and emails, except for the times I was occupied in meetings.</p>\n<p><em>tinyScientist</em>&rsquo;s recovery over the week has been impressive. He is healing well and is scheduled to have his bandages and stitches removed next week. He’s eating everything and drinking normally.</p>\n<p>I launched a new blog, <a href=\"https://otavio.cc/2023/12/13/epic-tales-tavern.html\">Epic Tales Tavern</a>, which also gets published on Mastodon. I have plans for this blog, which motivated me to invest in a dedicated domain. Considering the vibrant community at <a href=\"https://social.lol/\">social.lol</a>, I&rsquo;m contemplating moving the Mastodon account there at some point.</p>\n<p>The remainder of the week was dedicated to meetings and interviewing candidates.</p>\n",
+				"content_text": "[Last week](https://otavio.cc/2023/12/09/week.html), I took the entire week off due to *tinyScientist*'s surgery. The surgery, being in a different city, ruled out the possibility of working due to the extensive commute. During this time, I chose to stay with my son and wife at the hospital.\n\nUpon my return to work on Monday, I had a lot to catch up on. My schedule was completely filled with clearing Slack messages and emails, except for the times I was occupied in meetings.\n\n*tinyScientist*'s recovery over the week has been impressive. He is healing well and is scheduled to have his bandages and stitches removed next week. He’s eating everything and drinking normally.\n\nI launched a new blog, [Epic Tales Tavern](https://otavio.cc/2023/12/13/epic-tales-tavern.html), which also gets published on Mastodon. I have plans for this blog, which motivated me to invest in a dedicated domain. Considering the vibrant community at [social.lol](https://social.lol/), I'm contemplating moving the Mastodon account there at some point.\n\nThe remainder of the week was dedicated to meetings and interviewing candidates.\n",
+				"date_published": "2023-12-17T00:38:03+01:00",
+				"url": "https://otavio.cc/2023/12/17/week.html",
+				"tags": ["week"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2023/12/13/epic-tales-tavern.html",
 				"title": "Epic Tales Tavern",
 				"content_html": "<p>I’ve created a new blog named <a href=\"https://epictalestavern.com\">Epic Tales Tavern</a>, dedicated to sharing AI-generated images of unique and unusual dungeon encounters.</p>\n<p>Initially, I shared these images on Mastodon. However, I realized the benefit of creating a dedicated space for them. Using <a href=\"https://micro.blog\">Micro.blog</a>’s cross-posting feature, I can share these images with my Mastodon followers from their new home.</p>\n<p>Previously, I had a separate blog for my photography but eventually decided to integrate these photos into my personal blog, leading to the closure of the separate photo blog.</p>\n<p>This time, it feels right to maintain a separate blog for “Epic Tales Tavern.” Viewing it more as a project, a dedicated blog seems fitting.</p>\n<p>Both my <a href=\"https://otavio.cc\">personal blog</a> and <a href=\"https://epictalestavern.com\">Epic Tales Tavern</a> are published on <a href=\"https://micro.blog/otaviocc\">my Micro.blog timeline</a>. However, as they are distinct blogs, they each have their own RSS feeds and can be followed individually.</p>\n<p>Lastly, I’m thinking of sharing my solo campaigns and the maps I create during these campaigns on “Epic Tales Tavern.”</p>\n",
 				"content_text": "I’ve created a new blog named [Epic Tales Tavern](https://epictalestavern.com), dedicated to sharing AI-generated images of unique and unusual dungeon encounters.\n\nInitially, I shared these images on Mastodon. However, I realized the benefit of creating a dedicated space for them. Using [Micro.blog](https://micro.blog)’s cross-posting feature, I can share these images with my Mastodon followers from their new home.\n\nPreviously, I had a separate blog for my photography but eventually decided to integrate these photos into my personal blog, leading to the closure of the separate photo blog.\n\nThis time, it feels right to maintain a separate blog for “Epic Tales Tavern.” Viewing it more as a project, a dedicated blog seems fitting.\n\nBoth my [personal blog](https://otavio.cc) and [Epic Tales Tavern](https://epictalestavern.com) are published on [my Micro.blog timeline](https://micro.blog/otaviocc). However, as they are distinct blogs, they each have their own RSS feeds and can be followed individually.\n\nLastly, I’m thinking of sharing my solo campaigns and the maps I create during these campaigns on “Epic Tales Tavern.”\n",
 				"date_published": "2023-12-13T20:26:18+01:00",
-				"url": "https://otavio.cc/2023/12/13/epic-tales-tavern.html"
+				"url": "https://otavio.cc/2023/12/13/epic-tales-tavern.html",
+				"tags": ["game","internet","chatgpt"]
 			},
 			{
 				"id": "http://otaviocc.micro.blog/2023/12/12/new-mechanical-pencil.html",
