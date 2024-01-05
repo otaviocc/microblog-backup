@@ -25,6 +25,106 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://otavio.cc/2024/01/05/im-going-to.html" class="u-url"><time class="dt-published" datetime="2024-01-05 19:24:05 &#43;0100">Jan 5, 2024</time></a>
+
+		<div class="e-content">
+			 <p>👨‍💻 I&rsquo;m going to release a new version of <a href="https://otavio.cc/micropublish/">Micro.publish</a> that can handle categories from multiple blogs. When you open the picker to select a category, only the categories for that specific blog will be displayed.</p>
+<p>PS: I&rsquo;m not sure why <a href="https://cleanshot.com/">CleanShot X</a> didn&rsquo;t capture Obsidian&rsquo;s dropdown menu.</p>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2024/01/02/microblog-news-fixed.html" class="u-url"><time class="dt-published" datetime="2024-01-02 21:23:39 &#43;0100">Jan 2, 2024</time></a>
+
+		<div class="e-content">
+			 <p><a href="https://news.micro.blog/2024/01/02/fixed-a-couple.html">Micro.blog News</a></p>
+<blockquote>
+<p>Fixed a couple bugs in the Micropub endpoint and improved consistency of JSON params. Updating docs and the book to match.</p>
+</blockquote>
+<p>Thanks to <a href="https://micro.blog/manton">@manton</a> for the updates!</p>
+<p>I&rsquo;m releasing <a href="https://otavio.cc/micropublish/">Micro.publish</a> 2.3.3 today. This version introduces a change in the way new pages are published, using the Micropub JSON implementation. The previous version, 2.3.2, brought similar changes for posts.</p>
+<p>Should you face any oddities, please let me know. However, I anticipate that the publishing and editing of both posts and pages, especially those that are <em>very very</em> long, will now be more reliable.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2024/01/01/the-website-standard.html" class="u-url"><time class="dt-published" datetime="2024-01-01 21:37:32 &#43;0100">Jan 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>The website <a href="https://standardebooks.org/">Standard Ebooks</a> has a <a href="https://standardebooks.org/feeds/rss/new-releases">RSS</a> for the new releases.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+			<h1><a href="https://otavio.cc/2024/01/01/micropublish.html">Micro.publish 2.3.2</a></h1>
+		
+
+		<a href="https://otavio.cc/2024/01/01/micropublish.html" class="u-url"><time class="dt-published" datetime="2024-01-01 16:17:44 &#43;0100">Jan 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>A few weeks ago, <a href="https://social.lol/@esamecar">Marco</a> reached out to me via Mastodon, reporting an issue with <a href="https://otavio.cc/micropublish/">Micro.publish</a>. For some reason, one of his posts failed to publish, returning an error message &ldquo;Failed to Fetch.&rdquo; Initially, I suspected it could be related to his <a href="https://micro.blog">Micro.blog</a> App Token. I suggested that he refresh the blog list and update the categories to see what would happen. These actions worked fine. He also managed to update the post using Micro.publish; only the publishing process was failing.</p>
+<p>Yesterday, the same issue occurred again for Marco – a &ldquo;Failed to Fetch&rdquo; error when posting <a href="https://mb.esamecar.net/2023/12/31/what-caught-my.html">his weekly notes</a>. This time, I asked Marco to send me the raw markdown file he was trying to post, allowing me to reproduce the issue from my end.</p>
+<p>Reproducing the problem was straightforward. A check on the <a href="https://obsidian.md">Obsidian</a> Console revealed that the network request was rejected due to <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS">CORS restrictions</a>.</p>
+<p>A search on the Obsidian Forum led me to discover that Obsidian has an <a href="https://github.com/obsidianmd/obsidian-api/blob/c01fc3074deeb3dfc6ee02546d113b448735b294/obsidian.d.ts#L2635">alternative method for network requests</a> that bypasses CORS restrictions.</p>
+<p>Unfortunately, switching my network client to use Obsidian&rsquo;s <code>requestUrl()</code> method didn&rsquo;t solve the problem as I had hoped, but it did pinpoint the issue: the network request&rsquo;s URI was excessively long, causing an <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/414">HTTP Error 414</a>.</p>
+<p>This revelation made sense. The original implementation used Micropub&rsquo;s classic API, which includes all parameters as query items in the request&rsquo;s URL for new posts.</p>
+<p>For updating posts, in my Micro.publish, I use a JSON payload instead of query items, as this is Micropub&rsquo;s method for handling updates. Given that Micropub also provides a JSON option for publishing new posts, I decided to use that.</p>
+<p>Now, both posting and updating posts utilize a JSON payload instead of query items.</p>
+<p>For reference, here is the definition for new posts:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">export</span> <span style="color:#6ab825;font-weight:bold">type</span> NewPostRequest = {
+</span></span><span style="display:flex;"><span>    <span style="color:#ed9d13">&#39;type&#39;</span>: <span style="color:#6ab825;font-weight:bold">string</span>[]
+</span></span><span style="display:flex;"><span>    <span style="color:#ed9d13">&#39;mp-destination&#39;</span>?: <span style="color:#6ab825;font-weight:bold">string</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ed9d13">&#39;properties&#39;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#ed9d13">&#39;name&#39;</span>?: <span style="color:#6ab825;font-weight:bold">string</span>[]
+</span></span><span style="display:flex;"><span>        <span style="color:#ed9d13">&#39;content&#39;</span>: <span style="color:#6ab825;font-weight:bold">string</span>[],
+</span></span><span style="display:flex;"><span>        <span style="color:#ed9d13">&#39;category&#39;</span>: <span style="color:#6ab825;font-weight:bold">string</span>[],
+</span></span><span style="display:flex;"><span>        <span style="color:#ed9d13">&#39;published&#39;</span>?: <span style="color:#6ab825;font-weight:bold">string</span>[],
+</span></span><span style="display:flex;"><span>        <span style="color:#ed9d13">&#39;post-status&#39;</span>: <span style="color:#6ab825;font-weight:bold">string</span>[]
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>It may seem unusual that <code>type</code>, <code>name</code>, <code>content</code>, and other fields are arrays of strings, but this format aligns with the <a href="https://www.w3.org/TR/micropub/#json-syntax">API&rsquo;s requirements</a>.</p>
+<p>When submitting the JSON, it looks as follows:</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;type&#34;</span>: [ <span style="color:#ed9d13">&#34;h-entry&#34;</span> ], 
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;mp-destination&#34;</span>: <span style="color:#ed9d13">&#34;otavio.cc&#34;</span>, 
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;properties&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">&#34;name&#34;</span>: [ <span style="color:#ed9d13">&#34;Title&#34;</span> ],
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">&#34;content&#34;</span>: [ <span style="color:#ed9d13">&#34;This is the content.&#34;</span> ], 
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">&#34;category&#34;</span>: [ <span style="color:#ed9d13">&#34;obsidian&#34;</span>, <span style="color:#ed9d13">&#34;example&#34;</span>, <span style="color:#ed9d13">&#34;hacking&#34;</span> ], 
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">&#34;published&#34;</span>: [ <span style="color:#ed9d13">&#34;2024-01-01T01:01:01-00:00&#34;</span> ],
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">&#34;post-status&#34;</span>: [ <span style="color:#ed9d13">&#34;draft&#34;</span> ],
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>I will maintain the current implementation using the framework’s <code>fetch()</code> instead of Obsidian&rsquo;s <code>requestUrl()</code>, as the switch to JSON appears to have resolved the issue. However, if users continue to encounter the &ldquo;Failed to Fetch&rdquo; error, I may need to revisit and update the implementation.</p>
+<p>I&rsquo;d like to extend my gratitude to <a href="https://social.lol/@esamecar">Marco</a> for his assistance in isolating the issue. His willingness to provide the raw markdown file was crucial in enabling me to track down and address the problem.</p>
+<p>The Micro.publish 2.3.2 update will be rolling out to all users within the next few hours.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://otavio.cc/2024/01/01/happy-new-year.html" class="u-url"><time class="dt-published" datetime="2024-01-01 00:00:00 &#43;0100">Jan 1, 2024</time></a>
+
+		<div class="e-content">
+			 <p>Happy New Year! 🍾 🎉</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://otavio.cc/2023/12/30/tinyscientist-went-for.html" class="u-url"><time class="dt-published" datetime="2023-12-30 18:20:58 &#43;0100">Dec 30, 2023</time></a>
 
 		<div class="e-content">
@@ -142,7 +242,7 @@
 		<a href="https://otavio.cc/2023/12/27/these-are-my.html" class="u-url"><time class="dt-published" datetime="2023-12-27 14:20:38 &#43;0100">Dec 27, 2023</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://otavio.cc/uploads/2023/image.jpeg" alt=""></p>
+			 <p><img src="https://cdn.uploads.micro.blog/14222/2023/image.jpeg" alt=""></p>
 <p>These are my top three favorite images from <a href="https://epictalestavern.com">Epic Tales Tavern</a> in 2023:</p>
 <ol>
 <li><a href="https://epictalestavern.com/2023/12/10/this-orc-champion.html">This Orc Champion invites you to meet his fluffy cat</a></li>
@@ -731,7 +831,7 @@
 		<div class="e-content">
 			 <p>On Sunday night, I decided to pick the <strong>D100 Dungeon</strong> system to play and rolled the dice to create my character. I ended up with an Elf in the Rogue hero path, whom I&rsquo;ve named <strong>Thalion Whisperwind</strong>. &lsquo;Thalion&rsquo; means <em>strong</em> in Elvish, which, combined with &lsquo;Whisperwind,&rsquo; suggests a character who is both powerful and as silent as the wind. Ironically, this isn&rsquo;t actually true! While Thalion excels in dexterity and intelligence, he&rsquo;s not particularly strong. Poor guy.</p>
 <p>One exciting aspect of rolling the dice to build my character was determining his armor and weapon. This process provided me with enough information to envision Thalion clearly. So, I turned to DALL-E, armed with context from a previous chat session about a dungeon and characters reminiscent of human figures in Pixar animations, and asked it to create an illustration of my rogue elf.</p>
-<p><img src="https://otavio.cc/uploads/2023/rogue-elf-character.png" alt="DALL-E render of a rogue Elf for an RPG adventure"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rogue-elf-character.png" alt="DALL-E render of a rogue Elf for an RPG adventure"></p>
 <p>I absolutely love the result!</p>
 <p>I&rsquo;m even considering taking Thalion&rsquo;s journey a step further. The illustration is so awesome that I&rsquo;m tempted to print it out. It would be the perfect addition to his character sheet.</p>
 
@@ -820,13 +920,13 @@
 </blockquote>
 <p>With these refined prompts, I requested new images for the female Barbarian, male Cleric, female Rogue, and male Wizard.</p>
 <p>Female Barbarian:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter1.png" alt="Illustration generated using DALL-E of a female barbarian in Pixar animation style"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter1.png" alt="Illustration generated using DALL-E of a female barbarian in Pixar animation style"></p>
 <p>Male Cleric:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter2.png" alt="Illustration generated using DALL-E of a male cleric in Pixar animation style"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter2.png" alt="Illustration generated using DALL-E of a male cleric in Pixar animation style"></p>
 <p>Female Rogue:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter3.png" alt="Illustration generated using DALL-E of a female rogue in Pixar animation style"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter3.png" alt="Illustration generated using DALL-E of a female rogue in Pixar animation style"></p>
 <p>Male Wizard:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter4.png" alt="Illustration generated using DALL-E of a male wizard in Pixar animation style"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter4.png" alt="Illustration generated using DALL-E of a male wizard in Pixar animation style"></p>
 <p>I&rsquo;m more than satisfied with the results. The images uniformly capture the desired &ldquo;look and feel&rdquo; and truly echo Pixar&rsquo;s animation style.</p>
 <p>Next, I requested a change in style (why not, right?):</p>
 <blockquote>
@@ -834,13 +934,13 @@
 </blockquote>
 <p>I then asked for new images for my four characters in this new style.</p>
 <p>Female Barbarian:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter5.png" alt="Illustration generated using DALL-E of a female barbarian as a LEGO Minifigure"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter5.png" alt="Illustration generated using DALL-E of a female barbarian as a LEGO Minifigure"></p>
 <p>Male Cleric:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter6.png" alt="Illustration generated using DALL-E of a male cleric as a LEGO Minifigure"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter6.png" alt="Illustration generated using DALL-E of a male cleric as a LEGO Minifigure"></p>
 <p>Female Rogue:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter7.png" alt="Illustration generated using DALL-E of a female rogue as a LEGO Minifigure"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter7.png" alt="Illustration generated using DALL-E of a female rogue as a LEGO Minifigure"></p>
 <p>Male Wizard:</p>
-<p><img src="https://otavio.cc/uploads/2023/rpgcharacter8.png" alt="Illustration generated using DALL-E of a male wizard as a LEGO Minifigure"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/rpgcharacter8.png" alt="Illustration generated using DALL-E of a male wizard as a LEGO Minifigure"></p>
 <p>Writing precise prompts with ChatGPT&rsquo;s support significantly improved the results. It allowed me to articulate what I wanted before requesting images, leading to a collection of consistent and engaging character portraits.</p>
 <p>I could easily lose myself for hours experimenting with various styles and fine-tuning prompts, but it&rsquo;s time to set DALL-E aside and embark on this exciting new adventure.</p>
 
@@ -1035,9 +1135,9 @@
 <p>However, there was a limitation. Pages created using the Micropub API would invariably be added to the blog&rsquo;s navigation, which, in most Micro.blog themes, appears as a bar at the top of the page.</p>
 <p>Since its release, <a href="https://manton.org">Manton</a> has updated the Micropub API to accept a new parameter, <code>mp-navigation</code>. This addition allows developers to control whether a page should be included in the navigation bar.</p>
 <p>With Micro.publish 2.2.0, a fresh option is now available in the plugin settings. Users can determine the default setting for including new pages in the blog navigation.</p>
-<p><img src="https://otavio.cc/uploads/2023/settings-page-navigation.png" alt="Settings for page navigation"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/settings-page-navigation.png" alt="Settings for page navigation"></p>
 <p>When publishing a new page, users have the opportunity to override this default setting for the specific page they are working on.</p>
-<p><img src="https://otavio.cc/uploads/2023/override-page-navigation.png" alt="Override option for page navigation"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/override-page-navigation.png" alt="Override option for page navigation"></p>
 <p>I cannot express enough gratitude to Manton for the API change. It significantly enhances the Micro.publish experience for all the users who regularly use the plugin.</p>
 
 		</div>
@@ -1063,7 +1163,7 @@
 		<a href="https://otavio.cc/2023/10/31/micropublish.html" class="u-url"><time class="dt-published" datetime="2023-10-31 00:27:21 &#43;0100">Oct 31, 2023</time></a>
 
 		<div class="e-content">
-			 <p><img src="https://otavio.cc/uploads/2023/coffee-shop-micro-publish-2.png" alt="Girl using her laptop on a coffee shop to publish posts and pages to her microblog"></p>
+			 <p><img src="https://cdn.uploads.micro.blog/14222/2023/coffee-shop-micro-publish-2.png" alt="Girl using her laptop on a coffee shop to publish posts and pages to her microblog"></p>
 <p>As I mentioned in my <a href="https://otavio.cc/2023/10/29/week.html">previous weekly note</a>, I&rsquo;ve been working on a new <a href="https://otavio.cc/micropublish/">Micro.publish</a> feature. This feature enables users to publish Pages directly to <a href="https://micro.blog">Micro.blog</a> and also provides the capability to update pages previously published using version 2.1.0 or later.</p>
 <p>To provide clarity and coherence, I&rsquo;ve renamed the existing Obsidian commands. Now, to publish and update a post, users can use the following command in Obsidian&rsquo;s Command Palette:</p>
 <ul>
@@ -1101,11 +1201,11 @@
 
 		<div class="e-content">
 			 <p>I was impressed by the images generated by <a href="https://openai.com/dall-e-3">DALL-E 3</a>, so I decided to experiment with it myself. The images below were generated based on the prompt I provided to the algorithm, inspired by a <em>tinyScientist</em> picture.</p>
-<p><img src="https://otavio.cc/uploads/2023/toddler-eating-illustration-3.png" alt="Illustration of a toddler eating"></p>
-<p><img src="https://otavio.cc/uploads/2023/toddler-eating-illustration-2.png" alt="Illustration of a toddler eating"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/toddler-eating-illustration-3.png" alt="Illustration of a toddler eating"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/toddler-eating-illustration-2.png" alt="Illustration of a toddler eating"></p>
 <p>Then I requested the algorithm to reinterpret the images in a style reminiscent of classic Disney animations.</p>
-<p><img src="https://otavio.cc/uploads/2023/toddler-eating-illustration-1.png" alt="Illustration of a toddler eating in Disney style"></p>
-<p><img src="https://otavio.cc/uploads/2023/toddler-eating-illustration-0.png" alt="Illustration of a toddler eating in Disney style"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/toddler-eating-illustration-1.png" alt="Illustration of a toddler eating in Disney style"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/toddler-eating-illustration-0.png" alt="Illustration of a toddler eating in Disney style"></p>
 <p>This is crazy, isn&rsquo;t it?</p>
 
 		</div>
@@ -1136,7 +1236,7 @@
 <p>Mondays at the office are always delightful. The kitchen brims with fresh croissants, sandwiches, and a huge variety of tempting pastries.</p>
 <p>By Friday, I found myself back at the office. Given our dedicated Learning Time on Fridays, it&rsquo;s an ideal day to be there in person, facilitating activities such as pair programming or collaborative tasks with colleagues. That afternoon, three of us collaborated in a meeting room, focusing on modularizing a particular feature.</p>
 <p>The Office Manager from our German branch was in the midst of giving our workspace a Halloween facelift. I particularly loved how she swapped out our <a href="https://otavio.cc/2022/10/14/went-to-the.html">Unicorn</a> for a festive-themed one. A charming touch.</p>
-<p><img src="https://otavio.cc/uploads/2023/img-99636655-vintagekodak.jpeg" alt="Halloween Unicorn"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/img-99636655-vintagekodak.jpeg" alt="Halloween Unicorn"></p>
 <h2 id="hacking">Hacking</h2>
 <p>Last week, I published a <a href="https://micro.blog/">Micro.blog</a> plugin called &ldquo;Reply on Mastodon.&rdquo; Although I&rsquo;m not using it – as posts on my Mastodon account are programmed to auto-delete after a month – I&rsquo;ve been buoyed by the positive feedback from those who&rsquo;ve adopted the plugin. While I ensure all my content is preserved on my blog, my Mastodon operates differently.</p>
 <p>Since I rely on Obsidian for my writing and publish posts and pages to Micro.blog, I&rsquo;ve embarked on developing a new <a href="https://otavio.cc/micropublish/">Micro.publish</a> feature. This will enable users to upload pages directly from the editor. I&rsquo;m optimistic about rolling out this feature by next Tuesday or Wednesday, contingent upon the time I can allocate.</p>
@@ -1182,7 +1282,7 @@
 
 		<div class="e-content">
 			 <p>One of the advantages of a hybrid working model is the flexibility to work from home whenever I choose. However, the downside is that, when I opt to stay at home, I sometimes forget to leave the house for days. In fact, this week, the first time I stepped outside was on Thursday. On Friday, I decided to work from the office to get some fresh air, interact with people, and have lunch at a restaurant.</p>
-<p><img src="https://otavio.cc/uploads/2023/img-8608-edited-edited.jpg" alt="Photo of a hot stone pot Bibimbap, a Korean rice dish"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/img-8608-edited-edited.jpg" alt="Photo of a hot stone pot Bibimbap, a Korean rice dish"></p>
 <p>For my <a href="https://omg.lol">omg.lol</a> client for macOS and iOS, I had plans to complete the migration from the <code>ObservableObject</code> protocol to Apple&rsquo;s new Observation framework introduced earlier this year, but unfortunately, I couldn&rsquo;t find the time for it. My Xcode has been open on my personal computer for over a week, with the same files still awaiting edits.</p>
 <p>There were no new features implemented on <a href="https://otavio.cc/micropublish/">Micro.publish</a> either. The only Micro.publish related change during the week was the addition of a link in my blog&rsquo;s navigation bar at the top of the page.</p>
 <p>Nevertheless, I did manage to carve out some time to create a plugin for a feature that the <a href="https://micro.blog">Micro.blog</a> community had been discussing, called <a href="https://micro.blog/account/plugins/view/111">Reply on Mastodon</a>. This plugin generates a link that directs readers to the cross-post on Mastodon, allowing them to engage in conversations and reply.</p>
@@ -1558,22 +1658,22 @@
 <h2 id="version-200">Version 2.0.0</h2>
 <p>For posts <strong>published with version 2.0.0 or newer</strong>, the post&rsquo;s <code>URL</code> will be added to the Markdown file in the YAML frontmatter/Property.</p>
 <p>For those in <em>Edit mode</em>, it appears as a Property as shown below:</p>
-<p><img src="https://otavio.cc/uploads/2023/properties.png" alt="Properties"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/properties.png" alt="Properties"></p>
 <p>And for those utilizing the <em>Source mode</em>, as YAML:</p>
-<p><img src="https://otavio.cc/uploads/2023/frontmatter.png" alt="Frontmatter"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/frontmatter.png" alt="Frontmatter"></p>
 <p>Once the note or title has been edited (either through the filename or <a href="https://otavio.cc/micropublish/#properties">YAML/Property</a>), updating is as simple as using the <a href="https://otavio.cc/micropublish/#publishing"><em>Post to Micro.blog</em> command from the Command Palette</a>. A simplified version of the Review view will appear, displaying the post&rsquo;s title. For users with multiple blogs, it will prompt them to confirm which blog the post belongs to.</p>
-<p><img src="https://otavio.cc/uploads/2023/reviewedit.png" alt="Review/Edit"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/reviewedit.png" alt="Review/Edit"></p>
 <h2 id="editing-posts-from-previous-versions">Editing posts from previous versions</h2>
 <p>It is also possible to update posts that were <strong>published using Micro.publish versions prior to 2.0.0</strong>. To do so, you must include a Property (or field in the YAML frontmatter) named <code>url</code> containing the URL of the published post, as illustrated below.</p>
 <p>To include a new Property, simply follow these steps in the Command Palette:</p>
-<p><img src="https://otavio.cc/uploads/2023/add-property.png" alt="Add Property"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/add-property.png" alt="Add Property"></p>
 <p>And add the <code>url</code> with the published post URL:</p>
-<p><img src="https://otavio.cc/uploads/2023/properties.png" alt="Properties"></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/properties.png" alt="Properties"></p>
 <p>Those who prefer the YAML file can add the the <code>url</code> using the format:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>---
-</span></span><span style="display:flex;"><span>url: https://example.com/path/to/post.html
-</span></span><span style="display:flex;"><span>---
-</span></span></code></pre></div><p>After editing the note or title (either through the filename or YAML/Property), updating is as straightforward as utilizing the <em>Post to Micro.blog</em> command from the Command Palette. Similar to the process for version 2.0.0, a simplified version of the Review view will be presented, featuring the post&rsquo;s title. For users with multiple blogs, it will inquire about the blog to which the post should be associated.</p>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#447fcf;text-decoration:underline">---</span><span style="color:#666">
+</span></span></span><span style="display:flex;"><span><span style="color:#666"></span><span style="color:#6ab825;font-weight:bold">url</span>:<span style="color:#666"> </span>https://example.com/path/to/post.html<span style="color:#666">
+</span></span></span><span style="display:flex;"><span><span style="color:#666"></span><span style="color:#447fcf;text-decoration:underline">---</span><span style="color:#666">
+</span></span></span></code></pre></div><p>After editing the note or title (either through the filename or YAML/Property), updating is as straightforward as utilizing the <em>Post to Micro.blog</em> command from the Command Palette. Similar to the process for version 2.0.0, a simplified version of the Review view will be presented, featuring the post&rsquo;s title. For users with multiple blogs, it will inquire about the blog to which the post should be associated.</p>
 
 		</div>
 	  </div>
@@ -2335,11 +2435,11 @@ I&rsquo;ve noticed that Matter&rsquo;s RSS feature often fails to retrieve the c
 
 		<div class="e-content">
 			 <p>👨‍💻 <a href="https://github.com/apple/swift-evolution/blob/main/proposals/0380-if-switch-expressions.md">This</a> Swift 5.9 change is simple, but makes the code much more readable.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">value</span> = <span style="color:#fc5fa3">switch</span> state {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">case</span> .solid: <span style="color:#fc6a5d">&#34;solid&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">case</span> .liquid: <span style="color:#fc6a5d">&#34;liquid&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">case</span> .gas: <span style="color:#fc6a5d">&#34;gas&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">case</span> .plasma: <span style="color:#fc6a5d">&#34;plasma&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">value</span> = <span style="color:#6ab825;font-weight:bold">switch</span> state {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">case</span> .solid: <span style="color:#ed9d13">&#34;solid&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">case</span> .liquid: <span style="color:#ed9d13">&#34;liquid&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">case</span> .gas: <span style="color:#ed9d13">&#34;gas&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">case</span> .plasma: <span style="color:#ed9d13">&#34;plasma&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Making sure my <a href="http://omg.lol">omg.lol</a> app uses all these new language features before my parental leave ends.</p>
 
@@ -3295,7 +3395,7 @@ I&rsquo;ve noticed that Matter&rsquo;s RSS feature often fails to retrieve the c
 <p>Just to be on the safe side, I took several COVID-19 tests. <em>tinyScientist</em>’s surgery is less than a month from now, and we want to protect him from any sort of cold or flu.</p>
 <p>We were planning to take him to the zoo on Saturday to see the lions, but it was one of those rare sunny days, so the zoo was probably packed with kids, better to avoid it a while longer.</p>
 <p>Decided to walk in the city instead, found a park that’s open enough, and took tons of pictures. Also, coffee…</p>
-<p><img src="https://otavio.cc/uploads/2023/e5c9565aff.jpg" alt=""></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2023/e5c9565aff.jpg" alt=""></p>
 <h2 id="hacking">Hacking</h2>
 <p>I didn’t hack a single line of code on my personal projects. The only thing I did was to post on social network a crash I noticed on my <a href="https://omg.lol">omg.lol</a> client, which was introduced in the latest macOS update. It’s super weird, and no one knows how to solve it. I submitted a bug to Apple.</p>
 
@@ -4639,10 +4739,10 @@ I&rsquo;ve noticed that Matter&rsquo;s RSS feature often fails to retrieve the c
 
 		<div class="e-content">
 			 <p>I&rsquo;ve made some changes to my blog yesterday, putting some <a href="https://www.nordtheme.com/">Nord</a> colors here and there. For the codeblocks, the following lines were added to Micro.blog&rsquo;s <code>config.json</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    &#34;pygmentsCodefences&#34;: <span style="color:#fc5fa3">true</span>,
-</span></span><span style="display:flex;"><span>    &#34;pygmentsCodefencesGuessSyntax&#34;: <span style="color:#fc5fa3">true</span>,
-</span></span><span style="display:flex;"><span>    &#34;pygmentsStyle&#34;: <span style="color:#fc6a5d">&#34;nord&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;pygmentsCodefences&#34;</span>: <span style="color:#6ab825;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;pygmentsCodefencesGuessSyntax&#34;</span>: <span style="color:#6ab825;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;pygmentsStyle&#34;</span>: <span style="color:#ed9d13">&#34;nord&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
 		</div>
@@ -5873,10 +5973,10 @@ Title: https://micro.blog/books/search?q=#TITLE#
 		<a href="https://otavio.cc/2022/08/23/swiftprotocol-compressionservice-func.html" class="u-url"><time class="dt-published" datetime="2022-08-23 14:58:36 &#43;0100">Aug 23, 2022</time></a>
 
 		<div class="e-content">
-			 <div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">protocol</span> <span style="color:#5dd8ff">CompressionService</span> {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">compress</span>(
+			 <div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">protocol</span> <span style="color:#447fcf;text-decoration:underline">CompressionService</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">compress</span>(
 </span></span><span style="display:flex;"><span>        url: URL
-</span></span><span style="display:flex;"><span>    ) <span style="color:#fc5fa3">throws</span> -&gt; URL
+</span></span><span style="display:flex;"><span>    ) <span style="color:#6ab825;font-weight:bold">throws</span> -&gt; URL
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Simple interface. More than 300 lines of code to test all the scenarios.</p>
 
@@ -7971,7 +8071,7 @@ Title: https://micro.blog/books/search?q=#TITLE#
 
 		<div class="e-content">
 			 <p>📷 Stop Wars</p>
-<p><img src="https://otavio.cc/uploads/2022/116c07b17f.jpg" alt=""></p>
+<p><img src="https://cdn.uploads.micro.blog/14222/2022/116c07b17f.jpg" alt=""></p>
 
 		</div>
 	  </div>
@@ -8212,10 +8312,10 @@ Title: https://micro.blog/books/search?q=#TITLE#
 
 		<div class="e-content">
 			 <p>👨‍💻 I&rsquo;ve added the following to Marfa&rsquo;s <code>config.json</code> to get Xcode&rsquo;s theme for code blocks:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
-</span></span><span style="display:flex;"><span>    &#34;pygmentsCodefences&#34;: <span style="color:#fc5fa3">true</span>,
-</span></span><span style="display:flex;"><span>    &#34;pygmentsCodefencesGuessSyntax&#34;: <span style="color:#fc5fa3">true</span>,
-</span></span><span style="display:flex;"><span>    &#34;pygmentsStyle&#34;: <span style="color:#fc6a5d">&#34;xcode&#34;</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;pygmentsCodefences&#34;</span>: <span style="color:#6ab825;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;pygmentsCodefencesGuessSyntax&#34;</span>: <span style="color:#6ab825;font-weight:bold">true</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">&#34;pygmentsStyle&#34;</span>: <span style="color:#ed9d13">&#34;xcode&#34;</span>
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
 		</div>
@@ -8240,12 +8340,12 @@ Title: https://micro.blog/books/search?q=#TITLE#
 
 		<div class="e-content">
 			 <p>I did some changes to Marfa&rsquo;s CSS to make more room for code blocks. E.g.,</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">request</span> = MicropubRequestFactory.makeNewPostRequest(
-</span></span><span style="display:flex;"><span>    content: <span style="color:#fc6a5d">&#34;This is the body&#34;</span>,
-</span></span><span style="display:flex;"><span>    isDraft: <span style="color:#fc5fa3">true</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">request</span> = MicropubRequestFactory.makeNewPostRequest(
+</span></span><span style="display:flex;"><span>    content: <span style="color:#ed9d13">&#34;This is the body&#34;</span>,
+</span></span><span style="display:flex;"><span>    isDraft: <span style="color:#6ab825;font-weight:bold">true</span>
 </span></span><span style="display:flex;"><span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">postResponse</span> = <span style="color:#fc5fa3">try</span> await client.run(request)
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">postResponse</span> = <span style="color:#6ab825;font-weight:bold">try</span> await client.run(request)
 </span></span></code></pre></div>
 		</div>
 	  </div>
@@ -8969,10 +9069,10 @@ Title: https://micro.blog/books/search?q=#TITLE#
 
 		<div class="e-content">
 			 <p>I tried to make my Micro.blog API Client with simple - yet testable - interfaces 👨‍💻. Uploading a photo&rsquo;s straight-forward:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">mediaRequest</span> = MicropubRequestFactory.makeUploadRequest(
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">mediaRequest</span> = MicropubRequestFactory.makeUploadRequest(
 </span></span><span style="display:flex;"><span>    media: .jpeg(jpegData)
 </span></span><span style="display:flex;"><span>)
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">uploadResponse</span> = <span style="color:#fc5fa3">try</span> await client.run(mediaRequest)
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">uploadResponse</span> = <span style="color:#6ab825;font-weight:bold">try</span> await client.run(mediaRequest)
 </span></span></code></pre></div>
 		</div>
 	  </div>
@@ -9366,89 +9466,89 @@ Title: https://micro.blog/books/search?q=#TITLE#
 			 <p>About a month ago I decided to build a new app to attend a personal need, a desktop client for <a href="https://pinboard.in">Pinboard</a>, a service I&rsquo;ve been using for over a decade to store and manage my bookmarks.</p>
 <p>As any application which requires internet to fetch and update data, my client needed a way to detect network accessibility. For a long time the strategy adopted by engineers in this situation was to rely on Apple&rsquo;s Reachability class, a sample code the company used to provide for download on their developer portal. Well, either that or one of the many CocoaPods frameworks the community built to replace Apple&rsquo;s drag-and-drop solution. But since iOS 12.0 and macOS 10.14 there&rsquo;s a powerfull first-party alternative.</p>
 <p>Introduced a couple of years ago, <a href="https://developer.apple.com/documentation/network/nwpathmonitor"><code>NWPathMonitor</code></a> is the easiest way to detect network changes (and retrieve connection properties). Its interface is extremely simple to use, providing a callback to get notified of updates.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">monitor</span> = NWPathMonitor()
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">queue</span> = DispatchQueue.global(qos: .background)
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">monitor</span> = NWPathMonitor()
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">queue</span> = DispatchQueue.global(qos: .background)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>monitor.pathUpdateHandler = { path <span style="color:#fc5fa3">in</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a167e6">print</span>(path.status) <span style="color:#6c7986">// .unsatisfied, .satisfied, .requiresConnection</span>
+</span></span><span style="display:flex;"><span>monitor.pathUpdateHandler = { path <span style="color:#6ab825;font-weight:bold">in</span>
+</span></span><span style="display:flex;"><span>    print(path.status) <span style="color:#999;font-style:italic">// .unsatisfied, .satisfied, .requiresConnection</span>
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>monitor.start(
 </span></span><span style="display:flex;"><span>    queue: queue
 </span></span><span style="display:flex;"><span>)
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#6c7986">// ...</span>
+</span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic">// ...</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>monitor.stop()
 </span></span></code></pre></div><p>My application in built in SwiftUI (2.0) and Combine and the solution above wouldn&rsquo;t <em>feel right</em> in my View Model. So I started with a simple wrapper, hiding the monitor and exposing a publisher which notifies path changes.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">wrapper</span> = NWPathMonitorWrapper()
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">wrapper</span> = NWPathMonitorWrapper()
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">cancellable</span> = wrapper
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">cancellable</span> = wrapper
 </span></span><span style="display:flex;"><span>    .pathUpdatePublisher()
 </span></span><span style="display:flex;"><span>    .receive(on: RunLoop.main)
-</span></span><span style="display:flex;"><span>    .sink { path <span style="color:#fc5fa3">in</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a167e6">print</span>(path.status)
+</span></span><span style="display:flex;"><span>    .sink { path <span style="color:#6ab825;font-weight:bold">in</span>
+</span></span><span style="display:flex;"><span>        print(path.status)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>wrapper.start()
 </span></span></code></pre></div><p>But the implementation (below) still requires <code>NWPathMonitorWrapper.start()</code> to be called, hurting the beauty of the publisher-subscriber relationship.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">final</span> <span style="color:#fc5fa3">class</span> <span style="color:#5dd8ff">NWPathMonitorWrapper</span> {
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">final</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">NWPathMonitorWrapper</span> {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Properties</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Properties</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">monitor</span>: NWPathMonitor
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">queue</span>: DispatchQueue = .global(qos: .background)
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">pathUpdateSubject</span> = PassthroughSubject&lt;NWPath, Never&gt;()
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">monitor</span>: NWPathMonitor
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">queue</span>: DispatchQueue = .global(qos: .background)
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">pathUpdateSubject</span> = PassthroughSubject&lt;NWPath, Never&gt;()
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Life cycle</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Life cycle</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">init</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">init</span>(
 </span></span><span style="display:flex;"><span>        monitor: NWPathMonitor = NWPathMonitor()
 </span></span><span style="display:flex;"><span>    ) {
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">self</span>.monitor = monitor
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">self</span>.monitor.pathUpdateHandler = {
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">self</span>.pathUpdateSubject.send(<span style="color:#41a1c0">$0</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">self</span>.monitor = monitor
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">self</span>.monitor.pathUpdateHandler = {
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">self</span>.pathUpdateSubject.send(<span style="color:#40ffff">$0</span>)
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Public</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Public</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">start</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">start</span>() {
 </span></span><span style="display:flex;"><span>        monitor.start(
 </span></span><span style="display:flex;"><span>            queue: queue
 </span></span><span style="display:flex;"><span>        )
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">stop</span>() {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">stop</span>() {
 </span></span><span style="display:flex;"><span>        monitor.cancel()
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">pathUpdatePublisher</span>() -&gt; AnyPublisher&lt;NWPath, Never&gt; {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">pathUpdatePublisher</span>() -&gt; AnyPublisher&lt;NWPath, Never&gt; {
 </span></span><span style="display:flex;"><span>        pathUpdateSubject
 </span></span><span style="display:flex;"><span>            .eraseToAnyPublisher()
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>So I looked for a similar example in Apple&rsquo;s frameworks, one which requires a method to be called to trigger the action. Turns out <code>URLSession</code>, familiar to every iOS/macOS engineer, is the perfect example since it requires <code>URLSession.resume()</code> to be called to fire the network requrest. Recently <code>URLSession</code> got a new method, a <a href="https://developer.apple.com/documentation/foundation/urlsession/3329707-datataskpublisher">publisher</a> which starts the request at the moment there&rsquo;s demand (a subscriber):</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">session</span> = URLSession.shared
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">session</span> = URLSession.shared
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">cancellable</span> = session
-</span></span><span style="display:flex;"><span>    .dataTaskPublisher(<span style="color:#fc5fa3">for</span>: request)
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">cancellable</span> = session
+</span></span><span style="display:flex;"><span>    .dataTaskPublisher(<span style="color:#6ab825;font-weight:bold">for</span>: request)
 </span></span><span style="display:flex;"><span>    .receive(on: RunLoop.main)
-</span></span><span style="display:flex;"><span>    .tryMap { result <span style="color:#fc5fa3">in</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// ...</span>
+</span></span><span style="display:flex;"><span>    .tryMap { result <span style="color:#6ab825;font-weight:bold">in</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// ...</span>
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    .sink(
-</span></span><span style="display:flex;"><span>        receiveCompletion: { <span style="color:#fc5fa3">_</span> <span style="color:#fc5fa3">in</span> },
-</span></span><span style="display:flex;"><span>        receiveValue: { <span style="color:#fc5fa3">_</span> <span style="color:#fc5fa3">in</span> }    
+</span></span><span style="display:flex;"><span>        receiveCompletion: { <span style="color:#6ab825;font-weight:bold">_</span> <span style="color:#6ab825;font-weight:bold">in</span> },
+</span></span><span style="display:flex;"><span>        receiveValue: { <span style="color:#6ab825;font-weight:bold">_</span> <span style="color:#6ab825;font-weight:bold">in</span> }    
 </span></span><span style="display:flex;"><span>    )
 </span></span></code></pre></div><p>And that&rsquo;s the interface I wanted for my monitor. A simple publisher which starts <em>emitting values</em> as soon as there&rsquo;s demand.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">monitor</span> = NWPathMonitor()
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">monitor</span> = NWPathMonitor()
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">cancellable</span> = monitor
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">cancellable</span> = monitor
 </span></span><span style="display:flex;"><span>    .pathUpdatePublisher()
 </span></span><span style="display:flex;"><span>    .receive(on: RunLoop.main)
-</span></span><span style="display:flex;"><span>    .sink { path <span style="color:#fc5fa3">in</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#a167e6">print</span>(path.status)
+</span></span><span style="display:flex;"><span>    .sink { path <span style="color:#6ab825;font-weight:bold">in</span>
+</span></span><span style="display:flex;"><span>        print(path.status)
 </span></span><span style="display:flex;"><span>    } 
 </span></span></code></pre></div><p>SwiftUI and Combine are new to me, I spiked and re-implemented some UI components I have up in my sleeve, but nothing too complex. Building this client is helping me to explore and learn new APIs.</p>
 <p>The protocols <code>Publisher</code>, <code>Subscriber</code>, and <code>Subscription</code> are examples of these APIs. To implement a custom publisher it&rsquo;s necessary to implement types conforming to two of these protocols.</p>
@@ -9459,46 +9559,46 @@ Title: https://micro.blog/books/search?q=#TITLE#
 <li><a href="https://developer.apple.com/documentation/combine/subscription"><code>Subscription</code></a> implements the link between publishers and subscribers.</li>
 </ul>
 <p>The first step was to define my publisher interface. Since the monitor requires a queue to run, I decided to pass the queue as argument. In order to simplify its interface, a background queue is passed by default to the implementation.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">extension</span> <span style="color:#5dd8ff">NWPathMonitor</span> {
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">extension</span> <span style="color:#447fcf;text-decoration:underline">NWPathMonitor</span> {
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">pathUpdatePublisher</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">pathUpdatePublisher</span>(
 </span></span><span style="display:flex;"><span>        on queue: DispatchQueue = .global(qos: .background)
 </span></span><span style="display:flex;"><span>    ) -&gt; NWPathMonitor.PathMonitorPublisher {
-</span></span><span style="display:flex;"><span>      <span style="color:#6c7986">// ...</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#999;font-style:italic">// ...</span>
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>The interface provides a hint of the first type to be implemented, <code>NWPathMonitor.PathMonitorPublisher</code>. Most of the code is boilerplate, and for this publisher, the <code>Output</code> expected is <code>NWPath</code>, without a <code>Failure</code>.</p>
 <p>When the publisher <em>receives</em> a subscriber, the link between them is established.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">extension</span> <span style="color:#5dd8ff">NWPathMonitor</span> {
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">extension</span> <span style="color:#447fcf;text-decoration:underline">NWPathMonitor</span> {
 </span></span><span style="display:flex;"><span>   
-</span></span><span style="display:flex;"><span>  <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">struct</span> <span style="color:#5dd8ff">PathMonitorPublisher</span>: Publisher {
+</span></span><span style="display:flex;"><span>  <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">struct</span> <span style="color:#447fcf;text-decoration:underline">PathMonitorPublisher</span>: Publisher {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Nested types</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Nested types</span>
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">typealias</span> Output = NWPath
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">typealias</span> Failure = Never
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">typealias</span> Output = NWPath
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">typealias</span> Failure = Never
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Properties</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Properties</span>
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">monitor</span>: NWPathMonitor
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">queue</span>: DispatchQueue
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">monitor</span>: NWPathMonitor
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">queue</span>: DispatchQueue
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Life cycle</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Life cycle</span>
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        fileprivate <span style="color:#fc5fa3">init</span>(
+</span></span><span style="display:flex;"><span>        fileprivate <span style="color:#6ab825;font-weight:bold">init</span>(
 </span></span><span style="display:flex;"><span>            monitor: NWPathMonitor,
 </span></span><span style="display:flex;"><span>            queue: DispatchQueue
 </span></span><span style="display:flex;"><span>        ) {
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">self</span>.monitor = monitor
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">self</span>.queue = queue
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">self</span>.monitor = monitor
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">self</span>.queue = queue
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Public</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Public</span>
 </span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">public</span> <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">receive</span>&lt;S&gt;(
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">public</span> <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">receive</span>&lt;S&gt;(
 </span></span><span style="display:flex;"><span>            subscriber: S
-</span></span><span style="display:flex;"><span>        ) <span style="color:#fc5fa3">where</span> S: Subscriber, S.Failure == Failure, S.Input == Output {
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">subscription</span> = PathMonitorSubscription(
+</span></span><span style="display:flex;"><span>        ) <span style="color:#6ab825;font-weight:bold">where</span> S: Subscriber, S.Failure == Failure, S.Input == Output {
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">subscription</span> = PathMonitorSubscription(
 </span></span><span style="display:flex;"><span>                subscriber: subscriber,
 </span></span><span style="display:flex;"><span>                monitor: monitor,
 </span></span><span style="display:flex;"><span>                queue: queue
@@ -9511,44 +9611,44 @@ Title: https://micro.blog/books/search?q=#TITLE#
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>The <code>Subscription</code> fulfills the demand from the subscriber. As soon as there&rsquo;s demand, it starts monitoring changes using the monitor&rsquo;s callback, passing changes to the subscriber. And since <code>Subscription</code> conforms to <a href="https://developer.apple.com/documentation/combine/Cancellable"><code>Cancellable</code></a>, <code>cancel()</code> can be used to stop the monitor.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">extension</span> <span style="color:#5dd8ff">NWPathMonitor</span> {
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">extension</span> <span style="color:#447fcf;text-decoration:underline">NWPathMonitor</span> {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">final</span> <span style="color:#fc5fa3">class</span> <span style="color:#5dd8ff">PathMonitorSubscription</span>&lt;
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">final</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">PathMonitorSubscription</span>&lt;
 </span></span><span style="display:flex;"><span>        S: Subscriber
-</span></span><span style="display:flex;"><span>    &gt;: Subscription <span style="color:#fc5fa3">where</span> S.Input == NWPath {
+</span></span><span style="display:flex;"><span>    &gt;: Subscription <span style="color:#6ab825;font-weight:bold">where</span> S.Input == NWPath {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Nested types</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Nested types</span>
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">subscriber</span>: S
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">monitor</span>: NWPathMonitor
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">queue</span>: DispatchQueue
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">subscriber</span>: S
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">monitor</span>: NWPathMonitor
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">queue</span>: DispatchQueue
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Life cycle</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Life cycle</span>
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">init</span>(
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">init</span>(
 </span></span><span style="display:flex;"><span>            subscriber: S,
 </span></span><span style="display:flex;"><span>            monitor: NWPathMonitor,
 </span></span><span style="display:flex;"><span>            queue: DispatchQueue
 </span></span><span style="display:flex;"><span>        ) {
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">self</span>.subscriber = subscriber
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">self</span>.monitor = monitor
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">self</span>.queue = queue
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">self</span>.subscriber = subscriber
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">self</span>.monitor = monitor
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">self</span>.queue = queue
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>        <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Public</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Public</span>
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">request</span>(
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">_</span> demand: Subscribers.Demand
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">request</span>(
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">_</span> demand: Subscribers.Demand
 </span></span><span style="display:flex;"><span>        ) {
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">guard</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">guard</span>
 </span></span><span style="display:flex;"><span>                demand == .unlimited,
-</span></span><span style="display:flex;"><span>                monitor.pathUpdateHandler == <span style="color:#fc5fa3">nil</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">else</span> {
-</span></span><span style="display:flex;"><span>                <span style="color:#fc5fa3">return</span>
+</span></span><span style="display:flex;"><span>                monitor.pathUpdateHandler == <span style="color:#6ab825;font-weight:bold">nil</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">else</span> {
+</span></span><span style="display:flex;"><span>                <span style="color:#6ab825;font-weight:bold">return</span>
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>            monitor.pathUpdateHandler = { path <span style="color:#fc5fa3">in</span>
-</span></span><span style="display:flex;"><span>                <span style="color:#fc5fa3">_</span> = <span style="color:#fc5fa3">self</span>.subscriber.receive(path)
+</span></span><span style="display:flex;"><span>            monitor.pathUpdateHandler = { path <span style="color:#6ab825;font-weight:bold">in</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#6ab825;font-weight:bold">_</span> = <span style="color:#6ab825;font-weight:bold">self</span>.subscriber.receive(path)
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>  
 </span></span><span style="display:flex;"><span>            monitor.start(
@@ -9556,28 +9656,28 @@ Title: https://micro.blog/books/search?q=#TITLE#
 </span></span><span style="display:flex;"><span>            )
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">cancel</span>() {
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">cancel</span>() {
 </span></span><span style="display:flex;"><span>            monitor.cancel()
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>With all in place, the View Model becomes extremely simple and elegant. Below a View Model which publishes a boolean indicating the connectivity status to the View.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">final</span> <span style="color:#fc5fa3">class</span> <span style="color:#5dd8ff">ViewModel</span>: ObservableObject {
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">final</span> <span style="color:#6ab825;font-weight:bold">class</span> <span style="color:#447fcf;text-decoration:underline">ViewModel</span>: ObservableObject {
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Properties</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Properties</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    @Published <span style="color:#fc5fa3">var</span> <span style="color:#41a1c0">isConnected</span>: <span style="color:#d0a8ff">Bool</span> = <span style="color:#fc5fa3">false</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">private</span> <span style="color:#fc5fa3">var</span> <span style="color:#41a1c0">monitorCancellable</span>: Cancellable?
+</span></span><span style="display:flex;"><span>    @Published <span style="color:#6ab825;font-weight:bold">var</span> <span style="color:#40ffff">isConnected</span>: <span style="color:#24909d">Bool</span> = <span style="color:#6ab825;font-weight:bold">false</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">private</span> <span style="color:#6ab825;font-weight:bold">var</span> <span style="color:#40ffff">monitorCancellable</span>: Cancellable?
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#6c7986">// </span><span style="color:#6c7986;font-style:italic">MARK:</span><span style="color:#6c7986"> - Life cycle</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#999;font-style:italic">// </span><span style="color:#e50808;background-color:#520000;font-weight:bold">MARK:</span><span style="color:#999;font-style:italic"> - Life cycle</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">init</span>(
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">init</span>(
 </span></span><span style="display:flex;"><span>        pathMonitorPublisher: NWPathMonitor.PathMonitorPublisher
 </span></span><span style="display:flex;"><span>    ) {
 </span></span><span style="display:flex;"><span>        monitorCancellable = pathMonitorPublisher
 </span></span><span style="display:flex;"><span>            .receive(on: RunLoop.main)
-</span></span><span style="display:flex;"><span>            .<span style="color:#a167e6">map</span> { <span style="color:#41a1c0">$0</span>.status == .satisfied }
-</span></span><span style="display:flex;"><span>            .assign(to: <span style="color:#960050">\</span>.isConnected, on: <span style="color:#fc5fa3">self</span>)
+</span></span><span style="display:flex;"><span>            .map { <span style="color:#40ffff">$0</span>.status == .satisfied }
+</span></span><span style="display:flex;"><span>            .assign(to: <span style="color:#a61717;background-color:#e3d2d2">\</span>.isConnected, on: <span style="color:#6ab825;font-weight:bold">self</span>)
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><p>Overall, I&rsquo;m happy with the result, and am looking forward to using Combine (and SwiftUI) in production.</p>
@@ -11230,66 +11330,66 @@ Title: https://micro.blog/books/search?q=#TITLE#
 <li><strong>Reduce</strong>: given a <em>combine operation</em>, it returns a recombined object by recursively processing its constituent parts. The <em>combine operation</em> takes the initial state and an object and returns a recombined object which is of the same type of the initial state.</li>
 </ul>
 <p>The <code>NSArray</code> category ended up with the following interface:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">id</span>(^Transform)(<span style="color:#fc5fa3">id</span>);
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">BOOL</span>(^Condition)(<span style="color:#fc5fa3">id</span>);
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">BOOL</span>(^SortCondition)(<span style="color:#fc5fa3">id</span>, <span style="color:#fc5fa3">id</span>);
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">id</span>(^Combine)(<span style="color:#fc5fa3">id</span>, <span style="color:#fc5fa3">id</span>);
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">id</span>(^Transform)(<span style="color:#6ab825;font-weight:bold">id</span>);
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">BOOL</span>(^Condition)(<span style="color:#6ab825;font-weight:bold">id</span>);
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">BOOL</span>(^SortCondition)(<span style="color:#6ab825;font-weight:bold">id</span>, <span style="color:#6ab825;font-weight:bold">id</span>);
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">id</span>(^Combine)(<span style="color:#6ab825;font-weight:bold">id</span>, <span style="color:#6ab825;font-weight:bold">id</span>);
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>[@interface](https:<span style="color:#6c7986">//micro.blog/interface) NSArray (MFSR)
-</span></span></span><span style="display:flex;"><span><span style="color:#6c7986"></span>
+</span></span><span style="display:flex;"><span>[@interface](https:<span style="color:#999;font-style:italic">//micro.blog/interface) NSArray (MFSR)
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>
 </span></span><span style="display:flex;"><span>- (NSArray *)map:(Transform)transform;
-</span></span><span style="display:flex;"><span>- (NSArray *)<span style="color:#41a1c0">filter:</span>(Condition)<span style="color:#41a1c0">condition</span>;
-</span></span><span style="display:flex;"><span>- (NSArray *)<span style="color:#41a1c0">sort:</span>(SortCondition)<span style="color:#41a1c0">isOrderedBefore</span>;
-</span></span><span style="display:flex;"><span>- (<span style="color:#fc5fa3">id</span>)<span style="color:#41a1c0">reduce:</span>(<span style="color:#fc5fa3">id</span>)<span style="color:#41a1c0">initial</span> <span style="color:#41a1c0">andCombine:</span>(Combine)<span style="color:#41a1c0">combine</span>;
+</span></span><span style="display:flex;"><span>- (NSArray *)<span style="color:#447fcf">filter:</span>(Condition)<span style="color:#40ffff">condition</span>;
+</span></span><span style="display:flex;"><span>- (NSArray *)<span style="color:#447fcf">sort:</span>(SortCondition)<span style="color:#40ffff">isOrderedBefore</span>;
+</span></span><span style="display:flex;"><span>- (<span style="color:#6ab825;font-weight:bold">id</span>)<span style="color:#447fcf">reduce:</span>(<span style="color:#6ab825;font-weight:bold">id</span>)<span style="color:#40ffff">initial</span> <span style="color:#447fcf">andCombine:</span>(Combine)<span style="color:#40ffff">combine</span>;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@end</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@end</span>
 </span></span></code></pre></div><p>To test the interface above and its implementation, I started with a immutable array of movies — James Bond movies — loaded from a <em>plist</em> file.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *movies = [[NSBundle mainBundle] moviesFromPlist];
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *movies = [[NSBundle mainBundle] moviesFromPlist];
 </span></span></code></pre></div><p>Where each movie contains a title, the actor’s name who played Bond, and some additional information about about the flick. The movie interface is defined as:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#fc5fa3">@interface</span> <span style="color:#5dd8ff">Movie</span> : <span style="color:#5dd8ff">NSObject</span>
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@interface</span> <span style="color:#447fcf;text-decoration:underline">Movie</span> : <span style="color:#447fcf;text-decoration:underline">NSObject</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@property</span> (<span style="color:#fc5fa3">nonatomic</span>, <span style="color:#fc5fa3">readonly</span>) NSString *title;
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@property</span> (<span style="color:#fc5fa3">nonatomic</span>, <span style="color:#fc5fa3">readonly</span>) NSString *actor;
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@property</span> (<span style="color:#fc5fa3">nonatomic</span>, <span style="color:#fc5fa3">readonly</span>) NSInteger year;
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@property</span> (<span style="color:#fc5fa3">nonatomic</span>, <span style="color:#fc5fa3">readonly</span>) CGFloat boxOffice;
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@property</span> (<span style="color:#fc5fa3">nonatomic</span>, <span style="color:#fc5fa3">readonly</span>) CGFloat budget;
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@property</span> (<span style="color:#fc5fa3">nonatomic</span>, <span style="color:#fc5fa3">readonly</span>) CGFloat tomatometer;
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@property</span> (<span style="color:#6ab825;font-weight:bold">nonatomic</span>, <span style="color:#6ab825;font-weight:bold">readonly</span>) NSString *title;
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@property</span> (<span style="color:#6ab825;font-weight:bold">nonatomic</span>, <span style="color:#6ab825;font-weight:bold">readonly</span>) NSString *actor;
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@property</span> (<span style="color:#6ab825;font-weight:bold">nonatomic</span>, <span style="color:#6ab825;font-weight:bold">readonly</span>) NSInteger year;
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@property</span> (<span style="color:#6ab825;font-weight:bold">nonatomic</span>, <span style="color:#6ab825;font-weight:bold">readonly</span>) CGFloat boxOffice;
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@property</span> (<span style="color:#6ab825;font-weight:bold">nonatomic</span>, <span style="color:#6ab825;font-weight:bold">readonly</span>) CGFloat budget;
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@property</span> (<span style="color:#6ab825;font-weight:bold">nonatomic</span>, <span style="color:#6ab825;font-weight:bold">readonly</span>) CGFloat tomatometer;
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">@end</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">@end</span>
 </span></span></code></pre></div><p><em>Sorting</em> the array of movies requires a <em>sort condition</em> that takes two movies and returns a boolean that represents the relationship between them. So, for sorting all the British Secret Service agent movies by budget:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#fc5fa3">BOOL</span>(^byBudget)(Movie *, Movie *) = ^<span style="color:#fc5fa3">BOOL</span>(Movie *a, Movie *b) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">return</span> a.budget &gt; b.budget;
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">BOOL</span>(^byBudget)(Movie *, Movie *) = ^<span style="color:#6ab825;font-weight:bold">BOOL</span>(Movie *a, Movie *b) {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">return</span> a.budget &gt; b.budget;
 </span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *moviesByBudget = [movies sort:byBudget];
 </span></span></code></pre></div><p>Simple.</p>
 <p>For <em>filtering</em>, the method requires a movie and returns <em>true</em> when the movie matches the condition and <em>false</em> otherwise. Below, a simple way to create an immutable array containing the Sean Connery movies.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#fc5fa3">BOOL</span>(^isConnery)(Movie *) = ^<span style="color:#fc5fa3">BOOL</span>(Movie *a) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">return</span> [a.actor isEqual:<span style="color:#fc6a5d">@&#34;Sean Connery&#34;</span>];
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">BOOL</span>(^isConnery)(Movie *) = ^<span style="color:#6ab825;font-weight:bold">BOOL</span>(Movie *a) {
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">return</span> [a.actor isEqual:<span style="color:#ed9d13">@&#34;Sean Connery&#34;</span>];
 </span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *conneryMovies = [movies filter:isConnery];
 </span></span></code></pre></div><p>But here is the tricky part. To filter movies played by other actors, more blocks like the one above would be required. The <em>functional</em> way to address this is using curried functions — popular technique in Swift (and in other Functional Programming languages).</p>
 <p>Since <em>filter</em> expects a block that takes a movie and returns a boolean, another function is required, where its output is a function matching this signature.</p>
 <p>The new function takes a string (actor’s name) and returns a function that takes a movie and returns a boolean.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">BOOL</span>(^FuncMovieToBool)(Movie *);
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">BOOL</span>(^FuncMovieToBool)(Movie *);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>FuncMovieToBool(^isActor)(NSString *) = ^FuncMovieToBool(NSString *actor) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">return</span> ^<span style="color:#fc5fa3">BOOL</span>(Movie *movie) {
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">return</span> [movie.actor isEqual:actor];
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">return</span> ^<span style="color:#6ab825;font-weight:bold">BOOL</span>(Movie *movie) {
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">return</span> [movie.actor isEqual:actor];
 </span></span><span style="display:flex;"><span>    };
 </span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *actorMovies = [movies filter:isActor(<span style="color:#fc6a5d">@&#34;Daniel Craig&#34;</span>)];
+</span></span><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *actorMovies = [movies filter:isActor(<span style="color:#ed9d13">@&#34;Daniel Craig&#34;</span>)];
 </span></span></code></pre></div><p>Without any changes to the <em>filter</em> method signature or implementation, it’s possible to filter the array of movies to get a list of movies played by any actor on the big screen.</p>
 <p>Finally, it’s possible to combine all these functions to achieve the desired result. Let’s say I want the movies were Pierce Brosnan played James Bond, <em>sorted</em> by ratings and <em>reduced</em> to a list.</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *moviesByRatings
-</span></span><span style="display:flex;"><span>    = [[movies filter:isActor(<span style="color:#fc6a5d">@&#34;Pierce Brosnan&#34;</span>)]sort:byRatings];
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span>NSArray&lt;Movie *&gt; *moviesByRatings
+</span></span><span style="display:flex;"><span>    = [[movies filter:isActor(<span style="color:#ed9d13">@&#34;Pierce Brosnan&#34;</span>)]sort:byRatings];
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>NSString *description
-</span></span><span style="display:flex;"><span>    = [moviesByRatings reduce:<span style="color:#fc6a5d">@&#34;Brosnan movies sorted by ratings:&#34;</span>
+</span></span><span style="display:flex;"><span>    = [moviesByRatings reduce:<span style="color:#ed9d13">@&#34;Brosnan movies sorted by ratings:&#34;</span>
 </span></span><span style="display:flex;"><span>                   andCombine:^NSString *(NSString *initial, Movie *movie) {
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">return</span> [NSString stringWithFormat:<span style="color:#fc6a5d">@&#34;%@</span><span style="color:#fc6a5d">\n</span><span style="color:#fc6a5d">* %@ (Tomatometer: %@)&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">return</span> [NSString stringWithFormat:<span style="color:#ed9d13">@&#34;%@</span><span style="color:#ed9d13">\n</span><span style="color:#ed9d13">* %@ (Tomatometer: %@)&#34;</span>,
 </span></span><span style="display:flex;"><span>                                          initial,
 </span></span><span style="display:flex;"><span>                                          movie.title,
 </span></span><span style="display:flex;"><span>                                          @(movie.tomatometer)];
@@ -11317,32 +11417,32 @@ Title: https://micro.blog/books/search?q=#TITLE#
 			 <p><a href="https://en.wikipedia.org/wiki/Currying">Function Currying</a> and <em>uncurrying</em> have been extensively discussed since Apple introduced Swift in 2014. I won’t extend myself on this topic because there are some great resources about it on the Internet.</p>
 <p>But, shortly, what is currying? It’s a technique that transforms a function that takes several arguments into a sequence of functions, each with a single argument. The result is a chain of functions returning functions. It’s beautiful, it’s mathematics!</p>
 <p>Below, a simple example in Swift:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#fc5fa3">func</span> <span style="color:#41a1c0">add</span>(<span style="color:#fc5fa3">_</span> a: <span style="color:#d0a8ff">Int</span>) -&gt; (<span style="color:#d0a8ff">Int</span>) -&gt; (<span style="color:#d0a8ff">Int</span>) -&gt; <span style="color:#d0a8ff">Int</span> {
-</span></span><span style="display:flex;"><span>    { b <span style="color:#fc5fa3">in</span> { c <span style="color:#fc5fa3">in</span> a + b + c } }
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-swift" data-lang="swift"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">func</span> <span style="color:#447fcf">add</span>(<span style="color:#6ab825;font-weight:bold">_</span> a: <span style="color:#24909d">Int</span>) -&gt; (<span style="color:#24909d">Int</span>) -&gt; (<span style="color:#24909d">Int</span>) -&gt; <span style="color:#24909d">Int</span> {
+</span></span><span style="display:flex;"><span>    { b <span style="color:#6ab825;font-weight:bold">in</span> { c <span style="color:#6ab825;font-weight:bold">in</span> a + b + c } }
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">addTwo</span> = add(<span style="color:#d0bf69">2</span>)               <span style="color:#6c7986">// Int -&gt; Int -&gt; Int</span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">addFive</span> = addTwo(<span style="color:#d0bf69">3</span>)           <span style="color:#6c7986">// Int -&gt; Int</span>
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">let</span> <span style="color:#41a1c0">result</span> = addFive(<span style="color:#d0bf69">4</span>)           <span style="color:#6c7986">// 9</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">addTwo</span> = add(<span style="color:#3677a9">2</span>)               <span style="color:#999;font-style:italic">// Int -&gt; Int -&gt; Int</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">addFive</span> = addTwo(<span style="color:#3677a9">3</span>)           <span style="color:#999;font-style:italic">// Int -&gt; Int</span>
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">let</span> <span style="color:#40ffff">result</span> = addFive(<span style="color:#3677a9">4</span>)           <span style="color:#999;font-style:italic">// 9</span>
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#a167e6">print</span>(<span style="color:#fc6a5d">&#34;result = </span><span style="color:#fc6a5d">\(</span>result<span style="color:#fc6a5d">)</span><span style="color:#fc6a5d">&#34;</span>)       <span style="color:#6c7986">// result = 9</span>
+</span></span><span style="display:flex;"><span>print(<span style="color:#ed9d13">&#34;result = </span><span style="color:#ed9d13">\(</span>result<span style="color:#ed9d13">)</span><span style="color:#ed9d13">&#34;</span>)       <span style="color:#999;font-style:italic">// result = 9</span>
 </span></span></code></pre></div><p>and the same example in Objective-C:</p>
-<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#1f1f24;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">NSInteger</span>(^FuncInt2Int)(NSInteger);
-</span></span><span style="display:flex;"><span><span style="color:#fc5fa3">typedef</span> <span style="color:#41a1c0">FuncInt2Int</span>(^FuncInt2Int2Int)(NSInteger);
+<div class="highlight"><pre tabindex="0" style="color:#d0d0d0;background-color:#202020;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-objc" data-lang="objc"><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">NSInteger</span>(^FuncInt2Int)(NSInteger);
+</span></span><span style="display:flex;"><span><span style="color:#6ab825;font-weight:bold">typedef</span> <span style="color:#447fcf">FuncInt2Int</span>(^FuncInt2Int2Int)(NSInteger);
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>FuncInt2Int2Int(^add)(NSInteger) = ^FuncInt2Int2Int(NSInteger a) {
-</span></span><span style="display:flex;"><span>    <span style="color:#fc5fa3">return</span> ^FuncInt2Int(NSInteger b) {
-</span></span><span style="display:flex;"><span>        <span style="color:#fc5fa3">return</span> ^NSInteger(NSInteger c) {
-</span></span><span style="display:flex;"><span>            <span style="color:#fc5fa3">return</span> a + b + c;
+</span></span><span style="display:flex;"><span>    <span style="color:#6ab825;font-weight:bold">return</span> ^FuncInt2Int(NSInteger b) {
+</span></span><span style="display:flex;"><span>        <span style="color:#6ab825;font-weight:bold">return</span> ^NSInteger(NSInteger c) {
+</span></span><span style="display:flex;"><span>            <span style="color:#6ab825;font-weight:bold">return</span> a + b + c;
 </span></span><span style="display:flex;"><span>        };
 </span></span><span style="display:flex;"><span>    };
 </span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>FuncInt2Int2Int addTwo = add(<span style="color:#d0bf69">2</span>);        <span style="color:#6c7986">// Int -&gt; Int -&gt; Int
-</span></span></span><span style="display:flex;"><span><span style="color:#6c7986"></span>FuncInt2Int addFive = addTwo(<span style="color:#d0bf69">3</span>);        <span style="color:#6c7986">// Int -&gt; Int
-</span></span></span><span style="display:flex;"><span><span style="color:#6c7986"></span>NSInteger result = addFive(<span style="color:#d0bf69">4</span>);          <span style="color:#6c7986">// 9
-</span></span></span><span style="display:flex;"><span><span style="color:#6c7986"></span>
-</span></span><span style="display:flex;"><span>NSLog(<span style="color:#fc6a5d">@&#34;result = %ld&#34;</span>, result);         <span style="color:#6c7986">// result = 9
+</span></span><span style="display:flex;"><span>FuncInt2Int2Int addTwo = add(<span style="color:#3677a9">2</span>);        <span style="color:#999;font-style:italic">// Int -&gt; Int -&gt; Int
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>FuncInt2Int addFive = addTwo(<span style="color:#3677a9">3</span>);        <span style="color:#999;font-style:italic">// Int -&gt; Int
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>NSInteger result = addFive(<span style="color:#3677a9">4</span>);          <span style="color:#999;font-style:italic">// 9
+</span></span></span><span style="display:flex;"><span><span style="color:#999;font-style:italic"></span>
+</span></span><span style="display:flex;"><span>NSLog(<span style="color:#ed9d13">@&#34;result = %ld&#34;</span>, result);         <span style="color:#999;font-style:italic">// result = 9
 </span></span></span></code></pre></div><p>The Swift version is minimal and elegant. But the Objective-C one has its charm, doesn’t it?</p>
 
 		</div>
