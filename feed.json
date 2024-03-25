@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://otaviocc.micro.blog/2024/03/25/week.html",
+				"title": "Week 2024-12",
+				"content_html": "<p>This week was hectic. I mainly worked from home, going to the office only on Friday.</p>\n<p>My <a href=\"https://feedbin.com/\">Feedbin</a> was overflowing with unread articles, but an unexpected visit to the hospital on Saturday — almost eight hours in the waiting room — took care of that. The same for most of the articles in my <a href=\"https://web.getmatter.com/\">Matter</a> queue. All good, by the way.</p>\n<p>Ah, I’ve been focusing on the <a href=\"https://micropublish.blog/\">Micro.publish</a> update, which will allows image uploads. I achieved some progress this week, and with my upcoming vacation, I am optimistic about making more substantial progress next week.</p>\n",
+				"content_text": "\nThis week was hectic. I mainly worked from home, going to the office only on Friday.\n\nMy [Feedbin](https://feedbin.com/) was overflowing with unread articles, but an unexpected visit to the hospital on Saturday — almost eight hours in the waiting room — took care of that. The same for most of the articles in my [Matter](https://web.getmatter.com/) queue. All good, by the way.\n\nAh, I’ve been focusing on the [Micro.publish](https://micropublish.blog/) update, which will allows image uploads. I achieved some progress this week, and with my upcoming vacation, I am optimistic about making more substantial progress next week.\n",
+				"date_published": "2024-03-25T23:05:36+01:00",
+				"url": "https://otavio.cc/2024/03/25/week.html",
+				"tags": ["week","hacking","micropublish","obsidian"]
+			},
+			{
+				"id": "http://otaviocc.micro.blog/2024/03/23/saturday-morning-creations.html",
+				
+				"content_html": "<p>📷 Saturday morning creations…</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "📷 Saturday morning creations…\n\n<img src=\"https://cdn.uploads.micro.blog/14222/2024/1f7c574e47.jpg\" width=\"600\" height=\"400\" alt=\"LEGO train made with pieces from different LEGO DUPLO sets\">\n",
+				"date_published": "2024-03-23T12:04:13+01:00",
+				"url": "https://otavio.cc/2024/03/23/saturday-morning-creations.html",
+				"tags": ["photography"]
+			},
+			{
 				"id": "http://otaviocc.micro.blog/2024/03/15/week.html",
 				"title": "Week 2024-11",
 				"content_html": "<p>I found a great printer on Saturday and bought. It&rsquo;s an <a href=\"https://epson.com/ecotank-home-office-printers\">Epson EcoTank</a>, which operates using ink tanks instead of traditional ink cartridges. Although the printer is pricier than standard inkjet printers, it is completely worth the investment. Ah, and it has fax&hellip;</p>\n<p>There&rsquo;s a new TV series on Apple TV, called <a href=\"https://en.wikipedia.org/wiki/Constellation_(TV_series)\">Constellation</a>. It&rsquo;s great, and I binge-watched all the available episodes so far. By around episode four, the plot became somewhat predictable, so I&rsquo;m really hoping for more twists.</p>\n<p>About two weeks ago, <a href=\"https://www.kickstarter.com/projects/iconfactory/project-tapestry/creator_bio\">The Iconfactory</a> reached their funding goal on Kickstarter for their new initiative, <a href=\"https://www.kickstarter.com/projects/iconfactory/project-tapestry\">Project Tapestry</a>. It was the first Kickstarter project I ever backed. This week, I pledged to another project, <a href=\"https://www.kickstarter.com/projects/shawntomkin/sundered-isles-expansion-for-ironsworn-starforged\">Sundered Isles</a>, an expansion for <a href=\"https://www.ironswornrpg.com/product-ironsworn-starforged\">Ironsworn: Starforged</a>. I&rsquo;ve always been interested in playing Ironsworn: Starforged, but the physical books were out of stock. The Kickstarter campaign offers a tier with a special price that includes both the original content and the expansion. Impressively, the project reached 600% of its initial funding goal overnight.</p>\n",
